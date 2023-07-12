@@ -354,7 +354,7 @@ TextureImporter:
       213: 21300232
     second: cave_Padded_116
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -371,9 +371,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -405,10 +408,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -420,6 +428,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -432,6 +441,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -2904,9 +2953,126 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      cave_Padded_0: 21300000
+      cave_Padded_1: 21300002
+      cave_Padded_10: 21300020
+      cave_Padded_100: 21300200
+      cave_Padded_101: 21300202
+      cave_Padded_102: 21300204
+      cave_Padded_103: 21300206
+      cave_Padded_104: 21300208
+      cave_Padded_105: 21300210
+      cave_Padded_106: 21300212
+      cave_Padded_107: 21300214
+      cave_Padded_108: 21300216
+      cave_Padded_109: 21300218
+      cave_Padded_11: 21300022
+      cave_Padded_110: 21300220
+      cave_Padded_111: 21300222
+      cave_Padded_112: 21300224
+      cave_Padded_113: 21300226
+      cave_Padded_114: 21300228
+      cave_Padded_115: 21300230
+      cave_Padded_116: 21300232
+      cave_Padded_12: 21300024
+      cave_Padded_13: 21300026
+      cave_Padded_14: 21300028
+      cave_Padded_15: 21300030
+      cave_Padded_16: 21300032
+      cave_Padded_17: 21300034
+      cave_Padded_18: 21300036
+      cave_Padded_19: 21300038
+      cave_Padded_2: 21300004
+      cave_Padded_20: 21300040
+      cave_Padded_21: 21300042
+      cave_Padded_22: 21300044
+      cave_Padded_23: 21300046
+      cave_Padded_24: 21300048
+      cave_Padded_25: 21300050
+      cave_Padded_26: 21300052
+      cave_Padded_27: 21300054
+      cave_Padded_28: 21300056
+      cave_Padded_29: 21300058
+      cave_Padded_3: 21300006
+      cave_Padded_30: 21300060
+      cave_Padded_31: 21300062
+      cave_Padded_32: 21300064
+      cave_Padded_33: 21300066
+      cave_Padded_34: 21300068
+      cave_Padded_35: 21300070
+      cave_Padded_36: 21300072
+      cave_Padded_37: 21300074
+      cave_Padded_38: 21300076
+      cave_Padded_39: 21300078
+      cave_Padded_4: 21300008
+      cave_Padded_40: 21300080
+      cave_Padded_41: 21300082
+      cave_Padded_42: 21300084
+      cave_Padded_43: 21300086
+      cave_Padded_44: 21300088
+      cave_Padded_45: 21300090
+      cave_Padded_46: 21300092
+      cave_Padded_47: 21300094
+      cave_Padded_48: 21300096
+      cave_Padded_49: 21300098
+      cave_Padded_5: 21300010
+      cave_Padded_50: 21300100
+      cave_Padded_51: 21300102
+      cave_Padded_52: 21300104
+      cave_Padded_53: 21300106
+      cave_Padded_54: 21300108
+      cave_Padded_55: 21300110
+      cave_Padded_56: 21300112
+      cave_Padded_57: 21300114
+      cave_Padded_58: 21300116
+      cave_Padded_59: 21300118
+      cave_Padded_6: 21300012
+      cave_Padded_60: 21300120
+      cave_Padded_61: 21300122
+      cave_Padded_62: 21300124
+      cave_Padded_63: 21300126
+      cave_Padded_64: 21300128
+      cave_Padded_65: 21300130
+      cave_Padded_66: 21300132
+      cave_Padded_67: 21300134
+      cave_Padded_68: 21300136
+      cave_Padded_69: 21300138
+      cave_Padded_7: 21300014
+      cave_Padded_70: 21300140
+      cave_Padded_71: 21300142
+      cave_Padded_72: 21300144
+      cave_Padded_73: 21300146
+      cave_Padded_74: 21300148
+      cave_Padded_75: 21300150
+      cave_Padded_76: 21300152
+      cave_Padded_77: 21300154
+      cave_Padded_78: 21300156
+      cave_Padded_79: 21300158
+      cave_Padded_8: 21300016
+      cave_Padded_80: 21300160
+      cave_Padded_81: 21300162
+      cave_Padded_82: 21300164
+      cave_Padded_83: 21300166
+      cave_Padded_84: 21300168
+      cave_Padded_85: 21300170
+      cave_Padded_86: 21300172
+      cave_Padded_87: 21300174
+      cave_Padded_88: 21300176
+      cave_Padded_89: 21300178
+      cave_Padded_9: 21300018
+      cave_Padded_90: 21300180
+      cave_Padded_91: 21300182
+      cave_Padded_92: 21300184
+      cave_Padded_93: 21300186
+      cave_Padded_94: 21300188
+      cave_Padded_95: 21300190
+      cave_Padded_96: 21300192
+      cave_Padded_97: 21300194
+      cave_Padded_98: 21300196
+      cave_Padded_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

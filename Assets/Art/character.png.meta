@@ -189,7 +189,7 @@ TextureImporter:
       213: 21300122
     second: character_78
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -206,9 +206,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -240,10 +243,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -255,6 +263,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -267,6 +276,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -1584,9 +1633,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      character_0: 21300000
+      character_1: 21300002
+      character_10: 21300020
+      character_11: 21300022
+      character_13: 21300024
+      character_14: 21300026
+      character_15: 21300028
+      character_16: 21300030
+      character_17: 21300032
+      character_18: 21300034
+      character_19: 21300036
+      character_2: 21300004
+      character_20: 21300038
+      character_21: 21300040
+      character_22: 21300042
+      character_23: 21300044
+      character_24: 21300046
+      character_25: 21300048
+      character_26: 21300050
+      character_27: 21300052
+      character_28: 21300054
+      character_29: 21300056
+      character_3: 21300006
+      character_30: 21300058
+      character_31: 21300060
+      character_32: 21300062
+      character_33: 21300064
+      character_34: 21300066
+      character_35: 21300068
+      character_36: 21300070
+      character_37: 21300072
+      character_38: 21300074
+      character_39: 21300076
+      character_4: 21300008
+      character_40: 21300078
+      character_41: 21300080
+      character_42: 21300082
+      character_43: 21300084
+      character_44: 21300086
+      character_45: 21300088
+      character_46: 21300090
+      character_48: 21300092
+      character_5: 21300010
+      character_50: 21300094
+      character_52: 21300096
+      character_54: 21300098
+      character_56: 21300100
+      character_58: 21300102
+      character_6: 21300012
+      character_60: 21300104
+      character_62: 21300106
+      character_64: 21300108
+      character_66: 21300110
+      character_68: 21300112
+      character_7: 21300014
+      character_70: 21300114
+      character_72: 21300116
+      character_74: 21300118
+      character_76: 21300120
+      character_78: 21300122
+      character_8: 21300016
+      character_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

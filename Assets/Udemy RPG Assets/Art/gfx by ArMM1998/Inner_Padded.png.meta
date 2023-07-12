@@ -792,7 +792,7 @@ TextureImporter:
       213: 21300524
     second: Inner_Padded_262
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -809,9 +809,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -843,10 +846,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -858,6 +866,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -870,6 +879,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -6408,9 +6457,272 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Inner_Padded_0: 21300000
+      Inner_Padded_1: 21300002
+      Inner_Padded_10: 21300020
+      Inner_Padded_100: 21300200
+      Inner_Padded_101: 21300202
+      Inner_Padded_102: 21300204
+      Inner_Padded_103: 21300206
+      Inner_Padded_104: 21300208
+      Inner_Padded_105: 21300210
+      Inner_Padded_106: 21300212
+      Inner_Padded_107: 21300214
+      Inner_Padded_108: 21300216
+      Inner_Padded_109: 21300218
+      Inner_Padded_11: 21300022
+      Inner_Padded_110: 21300220
+      Inner_Padded_111: 21300222
+      Inner_Padded_112: 21300224
+      Inner_Padded_113: 21300226
+      Inner_Padded_114: 21300228
+      Inner_Padded_115: 21300230
+      Inner_Padded_116: 21300232
+      Inner_Padded_117: 21300234
+      Inner_Padded_118: 21300236
+      Inner_Padded_119: 21300238
+      Inner_Padded_12: 21300024
+      Inner_Padded_120: 21300240
+      Inner_Padded_121: 21300242
+      Inner_Padded_122: 21300244
+      Inner_Padded_123: 21300246
+      Inner_Padded_124: 21300248
+      Inner_Padded_125: 21300250
+      Inner_Padded_126: 21300252
+      Inner_Padded_127: 21300254
+      Inner_Padded_128: 21300256
+      Inner_Padded_129: 21300258
+      Inner_Padded_13: 21300026
+      Inner_Padded_130: 21300260
+      Inner_Padded_131: 21300262
+      Inner_Padded_132: 21300264
+      Inner_Padded_133: 21300266
+      Inner_Padded_134: 21300268
+      Inner_Padded_135: 21300270
+      Inner_Padded_136: 21300272
+      Inner_Padded_137: 21300274
+      Inner_Padded_138: 21300276
+      Inner_Padded_139: 21300278
+      Inner_Padded_14: 21300028
+      Inner_Padded_140: 21300280
+      Inner_Padded_141: 21300282
+      Inner_Padded_142: 21300284
+      Inner_Padded_143: 21300286
+      Inner_Padded_144: 21300288
+      Inner_Padded_145: 21300290
+      Inner_Padded_146: 21300292
+      Inner_Padded_147: 21300294
+      Inner_Padded_148: 21300296
+      Inner_Padded_149: 21300298
+      Inner_Padded_15: 21300030
+      Inner_Padded_150: 21300300
+      Inner_Padded_151: 21300302
+      Inner_Padded_152: 21300304
+      Inner_Padded_153: 21300306
+      Inner_Padded_154: 21300308
+      Inner_Padded_155: 21300310
+      Inner_Padded_156: 21300312
+      Inner_Padded_157: 21300314
+      Inner_Padded_158: 21300316
+      Inner_Padded_159: 21300318
+      Inner_Padded_16: 21300032
+      Inner_Padded_160: 21300320
+      Inner_Padded_161: 21300322
+      Inner_Padded_162: 21300324
+      Inner_Padded_163: 21300326
+      Inner_Padded_164: 21300328
+      Inner_Padded_165: 21300330
+      Inner_Padded_166: 21300332
+      Inner_Padded_167: 21300334
+      Inner_Padded_168: 21300336
+      Inner_Padded_169: 21300338
+      Inner_Padded_17: 21300034
+      Inner_Padded_170: 21300340
+      Inner_Padded_171: 21300342
+      Inner_Padded_172: 21300344
+      Inner_Padded_173: 21300346
+      Inner_Padded_174: 21300348
+      Inner_Padded_175: 21300350
+      Inner_Padded_176: 21300352
+      Inner_Padded_177: 21300354
+      Inner_Padded_178: 21300356
+      Inner_Padded_179: 21300358
+      Inner_Padded_18: 21300036
+      Inner_Padded_180: 21300360
+      Inner_Padded_181: 21300362
+      Inner_Padded_182: 21300364
+      Inner_Padded_183: 21300366
+      Inner_Padded_184: 21300368
+      Inner_Padded_185: 21300370
+      Inner_Padded_186: 21300372
+      Inner_Padded_187: 21300374
+      Inner_Padded_188: 21300376
+      Inner_Padded_189: 21300378
+      Inner_Padded_19: 21300038
+      Inner_Padded_190: 21300380
+      Inner_Padded_191: 21300382
+      Inner_Padded_192: 21300384
+      Inner_Padded_193: 21300386
+      Inner_Padded_194: 21300388
+      Inner_Padded_195: 21300390
+      Inner_Padded_196: 21300392
+      Inner_Padded_197: 21300394
+      Inner_Padded_198: 21300396
+      Inner_Padded_199: 21300398
+      Inner_Padded_2: 21300004
+      Inner_Padded_20: 21300040
+      Inner_Padded_200: 21300400
+      Inner_Padded_201: 21300402
+      Inner_Padded_202: 21300404
+      Inner_Padded_203: 21300406
+      Inner_Padded_204: 21300408
+      Inner_Padded_205: 21300410
+      Inner_Padded_206: 21300412
+      Inner_Padded_207: 21300414
+      Inner_Padded_208: 21300416
+      Inner_Padded_209: 21300418
+      Inner_Padded_21: 21300042
+      Inner_Padded_210: 21300420
+      Inner_Padded_211: 21300422
+      Inner_Padded_212: 21300424
+      Inner_Padded_213: 21300426
+      Inner_Padded_214: 21300428
+      Inner_Padded_215: 21300430
+      Inner_Padded_216: 21300432
+      Inner_Padded_217: 21300434
+      Inner_Padded_218: 21300436
+      Inner_Padded_219: 21300438
+      Inner_Padded_22: 21300044
+      Inner_Padded_220: 21300440
+      Inner_Padded_221: 21300442
+      Inner_Padded_222: 21300444
+      Inner_Padded_223: 21300446
+      Inner_Padded_224: 21300448
+      Inner_Padded_225: 21300450
+      Inner_Padded_226: 21300452
+      Inner_Padded_227: 21300454
+      Inner_Padded_228: 21300456
+      Inner_Padded_229: 21300458
+      Inner_Padded_23: 21300046
+      Inner_Padded_230: 21300460
+      Inner_Padded_231: 21300462
+      Inner_Padded_232: 21300464
+      Inner_Padded_233: 21300466
+      Inner_Padded_234: 21300468
+      Inner_Padded_235: 21300470
+      Inner_Padded_236: 21300472
+      Inner_Padded_237: 21300474
+      Inner_Padded_238: 21300476
+      Inner_Padded_239: 21300478
+      Inner_Padded_24: 21300048
+      Inner_Padded_240: 21300480
+      Inner_Padded_241: 21300482
+      Inner_Padded_242: 21300484
+      Inner_Padded_243: 21300486
+      Inner_Padded_244: 21300488
+      Inner_Padded_245: 21300490
+      Inner_Padded_246: 21300492
+      Inner_Padded_247: 21300494
+      Inner_Padded_248: 21300496
+      Inner_Padded_249: 21300498
+      Inner_Padded_25: 21300050
+      Inner_Padded_250: 21300500
+      Inner_Padded_251: 21300502
+      Inner_Padded_252: 21300504
+      Inner_Padded_253: 21300506
+      Inner_Padded_254: 21300508
+      Inner_Padded_255: 21300510
+      Inner_Padded_256: 21300512
+      Inner_Padded_257: 21300514
+      Inner_Padded_258: 21300516
+      Inner_Padded_259: 21300518
+      Inner_Padded_26: 21300052
+      Inner_Padded_260: 21300520
+      Inner_Padded_261: 21300522
+      Inner_Padded_262: 21300524
+      Inner_Padded_27: 21300054
+      Inner_Padded_28: 21300056
+      Inner_Padded_29: 21300058
+      Inner_Padded_3: 21300006
+      Inner_Padded_30: 21300060
+      Inner_Padded_31: 21300062
+      Inner_Padded_32: 21300064
+      Inner_Padded_33: 21300066
+      Inner_Padded_34: 21300068
+      Inner_Padded_35: 21300070
+      Inner_Padded_36: 21300072
+      Inner_Padded_37: 21300074
+      Inner_Padded_38: 21300076
+      Inner_Padded_39: 21300078
+      Inner_Padded_4: 21300008
+      Inner_Padded_40: 21300080
+      Inner_Padded_41: 21300082
+      Inner_Padded_42: 21300084
+      Inner_Padded_43: 21300086
+      Inner_Padded_44: 21300088
+      Inner_Padded_45: 21300090
+      Inner_Padded_46: 21300092
+      Inner_Padded_47: 21300094
+      Inner_Padded_48: 21300096
+      Inner_Padded_49: 21300098
+      Inner_Padded_5: 21300010
+      Inner_Padded_50: 21300100
+      Inner_Padded_51: 21300102
+      Inner_Padded_52: 21300104
+      Inner_Padded_53: 21300106
+      Inner_Padded_54: 21300108
+      Inner_Padded_55: 21300110
+      Inner_Padded_56: 21300112
+      Inner_Padded_57: 21300114
+      Inner_Padded_58: 21300116
+      Inner_Padded_59: 21300118
+      Inner_Padded_6: 21300012
+      Inner_Padded_60: 21300120
+      Inner_Padded_61: 21300122
+      Inner_Padded_62: 21300124
+      Inner_Padded_63: 21300126
+      Inner_Padded_64: 21300128
+      Inner_Padded_65: 21300130
+      Inner_Padded_66: 21300132
+      Inner_Padded_67: 21300134
+      Inner_Padded_68: 21300136
+      Inner_Padded_69: 21300138
+      Inner_Padded_7: 21300014
+      Inner_Padded_70: 21300140
+      Inner_Padded_71: 21300142
+      Inner_Padded_72: 21300144
+      Inner_Padded_73: 21300146
+      Inner_Padded_74: 21300148
+      Inner_Padded_75: 21300150
+      Inner_Padded_76: 21300152
+      Inner_Padded_77: 21300154
+      Inner_Padded_78: 21300156
+      Inner_Padded_79: 21300158
+      Inner_Padded_8: 21300016
+      Inner_Padded_80: 21300160
+      Inner_Padded_81: 21300162
+      Inner_Padded_82: 21300164
+      Inner_Padded_83: 21300166
+      Inner_Padded_84: 21300168
+      Inner_Padded_85: 21300170
+      Inner_Padded_86: 21300172
+      Inner_Padded_87: 21300174
+      Inner_Padded_88: 21300176
+      Inner_Padded_89: 21300178
+      Inner_Padded_9: 21300018
+      Inner_Padded_90: 21300180
+      Inner_Padded_91: 21300182
+      Inner_Padded_92: 21300184
+      Inner_Padded_93: 21300186
+      Inner_Padded_94: 21300188
+      Inner_Padded_95: 21300190
+      Inner_Padded_96: 21300192
+      Inner_Padded_97: 21300194
+      Inner_Padded_98: 21300196
+      Inner_Padded_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
