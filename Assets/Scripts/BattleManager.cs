@@ -58,10 +58,6 @@ public class BattleManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.T))
-        {
-            BattleStart(new string[] { "Eyeball"}, false);
-        }
 
         if(battleActive)
         {

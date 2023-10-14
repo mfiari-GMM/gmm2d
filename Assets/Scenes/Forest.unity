@@ -1373,6 +1373,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1348632688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1348632689}
+  m_Layer: 0
+  m_Name: BattleZones
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348632689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348632688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.399454, y: -11.403289, z: 0.5852232}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1486813661}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1351201117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10488,6 +10520,105 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1001 &1486813660
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1348632689}
+    m_Modifications:
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 42.019707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 13.160642
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -15.584576
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 3.7181287
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718072336721018777, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Name
+      value: Battle Zone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4c55a11d883666448dcb4f938bdda24, type: 3}
+--- !u!4 &1486813661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 183842147554183647, guid: b4c55a11d883666448dcb4f938bdda24,
+    type: 3}
+  m_PrefabInstance: {fileID: 1486813660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1610882990
 GameObject:
   m_ObjectHideFlags: 0

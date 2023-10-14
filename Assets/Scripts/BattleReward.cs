@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class BattleReward : MonoBehaviour {
@@ -19,14 +17,6 @@ public class BattleReward : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         instance = this;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.Y))
-        {
-            OpenRewardScreen(54, new string[] { "Iron sword", "Iron Armor" });
-        }
 	}
 
     public void OpenRewardScreen(int xp, string[] rewards)

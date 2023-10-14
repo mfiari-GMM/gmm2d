@@ -1,0 +1,5433 @@
+fileFormatVersion: 2
+guid: 389519e9b8d94444b850ea5ea71c9d9c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2303
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0c6333f8cdfc42b7f427c48c2035c
+      internalID: -2073397749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2303
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e13c40af9e5f574f879812393bea9d5
+      internalID: 1150859430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2303
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dc8eeed20b82941a4ff9dcd1d1a216
+      internalID: 1994671230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2303
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225c9df55d006fb489372e1583b544e4
+      internalID: -838652729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2303
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da6f567cd7372a4b8a4172fb26500e6
+      internalID: 1180949905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2303
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef742cb8af1e73b4c987ca8ea7334f1f
+      internalID: 1101564746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2303
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9e291c477a9042bc1999d73570818
+      internalID: 84931977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2307
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87f398dea3f254699f659f560b251f
+      internalID: -1591075794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2239
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9763b845e7aa7d441ae36a86a163ad63
+      internalID: -117198276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2239
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1698dc0d7a37b794dabaf9c75911e3ae
+      internalID: 1366439222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2239
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714a2d0414a24d04aa633c93446abcdc
+      internalID: -140106004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2239
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc80f7726451849bc7352a4c8b56a4
+      internalID: -1482129361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2239
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d5510f4bf49d48897cadf4c696bfb
+      internalID: -1821908301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_13
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2239
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29ebe925736f5d4a8975f6022dd4a49
+      internalID: 2049717146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2239
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2155f2004b669e4a930e84b70d84495
+      internalID: 920713139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2246
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c73e3b9f8cb814f98afff44214295c
+      internalID: -117854439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2174
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0421e069d4c9d04fa5ab649679c97b8
+      internalID: -404840342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2174
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ff2523921414740b57aea3c37f4c91
+      internalID: -1998501153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2174
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aad6c0a8bd15947a6b165705adef76
+      internalID: 1893272285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2174
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279df45858fc9344a9771a356e21b37a
+      internalID: 980571939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2174
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e04bf63f8a5cc43b49171439c2663f
+      internalID: 1572872115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_21
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2174
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cad6327e02b7645ad1bf7bd8019c77
+      internalID: 685098391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2174
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e058ac9a248e746b5b8c337a7d6cd0
+      internalID: 772320467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2111
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d597f1cc29c624c8aa54bcd7e05a86
+      internalID: 1157011357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2111
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90891dbbfc6a64c4a8e3601d7c77b895
+      internalID: 474314719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2111
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3532eccf87ce0004ba923e467e23efae
+      internalID: 792968047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2111
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331be359e2598dc4fa2e321c1afecccc
+      internalID: -1273855005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2111
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8077a21860785ed4b825d8caaa92ab83
+      internalID: -2119099053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2111
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f1de43b4acc4d41a06ada021d0e3d6
+      internalID: -1700348652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_29
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2111
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a38ad8cbf12db447912debb01d4a3ba
+      internalID: 1516894160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2047
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d85c9e7b0f87bb46a0c8e54be35f44a
+      internalID: -1925291191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d833dda154a6eb46b3ba809238015ec
+      internalID: -1105899193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2047
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716d1c4af34536a4497769a175034ca0
+      internalID: 797922695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_33
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2047
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af11539c37df5c847af3614f76a8c6a8
+      internalID: 1437647749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_34
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2047
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d0e2021d0f0e4a8a8cdd763a78cdd
+      internalID: -195443871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_35
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2047
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1ce71742319db4e9d535fa95af4464
+      internalID: 1491080496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_36
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2047
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00613f4964adcf64aab9b2d7d6755ad2
+      internalID: 53617081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_37
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2047
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60798d6490ae3dc45845c79d8f640352
+      internalID: 851514366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1982
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934f65ac3ff4cc740b34c6ed80caed0f
+      internalID: 1144700766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1982
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ff6746a6b05c4db76e416c4184d63
+      internalID: 2013367356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1982
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e96e63b5b11834595b1b3c311ef50f
+      internalID: -856355719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_41
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1982
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f87141eaeef04eb1afbe963afce12
+      internalID: 1895383414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1982
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c08fd21aa971846bf8ad5ddb70ea37
+      internalID: -2033741743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1982
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260839af35e1e384497b6e9260dd4324
+      internalID: 1082816779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_44
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1982
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04ad661b91f6514bbb6974fd7ee7d96
+      internalID: 1007638682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_45
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1982
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5f7812762ddd749a841dbd6a8cf926
+      internalID: -231898989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1919
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f76fb2658b144fa2643f7a3d69f00
+      internalID: 902113434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b9d26ee5c1a3f4981008e44701acc1
+      internalID: -2122065234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_48
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1919
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04a8e1bf6d1b840822f7a8c7488066
+      internalID: -282324912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_49
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1920
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3274cf84b7e97594ca106daeba64ea6f
+      internalID: -1976753269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_50
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1920
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a160dfbb7e6cb4247bcd6b3cb89a3a6f
+      internalID: -1022991163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_51
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1919
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75355e85d6e1624f944e48d4ebd3b92
+      internalID: 276145654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1920
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9ebbbfdef16644b8beb4021adcbf95
+      internalID: -124595103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_53
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1920
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580c7a73d31848149aea68dbb6f069ee
+      internalID: -1134386358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_54
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1855
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14414158e11ae7242bb3ca2a13ac1589
+      internalID: 884974448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1855
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beddb7e9c37fe2144a6ac064e5033f1b
+      internalID: -64550615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1855
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef8c053512b654c9f802874f1189aa
+      internalID: 1377817177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1855
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589206f516b9a9044882f1ddaab08033
+      internalID: 1743662974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1855
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436b20e3f4fbb9b4b853a874cb81b2d0
+      internalID: -727116504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_59
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1855
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78200345d5f4c6147a102a7c4cfbebe2
+      internalID: -1013339503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_60
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1855
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf04edb13627bf4b9fa3917f463f54f
+      internalID: -1942036956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_61
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1855
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63bc827e35a31e4193a8ad84598b29e
+      internalID: 1577593414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1791
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf40c598c3c5a64a97c9ae86ecc88c5
+      internalID: -1331994528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1790
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd40f53e34fabc4e82997866a307662
+      internalID: 886599512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c576216d99e6e644f83b0d56b02b5052
+      internalID: -540983635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_65
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac450e7ce3d6af14b93d8ff311bf5583
+      internalID: -1996304518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_66
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1790
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5393f8d5ea86a05409690732f0925662
+      internalID: 1162575528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac73a9803df41b49b42e4dc1aa23cb1
+      internalID: -876380905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a60759ace14e47b074dce7ff94d6a
+      internalID: -1471694506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_69
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1790
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80cac33b54bfb4191b85e7c04b59a6
+      internalID: -761682675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffa5a8e29f801e43b1e65038418fe1a
+      internalID: -1259362472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_71
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4e49ff0c8a0db439b082e301d23852
+      internalID: -261626960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_72
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1727
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e635a0e0294260b4994424a6d5fe69ef
+      internalID: -1217913836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1727
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8751db800d654d54788d09006857cf89
+      internalID: 397963237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_74
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1552ebb69dd0b46a20a061d94eb5f9
+      internalID: 754215598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_75
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1727
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da73d58aae2ae0b4595c4793c2f30f33
+      internalID: 1583855622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_76
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef810d8d83e6d824cb9e72734301a33e
+      internalID: 254983558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_77
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1727
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc2fed7c0e4884da7b47ae35554c7f
+      internalID: -586051337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_78
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fccbb51098df54ea744ae5046308a6
+      internalID: -1974688586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_79
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1727
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd39b3ea1e3b44d8b8f81a1d807c15
+      internalID: -1076105211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a89dc0025e09c478401aeb1bc74437
+      internalID: -363856272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34a415e9a0e5f3488868249114c64a5
+      internalID: 1838233423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf35807c8c270674397eeef703ba4eca
+      internalID: -1259260981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1663
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777f58ece5d55cd47b2bed9930a4c172
+      internalID: -567765843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_84
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1663
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0329890c5a517d1448b04062ef857144
+      internalID: 1481920175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518beb393df9cf34ca51b567c3a3ffed
+      internalID: -1752327358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a65cee2dfd03c3468c1278c5cee2642
+      internalID: -307436808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_87
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1663
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbc29ed10d6c5b45a622d01bc6ae761
+      internalID: 502213010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_88
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196e1fe311bc2f5489e2bb83e9d39bcb
+      internalID: 880843626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1599
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c9d0b12e8b7447add0f1366112aa7
+      internalID: 1768693675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1599
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b868655e4d74547b9d5d9d5a94e211
+      internalID: -923667298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1599
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fad34e0854767419c012b7bec133f5
+      internalID: 1798773244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_92
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1599
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1660645cfc0d0fe4583dfd0fd88e0f3b
+      internalID: -1050743618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_93
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1599
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ffce42da7ac1042b4ace0cfa22e823
+      internalID: 303991640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_94
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f04d62e197bad41bd94fd56babad22
+      internalID: 1476073830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_95
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1599
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0dbd28cddd3fe448d88cae99cd2804
+      internalID: -547778424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_96
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1599
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566a7766aa78f054a8b7a5c15120306b
+      internalID: 914430292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_97
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1599
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ae9ae4f1fd58447b1640d5b8a7baca
+      internalID: -563200217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1535
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101ad82cfd8a6d04dabe1d34e393f3b8
+      internalID: 326665829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1535
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5f0503f576b764fb2daa48a0449617
+      internalID: 765596447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_100
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1535
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa06702f0c016043ab75cbea05923bc
+      internalID: 203123836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_101
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1535
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2376a7d9771f30f4db9c13b64055f6e2
+      internalID: -1072291696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_102
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1535
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5932ed3d737d647813331034bc125d
+      internalID: -825425431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_103
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1535
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5854a133fd3454144b931567928a2d12
+      internalID: 844411939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_104
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1470
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2c87eba56a46240bcb1d4f9a5e6b4c
+      internalID: 888537755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1470
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc11c4f59ed5ce94182d662255bf21b3
+      internalID: -933250094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1470
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa1a76017ebf3b44ae10575a63ac29e
+      internalID: -381187247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1470
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc168bc8cbae14e4a83cbf61caec947f
+      internalID: 709394453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_108
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1470
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df916a2ba44b7bb4d8149192485803b1
+      internalID: 1215606582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_109
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1470
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac208eabd9918ac47b7accbefc97c9bc
+      internalID: 1308909275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1407
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdec72e98ae0a4439811b80f0131267
+      internalID: 1244243311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_111
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cca76055bc389349a1aef8b4be0d433
+      internalID: 411198500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_112
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1407
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fd662aaad240640b15f3e95bde536a
+      internalID: -22508892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_113
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1407
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5d239ef7edd04418988a4ac310efab
+      internalID: 1455296945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_114
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1407
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5fe69eb86b2054d961bc0739e8d3a3
+      internalID: -1168835437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_115
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1407
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04bf27a5677b340bdf34eaddaaa43b
+      internalID: -1834130706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_116
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1343
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad477c384b0304982a865b7794f73f
+      internalID: -1719906501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_117
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1343
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c40f521935247e4db6e51b8b1fd8076
+      internalID: 110017850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_118
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1343
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0a758f890d204fb079087d2ccc156
+      internalID: -1873186665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_119
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1343
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8729b4191de264dbfd55761b6ddf19
+      internalID: -1525298091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_120
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1343
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812800da23937144997a0c108a94f00
+      internalID: 1315205659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_121
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1343
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2430dec5e3568ba4aae27b6b6eb8c4be
+      internalID: 1867220032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1278
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ff02dd85cdc3242bfd4998fd92236c
+      internalID: -1757538617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_123
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1279
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9d1460c643104188f67e21d9e37f7
+      internalID: 491286123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774cc05472680cc43afa3de788a7a889
+      internalID: -528601701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0acf939159bd14cb6fa9b572ee72c9
+      internalID: 1035789030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_126
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f706095d8a817d428bf499fe988e08e
+      internalID: 850664220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_127
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1279
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f992c937bd58d8544bece510301ce3d6
+      internalID: 366697327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_128
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1279
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eb49be83356c741abadbae14dad1fa
+      internalID: 509705201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_129
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1279
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02da0541f6ca1b74e8cbebdf20a1ad90
+      internalID: -455099477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_130
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46598020672afa5439d8f2b5f84b3061
+      internalID: 1462556250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_131
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1279
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5b3760607847b40bc33251484ecf8a
+      internalID: 1758666759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_132
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1279
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54960751873fa7648938962e70534286
+      internalID: 1631211166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_133
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7691d2b3643ff444bbe8abc1e1288671
+      internalID: -1193577116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_134
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1279
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8afa873f9aded248a9b39721545d55e
+      internalID: -860631988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_135
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1215
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d350a956ddb60c45a688807ad827f69
+      internalID: -2123167181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_136
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1215
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7128d549c597cfb4690b416af5239fff
+      internalID: -282105818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_137
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1215
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc348bbf9388764498c2946a6d4f18b
+      internalID: 782336596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a41ea59ef14f9944abf403d0a161882
+      internalID: -1208862158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_139
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ba15a5ea7abb040bb579924dc69ee8
+      internalID: -1895430765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_140
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1215
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be39d7bded22c70419b22c189c4421e9
+      internalID: -1228499659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_141
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9ae53c81d70de4eaf48e648f38efda
+      internalID: -784255834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_142
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1215
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad4c98a00108e74dbdb4cefb78aa90f
+      internalID: -273548473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_143
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1215
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9428393c56cf1874e9be41cf2b7b95f2
+      internalID: -91295868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_144
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccebbf7d3fb6a5c469bc3c232d0469f3
+      internalID: -1767653853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_145
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1215
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c01f81f0d85be4bb2be8dc2cf8718a
+      internalID: -561176732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_146
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bd3323d72e1154d8cd2d193b3af8d5
+      internalID: 413782300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_147
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1215
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f176ffb027eb2454282c703087644c97
+      internalID: 1211897307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_148
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76219ae8ebe1d4c48bc3d027719b2c7e
+      internalID: -447231822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1151
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967e61393c39d3c40ac2a95de9a4a929
+      internalID: 719290424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3919561d64c00bd48a396d69ff32692f
+      internalID: -328171346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_151
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14366ec0da2c18e4e9837edf2fb3d27a
+      internalID: -232973420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_152
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9734486d4009044c96f3347dfde21c5
+      internalID: 765349066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_153
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ad6b8c8d90d5046aec743a7226038a
+      internalID: 1126454290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_154
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cee67aed945fc43a3e579220b9fc3d
+      internalID: 2016033843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_155
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04af82e67c30164aa09e6a50c342eab
+      internalID: 726287778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_156
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb79466a5cfa3a479b09e272a619df2
+      internalID: -782292401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_157
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0923ef8da5fa50a419f8752daeb60edc
+      internalID: 1451093149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_158
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7aeafb2ed7bf847b4787672f6fd48e
+      internalID: 305038200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_159
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015add9f6c14ba4449707bb7ab5233e6
+      internalID: -1908766024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_160
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090a47f5b2377334dbeaba22a9b9be19
+      internalID: 1448180864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1086
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5799d0d0fae4fa34ba476ca83555837d
+      internalID: -223051046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_162
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1086
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94415ced75e7275418f60d54dc679748
+      internalID: 761136498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_163
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1086
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98699ef796ddfa546b2bd6edf6e54a10
+      internalID: 1657733245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_164
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1086
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82137adeca376634e8d2afab73349d18
+      internalID: 1028301349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_165
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1086
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d52c2f2d64ad7b4598c26d7e4dbfb58
+      internalID: 717929847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_166
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1086
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5cf313f2fbe7043864f763480b4c1a
+      internalID: -63772513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_167
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1086
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a59101461d60141817540e1752f369
+      internalID: 61605517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_168
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1086
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fb97eae4b38544b9765279f25c7ad8
+      internalID: 637068427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_169
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1086
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb1d78c33336cc479d49f07ad7c42e9
+      internalID: 1482105243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_170
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1086
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c1d0b3758d5144ace60e39cfc597a
+      internalID: -1150069199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_171
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1086
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9db8b82f633c844bc3d76f3b626348
+      internalID: -1287153159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_172
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1086
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73521de4ef6e84c4ab6dbd010d33f792
+      internalID: -1057045281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_173
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1086
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056437bf47aca274fab767f76c8c4163
+      internalID: 1625557305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_174
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e1d9e462f6cf64287b205a3fd55469
+      internalID: -524125045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c41ead9de2bc149bf44ce7ceb970ca
+      internalID: -1757096005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_176
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1023
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68717959180381049ac870e69201d3d0
+      internalID: 1579884811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_177
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1023
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ce751ebae5f2e40866480afb48a9e1
+      internalID: 150874391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_178
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1024
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2cef0268c10f748bc0eb68957f66ff
+      internalID: -1429815119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_179
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1023
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f30aa43cde08644b79a65ebbc89977
+      internalID: -766281876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_180
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 927
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40263d46a65d444699d0dcc2eaabfb9
+      internalID: 1066947628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_181
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 927
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3084b86d11381438fa7727cb259678
+      internalID: -1697525127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_182
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 927
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff85bf84947684d98e6a32c003b37e
+      internalID: 836640810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_183
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2724fa5dbb3d439caefa2b2fc1a56
+      internalID: 297619336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_184
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 927
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5432e3cd637e740b4f71dabff9105a
+      internalID: 1894451786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_185
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 927
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bb9c071a11e3449dd3759aedd6337
+      internalID: 1700061946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_186
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 927
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a2ae9fcf8663141921689b53ddd37e
+      internalID: -1329973630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_187
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 927
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e14d04384560b4baeb3d3ca7b9ad60
+      internalID: -728746010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_188
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 927
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee05f1ddc6a1ca648ac5eca2f1a9f4e0
+      internalID: 1060418765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_189
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 798
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8338b2c7f2b7a824bbda3e39f8d8ca0f
+      internalID: 934706559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_190
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 798
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f074b3d3a961941a7ebbae313bcd80
+      internalID: -530551938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_191
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 798
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3230510b1b8260b449bac06810500e28
+      internalID: -676663581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_192
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 798
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620177a4c05b0c9499c5d6ba02ec9979
+      internalID: 584484647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_193
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 798
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1ba911ec8b1a54e92de6419aa58013
+      internalID: -1018648941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_194
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 798
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385729c0fddf2734a96dc48b4496d7d9
+      internalID: 1359383390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_195
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 798
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f962a9530e01294380080ca1673aa07
+      internalID: -1247320454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_196
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 798
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b732a65a2846c774589f3dc63b305e8a
+      internalID: -1870350625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_197
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 798
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19beaff002ff1c842abd38214ddfcb31
+      internalID: 807514603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_198
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465dbb510c7a6cf4f938baf181fb9b66
+      internalID: -1733349881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_199
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 671
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e717c1b455fe94c9d99a85de785484
+      internalID: -1418013760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_200
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39679317868f3b4c96ba877e68983a9
+      internalID: -1358619111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_201
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 671
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f82e17f5f4d624ba92dc632219e835
+      internalID: -668547263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_202
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 671
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcf21b4b6abbf9479c2b2d56ec5dd91
+      internalID: 647440806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_203
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf271cab92867543a98d7dde79e639d
+      internalID: -755727220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_204
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3528211159440646811598ae01665a7
+      internalID: 1720082371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_205
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 670
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04cec8b4930eac47ab4c7b6db19da13
+      internalID: 1059959777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_206
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54db0e70ec146cd40b34737ac9542ab4
+      internalID: 532506379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_207
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 543
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5fa009381f9854893860885a76439a
+      internalID: 1356020214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_208
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 543
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd0f9744b9de724e9555a60398c9db1
+      internalID: -182291881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_209
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 543
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5334431ba9c4c7641901303cfdf37065
+      internalID: 943830905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_210
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 543
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf73a530f6fb3d4b90fe81afe23ef88
+      internalID: -2097341586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_211
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 543
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cfdecf6b420fe4197c0f34fb7d9fbb
+      internalID: 1536470356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_212
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 543
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e65b7dd7ee73cb4491654850008a3da
+      internalID: -1768027304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_213
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 543
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff25839b5c902b947a48b72aa81a3e2a
+      internalID: 401409743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_214
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 543
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59128205835b454295124c189e4b212
+      internalID: -89497021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_215
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 543
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed32c9a3e78d00847879a99ba5923754
+      internalID: -600086519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_216
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 415
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b02cde05addff4f812dcda56eb9a16
+      internalID: -1206567396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_217
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 415
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b1ae0ac1210974894b0a38b453118d
+      internalID: -1797807337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_218
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 415
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4d2449180b65b419d79aca59b9fa82
+      internalID: -1455997083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_219
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 415
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9130e3da9ec92ce4e947c701c8d5d18b
+      internalID: 1213223350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_220
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 415
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa6bda352e3d6945bc2dfc30a34be02
+      internalID: 2045391003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_221
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 415
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e33feae6e834a40ab519c17ff84489
+      internalID: 2077571894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_222
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 286
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c25bc2f690834ea2ba524fb4a1746
+      internalID: 17566575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_223
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 280
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d680a2c3eb244fbe0b114254aafc8
+      internalID: 872118348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_224
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 280
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6315aa3d9061974cba8b27a8548712f
+      internalID: 901242319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_225
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 284
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0a2165d394d7e47b51d9aad0f0248e
+      internalID: 187295182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_226
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 286
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4587bfbea6fcc5c489c2b1df224158fa
+      internalID: 187889492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_227
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 286
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbed6a00249d204d869c0b2a804b69c
+      internalID: 1600523463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_228
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 159
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebda1a0277aad6b4b85316d727a2a869
+      internalID: 818623212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_229
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 159
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b92cf9478ddbc548a890a1f06d05e91
+      internalID: -1927135926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_230
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 159
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ea5ae8957ac7d4ab2027e5afe42408
+      internalID: -1792054916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_231
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 159
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f2555bb5e92aa4b8b1e84112b52ee2
+      internalID: 1643520995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_232
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 146
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616cb3d86cd9b694982153476e515efb
+      internalID: -1221794341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_233
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 159
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bcb567cee6b7b48aaae0d65356a38e
+      internalID: -1040522880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_234
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef941040be22334badb5fee6e58c302
+      internalID: -96334594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_235
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 24
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5a493bfc215b3418303ee58b786932
+      internalID: 1012630253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_236
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 24
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aac0ce0f351484fafa2c17b3ef2812
+      internalID: 332623915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_237
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 28
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c402c305fd04b3946a816ea260fbcb9e
+      internalID: -1815390837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_238
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 31
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993e84f0cbaac5a478e237ae575c3740
+      internalID: -1669272497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_female_sword_knight_239
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 31
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5dee112a4cc14479da4720694b38b1
+      internalID: -1856491640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ennemy_female_sword_knight_0: -2073397749
+      ennemy_female_sword_knight_1: 1150859430
+      ennemy_female_sword_knight_10: -140106004
+      ennemy_female_sword_knight_100: 203123836
+      ennemy_female_sword_knight_101: -1072291696
+      ennemy_female_sword_knight_102: -825425431
+      ennemy_female_sword_knight_103: 844411939
+      ennemy_female_sword_knight_104: 888537755
+      ennemy_female_sword_knight_105: -933250094
+      ennemy_female_sword_knight_106: -381187247
+      ennemy_female_sword_knight_107: 709394453
+      ennemy_female_sword_knight_108: 1215606582
+      ennemy_female_sword_knight_109: 1308909275
+      ennemy_female_sword_knight_11: -1482129361
+      ennemy_female_sword_knight_110: 1244243311
+      ennemy_female_sword_knight_111: 411198500
+      ennemy_female_sword_knight_112: -22508892
+      ennemy_female_sword_knight_113: 1455296945
+      ennemy_female_sword_knight_114: -1168835437
+      ennemy_female_sword_knight_115: -1834130706
+      ennemy_female_sword_knight_116: -1719906501
+      ennemy_female_sword_knight_117: 110017850
+      ennemy_female_sword_knight_118: -1873186665
+      ennemy_female_sword_knight_119: -1525298091
+      ennemy_female_sword_knight_12: -1821908301
+      ennemy_female_sword_knight_120: 1315205659
+      ennemy_female_sword_knight_121: 1867220032
+      ennemy_female_sword_knight_122: -1757538617
+      ennemy_female_sword_knight_123: 491286123
+      ennemy_female_sword_knight_124: -528601701
+      ennemy_female_sword_knight_125: 1035789030
+      ennemy_female_sword_knight_126: 850664220
+      ennemy_female_sword_knight_127: 366697327
+      ennemy_female_sword_knight_128: 509705201
+      ennemy_female_sword_knight_129: -455099477
+      ennemy_female_sword_knight_13: 2049717146
+      ennemy_female_sword_knight_130: 1462556250
+      ennemy_female_sword_knight_131: 1758666759
+      ennemy_female_sword_knight_132: 1631211166
+      ennemy_female_sword_knight_133: -1193577116
+      ennemy_female_sword_knight_134: -860631988
+      ennemy_female_sword_knight_135: -2123167181
+      ennemy_female_sword_knight_136: -282105818
+      ennemy_female_sword_knight_137: 782336596
+      ennemy_female_sword_knight_138: -1208862158
+      ennemy_female_sword_knight_139: -1895430765
+      ennemy_female_sword_knight_14: 920713139
+      ennemy_female_sword_knight_140: -1228499659
+      ennemy_female_sword_knight_141: -784255834
+      ennemy_female_sword_knight_142: -273548473
+      ennemy_female_sword_knight_143: -91295868
+      ennemy_female_sword_knight_144: -1767653853
+      ennemy_female_sword_knight_145: -561176732
+      ennemy_female_sword_knight_146: 413782300
+      ennemy_female_sword_knight_147: 1211897307
+      ennemy_female_sword_knight_148: -447231822
+      ennemy_female_sword_knight_149: 719290424
+      ennemy_female_sword_knight_15: -117854439
+      ennemy_female_sword_knight_150: -328171346
+      ennemy_female_sword_knight_151: -232973420
+      ennemy_female_sword_knight_152: 765349066
+      ennemy_female_sword_knight_153: 1126454290
+      ennemy_female_sword_knight_154: 2016033843
+      ennemy_female_sword_knight_155: 726287778
+      ennemy_female_sword_knight_156: -782292401
+      ennemy_female_sword_knight_157: 1451093149
+      ennemy_female_sword_knight_158: 305038200
+      ennemy_female_sword_knight_159: -1908766024
+      ennemy_female_sword_knight_16: -404840342
+      ennemy_female_sword_knight_160: 1448180864
+      ennemy_female_sword_knight_161: -223051046
+      ennemy_female_sword_knight_162: 761136498
+      ennemy_female_sword_knight_163: 1657733245
+      ennemy_female_sword_knight_164: 1028301349
+      ennemy_female_sword_knight_165: 717929847
+      ennemy_female_sword_knight_166: -63772513
+      ennemy_female_sword_knight_167: 61605517
+      ennemy_female_sword_knight_168: 637068427
+      ennemy_female_sword_knight_169: 1482105243
+      ennemy_female_sword_knight_17: -1998501153
+      ennemy_female_sword_knight_170: -1150069199
+      ennemy_female_sword_knight_171: -1287153159
+      ennemy_female_sword_knight_172: -1057045281
+      ennemy_female_sword_knight_173: 1625557305
+      ennemy_female_sword_knight_174: -524125045
+      ennemy_female_sword_knight_175: -1757096005
+      ennemy_female_sword_knight_176: 1579884811
+      ennemy_female_sword_knight_177: 150874391
+      ennemy_female_sword_knight_178: -1429815119
+      ennemy_female_sword_knight_179: -766281876
+      ennemy_female_sword_knight_18: 1893272285
+      ennemy_female_sword_knight_180: 1066947628
+      ennemy_female_sword_knight_181: -1697525127
+      ennemy_female_sword_knight_182: 836640810
+      ennemy_female_sword_knight_183: 297619336
+      ennemy_female_sword_knight_184: 1894451786
+      ennemy_female_sword_knight_185: 1700061946
+      ennemy_female_sword_knight_186: -1329973630
+      ennemy_female_sword_knight_187: -728746010
+      ennemy_female_sword_knight_188: 1060418765
+      ennemy_female_sword_knight_189: 934706559
+      ennemy_female_sword_knight_19: 980571939
+      ennemy_female_sword_knight_190: -530551938
+      ennemy_female_sword_knight_191: -676663581
+      ennemy_female_sword_knight_192: 584484647
+      ennemy_female_sword_knight_193: -1018648941
+      ennemy_female_sword_knight_194: 1359383390
+      ennemy_female_sword_knight_195: -1247320454
+      ennemy_female_sword_knight_196: -1870350625
+      ennemy_female_sword_knight_197: 807514603
+      ennemy_female_sword_knight_198: -1733349881
+      ennemy_female_sword_knight_199: -1418013760
+      ennemy_female_sword_knight_2: 1994671230
+      ennemy_female_sword_knight_20: 1572872115
+      ennemy_female_sword_knight_200: -1358619111
+      ennemy_female_sword_knight_201: -668547263
+      ennemy_female_sword_knight_202: 647440806
+      ennemy_female_sword_knight_203: -755727220
+      ennemy_female_sword_knight_204: 1720082371
+      ennemy_female_sword_knight_205: 1059959777
+      ennemy_female_sword_knight_206: 532506379
+      ennemy_female_sword_knight_207: 1356020214
+      ennemy_female_sword_knight_208: -182291881
+      ennemy_female_sword_knight_209: 943830905
+      ennemy_female_sword_knight_21: 685098391
+      ennemy_female_sword_knight_210: -2097341586
+      ennemy_female_sword_knight_211: 1536470356
+      ennemy_female_sword_knight_212: -1768027304
+      ennemy_female_sword_knight_213: 401409743
+      ennemy_female_sword_knight_214: -89497021
+      ennemy_female_sword_knight_215: -600086519
+      ennemy_female_sword_knight_216: -1206567396
+      ennemy_female_sword_knight_217: -1797807337
+      ennemy_female_sword_knight_218: -1455997083
+      ennemy_female_sword_knight_219: 1213223350
+      ennemy_female_sword_knight_22: 772320467
+      ennemy_female_sword_knight_220: 2045391003
+      ennemy_female_sword_knight_221: 2077571894
+      ennemy_female_sword_knight_222: 17566575
+      ennemy_female_sword_knight_223: 872118348
+      ennemy_female_sword_knight_224: 901242319
+      ennemy_female_sword_knight_225: 187295182
+      ennemy_female_sword_knight_226: 187889492
+      ennemy_female_sword_knight_227: 1600523463
+      ennemy_female_sword_knight_228: 818623212
+      ennemy_female_sword_knight_229: -1927135926
+      ennemy_female_sword_knight_23: 1157011357
+      ennemy_female_sword_knight_230: -1792054916
+      ennemy_female_sword_knight_231: 1643520995
+      ennemy_female_sword_knight_232: -1221794341
+      ennemy_female_sword_knight_233: -1040522880
+      ennemy_female_sword_knight_234: -96334594
+      ennemy_female_sword_knight_235: 1012630253
+      ennemy_female_sword_knight_236: 332623915
+      ennemy_female_sword_knight_237: -1815390837
+      ennemy_female_sword_knight_238: -1669272497
+      ennemy_female_sword_knight_239: -1856491640
+      ennemy_female_sword_knight_24: 474314719
+      ennemy_female_sword_knight_25: 792968047
+      ennemy_female_sword_knight_26: -1273855005
+      ennemy_female_sword_knight_27: -2119099053
+      ennemy_female_sword_knight_28: -1700348652
+      ennemy_female_sword_knight_29: 1516894160
+      ennemy_female_sword_knight_3: -838652729
+      ennemy_female_sword_knight_30: -1925291191
+      ennemy_female_sword_knight_31: -1105899193
+      ennemy_female_sword_knight_32: 797922695
+      ennemy_female_sword_knight_33: 1437647749
+      ennemy_female_sword_knight_34: -195443871
+      ennemy_female_sword_knight_35: 1491080496
+      ennemy_female_sword_knight_36: 53617081
+      ennemy_female_sword_knight_37: 851514366
+      ennemy_female_sword_knight_38: 1144700766
+      ennemy_female_sword_knight_39: 2013367356
+      ennemy_female_sword_knight_4: 1180949905
+      ennemy_female_sword_knight_40: -856355719
+      ennemy_female_sword_knight_41: 1895383414
+      ennemy_female_sword_knight_42: -2033741743
+      ennemy_female_sword_knight_43: 1082816779
+      ennemy_female_sword_knight_44: 1007638682
+      ennemy_female_sword_knight_45: -231898989
+      ennemy_female_sword_knight_46: 902113434
+      ennemy_female_sword_knight_47: -2122065234
+      ennemy_female_sword_knight_48: -282324912
+      ennemy_female_sword_knight_49: -1976753269
+      ennemy_female_sword_knight_5: 1101564746
+      ennemy_female_sword_knight_50: -1022991163
+      ennemy_female_sword_knight_51: 276145654
+      ennemy_female_sword_knight_52: -124595103
+      ennemy_female_sword_knight_53: -1134386358
+      ennemy_female_sword_knight_54: 884974448
+      ennemy_female_sword_knight_55: -64550615
+      ennemy_female_sword_knight_56: 1377817177
+      ennemy_female_sword_knight_57: 1743662974
+      ennemy_female_sword_knight_58: -727116504
+      ennemy_female_sword_knight_59: -1013339503
+      ennemy_female_sword_knight_6: 84931977
+      ennemy_female_sword_knight_60: -1942036956
+      ennemy_female_sword_knight_61: 1577593414
+      ennemy_female_sword_knight_62: -1331994528
+      ennemy_female_sword_knight_63: 886599512
+      ennemy_female_sword_knight_64: -540983635
+      ennemy_female_sword_knight_65: -1996304518
+      ennemy_female_sword_knight_66: 1162575528
+      ennemy_female_sword_knight_67: -876380905
+      ennemy_female_sword_knight_68: -1471694506
+      ennemy_female_sword_knight_69: -761682675
+      ennemy_female_sword_knight_7: -1591075794
+      ennemy_female_sword_knight_70: -1259362472
+      ennemy_female_sword_knight_71: -261626960
+      ennemy_female_sword_knight_72: -1217913836
+      ennemy_female_sword_knight_73: 397963237
+      ennemy_female_sword_knight_74: 754215598
+      ennemy_female_sword_knight_75: 1583855622
+      ennemy_female_sword_knight_76: 254983558
+      ennemy_female_sword_knight_77: -586051337
+      ennemy_female_sword_knight_78: -1974688586
+      ennemy_female_sword_knight_79: -1076105211
+      ennemy_female_sword_knight_8: -117198276
+      ennemy_female_sword_knight_80: -363856272
+      ennemy_female_sword_knight_81: 1838233423
+      ennemy_female_sword_knight_82: -1259260981
+      ennemy_female_sword_knight_83: -567765843
+      ennemy_female_sword_knight_84: 1481920175
+      ennemy_female_sword_knight_85: -1752327358
+      ennemy_female_sword_knight_86: -307436808
+      ennemy_female_sword_knight_87: 502213010
+      ennemy_female_sword_knight_88: 880843626
+      ennemy_female_sword_knight_89: 1768693675
+      ennemy_female_sword_knight_9: 1366439222
+      ennemy_female_sword_knight_90: -923667298
+      ennemy_female_sword_knight_91: 1798773244
+      ennemy_female_sword_knight_92: -1050743618
+      ennemy_female_sword_knight_93: 303991640
+      ennemy_female_sword_knight_94: 1476073830
+      ennemy_female_sword_knight_95: -547778424
+      ennemy_female_sword_knight_96: 914430292
+      ennemy_female_sword_knight_97: -563200217
+      ennemy_female_sword_knight_98: 326665829
+      ennemy_female_sword_knight_99: 765596447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
