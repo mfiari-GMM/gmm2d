@@ -16,6 +16,8 @@ public class CharStats : MonoBehaviour {
     public int[] mpLvlBonus;
     public int strength;
     public int defence;
+    public int magie;
+    public int resistance;
     public int wpnPwr;
     public int armrPwr;
     public string equippedWpn;
@@ -30,15 +32,6 @@ public class CharStats : MonoBehaviour {
         for(int i = 2; i < expToNextLevel.Length; i++)
         {
             expToNextLevel[i] = Mathf.FloorToInt(expToNextLevel[i - 1] * 1.05f);
-        }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-        if(Input.GetKeyDown(KeyCode.K))
-        {
-            AddExp(1000);
         }
 	}
 

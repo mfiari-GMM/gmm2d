@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class QuestObjectActivator : MonoBehaviour {
 
@@ -29,7 +27,7 @@ public class QuestObjectActivator : MonoBehaviour {
 
     public void CheckCompletion()
     {
-        if(QuestManager.instance.CheckIfComplete(questToCheck))
+        if(QuestManager.instance != null && QuestManager.instance.CheckIfComplete(questToCheck))
         {
             objectToActivate.SetActive(activeIfComplete);
         }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212531649469236500}
   - component: {fileID: 114017839349114026}
   m_Layer: 0
-  m_Name: Vard
+  m_Name: Mok
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1582297330, guid: bbfe4df357cd8d443bb9fbdcc5b9a8fb, type: 3}
+  m_Sprite: {fileID: -1456354987, guid: 8fdee18d4d1bc894abb77dab63b3cc89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,21 +98,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayer: 1
-  movesAvailable:
-  - Fire
-  charName: Vard
+  movesAvailable: []
+  charName: Marco
   currentHp: 0
   maxHP: 0
   currentMP: 0
   maxMP: 0
   strength: 0
   defence: 0
-  magie: 0
-  resistance: 0
   wpnPower: 0
   armrPower: 0
   hasDied: 0
   theSprite: {fileID: 212531649469236500}
-  deadSprite: {fileID: 1657028286, guid: bbfe4df357cd8d443bb9fbdcc5b9a8fb, type: 3}
-  aliveSprite: {fileID: -1582297330, guid: bbfe4df357cd8d443bb9fbdcc5b9a8fb, type: 3}
+  deadSprite: {fileID: 954115276, guid: bf50395a79d26c740be987e19e5b09f8, type: 3}
+  aliveSprite: {fileID: -36627340, guid: bf50395a79d26c740be987e19e5b09f8, type: 3}
   fadeSpeed: 1

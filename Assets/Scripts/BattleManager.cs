@@ -74,11 +74,6 @@ public class BattleManager : MonoBehaviour {
                     StartCoroutine(EnemyMoveCo());
                 }
             }
-
-            if(Input.GetKeyDown(KeyCode.N))
-            {
-                NextTurn();
-            }
         }
 	}
 
@@ -117,6 +112,8 @@ public class BattleManager : MonoBehaviour {
                             activeBattlers[i].maxMP = thePlayer.maxMP;
                             activeBattlers[i].strength = thePlayer.strength;
                             activeBattlers[i].defence = thePlayer.defence;
+                            activeBattlers[i].magie = thePlayer.magie;
+                            activeBattlers[i].resistance = thePlayer.resistance;
                             activeBattlers[i].wpnPower = thePlayer.wpnPwr;
                             activeBattlers[i].armrPower = thePlayer.armrPwr;
                         }
@@ -252,24 +249,30 @@ public class BattleManager : MonoBehaviour {
 
         int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
         int movePower = 0;
+        bool magic = false;
         for(int i = 0; i < movesList.Length; i++)
         {
             if(movesList[i].moveName == activeBattlers[currentTurn].movesAvailable[selectAttack])
             {
                 Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
                 movePower = movesList[i].movePower;
+                magic = i != 0;
             }
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        DealDamage(selectedTarget, movePower);
+        DealDamage(selectedTarget, movePower, magic);
     }
 
-    public void DealDamage(int target, int movePower)
+    public void DealDamage(int target, int movePower, bool magic)
     {
-        float atkPwr = activeBattlers[currentTurn].strength + activeBattlers[currentTurn].wpnPower;
-        float defPwr = activeBattlers[target].defence + activeBattlers[target].armrPower;
+
+        float strength = magic ? activeBattlers[currentTurn].magie : activeBattlers[currentTurn].strength;
+        float defence = magic ? activeBattlers[currentTurn].resistance : activeBattlers[currentTurn].defence;
+
+        float atkPwr = strength + activeBattlers[currentTurn].wpnPower;
+        float defPwr = defence + activeBattlers[target].armrPower;
 
         float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f);
         int damageToGive = Mathf.RoundToInt(damageCalc);
@@ -295,6 +298,13 @@ public class BattleManager : MonoBehaviour {
 
                     playerName[i].gameObject.SetActive(true);
                     playerName[i].text = playerData.charName;
+                    if (currentTurn == i)
+                    {
+                        playerName[i].color = Color.yellow;
+                    } else
+                    {
+                        playerName[i].color = Color.white;
+                    }
                     playerHP[i].text = Mathf.Clamp(playerData.currentHp, 0, int.MaxValue) + "/" + playerData.maxHP;
                     playerMP[i].text = Mathf.Clamp(playerData.currentMP, 0, int.MaxValue) + "/" + playerData.maxMP;
 
@@ -322,9 +332,11 @@ public class BattleManager : MonoBehaviour {
             }
         }
 
+        bool magic = moveName != "Slash";
+
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        DealDamage(selectedTarget, movePower);
+        DealDamage(selectedTarget, movePower, magic);
 
         uiButtonsHolder.SetActive(false);
         targetMenu.SetActive(false);
