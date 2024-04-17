@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour {
@@ -34,12 +32,15 @@ public class CameraController : MonoBehaviour {
 	
 	// LateUpdate is called once per frame after Update
 	void LateUpdate () {
-        transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
+        if (transform != null && target != null)
+        {
+            transform.position = new Vector3(target.position.x, target.position.y, transform.position.z);
 
-        //keep the camera inside the bounds
-        transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.x, topRightLimit.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y), transform.position.z);
+            //keep the camera inside the bounds
+            transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.x, topRightLimit.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y), transform.position.z);
+        }
 
-        if(!musicStarted)
+        if (!musicStarted)
         {
             musicStarted = true;
             AudioManager.instance.PlayBGM(musicToPlay);

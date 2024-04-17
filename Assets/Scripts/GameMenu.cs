@@ -135,16 +135,28 @@ public class GameMenu : MonoBehaviour {
         statusMP.text = "" + playerStats[selected].currentMP + "/" + playerStats[selected].maxMP;
         statusStr.text = playerStats[selected].strength.ToString();
         statusDef.text = playerStats[selected].defence.ToString();
-        if(playerStats[selected].equippedWpn != "")
+
+        if (playerStats[selected].equippedWpn != null)
         {
-            statusWpnEqpd.text = playerStats[selected].equippedWpn;
-        }
-        statusWpnPwr.text = playerStats[selected].wpnPwr.ToString();
-        if (playerStats[selected].equippedArmr != "")
+            statusWpnEqpd.text = playerStats[selected].equippedWpn.itemName;
+            statusWpnPwr.text = playerStats[selected].equippedWpn.weaponStrength.ToString();
+        } else
         {
-            statusArmrEqpd.text = playerStats[selected].equippedArmr;
+            statusWpnEqpd.text = "";
+            statusWpnPwr.text = "0";
         }
-        statusArmrPwr.text = playerStats[selected].armrPwr.ToString();
+
+        if (playerStats[selected].equippedArmr != null)
+        {
+            statusArmrEqpd.text = playerStats[selected].equippedArmr.itemName;
+            statusArmrPwr.text = playerStats[selected].equippedArmr.armorStrength.ToString();
+        }
+        else
+        {
+            statusArmrEqpd.text = "";
+            statusArmrPwr.text = "0";
+        }
+        
         statusExp.text = (playerStats[selected].expToNextLevel[playerStats[selected].playerLevel] - playerStats[selected].currentEXP).ToString();
         statusImage.sprite = playerStats[selected].charIamge;
 

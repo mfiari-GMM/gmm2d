@@ -18,10 +18,8 @@ public class CharStats : MonoBehaviour {
     public int defence;
     public int magie;
     public int resistance;
-    public int wpnPwr;
-    public int armrPwr;
-    public string equippedWpn;
-    public string equippedArmr;
+    public Item equippedWpn;
+    public Item equippedArmr;
     public Sprite charIamge;
 
 	// Use this for initialization

@@ -100,18 +100,24 @@ public class Shop : MonoBehaviour {
 
     public void SelectBuyItem(Item buyItem)
     {
-        selectedItem = buyItem;
-        buyItemName.text = selectedItem.itemName;
-        buyItemDescription.text = selectedItem.description;
-        buyItemValue.text = "Value: " + selectedItem.value + "g";
+        if (buyItem != null)
+        {
+            selectedItem = buyItem;
+            buyItemName.text = selectedItem.itemName;
+            buyItemDescription.text = selectedItem.description;
+            buyItemValue.text = "Value: " + selectedItem.value + "g";
+        }
     }
 
     public void SelectSellItem(Item sellItem)
     {
-        selectedItem = sellItem;
-        sellItemName.text = selectedItem.itemName;
-        sellItemDescription.text = selectedItem.description;
-        sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+        if (sellItem != null)
+        {
+            selectedItem = sellItem;
+            sellItemName.text = selectedItem.itemName;
+            sellItemDescription.text = selectedItem.description;
+            sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+        }
     }
 
     public void BuyItem()

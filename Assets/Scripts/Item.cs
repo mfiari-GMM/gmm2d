@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Item : MonoBehaviour {
     [Header("Item Type")]
@@ -20,8 +18,9 @@ public class Item : MonoBehaviour {
 
     [Header("Weapon/Armor Details")]
     public int weaponStrength;
-
     public int armorStrength;
+    public int weaponMagie;
+    public int armorResistance;
 
 
     // Use this for initialization
@@ -68,24 +67,22 @@ public class Item : MonoBehaviour {
 
         if(isWeapon)
         {
-            if(selectedChar.equippedWpn != "")
+            if(selectedChar.equippedWpn != null)
             {
-                GameManager.instance.AddItem(selectedChar.equippedWpn);
+                GameManager.instance.AddItem(selectedChar.equippedWpn.itemName);
             }
 
-            selectedChar.equippedWpn = itemName;
-            selectedChar.wpnPwr = weaponStrength;
+            selectedChar.equippedWpn = this;
         }
 
         if(isArmour)
         {
-            if (selectedChar.equippedArmr != "")
+            if (selectedChar.equippedArmr != null)
             {
-                GameManager.instance.AddItem(selectedChar.equippedArmr);
+                GameManager.instance.AddItem(selectedChar.equippedArmr.itemName);
             }
 
-            selectedChar.equippedArmr = itemName;
-            selectedChar.armrPwr = armorStrength;
+            selectedChar.equippedArmr = this;
         }
 
         GameManager.instance.RemoveItem(itemName);

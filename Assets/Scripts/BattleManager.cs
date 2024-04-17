@@ -114,8 +114,8 @@ public class BattleManager : MonoBehaviour {
                             activeBattlers[i].defence = thePlayer.defence;
                             activeBattlers[i].magie = thePlayer.magie;
                             activeBattlers[i].resistance = thePlayer.resistance;
-                            activeBattlers[i].wpnPower = thePlayer.wpnPwr;
-                            activeBattlers[i].armrPower = thePlayer.armrPwr;
+                            activeBattlers[i].wpnPower = thePlayer.equippedWpn.weaponStrength;
+                            activeBattlers[i].armrPower = thePlayer.equippedArmr.armorStrength;
                         }
                     }
 
