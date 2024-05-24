@@ -13,26 +13,6 @@ public class QuestManager : MonoBehaviour {
 
         questMarkersComplete = new bool[questMarkerNames.Length];
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.Q))
-        {
-            Debug.Log(CheckIfComplete("quest test"));
-            MarkQuestComplete("quest test");
-            MarkQuestIncomplete("fight the demon");
-        }
-
-        if(Input.GetKeyDown(KeyCode.O))
-        {
-            SaveQuestData();
-        }
-
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            LoadQuestData();
-        }
-	}
 
     public int GetQuestNumber(string questToFind)
     {

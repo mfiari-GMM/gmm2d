@@ -56,10 +56,10 @@ public class CharStats : MonoBehaviour {
                 }
 
                 maxHP = Mathf.FloorToInt(maxHP * 1.05f);
-                currentHP = maxHP;
+                //currentHP = maxHP;
 
                 maxMP += mpLvlBonus[playerLevel];
-                currentMP = maxMP;
+                //currentMP = maxMP;
             }
         }
 

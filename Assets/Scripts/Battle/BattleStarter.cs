@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class BattleStarter : MonoBehaviour {
 
-    public BAttleType[] potentialBattles;
+    public BattleType[] potentialBattles;
 
     public bool activateOnEnter, activateOnStay, activateOnExit;
 

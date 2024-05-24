@@ -39,7 +39,7 @@ public class BattleReward : MonoBehaviour {
     {
         for(int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
-            if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+            if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy && GameManager.instance.playerStats[i].currentHP > 0)
             {
                 GameManager.instance.playerStats[i].AddExp(xpEarned);
             }

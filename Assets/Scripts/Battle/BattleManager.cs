@@ -66,6 +66,12 @@ public class BattleManager : MonoBehaviour {
                 if(activeBattlers[currentTurn].isPlayer)
                 {
                     uiButtonsHolder.SetActive(true);
+
+                    if (Input.GetKeyDown(KeyCode.Z))
+                    {
+                        CloseCurrentMenu();
+                    }
+
                 } else
                 {
                     uiButtonsHolder.SetActive(false);
@@ -114,8 +120,8 @@ public class BattleManager : MonoBehaviour {
                             activeBattlers[i].defence = thePlayer.defence;
                             activeBattlers[i].magie = thePlayer.magie;
                             activeBattlers[i].resistance = thePlayer.resistance;
-                            activeBattlers[i].wpnPower = thePlayer.equippedWpn.weaponStrength;
-                            activeBattlers[i].armrPower = thePlayer.equippedArmr.armorStrength;
+                            activeBattlers[i].wpnPower = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponStrength : 0;
+                            activeBattlers[i].armrPower = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorStrength : 0;
                         }
                     }
 
@@ -207,10 +213,6 @@ public class BattleManager : MonoBehaviour {
                 //end battle in failure
                 StartCoroutine(GameOverCo());
             }
-
-            /* battleScene.SetActive(false);
-            GameManager.instance.battleActive = false;
-            battleActive = false; */
         } else
         {
             while(activeBattlers[currentTurn].currentHp == 0)
@@ -343,6 +345,18 @@ public class BattleManager : MonoBehaviour {
 
         NextTurn();
 
+    }
+
+    public void CloseCurrentMenu ()
+    {
+        if (targetMenu.activeInHierarchy)
+        {
+            targetMenu.SetActive(false);
+        }
+        if (magicMenu.activeInHierarchy)
+        {
+            magicMenu.SetActive(false);
+        }
     }
 
     public void OpenTargetMenu(string moveName)

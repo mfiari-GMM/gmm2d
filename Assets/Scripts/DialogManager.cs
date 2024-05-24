@@ -22,14 +22,12 @@ public class DialogManager : MonoBehaviour {
     // Use this for initialization
     void Start () {
         instance = this;
-
-        //dialogText.text = dialogLines[currentLine];
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
-        if(dialogBox.activeInHierarchy)
+        if(dialogBox.activeInHierarchy && !GameManager.instance.battleActive)
         {
             if(Input.GetButtonUp("Fire1"))
             {
