@@ -253,6 +253,90 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41d568113c653714782a64bfeeedbf6b, type: 3}
+--- !u!1001 &291285177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 370632698}
+    m_Modifications:
+    - target: {fileID: 1272736358276952105, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_Name
+      value: Quest Object (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6545601014092387642, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: questToCheck
+      value: quest cave chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764949925177773026, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92c8bb73a475d4c2bbfa5e44d6b76791, type: 3}
+--- !u!4 &291285178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7198987982084516132, guid: 92c8bb73a475d4c2bbfa5e44d6b76791,
+    type: 3}
+  m_PrefabInstance: {fileID: 291285177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &312552795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -333,6 +417,7 @@ Transform:
   m_Children:
   - {fileID: 163612368}
   - {fileID: 1974036227}
+  - {fileID: 291285178}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471987512
@@ -12078,7 +12163,7 @@ GameObject:
   - component: {fileID: 1491018617}
   - component: {fileID: 1491018616}
   m_Layer: 0
-  m_Name: Dragon Overworld
+  m_Name: Sorcerer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12098,7 +12183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBattles:
   - enemies:
-    - Dragon
+    - Sorcerer
     rewardXP: 2000
     rewardItems:
     - Mana Potion
@@ -12110,7 +12195,7 @@ MonoBehaviour:
   deactivateAfterStarting: 1
   cannotFlee: 1
   shouldCompleteQuest: 1
-  QuestToComplete: Defeat The Dragon
+  QuestToComplete: Defeat The Sorcerer
 --- !u!61 &1491018617
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12147,7 +12232,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.125, y: 5.25}
+    oldSize: {x: 2, y: 2.0625}
     newSize: {x: 4.125, y: 5.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12197,7 +12282,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: dd61146dbe36aa6449131fb544979165, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12217,7 +12302,7 @@ Transform:
   m_GameObject: {fileID: 1491018615}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.5, y: 0.18, z: 0}
+  m_LocalPosition: {x: 36, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
