@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -132,9 +132,4516 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: simple_archer_male_knight_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98334db37a3f4d4984ed5bc9b3c1cf6
+      internalID: 1752137451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efacdd25a8ab434789f21b1cd03f629
+      internalID: 588126161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cf2a1841acb4ee0a2606e569bd6619
+      internalID: 157940781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1792
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf42eeb228a17403ba95910837443b7e
+      internalID: 85959033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1792
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b72ca8317dda47d881de4bcd4a527c6
+      internalID: -326435677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1792
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0ed49f11774e2eb7b7d6924a49423
+      internalID: -900347610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1792
+        width: 84
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a55bfa3b0004ff19a9690f66c89fe1
+      internalID: 1733237903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1728
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f3732d9f4f344ec9c90f66b059b63c
+      internalID: -1993606155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1728
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee24f3c920b5458689553498f4af179
+      internalID: 1226534842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1728
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee926ab117c403881e5eb47f0e6757
+      internalID: 1478063755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1728
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b823779d1ab4d878372b9999f07feb
+      internalID: -651008797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1728
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a49ee748294d26ae33af5d03231a3
+      internalID: 269557593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1728
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e105ed8823fc5459280c0f988f7c8d53
+      internalID: -527056234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1728
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c2be3bd582f4a5590fdd6c274377f6
+      internalID: 67639374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1585c14213f943c2b5032a95e948e34
+      internalID: -6510500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75dba455a1534727990d0f7cfc9007e
+      internalID: 1135958896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d62559bcbc1e4cb88d29ad59dc3ca68
+      internalID: 120572999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1664
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356195577c83d42c8b3dacccaaba5579
+      internalID: -1973837886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1664
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47367202aba174e22aab9b30dbf6f5aa
+      internalID: -1633270359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1664
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a887075436474bd5976d06ee4b206c1
+      internalID: -426208816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1664
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb24af78cff834bdfbea8d73df3de256
+      internalID: -888486799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1600
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1966297b5764646aa97eef725c656ea6
+      internalID: -8700881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a11cc946b2ff4b9ea9fe08449cfa057
+      internalID: -184633776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7e19de212c4b54aafbf302f36aa3b
+      internalID: 1299979290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1600
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2fd0f5a4ac742ee9279df38d321cfb
+      internalID: -1963681867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1600
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe0f109fdfb4663a90fcde7600e733
+      internalID: 1204032671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1600
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5aaeca0a4dde49faa44a1bd7aa2079e
+      internalID: 257825048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23105420c2274da98a6f7445a399f14
+      internalID: -105932430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1536
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07015368b0448488a9156fea15d71cdc
+      internalID: -45188368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1536
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93db05d82d3e46d4ba108537aadb9c3
+      internalID: 622571495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6cb814c09e544cfaf663b8ff79955e
+      internalID: 922160857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09b0ad51358b4a87b5210f9b17a1403
+      internalID: 1058610107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1536
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a0cb8873576442eb3eb5de2f615e92
+      internalID: 1669517276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1536
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e08e696e50274fb98856bd26a60b8b6
+      internalID: 1059695813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1536
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddd239bf9bee43f894c3a65657a3527
+      internalID: -322058731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070b335d99e024bb5995c465853bb064
+      internalID: -81424296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1472
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecbb292164ff4ba6af923e536210dce
+      internalID: -1503071358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1472
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7582a272bd641acaf913c2b5248b97
+      internalID: -1997904577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a59ae894d6b4cf69a873255fc7bc9c
+      internalID: 942699399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_39
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b708c787551b456b851c97d9675c40a
+      internalID: -1891814020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eae25ea80eb4ecbb0c9b7331ef99a0
+      internalID: -1287485734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1472
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86bc210f894146c7a2f9b98d44a45c6
+      internalID: -72911240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bdc4f301394435cba026991be8c59b
+      internalID: 385859625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7081f81d3df47c6b35840e8bab9e85
+      internalID: -286102317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1408
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5f40f78bf7f4cfd9e62aff8e176dd8
+      internalID: -639390658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1408
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2948e98640040a58685776378d9fa4
+      internalID: 1378790525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba15e63b6e9f64b0d9a0ab6b2a02061f
+      internalID: -778395990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1409
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683450a0c9eb443a99356c524c7a2ef2
+      internalID: 145595987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1409
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406e9a8c6ac0f4c99af40c98d10b2e38
+      internalID: -1514131590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1408
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7e157d77d14b28a55255bf17495eb
+      internalID: 535810574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1409
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863f1fbf548e7409ea530dbe07fca7d7
+      internalID: -794779349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1409
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198c74099a0214858b1f40e5fb2b0728
+      internalID: -494869997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1344
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37916d25254c047e3943aa7d03168285
+      internalID: 1924939802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1344
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c48c00a3e344b5b159dd503c220fb
+      internalID: -304552041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c13dbaef0006496a846f6c00df128f4
+      internalID: -496743089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cb34bca83b44ad39c1a09f01b1017b
+      internalID: -5813096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841c98c386822402787d01368fd93629
+      internalID: 588135907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1344
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5421aa40a2425c959b56e69752462
+      internalID: -1196140283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff617fc38ed054a9da182474bd982bcd
+      internalID: -1554222703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05720efa7144c4a99b242a64acfbbb7b
+      internalID: 511713584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_60
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68208696e3ef4432e85669619aaafed0
+      internalID: 2102129167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27f4df636b90445e9909bde1c18f877
+      internalID: -1542254730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9158f6acbf694264bda78d685f71dd2
+      internalID: 1941918946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1280
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32600f8f3a8e04f25b21555296cd3221
+      internalID: 106621508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edf5b6110e9e405daefbfacae7b341c
+      internalID: -752998931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510895f5dd5374f6286da7beb4248111
+      internalID: -298196083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0b917d84ed243dfb7f95a1701d0980
+      internalID: -1494226285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1280
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729df96cb5d447e29711cc2406b9195
+      internalID: -15160956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9998b8d7bbb46f1b192e693fe1a064
+      internalID: 1099397132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa660a35b8ec94ebeb55902996e26006
+      internalID: -882537577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_70
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1216
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9907399ce8d4ede99245b2352ac233
+      internalID: -315848301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_71
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40079c2459e6e459aaf27fa96d9e6dfd
+      internalID: -328025843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_72
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1e36ee8660a44ff9a8df67f647d093
+      internalID: -505514691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_73
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c811a8a956d4685869f1ceb990f067
+      internalID: -1173218801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1216
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7805391ccb3ca401ebe9d915f219225d
+      internalID: 458745198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_75
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b796ae174ca44ed099660d0dfe7776e
+      internalID: 2090993247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_76
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612717ce8c8f4187972e45e60951f32
+      internalID: 1136626262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_77
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f1705d3c3224c329cdec33ca9e4f76
+      internalID: 79333145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_78
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9a5aa19d239451e9cdf6630d35a4d4
+      internalID: -197600841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_79
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5376ccd3ba9ea4027b8c286b97007abb
+      internalID: 478830296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f083151d804c778da74141532bde1
+      internalID: -1699696055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1eee6dbae374ebf8557045cdcc6a4b
+      internalID: 1795790393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_82
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1152
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff24b52d62cba4d1d9524122a5416f02
+      internalID: -459232634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_83
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98116d65a54e14ff99b77d0ad0c98dcd
+      internalID: 1040755519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_84
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6813d4d67b6cb4d1689d7522d45413a5
+      internalID: -1052799222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65efe4d7e48744d158c5b8df1c1dc2fa
+      internalID: 540371728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682d5c33aa6c344878664d367df06e25
+      internalID: 210461728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b126a950908964864b10d94911b68413
+      internalID: 1929812083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1088
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dbf19b8b84d4df187f4cf15e4abcbd
+      internalID: 702420483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2268cee57fab04aec8d716b7a3e5aef2
+      internalID: -2023279845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d4365165ca64108bb10ac35efe1b7e
+      internalID: 529735523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4efd059b04844875ad61b2850cf2f4e
+      internalID: -1932431927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1088
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8093fa57884df2aefb0aeedd6fd34
+      internalID: 1252534699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_93
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e8c5dd9d307424f8c29d3f00a94202
+      internalID: -617819844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5e2fecf71b44b52851e118311596b9
+      internalID: 414974968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b56f8b7f7b30474eac61d415165ad88
+      internalID: -1782455610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_96
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1024
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22ce61f3a6174d2c835d622d04be511
+      internalID: -1912838444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_97
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1024
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fce1052320e43c68e0a9bfc874e7be
+      internalID: -2100443177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1024
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e6c769819744198aab93b80193fa0e
+      internalID: 1610303758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1024
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e949e4955817b4c429d59a856430133e
+      internalID: -21385737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_100
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1024
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80bdb53556c42e0bee5a19829d6213
+      internalID: -1772331539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1024
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f3746c4703a46f087ccf88ed84357b
+      internalID: -374884196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_102
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 960
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658a73681478247d0be56981f1647199
+      internalID: 1813069528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_103
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 960
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22f5273aebe549d1a207e60587790f5
+      internalID: -1491616859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_104
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 960
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6f4d5f838e842aeac1394e19d58bfc
+      internalID: 1295860896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 960
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d189f7948149f4c50b276b5a778b141e
+      internalID: -571191730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 960
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1552587f5dd4381a132c03d0da981a
+      internalID: 1254874342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 960
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c348f7afe094e17b00fb3e032784e9
+      internalID: -1811854394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 896
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e34c457d6af444279c7ef9dfc938d51
+      internalID: -1778811451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_109
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 896
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f029c0b207246e1843d92eb86dcf97
+      internalID: 1231756203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_110
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 896
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8b3153983644e77972930f7e57475e
+      internalID: -379482419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_111
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 896
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdba3b4aa70641cab464f1a4e231016
+      internalID: -1830916119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_112
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 896
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e899c9c76253e4a88b8992f1fe974494
+      internalID: -1114952537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409e3374f177344939935abb777598f5
+      internalID: 934096763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72db3bddd6874a26b492c74d6e79305
+      internalID: -578239475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_115
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 832
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b466d331ea4447e1881db177454146b
+      internalID: -1662297773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_116
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 832
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d6ad4e299d4ebc95a08820796004f
+      internalID: -574882643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 832
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84090a48d34fd43719c62ea6e23b03d3
+      internalID: -1607078994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_118
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 832
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd7fbde615de4f5785ab2e34ebbbc30
+      internalID: -1316043596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_119
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 832
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abd9855549c7405e8bfa1784e928b10
+      internalID: -1266482733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_120
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 768
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff703cdf98f3e427a923f68e32e83605
+      internalID: -1660142037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_121
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 768
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef3dae9b7dbb4d7295e4c6162c0c655
+      internalID: 258077561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 768
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7025e9cac384519af29bc1fca543e8
+      internalID: -1417706759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_123
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7878a8cf99f74d988adf78202824ff8
+      internalID: 789515332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_124
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 768
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532457e4197d84f7ea710be4c869ec25
+      internalID: 45902522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_125
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 768
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dacf7e3784649998fb4e74e37a1d24
+      internalID: 754123231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_126
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 768
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b3e4ac206b4933ba9da6fdbea544e
+      internalID: 121749442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_127
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cd12233f33441d285356dfd7e328eb
+      internalID: 1421728801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_128
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 768
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01269cb34c7e14178962dd31379513e9
+      internalID: -1327171937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_129
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b0528a72be84948ac4d0d42c76e329
+      internalID: -1808203517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_130
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41809d77b64d47078621ade5058a0b9
+      internalID: -1673375411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_131
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28acfc8e7b4fb4ab4a2a4c4e6fa75f8c
+      internalID: -1687911937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_132
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ec03bb012f54154871d4e8050c78e3
+      internalID: 411150272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_133
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 704
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071bbada7bd3c40a491c08c82517e53b
+      internalID: -639160367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_134
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 704
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5de018b3f8c43199216b40a22a993a
+      internalID: -1014356020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_135
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 704
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaaa27b18fc442e4815e52cbe6898a7
+      internalID: -245852588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_136
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 704
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0af0f4b40bd4725953b914fc631eef
+      internalID: -320148579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_137
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 704
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72822c8d5d4c44942b7cefaaf08cbbc9
+      internalID: 346527003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f77471fa6ba49ed9ca6d86874c45fa
+      internalID: 1969840310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_139
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 704
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22622f8f22942bf9599e59fc47e011
+      internalID: -160893239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_140
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 704
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177bfa76fe1e49719532f5e5f2d87b8
+      internalID: 1349086547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_141
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 704
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23a3fb027fd46d6b0363f4fb4bfb1b
+      internalID: -1987790555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 704
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aac0ce524ea49e3a64a32a1a49c9c1
+      internalID: 1198379076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 704
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca514f169f1a44ec097c614a78e66b74
+      internalID: 1624955994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 704
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a3a9f83b2144ce9b9976f41127cdfe
+      internalID: 209941489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_145
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 704
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6969cd821ae884cdf90c851e18fe03d9
+      internalID: 1631049405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_146
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 640
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c6f4442635d43f1aaa6fc63d06c1fb
+      internalID: -2029351805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_147
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 640
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab3c4d70ce7d4597bcaeddffb32fcd2
+      internalID: 1138321324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_148
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 640
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5c8bb8393f049d6ad1be23c4411921
+      internalID: 2025600429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 640
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873cf4b3589f147b88b36284a23ce3fa
+      internalID: -1619343721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d025b8033074829a431f301c5a9504
+      internalID: -2005412879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1210f13d4a684dc7b2c124be9aef5dc
+      internalID: -85886359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ce0311fb224033a59da7a8192c0ff
+      internalID: -1106585436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_153
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd4385b698d4556856f4863183ef8a
+      internalID: -809365101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_154
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee93b778c376a44ef8b7850599be8457
+      internalID: 789472976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d124ecdd3940c8a8c2b3a8a866087
+      internalID: -922437212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_156
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055e4b416127448209c8b83a11bbc20c
+      internalID: -277855401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_157
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8217da8a0d0242caab97211ffedea31
+      internalID: -1142005541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_158
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cfd7d5ff90e49b1b7f3021d7b47256
+      internalID: 2124552296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_159
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 576
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826fa9ba7bd1475197ba351ab1ec02e
+      internalID: -648720334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_160
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 576
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d088bc90eab344d2be85f564c521bfd
+      internalID: 252673885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_161
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 576
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb6fc43fb6a141c188f93b107179cd7
+      internalID: -230726208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 576
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eb23ba228fa4eba8468b800acff24c
+      internalID: 1006173855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_163
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 576
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc18718979543129a3341c1d22a7df
+      internalID: -1320209320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 576
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c57b82fb8884739af17d2a177d17ae
+      internalID: 713799862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 576
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c42318edffff444ea4df1cc97ef599f
+      internalID: -1403565978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_166
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 576
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76db13c43aa04526b4961fdd3de13d5
+      internalID: 1100810149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_167
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 576
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6bb8daf519e4a0c8a31faf76c3aa62
+      internalID: 1383009700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_168
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 576
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fff3b6d0704941e7b0cf39b7186c33b
+      internalID: -427458026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_169
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 576
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08904331ae7c84f448977ad26b636ae0
+      internalID: 377548568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_170
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 576
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4154fd51f054419b836d10fb8e4961d
+      internalID: 1498774737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_171
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 576
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9d7cf74de274330b7f6abf0c70043f
+      internalID: 35016086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 512
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe0514e7141644529bcb6618ad6e69f
+      internalID: 90900865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 512
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33e0530fd5744049c769fed0012eb3
+      internalID: -1478768869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd47609bb1c4e6cbc16ea299630143
+      internalID: -238294175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_175
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3bf7d27926c4a4fa54985715a5eaa2
+      internalID: -728120197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_176
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 513
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd5e36fb72ec4c4799c356fe415b9ee
+      internalID: 2079687423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_177
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 512
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d5c309af06d44b4aab6ef34b7735ff
+      internalID: -1379440603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_178
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49545e91ee6142429129764a50346e6
+      internalID: -1802002898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_179
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174d1e8feafe541c192e78497732aa50
+      internalID: -1542044583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_180
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144d3fd37ef0b45a8b9d3c75323090af
+      internalID: 91000049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_181
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 416
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b784758bded4e8c99e2ddf4c238598
+      internalID: 2053190366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_182
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc75f0e4d31f948f4a922a4bead13646
+      internalID: -916034277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_183
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938da9417e27f4ecc8d129a64c7f19ae
+      internalID: -496246822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_184
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4c172d0319f477fb5ef3947addcb1d
+      internalID: -1718407169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_185
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 416
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb5480e2ee9494eb1c196801c858b0
+      internalID: 441795879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_186
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5849690c9b19f4cc18c3f042d99780ef
+      internalID: -250037160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_187
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fe1d063b3e540bda5e1efb33795ad8
+      internalID: 1065630598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_188
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8b395744194d88bd44b5f6a01a833
+      internalID: 619891090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_189
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9569c9db72eb949819221dd741741b78
+      internalID: 1099183547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_190
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fed635b12474ee18320f1c4c615d83
+      internalID: -1191565938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_191
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 288
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a173e7cb654a4635a8b234fb94515b6
+      internalID: -1421974623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_192
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 288
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd07fa8f03014c85a777e683b0d556f
+      internalID: 1943172457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_193
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db285311e39a54a07a527b3681652a7e
+      internalID: 1041964596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_194
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229e253dd1d0a47059ae9d26cf4f792d
+      internalID: -846618006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_195
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4891cdf11e1f421e89adcb3f14c765f
+      internalID: -1167672070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_196
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ea6717b691c4d1f873d20d6d764e70
+      internalID: -2060310471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_197
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776107fd5e984477ca853267d707d03f
+      internalID: 1172785807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_198
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f6889518e6c427c9815e17bb7428a1
+      internalID: 1389946140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_199
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 160
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e3f1df8bd5049358649461cc362322
+      internalID: -1271038134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_200
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed08db9abf94c5eb03cb56ea916000
+      internalID: 1726204507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_201
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46dc877e9080400db0455b344b99b66
+      internalID: -1464960231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_202
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eab50b4c6744e9983b33388f5406f3
+      internalID: -1322744606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_203
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 160
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b17289c060ac432c8d6a96a01297cca
+      internalID: -448032775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_204
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8f182546a7404ebe3c4cac513a892
+      internalID: -1451610019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_205
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f182106519664005bfcb3b75b03abfd
+      internalID: -346665932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_206
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4e4f11bd44442978836092d515b103
+      internalID: 330648127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_207
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d164a20a934d4a268b05f784f5b479c
+      internalID: -437939379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_208
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fa51bfbc3ed4ae1be6f681c968f555
+      internalID: -358580103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_209
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 32
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736da3489b60a4418a90c92f9114937f
+      internalID: -2146219421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_210
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 32
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385035718ad774ae1b2be319985c59c3
+      internalID: 742096195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_211
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033b4e879729343d49a96117b33c59f1
+      internalID: -1749958826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_212
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3d7072824ea4c3590306761e7bb41f
+      internalID: 1447888713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_male_knight_213
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32522a9b84184aa29f9c7af20ff8b05
+      internalID: 1921159104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +4652,221 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simple_archer_male_knight_0: 1752137451
+      simple_archer_male_knight_1: 588126161
+      simple_archer_male_knight_10: -651008797
+      simple_archer_male_knight_100: -1772331539
+      simple_archer_male_knight_101: -374884196
+      simple_archer_male_knight_102: 1813069528
+      simple_archer_male_knight_103: -1491616859
+      simple_archer_male_knight_104: 1295860896
+      simple_archer_male_knight_105: -571191730
+      simple_archer_male_knight_106: 1254874342
+      simple_archer_male_knight_107: -1811854394
+      simple_archer_male_knight_108: -1778811451
+      simple_archer_male_knight_109: 1231756203
+      simple_archer_male_knight_11: 269557593
+      simple_archer_male_knight_110: -379482419
+      simple_archer_male_knight_111: -1830916119
+      simple_archer_male_knight_112: -1114952537
+      simple_archer_male_knight_113: 934096763
+      simple_archer_male_knight_114: -578239475
+      simple_archer_male_knight_115: -1662297773
+      simple_archer_male_knight_116: -574882643
+      simple_archer_male_knight_117: -1607078994
+      simple_archer_male_knight_118: -1316043596
+      simple_archer_male_knight_119: -1266482733
+      simple_archer_male_knight_12: -527056234
+      simple_archer_male_knight_120: -1660142037
+      simple_archer_male_knight_121: 258077561
+      simple_archer_male_knight_122: -1417706759
+      simple_archer_male_knight_123: 789515332
+      simple_archer_male_knight_124: 45902522
+      simple_archer_male_knight_125: 754123231
+      simple_archer_male_knight_126: 121749442
+      simple_archer_male_knight_127: 1421728801
+      simple_archer_male_knight_128: -1327171937
+      simple_archer_male_knight_129: -1808203517
+      simple_archer_male_knight_13: 67639374
+      simple_archer_male_knight_130: -1673375411
+      simple_archer_male_knight_131: -1687911937
+      simple_archer_male_knight_132: 411150272
+      simple_archer_male_knight_133: -639160367
+      simple_archer_male_knight_134: -1014356020
+      simple_archer_male_knight_135: -245852588
+      simple_archer_male_knight_136: -320148579
+      simple_archer_male_knight_137: 346527003
+      simple_archer_male_knight_138: 1969840310
+      simple_archer_male_knight_139: -160893239
+      simple_archer_male_knight_14: -6510500
+      simple_archer_male_knight_140: 1349086547
+      simple_archer_male_knight_141: -1987790555
+      simple_archer_male_knight_142: 1198379076
+      simple_archer_male_knight_143: 1624955994
+      simple_archer_male_knight_144: 209941489
+      simple_archer_male_knight_145: 1631049405
+      simple_archer_male_knight_146: -2029351805
+      simple_archer_male_knight_147: 1138321324
+      simple_archer_male_knight_148: 2025600429
+      simple_archer_male_knight_149: -1619343721
+      simple_archer_male_knight_15: 1135958896
+      simple_archer_male_knight_150: -2005412879
+      simple_archer_male_knight_151: -85886359
+      simple_archer_male_knight_152: -1106585436
+      simple_archer_male_knight_153: -809365101
+      simple_archer_male_knight_154: 789472976
+      simple_archer_male_knight_155: -922437212
+      simple_archer_male_knight_156: -277855401
+      simple_archer_male_knight_157: -1142005541
+      simple_archer_male_knight_158: 2124552296
+      simple_archer_male_knight_159: -648720334
+      simple_archer_male_knight_16: 120572999
+      simple_archer_male_knight_160: 252673885
+      simple_archer_male_knight_161: -230726208
+      simple_archer_male_knight_162: 1006173855
+      simple_archer_male_knight_163: -1320209320
+      simple_archer_male_knight_164: 713799862
+      simple_archer_male_knight_165: -1403565978
+      simple_archer_male_knight_166: 1100810149
+      simple_archer_male_knight_167: 1383009700
+      simple_archer_male_knight_168: -427458026
+      simple_archer_male_knight_169: 377548568
+      simple_archer_male_knight_17: -1973837886
+      simple_archer_male_knight_170: 1498774737
+      simple_archer_male_knight_171: 35016086
+      simple_archer_male_knight_172: 90900865
+      simple_archer_male_knight_173: -1478768869
+      simple_archer_male_knight_174: -238294175
+      simple_archer_male_knight_175: -728120197
+      simple_archer_male_knight_176: 2079687423
+      simple_archer_male_knight_177: -1379440603
+      simple_archer_male_knight_178: -1802002898
+      simple_archer_male_knight_179: -1542044583
+      simple_archer_male_knight_18: -1633270359
+      simple_archer_male_knight_180: 91000049
+      simple_archer_male_knight_181: 2053190366
+      simple_archer_male_knight_182: -916034277
+      simple_archer_male_knight_183: -496246822
+      simple_archer_male_knight_184: -1718407169
+      simple_archer_male_knight_185: 441795879
+      simple_archer_male_knight_186: -250037160
+      simple_archer_male_knight_187: 1065630598
+      simple_archer_male_knight_188: 619891090
+      simple_archer_male_knight_189: 1099183547
+      simple_archer_male_knight_19: -426208816
+      simple_archer_male_knight_190: -1191565938
+      simple_archer_male_knight_191: -1421974623
+      simple_archer_male_knight_192: 1943172457
+      simple_archer_male_knight_193: 1041964596
+      simple_archer_male_knight_194: -846618006
+      simple_archer_male_knight_195: -1167672070
+      simple_archer_male_knight_196: -2060310471
+      simple_archer_male_knight_197: 1172785807
+      simple_archer_male_knight_198: 1389946140
+      simple_archer_male_knight_199: -1271038134
+      simple_archer_male_knight_2: 157940781
+      simple_archer_male_knight_20: -888486799
+      simple_archer_male_knight_200: 1726204507
+      simple_archer_male_knight_201: -1464960231
+      simple_archer_male_knight_202: -1322744606
+      simple_archer_male_knight_203: -448032775
+      simple_archer_male_knight_204: -1451610019
+      simple_archer_male_knight_205: -346665932
+      simple_archer_male_knight_206: 330648127
+      simple_archer_male_knight_207: -437939379
+      simple_archer_male_knight_208: -358580103
+      simple_archer_male_knight_209: -2146219421
+      simple_archer_male_knight_21: -8700881
+      simple_archer_male_knight_210: 742096195
+      simple_archer_male_knight_211: -1749958826
+      simple_archer_male_knight_212: 1447888713
+      simple_archer_male_knight_213: 1921159104
+      simple_archer_male_knight_22: -184633776
+      simple_archer_male_knight_23: 1299979290
+      simple_archer_male_knight_24: -1963681867
+      simple_archer_male_knight_25: 1204032671
+      simple_archer_male_knight_26: 257825048
+      simple_archer_male_knight_27: -105932430
+      simple_archer_male_knight_28: -45188368
+      simple_archer_male_knight_29: 622571495
+      simple_archer_male_knight_3: 85959033
+      simple_archer_male_knight_30: 922160857
+      simple_archer_male_knight_31: 1058610107
+      simple_archer_male_knight_32: 1669517276
+      simple_archer_male_knight_33: 1059695813
+      simple_archer_male_knight_34: -322058731
+      simple_archer_male_knight_35: -81424296
+      simple_archer_male_knight_36: -1503071358
+      simple_archer_male_knight_37: -1997904577
+      simple_archer_male_knight_38: 942699399
+      simple_archer_male_knight_39: -1891814020
+      simple_archer_male_knight_4: -326435677
+      simple_archer_male_knight_40: -1287485734
+      simple_archer_male_knight_41: -72911240
+      simple_archer_male_knight_42: 385859625
+      simple_archer_male_knight_43: -286102317
+      simple_archer_male_knight_44: -639390658
+      simple_archer_male_knight_45: 1378790525
+      simple_archer_male_knight_46: -778395990
+      simple_archer_male_knight_47: 145595987
+      simple_archer_male_knight_48: -1514131590
+      simple_archer_male_knight_49: 535810574
+      simple_archer_male_knight_5: -900347610
+      simple_archer_male_knight_50: -794779349
+      simple_archer_male_knight_51: -494869997
+      simple_archer_male_knight_52: 1924939802
+      simple_archer_male_knight_53: -304552041
+      simple_archer_male_knight_54: -496743089
+      simple_archer_male_knight_55: -5813096
+      simple_archer_male_knight_56: 588135907
+      simple_archer_male_knight_57: -1196140283
+      simple_archer_male_knight_58: -1554222703
+      simple_archer_male_knight_59: 511713584
+      simple_archer_male_knight_6: 1733237903
+      simple_archer_male_knight_60: 2102129167
+      simple_archer_male_knight_61: -1542254730
+      simple_archer_male_knight_62: 1941918946
+      simple_archer_male_knight_63: 106621508
+      simple_archer_male_knight_64: -752998931
+      simple_archer_male_knight_65: -298196083
+      simple_archer_male_knight_66: -1494226285
+      simple_archer_male_knight_67: -15160956
+      simple_archer_male_knight_68: 1099397132
+      simple_archer_male_knight_69: -882537577
+      simple_archer_male_knight_7: -1993606155
+      simple_archer_male_knight_70: -315848301
+      simple_archer_male_knight_71: -328025843
+      simple_archer_male_knight_72: -505514691
+      simple_archer_male_knight_73: -1173218801
+      simple_archer_male_knight_74: 458745198
+      simple_archer_male_knight_75: 2090993247
+      simple_archer_male_knight_76: 1136626262
+      simple_archer_male_knight_77: 79333145
+      simple_archer_male_knight_78: -197600841
+      simple_archer_male_knight_79: 478830296
+      simple_archer_male_knight_8: 1226534842
+      simple_archer_male_knight_80: -1699696055
+      simple_archer_male_knight_81: 1795790393
+      simple_archer_male_knight_82: -459232634
+      simple_archer_male_knight_83: 1040755519
+      simple_archer_male_knight_84: -1052799222
+      simple_archer_male_knight_85: 540371728
+      simple_archer_male_knight_86: 210461728
+      simple_archer_male_knight_87: 1929812083
+      simple_archer_male_knight_88: 702420483
+      simple_archer_male_knight_89: -2023279845
+      simple_archer_male_knight_9: 1478063755
+      simple_archer_male_knight_90: 529735523
+      simple_archer_male_knight_91: -1932431927
+      simple_archer_male_knight_92: 1252534699
+      simple_archer_male_knight_93: -617819844
+      simple_archer_male_knight_94: 414974968
+      simple_archer_male_knight_95: -1782455610
+      simple_archer_male_knight_96: -1912838444
+      simple_archer_male_knight_97: -2100443177
+      simple_archer_male_knight_98: 1610303758
+      simple_archer_male_knight_99: -21385737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

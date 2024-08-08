@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -132,9 +132,5020 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2303
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17af2a7b056fc425fb87300be4d2fd88
+      internalID: 864680816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2303
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab02824d9fe2943a6961f7c9189059a5
+      internalID: -1278907324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2303
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26fba4c328084ed1b15d7a72c48483d
+      internalID: -89929992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2303
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeb2a6e21a9e41f998de147ba322c34
+      internalID: -370993679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2303
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14ff401d05414a3c8edd4892ad792a1
+      internalID: -304359601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2303
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f670c1165af84264ae1d6943ee4116d
+      internalID: 852959925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2303
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495f67984ceb54a4fba88a02b8058193
+      internalID: 421062904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2239
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba28caf1896964843b75dc51f005bb04
+      internalID: -1848915689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2239
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ed01eec949a487bb7d476b828cabb9
+      internalID: 2039043894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2239
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2ef019514b4fe987f383324929007
+      internalID: 49139459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2239
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d21e8d6428fb40e2aad670497950e8a
+      internalID: -614897182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2239
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e2b998e46e749dbbe49a07cb85e4bf
+      internalID: -874764203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2239
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ea0fc3add84ae48d58bf8e5d9d17a
+      internalID: 1553749559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_13
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2239
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117b38bfc93ea4d24afa4379d203b4a3
+      internalID: 1284536184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2174
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf424d7d4a074924b36f84f308b9e67
+      internalID: 1512093529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2174
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3b3d32b860c46c4852f64e0f73d931
+      internalID: -9690604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2174
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8b4a7df8882474f84b9c3ecb73ee11
+      internalID: 911678212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2174
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9049421030b4ecabb07e162c713fc1
+      internalID: -1121955387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2174
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc878b015fec4c15b3ab20f9011a392
+      internalID: 308422055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2174
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06ea8d6301964a2980f5a25cd433861
+      internalID: -1453320599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2174
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd309e0426f24f5a872ba1caacb9e75
+      internalID: 1270201137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2111
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5a909c86aac4458ae42eeb493db1b3
+      internalID: 1769897666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2111
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa306545049724631bf357dec0849d58
+      internalID: 1559097539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2111
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9cb54d993374fda86f00026d91e768
+      internalID: 1044746221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2111
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee0c7f399e1943ab96afd4d58cfe272
+      internalID: 1941158564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2111
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8005ad0e9284671be610f33bc30c90
+      internalID: 1233954570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2111
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2180d9a6c2c2f42e4b63f44a0a409bcf
+      internalID: 642467026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2111
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e53eb6bebd7e42aeac452d6743ceecf
+      internalID: 1314438177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2047
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e752a944bde04446e8f64da8b63f1ac4
+      internalID: 1824850240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1b62ab40b8d4061baaf8869af1c608
+      internalID: 245491102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2047
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba5e3ec8e1d24c5ca8453157d8d4921
+      internalID: 340165809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2047
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b578f17825ef746bea7e58f8e6ff8781
+      internalID: -497745419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2047
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee28e19969f1343108ab5d1857253ab5
+      internalID: -394599819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2047
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b227fae101345b69cb854ff64ba9c7
+      internalID: 843721555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2047
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6ece229f7fc4729b805e6bdc75ddd8
+      internalID: -1635800542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2047
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8810ddc8bec4085a8e8c4119a3f8a8
+      internalID: -345887319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1982
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af39a5efe5aa4cdca630931ba618135
+      internalID: 963026723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1982
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0c2ce52d89f4b9c9f47514e320852a
+      internalID: -1765489755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1982
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a17ec11887242af9d8083d1827222f
+      internalID: -1567073374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1982
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600560a9140004ac58c8c4a3228c150b
+      internalID: 549489452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_40
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1982
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc251271499b24fe186c3b596a26aac3
+      internalID: -1526633549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1982
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7768ec1b677c44bdfb23c06a0567066f
+      internalID: -220370434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1982
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea01db654cf3e42c5bc96e6c142eb61a
+      internalID: -1132369390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1982
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5236c875cb7479ebfa9c7f944b6ebb
+      internalID: -1567875907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1919
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3294e1ca00b34bf0a182e9b478c8acb
+      internalID: 1466824553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b82d8a3a61463f9537fda247f12b1
+      internalID: 1796677601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1919
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b318efe5d443b2a38b359c5dbf8a4
+      internalID: 1322833083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1920
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69437ff2e323437d8ca71c83b735b84
+      internalID: 840698227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1920
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a60885d71dd4c0ab6005428774f9c2
+      internalID: 1034593259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1919
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4390f4dd5965c457bad3b06f9ffc36ea
+      internalID: -332974169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1920
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb6da7cbc23a4d23a05686e2bc8fd6b
+      internalID: -764433000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_51
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1920
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54b4fd632d8343408d0dcc1d871456e
+      internalID: 1902639761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1855
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ba83b76824f46c4ba55de1aa012563
+      internalID: 2037204117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1855
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67923551eac734fccb16f43da818a65c
+      internalID: 1336604982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1855
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598abeddb727845d4b2e3a8b6cdc60b5
+      internalID: 1352594200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1855
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10a5ee26415e470196416469b6c62e1
+      internalID: 109512697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1855
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959cfe0b9ed7049d79a0a8dc7975a671
+      internalID: -848242312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_57
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1855
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e6b382d095548cc972a5066f97466f
+      internalID: 1011122452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_58
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1855
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d06388033fd4546b4f677e0acf3cd3
+      internalID: -977861580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1855
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb59c4af40d3402286884299336f24e
+      internalID: 2003745483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467df5e22e9cf446e856fba27acecf62
+      internalID: 660830615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1790
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b638cc4a8f1498a94c9eeae0f1c488
+      internalID: 434110565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ade879ee7624e959835768311adc68
+      internalID: 1102760200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1790
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e067e412300784fa081d9ea266c09aa3
+      internalID: 1930055067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1790
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204b207dc68b842b680e089ddfb57179
+      internalID: 2137363685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb949cb825cec423d88dd31c052a18e1
+      internalID: 1097870495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_66
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d157439392c457180bc790d6d6101f
+      internalID: -469465731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_67
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1790
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e07198323b0486da3b6301327abb44
+      internalID: -339451553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_68
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1790
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9dd1f3eb5bb4da487f5f8fa18aaca6
+      internalID: -1601128338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc9a6e0c81d14479ac0ce7f9e6b42e8
+      internalID: -938755152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1727
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae85303045c94dabb9567f96923f556
+      internalID: 1368696095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb9b2a0b06d14044a4cf314a3e772c0
+      internalID: 2061152667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e115b281fa4728b6240a3ce7a827a
+      internalID: -1917476703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_73
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1727
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521755b118e794d99b274cb443a8358b
+      internalID: -802011215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1727
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e4f83ba67014239aefbfefedc16b9b
+      internalID: 47971249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_75
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1727
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d127aa63e234efab079e71bbc7b053
+      internalID: 301985605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_76
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abd037c0d15440b7a9495c277a96974
+      internalID: -1239810919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1727
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4eb2e20c7cce4ba2b48825cc7a16f89
+      internalID: -1335316616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c261a8051934f5fa68e3fc574632ce
+      internalID: -1810742827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe8a2f51eda4c0aac63cb3e42253ab
+      internalID: 60513787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47689b453953f41f99b4e1508bda05b5
+      internalID: -435819694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1663
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dfdf1bf92b94985bb18823be758463
+      internalID: 2046281173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1663
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d6feff97eae4e258beddcda9fe65e7
+      internalID: 1551741219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e021088bc36474b97a65ddabebe6f87e
+      internalID: 1417799263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf30b827042f43b58d27e2bc9b556e2
+      internalID: -2083937128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_85
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1663
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031b93b9459c4274a42e07619edd6c1
+      internalID: -1852570213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1663
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e434b463f44e9fb29a8561338f010
+      internalID: 1671518005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2f89678e6e48c6a627a919249a6b3
+      internalID: 923527206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1599
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4299c90bbaaff46a5a43543cdde0cc00
+      internalID: 1232928131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c565c7bd3b5b549f2bfe779ae62dd84e
+      internalID: -243934781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a989987a68ff456f9bd4eec5f43327a
+      internalID: -497326124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_91
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eba679da58746fcadbf85219a27728
+      internalID: 1202095451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1599
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f997c3cad9a34c82b22a78041659f32
+      internalID: -336928252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1599
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83ef18ad2db44122b5df7ff8dcdb214
+      internalID: 101337041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1599
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5667f3d0da454daab59cd862174921d
+      internalID: 647081393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1599
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9df2d2ca7a949e1825c868fe615f59
+      internalID: 1538366063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1535
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a992ae03206e64d149ecfd1bc0a22621
+      internalID: -256252616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1535
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd61211bd5a9e4940b3b75e59d4f2d42
+      internalID: 892657421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_98
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1535
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20715853e82f24f4aaa0cda2086b0b62
+      internalID: -1590882090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1535
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c893deaca94c1096ccf900ffb29a5
+      internalID: -403300620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_100
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1535
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b59e77311aa4df68ee927212b33cb1
+      internalID: 1256050288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_101
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1535
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03499efc48b4c483d998c2d36e9aaf2a
+      internalID: -1396267581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1470
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d214ecf4bf84dcbbb52cfd1a097cb4
+      internalID: 626492753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1470
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bafdef1e857e4d62b86363b271553bf
+      internalID: 1500799481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1470
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809fd3a4fb1a143c49edb49789f5bad7
+      internalID: 627387883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1470
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df6909f7a365421d90dbd1bd35dfcd5
+      internalID: -770067910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1470
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968ef01eadba4aaeaf08f1187c0539b
+      internalID: -1824603696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1470
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216b8f9d1267d4999a563f03f62f0782
+      internalID: -406830015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_108
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1407
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a856d504fdf6242a38bb0c94e8215625
+      internalID: 13736060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1407
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960c58db9f0344c5ac269d99277eaf9
+      internalID: -869922124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_110
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1407
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a35d0b3a2af4d5f869bd3845464138
+      internalID: 536597792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1407
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea48e3c79a1cb48b49b4b9943c48c0ec
+      internalID: -1186339208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_112
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1407
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35e7021dcd08417ea9c797ccd68dfab
+      internalID: 279720072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_113
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1407
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b331442ffdd4ae9870cba88ba68248
+      internalID: 1755225499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_114
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1343
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c6f977b15184696a67703b3297b5af
+      internalID: -1453947635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1343
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3880b2a35442343c4a9ddd5b87787d64
+      internalID: -60459074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1343
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672acfaa1bc244b5da36020e49609f26
+      internalID: -282800446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_117
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1343
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c020ba753034104bf712990ce9e910
+      internalID: -590403635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1343
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eabb0d165cc47f5af569cffcf30757
+      internalID: -1845822376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_119
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1343
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf7443f1bdcb42e481f79259380ab62
+      internalID: 1418609680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1278
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede6d29212c4480da3112f0451b16e5
+      internalID: -1254852688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1279
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7fecc459294882a6a0a31d91cd04e
+      internalID: -1972902421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260763335ba94a8d94841c6a642560f
+      internalID: 2082002517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf08c8f374d0f48ecbf3f7c47b2961c1
+      internalID: 471156384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a695670903ec4d28800c46f593bad50
+      internalID: 518762099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1279
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e31eb3be2eb4437ab86ccbac0f2c199
+      internalID: 1766487048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_126
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1279
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b384d6db7f68f4e95a1bf5174522d201
+      internalID: -1819765955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_127
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1279
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d855cd7ee38c41cabdb4b96367dcac4
+      internalID: 1783373333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_128
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413fd645a4b004b5b9f52e10bd889cf5
+      internalID: -571582510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1279
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56404d4eea3204b49b418560be198564
+      internalID: 744989785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_130
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1279
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247847791e0aa4a73a8a26a5351b2baf
+      internalID: 372362751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_131
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628e008a54a2f4413bff6707b65009d0
+      internalID: -1285684601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_132
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1279
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64aee332d93674bc68c7968d3510d036
+      internalID: -507558162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1215
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e03f4006e64842b26cf8b11906247
+      internalID: -1065861001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1215
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9970d93b694eb4ec58fd5e9600f56572
+      internalID: 529440522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1215
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f6e4945c3434fc3aee8b0f9b633826
+      internalID: -983589925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81371ca12dded4fb9a32ebbd32f8f079
+      internalID: 667551596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41161c9f71b004371aa2d2f3c337d603
+      internalID: -396622110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1215
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c0fe90271a84029b409e9c6aa6d0f8
+      internalID: 372200804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdbb164af75a4be3b91c275d15835f8
+      internalID: -1240008145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1215
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b19d7ddb78ce4fd39bc913feb05f2a4
+      internalID: -107104199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1215
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb351857a59b74cec97aba9c6ba541f5
+      internalID: -1694150746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_142
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f741238f9b34227880f374b01e1b96
+      internalID: -1909411792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1215
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d9eed283a044c69b203b35ffe47431
+      internalID: -1750344698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1215
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80425c2754464ebaa8a110f40ebf139
+      internalID: 1997999832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_145
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1215
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b8ceef3fa54ca5846d76db483a0c8
+      internalID: -56192939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_146
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1151
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dce1558fb5d4a10b3c5dd524807fe5
+      internalID: -976416000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1151
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e516e7c2e354546fc8405600e0c1c8a2
+      internalID: 273400330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6b4c63f28fa432e91f7eb3468b4e57
+      internalID: 299172692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1151
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf576044d0049edad8add7b43b2356
+      internalID: 1378612087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_150
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417bd068a9f7941a59960c66eaeb2329
+      internalID: -1409763239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e79b54613ad4fb4a591034a0d03ebf
+      internalID: 1222940734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0187d4539ed44bdc981a0e7ea899b5b
+      internalID: -864003554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_153
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637c601582713425190fb5e91e50075d
+      internalID: -714639966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4c5d0096240441194cda9a092286db
+      internalID: -1141510015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1151
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdc2b635e22445d598936d375a7802a
+      internalID: 1620471535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_156
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5348d90dd5e05452da18798be773ee80
+      internalID: 617237859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3c0d45a28bf46229ea78e506839d98
+      internalID: 1101035470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1151
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03830487cc94b42884069218107a61
+      internalID: 854883393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1086
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4700bd983504c268fb831968d37573
+      internalID: -720825172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_160
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1086
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b242c5e5263471abdf18769a599159
+      internalID: -1754515027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1086
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efe1b20a6eff49d79a42ce7b0ab0220
+      internalID: -888407465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_162
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1086
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc62e021ee694746a4d312b0c75dd9f
+      internalID: -790750880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1086
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0fd15c1b1ba4205897014e7ae88654
+      internalID: 1054267495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_164
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1086
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fee894a05c84057af7c959322d288a
+      internalID: 1549050075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_165
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1086
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4af2465a31747f887602fc28c6591e
+      internalID: 616597801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1086
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd778a666302430f83f49b5f654277d
+      internalID: -1931046356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1086
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991471dceb91d4b8e9c994bb5e78a03d
+      internalID: -1952248248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_168
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1086
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ed86847001748219239c827e4dffef
+      internalID: -789662442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1086
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd7b9185663243309bd0a4c99ffde2b
+      internalID: 1716344404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_170
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1086
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a16b62296824930a9a280329ddf67d
+      internalID: -913850929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1086
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127d722b6ecf045a3abb30ef3d073333
+      internalID: 1380653743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1023
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3178fd5ae5a42099e7e2fc8b51e6b5
+      internalID: 72229485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66947ccdcc3c84523bc3d285e6ac9bb0
+      internalID: 912124891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_174
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1023
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb68ab0da9954a9e8292cc126e8da63
+      internalID: 1237962003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_175
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1023
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2715abff06fc143229d2c23c424495f2
+      internalID: 1234248276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_176
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1024
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1439055e69e4b95ae49ae4619bd41b
+      internalID: -1059941783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1023
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9980bdc7a5af45f8b27f8707b9a4f8c
+      internalID: -355582532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_178
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6eef561fe63479eb8b43b7b5416255
+      internalID: -2048351548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_179
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 927
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61adc004dfe145d9b38e3abb3bfe97c
+      internalID: 2125439803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_180
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1754c98656d6b437ba17634922d9a0e8
+      internalID: -482989547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_181
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 927
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29faecb4668534fe694edfdc04641241
+      internalID: -1173818174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_182
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 927
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384c32aeade04602ab3bd6d3e311492
+      internalID: 1428562116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_183
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f3215a12674362983eebaa18d02b1
+      internalID: 1060969679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_184
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c320a703396d84f24a886fce7f8e3a3b
+      internalID: 436726972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_185
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 927
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec99bbc060cd6485e85a1a88621269b5
+      internalID: -2128756480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_186
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 927
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4d6063cdbf45c3b8cbc35e99ead68
+      internalID: 792627245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_187
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 798
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa13b6ae72d14264b50bce45bcfb4d8
+      internalID: 160214397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_188
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 798
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516cc8bc64d5a4bebaeda0c41e62eab7
+      internalID: 1636465953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_189
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 798
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a21e926140349e49e0a5c6f36cdf35
+      internalID: 1061733999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_190
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 798
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa817b2dae714087861364172f29fe2
+      internalID: 1720709375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_191
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 798
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbee3b35831147c29c7f9f0aafd32ec
+      internalID: 882830266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_192
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 798
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c22cdb4ad7fb4300b0219320b47ba82
+      internalID: 144743744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_193
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 798
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75114398e1db84eb4832511d84aa484b
+      internalID: -1236794055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_194
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 798
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c2f489f8e9b44199a1d8f0c8d1182b
+      internalID: 1740005605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_195
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 798
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fba7b3ddfcc4412804ae47aa593d46
+      internalID: -1691595715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_196
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280507ad27457415ab8e16a7b6c0c212
+      internalID: 252658849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_197
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 671
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be69c71fb1f77476ebb0b6d00d7d00ca
+      internalID: 1023523138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_198
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef8ca4905c2444c0bc24baa7a6f8bb1
+      internalID: -1961378175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_199
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 671
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8fd94427e024505b6f9c0795cc02a2
+      internalID: -1020794524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_200
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 671
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8356d181fd27b43fcacb8c1eeee6d7c0
+      internalID: 2027335013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_201
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae641e14c86a4160b75b47acb427966
+      internalID: -116223692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_202
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca2a5be456c45da905146b061dee4a
+      internalID: -774917233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_203
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 670
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5681a4c5ac474b0fadc436ea5ad2e6a
+      internalID: 187072227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_204
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 671
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f5eb8b8f86f45cfa99487244c01e8a
+      internalID: -159188907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_205
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 543
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838dd7b04224b4474906efdfee30cefa
+      internalID: -521412202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_206
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 543
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd20b2b19578a448f8a40f57e56e6411
+      internalID: 241775288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_207
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 543
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858682d9756a4af9a66deec08d2af51
+      internalID: 994611435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_208
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 543
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde9bba71a64843869f567493ea869d2
+      internalID: -1435944369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_209
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 543
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7035e2d2634594364956123ea952d30b
+      internalID: 1707632739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_210
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 543
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e275ed7e81f6641528a3385120d16d09
+      internalID: 2098356198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_211
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 543
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef4e5df277e485c933a58b698b96cf
+      internalID: 1753166283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_212
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 543
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f5c81a14b1b43fcbb2e0529a7e26ee
+      internalID: -1039511099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_213
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 543
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88e1e438158d49a2a9bdf8f3adfaace
+      internalID: 1108469974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_214
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 415
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb596d5198054060b4e72028252d0a8
+      internalID: -1778679113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_215
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 415
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ac8596ad1954c9e9b5e850c8558a96
+      internalID: 1009928973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_216
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 415
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a002401879c47f79bcbcb835510397
+      internalID: -1240242562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_217
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 415
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacebb990b7254f3b8ecd613922a6ebd
+      internalID: -2023795768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_218
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 415
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dad713d132e4193822090de2aae475
+      internalID: 1479437869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_219
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 415
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610d4acf7aa5d4f8783773981feefcd6
+      internalID: -426228213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_220
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 286
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b4d9769e51444c8b13fa55e816ab11
+      internalID: 1651554277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_221
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 280
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4297cd9e46a4fbba8bb53ba34c563e
+      internalID: -688675863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_222
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 280
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051ab8937c459456aab8e13f24e04800
+      internalID: -1862108657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_223
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 284
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcfc029f70734787bf6d7fc5cdd6bbf
+      internalID: -582720398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_224
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 286
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f400ff9b522b493fbf9e7a5ecffd697
+      internalID: -635178953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_225
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 286
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec3fb1ac575d4ac199e142fd48f9abf
+      internalID: -159363394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_226
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 159
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cebe6b851eb34303af15e0b1e0c86d2
+      internalID: -1024505104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_227
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 159
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00500f681aecb44cbad079f956f3afdd
+      internalID: 198785323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_228
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 159
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e96eb061bb46afa9688535d5b5d88
+      internalID: -82397321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_229
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 159
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80c2d04fa5b49fbac50c462822f585
+      internalID: 89558758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_230
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 146
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63a3d42c33af481bbc4266b453a5bf2
+      internalID: -638323626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_231
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 159
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a15a7cf0f14b2f8bb136d2115813d
+      internalID: -2076032211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_232
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376eece8417f34cc9a18c7109c2f8f2e
+      internalID: 1234902335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_233
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 24
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed547dabcd3ef45deb0ce6693c497604
+      internalID: 1420055487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_234
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 24
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a1da7e234c144d288366f55a83650c
+      internalID: -1167386968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_235
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 28
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a8d57eeed8d41a49e3373f5aac5ba7
+      internalID: 928624158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_236
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 31
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcb742ef6ca34fdbbb8c01533221557
+      internalID: 411845731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ennemy_male_sword_knight_237
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 31
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffb7ab9d636c44f798b173ae1f48497
+      internalID: 1787976164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +5156,245 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ennemy_male_sword_knight_0: 864680816
+      ennemy_male_sword_knight_1: -1278907324
+      ennemy_male_sword_knight_10: -614897182
+      ennemy_male_sword_knight_100: 1256050288
+      ennemy_male_sword_knight_101: -1396267581
+      ennemy_male_sword_knight_102: 626492753
+      ennemy_male_sword_knight_103: 1500799481
+      ennemy_male_sword_knight_104: 627387883
+      ennemy_male_sword_knight_105: -770067910
+      ennemy_male_sword_knight_106: -1824603696
+      ennemy_male_sword_knight_107: -406830015
+      ennemy_male_sword_knight_108: 13736060
+      ennemy_male_sword_knight_109: -869922124
+      ennemy_male_sword_knight_11: -874764203
+      ennemy_male_sword_knight_110: 536597792
+      ennemy_male_sword_knight_111: -1186339208
+      ennemy_male_sword_knight_112: 279720072
+      ennemy_male_sword_knight_113: 1755225499
+      ennemy_male_sword_knight_114: -1453947635
+      ennemy_male_sword_knight_115: -60459074
+      ennemy_male_sword_knight_116: -282800446
+      ennemy_male_sword_knight_117: -590403635
+      ennemy_male_sword_knight_118: -1845822376
+      ennemy_male_sword_knight_119: 1418609680
+      ennemy_male_sword_knight_12: 1553749559
+      ennemy_male_sword_knight_120: -1254852688
+      ennemy_male_sword_knight_121: -1972902421
+      ennemy_male_sword_knight_122: 2082002517
+      ennemy_male_sword_knight_123: 471156384
+      ennemy_male_sword_knight_124: 518762099
+      ennemy_male_sword_knight_125: 1766487048
+      ennemy_male_sword_knight_126: -1819765955
+      ennemy_male_sword_knight_127: 1783373333
+      ennemy_male_sword_knight_128: -571582510
+      ennemy_male_sword_knight_129: 744989785
+      ennemy_male_sword_knight_13: 1284536184
+      ennemy_male_sword_knight_130: 372362751
+      ennemy_male_sword_knight_131: -1285684601
+      ennemy_male_sword_knight_132: -507558162
+      ennemy_male_sword_knight_133: -1065861001
+      ennemy_male_sword_knight_134: 529440522
+      ennemy_male_sword_knight_135: -983589925
+      ennemy_male_sword_knight_136: 667551596
+      ennemy_male_sword_knight_137: -396622110
+      ennemy_male_sword_knight_138: 372200804
+      ennemy_male_sword_knight_139: -1240008145
+      ennemy_male_sword_knight_14: 1512093529
+      ennemy_male_sword_knight_140: -107104199
+      ennemy_male_sword_knight_141: -1694150746
+      ennemy_male_sword_knight_142: -1909411792
+      ennemy_male_sword_knight_143: -1750344698
+      ennemy_male_sword_knight_144: 1997999832
+      ennemy_male_sword_knight_145: -56192939
+      ennemy_male_sword_knight_146: -976416000
+      ennemy_male_sword_knight_147: 273400330
+      ennemy_male_sword_knight_148: 299172692
+      ennemy_male_sword_knight_149: 1378612087
+      ennemy_male_sword_knight_15: -9690604
+      ennemy_male_sword_knight_150: -1409763239
+      ennemy_male_sword_knight_151: 1222940734
+      ennemy_male_sword_knight_152: -864003554
+      ennemy_male_sword_knight_153: -714639966
+      ennemy_male_sword_knight_154: -1141510015
+      ennemy_male_sword_knight_155: 1620471535
+      ennemy_male_sword_knight_156: 617237859
+      ennemy_male_sword_knight_157: 1101035470
+      ennemy_male_sword_knight_158: 854883393
+      ennemy_male_sword_knight_159: -720825172
+      ennemy_male_sword_knight_16: 911678212
+      ennemy_male_sword_knight_160: -1754515027
+      ennemy_male_sword_knight_161: -888407465
+      ennemy_male_sword_knight_162: -790750880
+      ennemy_male_sword_knight_163: 1054267495
+      ennemy_male_sword_knight_164: 1549050075
+      ennemy_male_sword_knight_165: 616597801
+      ennemy_male_sword_knight_166: -1931046356
+      ennemy_male_sword_knight_167: -1952248248
+      ennemy_male_sword_knight_168: -789662442
+      ennemy_male_sword_knight_169: 1716344404
+      ennemy_male_sword_knight_17: -1121955387
+      ennemy_male_sword_knight_170: -913850929
+      ennemy_male_sword_knight_171: 1380653743
+      ennemy_male_sword_knight_172: 72229485
+      ennemy_male_sword_knight_173: 912124891
+      ennemy_male_sword_knight_174: 1237962003
+      ennemy_male_sword_knight_175: 1234248276
+      ennemy_male_sword_knight_176: -1059941783
+      ennemy_male_sword_knight_177: -355582532
+      ennemy_male_sword_knight_178: -2048351548
+      ennemy_male_sword_knight_179: 2125439803
+      ennemy_male_sword_knight_18: 308422055
+      ennemy_male_sword_knight_180: -482989547
+      ennemy_male_sword_knight_181: -1173818174
+      ennemy_male_sword_knight_182: 1428562116
+      ennemy_male_sword_knight_183: 1060969679
+      ennemy_male_sword_knight_184: 436726972
+      ennemy_male_sword_knight_185: -2128756480
+      ennemy_male_sword_knight_186: 792627245
+      ennemy_male_sword_knight_187: 160214397
+      ennemy_male_sword_knight_188: 1636465953
+      ennemy_male_sword_knight_189: 1061733999
+      ennemy_male_sword_knight_19: -1453320599
+      ennemy_male_sword_knight_190: 1720709375
+      ennemy_male_sword_knight_191: 882830266
+      ennemy_male_sword_knight_192: 144743744
+      ennemy_male_sword_knight_193: -1236794055
+      ennemy_male_sword_knight_194: 1740005605
+      ennemy_male_sword_knight_195: -1691595715
+      ennemy_male_sword_knight_196: 252658849
+      ennemy_male_sword_knight_197: 1023523138
+      ennemy_male_sword_knight_198: -1961378175
+      ennemy_male_sword_knight_199: -1020794524
+      ennemy_male_sword_knight_2: -89929992
+      ennemy_male_sword_knight_20: 1270201137
+      ennemy_male_sword_knight_200: 2027335013
+      ennemy_male_sword_knight_201: -116223692
+      ennemy_male_sword_knight_202: -774917233
+      ennemy_male_sword_knight_203: 187072227
+      ennemy_male_sword_knight_204: -159188907
+      ennemy_male_sword_knight_205: -521412202
+      ennemy_male_sword_knight_206: 241775288
+      ennemy_male_sword_knight_207: 994611435
+      ennemy_male_sword_knight_208: -1435944369
+      ennemy_male_sword_knight_209: 1707632739
+      ennemy_male_sword_knight_21: 1769897666
+      ennemy_male_sword_knight_210: 2098356198
+      ennemy_male_sword_knight_211: 1753166283
+      ennemy_male_sword_knight_212: -1039511099
+      ennemy_male_sword_knight_213: 1108469974
+      ennemy_male_sword_knight_214: -1778679113
+      ennemy_male_sword_knight_215: 1009928973
+      ennemy_male_sword_knight_216: -1240242562
+      ennemy_male_sword_knight_217: -2023795768
+      ennemy_male_sword_knight_218: 1479437869
+      ennemy_male_sword_knight_219: -426228213
+      ennemy_male_sword_knight_22: 1559097539
+      ennemy_male_sword_knight_220: 1651554277
+      ennemy_male_sword_knight_221: -688675863
+      ennemy_male_sword_knight_222: -1862108657
+      ennemy_male_sword_knight_223: -582720398
+      ennemy_male_sword_knight_224: -635178953
+      ennemy_male_sword_knight_225: -159363394
+      ennemy_male_sword_knight_226: -1024505104
+      ennemy_male_sword_knight_227: 198785323
+      ennemy_male_sword_knight_228: -82397321
+      ennemy_male_sword_knight_229: 89558758
+      ennemy_male_sword_knight_23: 1044746221
+      ennemy_male_sword_knight_230: -638323626
+      ennemy_male_sword_knight_231: -2076032211
+      ennemy_male_sword_knight_232: 1234902335
+      ennemy_male_sword_knight_233: 1420055487
+      ennemy_male_sword_knight_234: -1167386968
+      ennemy_male_sword_knight_235: 928624158
+      ennemy_male_sword_knight_236: 411845731
+      ennemy_male_sword_knight_237: 1787976164
+      ennemy_male_sword_knight_24: 1941158564
+      ennemy_male_sword_knight_25: 1233954570
+      ennemy_male_sword_knight_26: 642467026
+      ennemy_male_sword_knight_27: 1314438177
+      ennemy_male_sword_knight_28: 1824850240
+      ennemy_male_sword_knight_29: 245491102
+      ennemy_male_sword_knight_3: -370993679
+      ennemy_male_sword_knight_30: 340165809
+      ennemy_male_sword_knight_31: -497745419
+      ennemy_male_sword_knight_32: -394599819
+      ennemy_male_sword_knight_33: 843721555
+      ennemy_male_sword_knight_34: -1635800542
+      ennemy_male_sword_knight_35: -345887319
+      ennemy_male_sword_knight_36: 963026723
+      ennemy_male_sword_knight_37: -1765489755
+      ennemy_male_sword_knight_38: -1567073374
+      ennemy_male_sword_knight_39: 549489452
+      ennemy_male_sword_knight_4: -304359601
+      ennemy_male_sword_knight_40: -1526633549
+      ennemy_male_sword_knight_41: -220370434
+      ennemy_male_sword_knight_42: -1132369390
+      ennemy_male_sword_knight_43: -1567875907
+      ennemy_male_sword_knight_44: 1466824553
+      ennemy_male_sword_knight_45: 1796677601
+      ennemy_male_sword_knight_46: 1322833083
+      ennemy_male_sword_knight_47: 840698227
+      ennemy_male_sword_knight_48: 1034593259
+      ennemy_male_sword_knight_49: -332974169
+      ennemy_male_sword_knight_5: 852959925
+      ennemy_male_sword_knight_50: -764433000
+      ennemy_male_sword_knight_51: 1902639761
+      ennemy_male_sword_knight_52: 2037204117
+      ennemy_male_sword_knight_53: 1336604982
+      ennemy_male_sword_knight_54: 1352594200
+      ennemy_male_sword_knight_55: 109512697
+      ennemy_male_sword_knight_56: -848242312
+      ennemy_male_sword_knight_57: 1011122452
+      ennemy_male_sword_knight_58: -977861580
+      ennemy_male_sword_knight_59: 2003745483
+      ennemy_male_sword_knight_6: 421062904
+      ennemy_male_sword_knight_60: 660830615
+      ennemy_male_sword_knight_61: 434110565
+      ennemy_male_sword_knight_62: 1102760200
+      ennemy_male_sword_knight_63: 1930055067
+      ennemy_male_sword_knight_64: 2137363685
+      ennemy_male_sword_knight_65: 1097870495
+      ennemy_male_sword_knight_66: -469465731
+      ennemy_male_sword_knight_67: -339451553
+      ennemy_male_sword_knight_68: -1601128338
+      ennemy_male_sword_knight_69: -938755152
+      ennemy_male_sword_knight_7: -1848915689
+      ennemy_male_sword_knight_70: 1368696095
+      ennemy_male_sword_knight_71: 2061152667
+      ennemy_male_sword_knight_72: -1917476703
+      ennemy_male_sword_knight_73: -802011215
+      ennemy_male_sword_knight_74: 47971249
+      ennemy_male_sword_knight_75: 301985605
+      ennemy_male_sword_knight_76: -1239810919
+      ennemy_male_sword_knight_77: -1335316616
+      ennemy_male_sword_knight_78: -1810742827
+      ennemy_male_sword_knight_79: 60513787
+      ennemy_male_sword_knight_8: 2039043894
+      ennemy_male_sword_knight_80: -435819694
+      ennemy_male_sword_knight_81: 2046281173
+      ennemy_male_sword_knight_82: 1551741219
+      ennemy_male_sword_knight_83: 1417799263
+      ennemy_male_sword_knight_84: -2083937128
+      ennemy_male_sword_knight_85: -1852570213
+      ennemy_male_sword_knight_86: 1671518005
+      ennemy_male_sword_knight_87: 923527206
+      ennemy_male_sword_knight_88: 1232928131
+      ennemy_male_sword_knight_89: -243934781
+      ennemy_male_sword_knight_9: 49139459
+      ennemy_male_sword_knight_90: -497326124
+      ennemy_male_sword_knight_91: 1202095451
+      ennemy_male_sword_knight_92: -336928252
+      ennemy_male_sword_knight_93: 101337041
+      ennemy_male_sword_knight_94: 647081393
+      ennemy_male_sword_knight_95: 1538366063
+      ennemy_male_sword_knight_96: -256252616
+      ennemy_male_sword_knight_97: 892657421
+      ennemy_male_sword_knight_98: -1590882090
+      ennemy_male_sword_knight_99: -403300620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

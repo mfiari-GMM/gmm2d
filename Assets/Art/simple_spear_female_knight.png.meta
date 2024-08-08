@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -132,9 +132,4495 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: simple_spear_female_knight_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2047
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11da8e7e9b59544f688993f7faf56517
+      internalID: -750884539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2047
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb9476f05b0b436bad6d00e1424bace
+      internalID: 393445712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2047
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7143b3c1dd0d4cc8a448883e39e34a1
+      internalID: -6961452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2047
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b89ebdd087444aa0a0b6a04e71420ae
+      internalID: 2031115229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2047
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5ca35a566184deeb642b08013ad48c
+      internalID: -2007271612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2047
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f97de0ca6ecd43a3a56e2deeb13cb0b
+      internalID: -33805418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2047
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b17b0e7669341d6bcfb9092bfdf09e
+      internalID: -64558955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2066
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779aa3f31acc4474893b016884812ce2
+      internalID: 1442439482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_8
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1855
+        width: 98
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9061045dfce749c6a912fd73b20bb2b
+      internalID: 2054719939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2052
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd2e31e8114f4b128c250a06a71dd53
+      internalID: 509820608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1983
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3aa8a14bcb274404b086c6cb5e4e39b
+      internalID: -1760469822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1983
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858c9f2d291674c539d1a59d5afcd805
+      internalID: 231952024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1983
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28f5e6d6a9df49ffb3e5fa7c9deb6d6
+      internalID: -1740525474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1983
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579c6db967c94487857d30362c7649d
+      internalID: -1963041072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1983
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2b84129a054994a0b9df03e68bfb9
+      internalID: 2024867333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1983
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3e07122cfac4e60bee5bba9e385c76
+      internalID: -794901650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_16
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1983
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492567240247748ba9b64a1d43cb3677
+      internalID: -1917935294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4654071ba884ce582e7bd0f43da250
+      internalID: -1348212719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd83d413682fa49df9b86f0f0d80b2d7
+      internalID: -321983194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1919
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f242e06eac6964d4a8808cdcedff2db7
+      internalID: 484285133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1919
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5f73f8c975d414b88c2e34f9049209
+      internalID: 1794935279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1919
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5df308ddea59420c93a540433170c2d
+      internalID: 1670227275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_22
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1919
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab65aa06eccb4d30975db69c8a39478
+      internalID: -1156474021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1919
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe40ded56e1c45e4931ca63788e01f3
+      internalID: -116700050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1855
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5108613403187426a8e95fa1563bff4e
+      internalID: 925640478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1855
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e07bafb71f4d45fe96dde0f67e77fbd
+      internalID: -1374163072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1855
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9c76d8e670d4c62849961b15203ce1
+      internalID: 1158389730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1855
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4fcafb04d694a36bcf129e2ba832c5
+      internalID: -916992035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1855
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d05a9bc019463f92720a6e47406f0
+      internalID: 973930489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1855
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3713e1298b44259bbcf6159e6d89b3
+      internalID: -644768298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_30
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1855
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90deb9ec2711a4b498fa974549e3e00a
+      internalID: 1697731134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_31
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1791
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c07d7d2b7db14cffa4a7f97507d51a5
+      internalID: 1980730901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1791
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda554298b5014a639812393637758cf
+      internalID: 1867394631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1791
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6692c89178fc47aab51900b0a73c381
+      internalID: 631806125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1791
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97e9d380961a4cf7b85ad685da76a7b
+      internalID: -2081415702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1791
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96b088df05c34c4ca76daf560d09036
+      internalID: 191859459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_36
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1791
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce76cec678560496aad4259bc27370f2
+      internalID: 439137725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1791
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b20e30453c485dbb1b5ac419fd831
+      internalID: 2407363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_38
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1791
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d120ac27856f447ca47399fe344a923
+      internalID: -365947745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_39
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1727
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030d0001b7a14de3901c38f3944b83f
+      internalID: 1862455949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1727
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243ff906957084d8f8fedeb87d713244
+      internalID: -354151201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1727
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6882a76ab448c2aac94a7a8c1cf2d
+      internalID: 246394125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_42
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1727
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b526a685121246e19879eae6fd04927
+      internalID: -155660948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_43
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1727
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41e6dd22b79249bb961868cce3745b0
+      internalID: -1950588456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_44
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1727
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a08e0c90f92f4a25b558151daab3505
+      internalID: -1505078720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_45
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1727
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc43542afe0477aa5c95f21d367bf0
+      internalID: 260126106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_46
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1727
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bc519053b2847e9b1b8dc69435796c
+      internalID: 198333877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1663
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b930b6eac45c458b99a1e2599506794
+      internalID: -1557524758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2135e47eb28435db835345feb91acf
+      internalID: -1226847231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1663
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6844aed00f6b4fdd9f9df3d5d978b8d
+      internalID: -1359934009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1664
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783c5dee74c1b414da210a009016162c
+      internalID: 1673516356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_51
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1664
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1acce6b5b3a489082bef6dc35f0c1c
+      internalID: 421133854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_52
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1663
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e214cdd424c4b45a0ad190524bbb52
+      internalID: -1836702672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_53
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1664
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7f7d4e6f93d45f6b98396ebaeabd7f
+      internalID: -842358280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_54
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1664
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d2d8bb8df684c0483cc7608f2c8ccf
+      internalID: 1080004704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1599
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538010d70df294561ac4c002a66f2a1e
+      internalID: -206220106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_56
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1599
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d191ec64be05b49f3a4ea7c0f3c34f0f
+      internalID: -465661686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_57
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1599
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0d25d46858e45c9b4005f86a30ff83
+      internalID: -1652187947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_58
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1599
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27098aa3d5e454447a354ff4e5c8a331
+      internalID: -1771111358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_59
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1599
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb4c4ecf523e4af48a8c50038c96cab
+      internalID: -1667362745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_60
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1599
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcd8026dfe6f4a3ab18c058fc25265f
+      internalID: -288582161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_61
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1599
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdb2f2923f284fb4a6d92b19fc15c89
+      internalID: 1227482362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_62
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1599
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ee7c498905e48349ab61ea40043fd1
+      internalID: -1627044882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_63
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1535
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8932efc83654d4d03ba17a5e3173c1b5
+      internalID: -86372561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_64
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1535
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6be122acbc64523b8af078b1ed1b81
+      internalID: 2035497799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_65
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1535
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5713170e1ee4d3e98957a123f066fa
+      internalID: 825688296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_66
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1535
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164090ceb7466466ab7db40372f45608
+      internalID: -835211661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_67
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1535
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dc3867db1624edbad47727a3bcb4c2
+      internalID: 181265866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_68
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1535
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac4a13592ab4bf8b35a7abef63cab3
+      internalID: -609458513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_69
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1535
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a3aaa2d9f624ae3a856682a3662680
+      internalID: -169761836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_70
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1535
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75812a0324bf44ad39d10cab4776647f
+      internalID: 670975674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_71
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1535
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bf7b1fabc1e4365b34cafe80ee949d
+      internalID: 209571811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_72
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1471
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a965fb263534b848ca4d9a5732cda8
+      internalID: 1692792850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_73
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1471
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf8119a13e0042eb9e96d85fe7e4a4d
+      internalID: -2010908728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_74
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1471
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc912a1680de14ff98004767d41e74d8
+      internalID: -1118420316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_75
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1471
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943a1cd07968944a4a730eae5c6029a2
+      internalID: 2058196419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_76
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1471
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bc55fd337be4c2ca2c8a721b5cd248
+      internalID: 1639537008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_77
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1471
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c339588c3d94b4606a7f7f996ae385ed
+      internalID: -397432617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_78
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1471
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22afb7ddeeb1a490689858ffcbe6be07
+      internalID: 2132424806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_79
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1471
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a55d620e13ad46818fd4d425852586b
+      internalID: -586264911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_80
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1471
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2890a8906725e4af7beede5184f8e31d
+      internalID: 1106722823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_81
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1407
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7119847be17984f1eb67f62771ab06f8
+      internalID: -564268460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1407
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3dc5b4e40b4477a848f507b05da940
+      internalID: -844656905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_83
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1407
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89ae016fed9e4bca8b7ac8bb895c468
+      internalID: -725632056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_84
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1407
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae8a0f06d9844fe8cfa6867ca338cb
+      internalID: -1308424790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_85
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1407
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f08825f49648b0bb1a0d6cf0743f0
+      internalID: 341089090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_86
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1407
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b7025cf8fb74b55883da49bd8c0c86
+      internalID: 1439561679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_87
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1407
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea2a4e9244ff407fa51cd7aea3dd8be
+      internalID: 623454452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_88
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1407
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6597fe3e1c94c3283f89b53093bdea
+      internalID: 1403003933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_89
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1407
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f49f81b2efb44788f56bdce731091b
+      internalID: -1124979180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_90
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1343
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f10b8879b0c486aadd9b03f216e122
+      internalID: -172037201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_91
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1343
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfb02a489e2948968610f1e34fc562f
+      internalID: 1129850964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_92
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1343
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ff6b4a39d494cceb289818855ea308
+      internalID: 1056593012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_93
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1343
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca4a80d9385f45dc81ce06f5c961b32
+      internalID: 1671141328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_94
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1343
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63165379bf2e04bc190948331d926228
+      internalID: -1371817599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_95
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1343
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843eba8fb582f48b495a02fe160efbbb
+      internalID: 301475462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_96
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1343
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9973c36e2502142fb9be58e440359b98
+      internalID: 1927244148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_97
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1343
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e224539f34c4747279ffbeaeedcd056c
+      internalID: -1025918064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_98
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1343
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78ac022120cc4e4f8acdb6e7c9b82a5
+      internalID: -997560142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_99
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1279
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670db802c3711461cb414cb4ca052e46
+      internalID: 1949697922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_100
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1279
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61880f3d3456145ce8303934aca6d075
+      internalID: -1943117567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_101
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1279
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd64a7e452354058aee28f81790d4ce
+      internalID: 1611633727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_102
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1279
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acac415655b4c42c4ac90c7354dafc11
+      internalID: 2048194310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_103
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1279
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb3aea05d4948d3b94e7221d25ab83
+      internalID: 1078192208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_104
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1279
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d09e345e476421c899b58af065d9bd
+      internalID: 398249837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_105
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1215
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad719ff57f2643559a6ffad7ec5af38
+      internalID: 357515808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_106
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1215
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79621698b009a4542a5c435d09bab2f7
+      internalID: 483378314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_107
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1215
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ebc1a777256493e97cd99a5ea629cd
+      internalID: -1407196767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_108
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1215
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3404bbb8d2c9341e7bd82d58c90f3b5d
+      internalID: 1321294957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_109
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdcdb9fde2104f54b9bb1e7c84068c9
+      internalID: -1261575546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_110
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1215
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a506857abd65e497e8318e37f172853e
+      internalID: -190463520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_111
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1151
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250826279a9e44b4487dd5a935626b9f
+      internalID: -280623980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_112
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1151
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f17be1c1abf942f4bdc80c6c2db3fcd
+      internalID: 728306732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_113
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1151
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5745adb194bc413bb5e634ce5979bfb
+      internalID: 841452595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_114
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1151
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8a473d178e742c2abe45745bdd31ae
+      internalID: 1939148840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_115
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1151
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9461e226fa6943508a3ffb4285b1bc2
+      internalID: 2126309490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_116
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1151
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70309d5676144d7eb8e2cdb72ea8d0a
+      internalID: 1806923515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_117
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1086
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae19ad6d291c646ebb4eb5d4be174308
+      internalID: 2084034020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_118
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1086
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf14364c0b7a4d1a8bca12f076ae35c
+      internalID: 215072820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_119
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1086
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee0e96607fb9419aa7f4904ef6996f2
+      internalID: -1040284111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_120
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1086
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8820addf881b43a78c498a234a63506
+      internalID: -1370927780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_121
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1086
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d7921d443c4fa59d2245aee2c5d36
+      internalID: -1753092171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_122
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1086
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0cb244d74e44e88ae888a6167da7d
+      internalID: 1145239545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75732ec59c98e49268cd054e8f5bf20f
+      internalID: 1359001844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa87fa88bbcfe4b338a39543942ed98c
+      internalID: 119862727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_125
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde86d794404a47338c7b5ece97e9905
+      internalID: 1145254225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_126
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a21ce32445254d02a6324c398a8cc75
+      internalID: -244864913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_127
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1023
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8a40dfb0d8428e93a98c117ae4ef5
+      internalID: 1993064752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_128
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea614c72628e4bf280dd0c1f6607484
+      internalID: 828708929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_129
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1023
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0d7daf71f0e493d88e1b47dacb5991
+      internalID: -351036304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_130
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1023
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b6ec9833f414b3e9ac3bc90b8e90a2
+      internalID: -153007099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_131
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1023
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5963edcccd341cb8f34b4e23741327
+      internalID: -1361199150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_132
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6fac0370094140bde23548321c6a9
+      internalID: -1074089983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_133
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1023
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d6cb981e5604eacbd7d083bd7efdf3
+      internalID: -1342477486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_134
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01face4a5ab774c778148f7d67db61a2
+      internalID: 106519560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_135
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1023
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835b83409d9ce4c36820e17edc39d518
+      internalID: -1637084734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_136
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 959
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd7d7b67ff5b46878bfd8e019970b9d
+      internalID: -933017978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_137
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 959
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4519c71948824c8b8c683c5f85cd485
+      internalID: 229763031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_138
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 959
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d5c3d39e5434c5a9882efe08be8839
+      internalID: 975455973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_139
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 959
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd602426f9fc4773a6837533a5631d7
+      internalID: 866379098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_140
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 959
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0e5b435d1ef41569bb4c8141c5bc35
+      internalID: 468920020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_141
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 959
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5351781193cc4700b89b1ad510a5deb
+      internalID: -1638356617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_142
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 959
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87366bdba6560448983128b1c535dc60
+      internalID: -59129413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_143
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 959
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136cca37fbcba4a3b8c60169ec1cb489
+      internalID: -1090882861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_144
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 959
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb7cc09247e244e0b91e470e67ea69b
+      internalID: -139096985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_145
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 959
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bafcf56070b4007a16ccc09c0f3e8d
+      internalID: -489488291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_146
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 959
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c5a0af4f4a42f09d53d336b0b64dc
+      internalID: 1618258983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_147
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 959
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39ed6938d9ae4629b667cace3969348
+      internalID: -928192537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_148
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 959
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711d6a1c1700c4c968a0f09192627a0a
+      internalID: -1018512467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_149
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47583af457fa54d51a51ef8f393ec19f
+      internalID: 1819165151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_150
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070d298b6b40f440b963e48811e74fff
+      internalID: -931021760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_151
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5f8afcbbe0b404aa2e2236a197b673
+      internalID: -1950680851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 895
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66908c02ff75b4ef48a3987072d1d795
+      internalID: 2119572066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_153
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4e721f819f46e0933cd3a602f2557
+      internalID: 749144387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_154
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008d68cd1ca244fa397308aefce5c948
+      internalID: -501642103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_155
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcdf981c26fa40f78171cc59aa6a8fa
+      internalID: 837029329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_156
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9cf1cff2ea342209ddac620ade6d39
+      internalID: 723601219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_157
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239d6bbcea90d49bdbfefff2f5bfa931
+      internalID: 868285578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_158
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134bf9fccc6ad47f4a1211cfca1b7e3f
+      internalID: -406190423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_159
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21e53be977ff4197af46c59d114286f
+      internalID: -1671365005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_160
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d81ac8f5899346f98b84207706d2e59
+      internalID: -138872167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_161
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 895
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c06162b51fb4248b98ee1b768efafe
+      internalID: -54429325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_162
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 831
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93442f82735a2493f8f146706fafbd66
+      internalID: -881675241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_163
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 831
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15905521a34784d6387e13215d449d29
+      internalID: 227131853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_164
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 831
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a7ee30a569c47d4aece234775ef0a9
+      internalID: 953071449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_165
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 831
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb01ebee6a3492dbeef64a8e7623ac
+      internalID: 1495560948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_166
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 831
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade460b75559a492c964501962bed13d
+      internalID: -1142499971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_167
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 831
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bacfb2ca3e641c39712d76c7223c43
+      internalID: 1796719521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_168
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 831
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019be223c97054b0db0fb207ec1788bf
+      internalID: -1183289181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_169
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 831
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215eea32784334ea2a390cd373af3c6f
+      internalID: 587094296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_170
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 831
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0838a0b0d7c455581db68fe4eafa27
+      internalID: 738892478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_171
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 831
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaa1a84a3612434eaa6873dc65be223
+      internalID: -208855550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_172
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 831
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92441c39b6564672acc0a3d9d517690
+      internalID: -979670203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_173
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 831
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff269e8d5e134bb4a685c4e628c5433
+      internalID: 266291486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_174
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 831
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a7476edbb448ef957f93e5e85c1c1
+      internalID: -1686053382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_175
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 767
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75678c1793edf492db3a44ed1645c96c
+      internalID: -1980738614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_176
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 767
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf335dfba4534a93953c0b4643e23a7
+      internalID: -1970869452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_177
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 767
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb23313f3a94d5b8d571e1f78a3a85
+      internalID: -1113581685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_178
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 767
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef75772d440541d399082a39ba43bf5
+      internalID: 932554661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_179
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 768
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77983a21c5f1344aba1fc1b8a78c254e
+      internalID: 1149755322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_180
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 767
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a4060662b844ac5a06f0665da37c73
+      internalID: 1049586198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_181
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 639
+        width: 88
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2a91c0820274d13ad33a8f4dbb6301
+      internalID: -719724093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_182
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 639
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe75803550de4c6299ab268a118da4b
+      internalID: -453462186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_183
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 639
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68e956ace5a842b5a3dfe5fe92c60ce
+      internalID: -278659223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_184
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 639
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c67e00abf148eb93f1262d067a08c
+      internalID: 311948327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_185
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 639
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71972646f0cd4854a14d9fc4fe3224f
+      internalID: 80409429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_186
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 639
+        width: 31
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277731bc059e9409ba249537e10d3a05
+      internalID: -1811997253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_187
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 639
+        width: 29
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d798b925654764a6082e0c0bb4d7528e
+      internalID: -719141460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_188
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 639
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc32ccfae0d941df8dff2dcddfd69ac
+      internalID: 99689340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_189
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 447
+        width: 82
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5006c04d60f4da79a1e79323fbc0f7
+      internalID: -457800161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_190
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 447
+        width: 85
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5794f7961de5417aa5ab7b8783a0963
+      internalID: 1262009266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_191
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcc0263d55164bcabc9280aa110a2bd
+      internalID: 893191756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_192
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7830fee89b6644cb8b35a3182f0de9c4
+      internalID: -1092147416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_193
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ef66fdeacf40b0ae378f9640967f4
+      internalID: 1936330890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_194
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7351b0c92f634621bc9ea525e3f4463
+      internalID: -1809151121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_195
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f13f0c43b094db7be29184f41e16cf
+      internalID: 810665307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_196
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 447
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5df9a199216476f91aad2bb50de4b3
+      internalID: 1582390914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_197
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 255
+        width: 87
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc62d02e4e0384938a5fae024adf7af8
+      internalID: -122277761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_198
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 253
+        width: 83
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23de2f3616204d3db941284837d0aaa
+      internalID: -629950656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_199
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 232
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d105ebd372dfc40f29a26d952ac8abf2
+      internalID: 1448707942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_200
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 232
+        width: 31
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6273f931317b54b0e95d90eef745f180
+      internalID: -1374839836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_201
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 224
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a0c0259ad346b8af3e2d72d330836
+      internalID: -1273164511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_202
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 216
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cb64bb8790c471c94bdb2c0f94b6cc
+      internalID: 983655973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_203
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 224
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1776b420ce9c24990a09794dda0f635d
+      internalID: 1790407860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_204
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 232
+        width: 30
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bdd48f617847a5b34cb8b20c2ffc6
+      internalID: -1046490185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_205
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 83
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e4cb83ce5147e9bd85d0531f2e1ad
+      internalID: 1570517340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_206
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 62
+        width: 84
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052016c0d3b4c4224acd2cf1d03fc5c1
+      internalID: -385249276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_207
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 62
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c595d4f234c1e4dc5b2fe37ad294b7d1
+      internalID: 574223411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_208
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 62
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad77b44a20994adf977737b0cd4d7e8
+      internalID: 1639096418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_209
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 0
+        width: 167
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e8032bf32e64d4bafc933d9de3aadf
+      internalID: 526800940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_210
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 62
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b307bb715154d71bd11b3dad531c34
+      internalID: 101671329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_211
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 62
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bbb9a333e1d428db5735b72a0e6bca
+      internalID: -699134694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_spear_female_knight_212
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 62
+        width: 87
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7aa565fa9b64a86b92b0fcfcd96412
+      internalID: -148199021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +4631,220 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simple_spear_female_knight_0: -750884539
+      simple_spear_female_knight_1: 393445712
+      simple_spear_female_knight_10: -1760469822
+      simple_spear_female_knight_100: -1943117567
+      simple_spear_female_knight_101: 1611633727
+      simple_spear_female_knight_102: 2048194310
+      simple_spear_female_knight_103: 1078192208
+      simple_spear_female_knight_104: 398249837
+      simple_spear_female_knight_105: 357515808
+      simple_spear_female_knight_106: 483378314
+      simple_spear_female_knight_107: -1407196767
+      simple_spear_female_knight_108: 1321294957
+      simple_spear_female_knight_109: -1261575546
+      simple_spear_female_knight_11: 231952024
+      simple_spear_female_knight_110: -190463520
+      simple_spear_female_knight_111: -280623980
+      simple_spear_female_knight_112: 728306732
+      simple_spear_female_knight_113: 841452595
+      simple_spear_female_knight_114: 1939148840
+      simple_spear_female_knight_115: 2126309490
+      simple_spear_female_knight_116: 1806923515
+      simple_spear_female_knight_117: 2084034020
+      simple_spear_female_knight_118: 215072820
+      simple_spear_female_knight_119: -1040284111
+      simple_spear_female_knight_12: -1740525474
+      simple_spear_female_knight_120: -1370927780
+      simple_spear_female_knight_121: -1753092171
+      simple_spear_female_knight_122: 1145239545
+      simple_spear_female_knight_123: 1359001844
+      simple_spear_female_knight_124: 119862727
+      simple_spear_female_knight_125: 1145254225
+      simple_spear_female_knight_126: -244864913
+      simple_spear_female_knight_127: 1993064752
+      simple_spear_female_knight_128: 828708929
+      simple_spear_female_knight_129: -351036304
+      simple_spear_female_knight_13: -1963041072
+      simple_spear_female_knight_130: -153007099
+      simple_spear_female_knight_131: -1361199150
+      simple_spear_female_knight_132: -1074089983
+      simple_spear_female_knight_133: -1342477486
+      simple_spear_female_knight_134: 106519560
+      simple_spear_female_knight_135: -1637084734
+      simple_spear_female_knight_136: -933017978
+      simple_spear_female_knight_137: 229763031
+      simple_spear_female_knight_138: 975455973
+      simple_spear_female_knight_139: 866379098
+      simple_spear_female_knight_14: 2024867333
+      simple_spear_female_knight_140: 468920020
+      simple_spear_female_knight_141: -1638356617
+      simple_spear_female_knight_142: -59129413
+      simple_spear_female_knight_143: -1090882861
+      simple_spear_female_knight_144: -139096985
+      simple_spear_female_knight_145: -489488291
+      simple_spear_female_knight_146: 1618258983
+      simple_spear_female_knight_147: -928192537
+      simple_spear_female_knight_148: -1018512467
+      simple_spear_female_knight_149: 1819165151
+      simple_spear_female_knight_15: -794901650
+      simple_spear_female_knight_150: -931021760
+      simple_spear_female_knight_151: -1950680851
+      simple_spear_female_knight_152: 2119572066
+      simple_spear_female_knight_153: 749144387
+      simple_spear_female_knight_154: -501642103
+      simple_spear_female_knight_155: 837029329
+      simple_spear_female_knight_156: 723601219
+      simple_spear_female_knight_157: 868285578
+      simple_spear_female_knight_158: -406190423
+      simple_spear_female_knight_159: -1671365005
+      simple_spear_female_knight_16: -1917935294
+      simple_spear_female_knight_160: -138872167
+      simple_spear_female_knight_161: -54429325
+      simple_spear_female_knight_162: -881675241
+      simple_spear_female_knight_163: 227131853
+      simple_spear_female_knight_164: 953071449
+      simple_spear_female_knight_165: 1495560948
+      simple_spear_female_knight_166: -1142499971
+      simple_spear_female_knight_167: 1796719521
+      simple_spear_female_knight_168: -1183289181
+      simple_spear_female_knight_169: 587094296
+      simple_spear_female_knight_17: -1348212719
+      simple_spear_female_knight_170: 738892478
+      simple_spear_female_knight_171: -208855550
+      simple_spear_female_knight_172: -979670203
+      simple_spear_female_knight_173: 266291486
+      simple_spear_female_knight_174: -1686053382
+      simple_spear_female_knight_175: -1980738614
+      simple_spear_female_knight_176: -1970869452
+      simple_spear_female_knight_177: -1113581685
+      simple_spear_female_knight_178: 932554661
+      simple_spear_female_knight_179: 1149755322
+      simple_spear_female_knight_18: -321983194
+      simple_spear_female_knight_180: 1049586198
+      simple_spear_female_knight_181: -719724093
+      simple_spear_female_knight_182: -453462186
+      simple_spear_female_knight_183: -278659223
+      simple_spear_female_knight_184: 311948327
+      simple_spear_female_knight_185: 80409429
+      simple_spear_female_knight_186: -1811997253
+      simple_spear_female_knight_187: -719141460
+      simple_spear_female_knight_188: 99689340
+      simple_spear_female_knight_189: -457800161
+      simple_spear_female_knight_19: 484285133
+      simple_spear_female_knight_190: 1262009266
+      simple_spear_female_knight_191: 893191756
+      simple_spear_female_knight_192: -1092147416
+      simple_spear_female_knight_193: 1936330890
+      simple_spear_female_knight_194: -1809151121
+      simple_spear_female_knight_195: 810665307
+      simple_spear_female_knight_196: 1582390914
+      simple_spear_female_knight_197: -122277761
+      simple_spear_female_knight_198: -629950656
+      simple_spear_female_knight_199: 1448707942
+      simple_spear_female_knight_2: -6961452
+      simple_spear_female_knight_20: 1794935279
+      simple_spear_female_knight_200: -1374839836
+      simple_spear_female_knight_201: -1273164511
+      simple_spear_female_knight_202: 983655973
+      simple_spear_female_knight_203: 1790407860
+      simple_spear_female_knight_204: -1046490185
+      simple_spear_female_knight_205: 1570517340
+      simple_spear_female_knight_206: -385249276
+      simple_spear_female_knight_207: 574223411
+      simple_spear_female_knight_208: 1639096418
+      simple_spear_female_knight_209: 526800940
+      simple_spear_female_knight_21: 1670227275
+      simple_spear_female_knight_210: 101671329
+      simple_spear_female_knight_211: -699134694
+      simple_spear_female_knight_212: -148199021
+      simple_spear_female_knight_22: -1156474021
+      simple_spear_female_knight_23: -116700050
+      simple_spear_female_knight_24: 925640478
+      simple_spear_female_knight_25: -1374163072
+      simple_spear_female_knight_26: 1158389730
+      simple_spear_female_knight_27: -916992035
+      simple_spear_female_knight_28: 973930489
+      simple_spear_female_knight_29: -644768298
+      simple_spear_female_knight_3: 2031115229
+      simple_spear_female_knight_30: 1697731134
+      simple_spear_female_knight_31: 1980730901
+      simple_spear_female_knight_32: 1867394631
+      simple_spear_female_knight_33: 631806125
+      simple_spear_female_knight_34: -2081415702
+      simple_spear_female_knight_35: 191859459
+      simple_spear_female_knight_36: 439137725
+      simple_spear_female_knight_37: 2407363
+      simple_spear_female_knight_38: -365947745
+      simple_spear_female_knight_39: 1862455949
+      simple_spear_female_knight_4: -2007271612
+      simple_spear_female_knight_40: -354151201
+      simple_spear_female_knight_41: 246394125
+      simple_spear_female_knight_42: -155660948
+      simple_spear_female_knight_43: -1950588456
+      simple_spear_female_knight_44: -1505078720
+      simple_spear_female_knight_45: 260126106
+      simple_spear_female_knight_46: 198333877
+      simple_spear_female_knight_47: -1557524758
+      simple_spear_female_knight_48: -1226847231
+      simple_spear_female_knight_49: -1359934009
+      simple_spear_female_knight_5: -33805418
+      simple_spear_female_knight_50: 1673516356
+      simple_spear_female_knight_51: 421133854
+      simple_spear_female_knight_52: -1836702672
+      simple_spear_female_knight_53: -842358280
+      simple_spear_female_knight_54: 1080004704
+      simple_spear_female_knight_55: -206220106
+      simple_spear_female_knight_56: -465661686
+      simple_spear_female_knight_57: -1652187947
+      simple_spear_female_knight_58: -1771111358
+      simple_spear_female_knight_59: -1667362745
+      simple_spear_female_knight_6: -64558955
+      simple_spear_female_knight_60: -288582161
+      simple_spear_female_knight_61: 1227482362
+      simple_spear_female_knight_62: -1627044882
+      simple_spear_female_knight_63: -86372561
+      simple_spear_female_knight_64: 2035497799
+      simple_spear_female_knight_65: 825688296
+      simple_spear_female_knight_66: -835211661
+      simple_spear_female_knight_67: 181265866
+      simple_spear_female_knight_68: -609458513
+      simple_spear_female_knight_69: -169761836
+      simple_spear_female_knight_7: 1442439482
+      simple_spear_female_knight_70: 670975674
+      simple_spear_female_knight_71: 209571811
+      simple_spear_female_knight_72: 1692792850
+      simple_spear_female_knight_73: -2010908728
+      simple_spear_female_knight_74: -1118420316
+      simple_spear_female_knight_75: 2058196419
+      simple_spear_female_knight_76: 1639537008
+      simple_spear_female_knight_77: -397432617
+      simple_spear_female_knight_78: 2132424806
+      simple_spear_female_knight_79: -586264911
+      simple_spear_female_knight_8: 2054719939
+      simple_spear_female_knight_80: 1106722823
+      simple_spear_female_knight_81: -564268460
+      simple_spear_female_knight_82: -844656905
+      simple_spear_female_knight_83: -725632056
+      simple_spear_female_knight_84: -1308424790
+      simple_spear_female_knight_85: 341089090
+      simple_spear_female_knight_86: 1439561679
+      simple_spear_female_knight_87: 623454452
+      simple_spear_female_knight_88: 1403003933
+      simple_spear_female_knight_89: -1124979180
+      simple_spear_female_knight_9: 509820608
+      simple_spear_female_knight_90: -172037201
+      simple_spear_female_knight_91: 1129850964
+      simple_spear_female_knight_92: 1056593012
+      simple_spear_female_knight_93: 1671141328
+      simple_spear_female_knight_94: -1371817599
+      simple_spear_female_knight_95: 301475462
+      simple_spear_female_knight_96: 1927244148
+      simple_spear_female_knight_97: -1025918064
+      simple_spear_female_knight_98: -997560142
+      simple_spear_female_knight_99: 1949697922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

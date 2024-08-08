@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -132,9 +132,4537 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: simple_archer_female_knight_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62ac3f6f0ef343bc8da6eabf90e0739
+      internalID: 143424256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0d397c3cdb34d3ebef3357aa77ac7d
+      internalID: 484822032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1792
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c1c88625884181ab8c6746262968c
+      internalID: 986642503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1792
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e003c53a4648b0a73633a1c730c1f
+      internalID: 1604732666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1792
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc2a163a01f24553b919678b2c96db6
+      internalID: 753771017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1792
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b875f4962cb3142f6b1a7cfda136a6fd
+      internalID: 219648457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_6
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1792
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb43c32ed7648d08bdf2be447d43c7
+      internalID: 1963324653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1600
+        width: 96
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d832402e957444daa9b0475ca2f36e
+      internalID: 523243980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1728
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe9c8995802244b2b3d2ae4c4e572a0
+      internalID: -1874269929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1728
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7cad977c9f5490e9d21377d76cc92f
+      internalID: -1499670733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1728
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14f3e317bd4d44c3b820b28f894378d
+      internalID: 1807579534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1728
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd7ae2b049ef48a789879b6c13421ae
+      internalID: -1370167589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1728
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9bb712748ed4d9d932a60d8bb7bfe5
+      internalID: -703713688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_13
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1728
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a8be982d9f541c1b566aebba833140
+      internalID: 489705047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_14
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1728
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c554a0d15d6094095a5859e2a590a00b
+      internalID: -642860966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f8af98da3f24b02a361836bbb75e8f
+      internalID: -769533536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d65d23c3b7942a693e791bee09bad3
+      internalID: -938880030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1664
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc00915af4943dcb3116757461b1d3
+      internalID: 454126714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1664
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cdda7d19f6c48c799baf8031f30419
+      internalID: 1768121092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1664
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094a83ce317df469791d17f5d7c1f57c
+      internalID: 1507251149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1664
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679dce4da042e4cc8965714ea89917aa
+      internalID: -1825981370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_21
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1664
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3f4433e3f2f4b9cab9e991d09e8df1
+      internalID: -517264719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1600
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc25182585b9a4c50a20d4c74e1526fe
+      internalID: -1270526112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d32e30c9a843bbbb46a9031c664e5
+      internalID: -615323030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f6483157314e3992524c6b1dea026
+      internalID: -239648775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_25
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530e41b0cbecc41d9aab091972d22114
+      internalID: 1466679591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1600
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698d900219b1a4dd9bde4e14d4c5e8b1
+      internalID: 1635311359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_27
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1600
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eea6bd0cf644315ab573fe9da009fc
+      internalID: -663406125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_28
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1600
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76097ae7adb6f411387c46c382131b51
+      internalID: -1644221634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1536
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea2cf522720449999a306c8736e1336
+      internalID: -222185257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1536
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b00787ba4d24653be03ef9b96f2f29
+      internalID: -200537429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0719268bd6674fba98f2996ea86b964
+      internalID: -1331387544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_32
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac773e1f8b234373b77e4585a93cd37
+      internalID: -1861322187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_33
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1536
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48980a6ffdb44f98be5fdff18b2fd3b
+      internalID: 1517497641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_34
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1536
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19eb7bbcc06e84621ad9eb61362ce184
+      internalID: -817837329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_35
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1536
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7d4f2aa3a3f4e4cb57e7276fa3b7a0
+      internalID: -753287258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_36
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1536
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d6b96f7175d4f0abe3de8411833185
+      internalID: 1765443186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1472
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d68ca40e2074dbfb1a627cdc4c9c52
+      internalID: -977482156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1472
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da222e2f6fd740cb89dbb3faff2273b
+      internalID: -1390055625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc29b411ea6304916bd1e3618541104e
+      internalID: -2123606229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a44bb0ddef3b4fbcbf46d6714fe67d1
+      internalID: 1709010320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c853fb6a1f347f9bc66d3e0493b61e
+      internalID: 552745640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c5cd484d5ef4d61888ea3c24774739
+      internalID: 1862400436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_43
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c78b851603a4fcd83c81a54086a0bb
+      internalID: -522820194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_44
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1472
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86420fb0370740d6bc6a9b124a37a88
+      internalID: 1852571285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1408
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5c4fcb1afb249848b34e59b8bc19ce
+      internalID: 760829829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1408
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c246be3805e4d9cbd79951183f460a
+      internalID: 306380841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1408
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be3ee2172b764d059410c21d895955a
+      internalID: -166034143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_48
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1409
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118eb909cc752454d8fdfb9cf4a651be
+      internalID: 844503135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_49
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1409
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2df49d76409495aa9401e145893c98
+      internalID: 963961301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_50
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1408
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7e2511379f64c49bd484eaa8ce8b80
+      internalID: -652794417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_51
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1409
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2062d731a611147d59609670dad68676
+      internalID: 685516236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_52
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1409
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605f7b8fc69249afb131a09b46802b4
+      internalID: 51897176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_53
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1344
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f7b0af032df40a0bd421b2532bc1b5
+      internalID: -182712871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1344
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf17e85d687b4978990ef9336b4be29
+      internalID: -2089114408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_55
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d040e5a67b34341d4a569dc67b80e2d1
+      internalID: 1327325325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_56
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ca721957a0e47c6a118a0f735856c9
+      internalID: 426006885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_57
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b085862951764284be6fe1e3762b86f
+      internalID: -1064605418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad1dca3cd64b464a98d703407328433
+      internalID: -1545193447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_59
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d213b3f34ac704db08cec6ab641c467e
+      internalID: 1748687411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_60
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb7dc9ec54c441eaedb46bf4cb4382
+      internalID: 1119350244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_61
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421cfc31b7bce4a15ba691d52c624cfd
+      internalID: 723502364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c00c3dff2d4b4c678e0c920504748db
+      internalID: -1737002302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_63
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4701219ac6f401e85aca1b538fba96
+      internalID: -1313096988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1280
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87022e8f3dd344a21ae0f9fe7f84c680
+      internalID: 939303265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_65
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9fd971a392e475b8e9e028f38e121e
+      internalID: 1556266322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_66
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5cec962e20b4aeca6979036f38dcf3
+      internalID: 1773834451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_67
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d57d85f12a234711be8d9832271354c
+      internalID: -730536826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_68
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1280
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa96bfedd0db34f6caf8a3e221764167
+      internalID: -2108776736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_69
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1280
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d281b04273954322b7340d6db59914b
+      internalID: 840051873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8eb494cca34f92aabed3328b6910b
+      internalID: 1341749730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1216
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e384761b8a3ea402195f69c0995744f7
+      internalID: -62399134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_72
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51e1db8af3794c7a847f5aeb5fbef8c
+      internalID: -1676346764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_73
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57e2221e3c3b46f98e1f8914f9b758f
+      internalID: -1953483323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_74
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ed8960adb26403d9ae1700af1d3859
+      internalID: -1631502925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_75
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1216
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e667e6c9a5e5470295529dfd64999a7
+      internalID: -1593256203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_76
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1216
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bf46a424b7b43d6bdf031a27496489
+      internalID: 1681675275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8013a9096bb88488cbf2dd4b519823c3
+      internalID: -1568950873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_78
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1216
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac4e7c8bd1784c9fadc25b4f36d4600
+      internalID: 616244665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_79
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c78a89f90fa241ffb7619793c9756e4
+      internalID: -2119236084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_80
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175bd1256cef41bb97a4c2d76fc18ad
+      internalID: -628085263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_81
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb458ea3dd7f4741965eacf6a83a4d8
+      internalID: 1621676394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f9455019fc54cb2ae0ea5baf738d65
+      internalID: 238710804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_83
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca4346bba7d448508a3745df0682759
+      internalID: -2082240406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_84
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994135578e894ded85ac2d2615a8f83
+      internalID: 557952820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_85
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f19d9ec7af3d4aea822c0149b1419b1
+      internalID: 1065553914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_86
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6b368f11fd4d1daa527906a65a73e
+      internalID: -1764134704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_87
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1152
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f15139883b2e47f985729e5a5266309
+      internalID: -778113814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67be05241e6b447a8dd6ed1d00f4ee5
+      internalID: 325618010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_89
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1088
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b7b8f39406e441c81713a03fcdb003
+      internalID: -1541076205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee95b025577934310a796eedfb9c21ad
+      internalID: -1151577916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8275df8c11e78411b8a16d974f6fdd6b
+      internalID: -1454673662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_92
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e660158c34a74913886a35c855f6d36
+      internalID: 1771788038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_93
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1088
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8018e9b859ca54a92a83e27c896cf1c0
+      internalID: 440521895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_94
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1088
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fdac29f8a5e42c192a0a9cc5abc8f2
+      internalID: 1347219490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_95
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2419bb82a49e34f209b0f7a794ca99d6
+      internalID: 1779846153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_96
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1088
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90fd1738f804f19b847d66f050e1d4
+      internalID: 517959524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_97
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1024
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1941eac0d9c39492ab90acda118c57de
+      internalID: -492280413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_98
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1024
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e12864164f2142278937f81d2c13e7d
+      internalID: 2056612331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_99
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1024
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feb010d6d2ee41919f32cefd722bc0a
+      internalID: -359952397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1024
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52083a4631848482cb885d474edb20c2
+      internalID: 287271450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_101
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1024
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c69ba3d53bdf469981701afdd7771fa
+      internalID: 969502761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1024
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135702dab3d8645cebbe362a6c3ed843
+      internalID: 1170361398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_103
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 960
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e35a2eec71fa44fca140372f920d57a
+      internalID: 1039480273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_104
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 960
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2176c77aca941c88c350ff48f3e7b2
+      internalID: 2027486273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_105
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 960
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fa143df675945c6978d901953a2be0
+      internalID: -790502630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_106
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 960
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b5400af146149c181d8948bfa8df39
+      internalID: 633123878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_107
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 960
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2312e6a010243c7af6471819509e65
+      internalID: -1409475909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_108
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 960
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8280c59399e124088be1432ea7319fa4
+      internalID: -1942578725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 896
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd87d01cc4841c7812cd492de7132a
+      internalID: 1170112530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_110
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 896
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664019970128a4cf58c7b3d036b1764f
+      internalID: -2116910172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_111
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 896
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ac7b10538c34c31959f20a9bc8ba53
+      internalID: -947908205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_112
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 896
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c792f78b16b4661a5418cb49d61d7b
+      internalID: 1710704254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_113
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 896
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd316ee85b9274b5fb9ffbf22fd95f46
+      internalID: -1713171275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_114
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2b692468d8147d481c4837d173f6f8
+      internalID: -1846068998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_115
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec84f0c45a34448098462857d7ad591a
+      internalID: -1209973797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_116
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 832
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849e174c005d240d18a4e384d0df83be
+      internalID: -517520904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_117
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 832
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c7734918e0a425c8ceab549023cdd6
+      internalID: 1984330370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_118
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 832
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2578e3438853c4d83be5de905df6d28b
+      internalID: 1821440928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_119
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 832
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5e60e59f1d84ecd8f1e32ee158e148
+      internalID: -844064154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_120
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 832
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787f8a2a7af2442ec8deee7bb3eee508
+      internalID: 1653259643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_121
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 768
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44c48319fa224b54adb8a9453947927
+      internalID: -1903760665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_122
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 768
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b4340a02704e8c97698954207800c
+      internalID: -588754898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_123
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 768
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf8e987c21484252a4a26c3ef164845
+      internalID: 1225259872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_124
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 768
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee0bdc76e66444099284c7ee26010cb
+      internalID: 135822172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_125
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 768
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899d23851935f41e090eb793480d1996
+      internalID: 1501226309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_126
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 768
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed9170406aa74aafadde6c3c4a09769
+      internalID: 374717973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_127
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 768
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb86240d6f9943b59cf2d5dee0d6302
+      internalID: 1238397259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_128
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1000a61376734c34997f61837aaa22e
+      internalID: 13006999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_129
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 768
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a209b30f2e416d976deeccfcda025
+      internalID: 565874120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_130
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fd1abc0c90e4722b244057cdc6892c
+      internalID: -2585522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_131
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043df3feb35be4ec8b9df194b8dbff87
+      internalID: 1820041040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_132
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842ce0b279d314ab4b3e2ab9e5b7b516
+      internalID: -2038037627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_133
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 768
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1f95f8037ec48c18d1f2a9f78f0c27
+      internalID: 692129752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_134
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 704
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3347a13a52846e2b5426437bb13de7
+      internalID: -565627633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_135
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 704
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e6d85acbe0d4aa9951d6a7e5e70087
+      internalID: -1246074140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_136
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 704
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d745a566c21f4b5c8153e92ca0b0979
+      internalID: -284886522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_137
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 704
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca5ee3c40ce04753acab47f5d670885
+      internalID: 843996563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_138
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 704
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f886887b7c3514677ae18be1560a0bed
+      internalID: -2013293166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6814140605e4551887a1a0407b1710
+      internalID: 316352963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_140
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 704
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd386f18c6e4dfdb93284fdd5054d0
+      internalID: -1016095926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_141
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 704
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d341ada5ea70249668156d68967f7964
+      internalID: -1242378368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_142
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 704
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5e9731f00ee46de9cbd188ddec5780
+      internalID: 496439743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_143
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 704
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972139e08d294c8c99c650843cbc6a8
+      internalID: -1186178752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_144
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 704
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d2f7d8c1cd643c59c387fde884c48c
+      internalID: -199278358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_145
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 704
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cedf664f2934b41a8c8a028960622f
+      internalID: 1044805680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_146
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 704
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98327ae12045b4a4e9c3b5bf9016b4a0
+      internalID: -1132291432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_147
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 640
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad7315eb954842e7be380d1f0fdba20
+      internalID: 1054468430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_148
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 640
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2935a3d9c7f144948b52a18208cda08d
+      internalID: -650014994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_149
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 640
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6495dbab116914c9f90dd46d5c004e6b
+      internalID: -755171495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_150
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 640
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6f0b46ee4204928ae7d27cabc8274a
+      internalID: -233794905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_151
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c1c0907efea42388534fedc2422910
+      internalID: -1609968294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_152
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa731277edf7548b49762e31666dfd6e
+      internalID: 1668264606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_153
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09159ec18e514be1b83d7ec1fe0b08d
+      internalID: 1407327636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_154
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a74979fd7174a109686f945cda29ca
+      internalID: 884373654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_155
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a365ce87aa1340828ee6897e0cdc319
+      internalID: -136685007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_156
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8e04f50ce29463fba03e33d20f7cf1
+      internalID: -628291408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_157
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d267b014295314bbe92cadb311066185
+      internalID: -2037408484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_158
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bb0eb9286d145de8fdc196ad2ba8b3
+      internalID: -1060991680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_159
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 640
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4968cb60291e34c75b9d54889415e32a
+      internalID: 1181567846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_160
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 576
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e5eb4277a44e9392d2f5e13806c3b
+      internalID: 351538915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 576
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e111995cf8ac24131900af8133c315bd
+      internalID: 1729925415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_162
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 576
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ed660c0188d451caeb58ffd965aba4
+      internalID: -1319735272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_163
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 576
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3813089d8b3ad479ebe248b8c49ba516
+      internalID: 685550981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_164
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 576
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7749ee85bf5c4cf3b5a92c6bd4a72be
+      internalID: 327521496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_165
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 576
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f883d809c86d746f1a0437c56af75fbe
+      internalID: 428244508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_166
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 576
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e29b82ce4f448e2834cf833299491d
+      internalID: -866762618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_167
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 576
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9c8c0d91ee64a60ad27b959a065d7f
+      internalID: -1791492160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_168
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 576
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0371749c4cb144cb9b478cc03da537c
+      internalID: 355736229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_169
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 576
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5367551366b423fb4571cb8156fb13
+      internalID: -1711016122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_170
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 576
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea92893d1b83d403abdbd19b5f51cc43
+      internalID: -1399240584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_171
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 576
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e402d97170e5a45f289847702e7134c1
+      internalID: -2063961007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_172
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 576
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c7426194f54c2681c8b7a9ba40edc
+      internalID: 925652814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_173
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 512
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1cee61f1e1848ef9a132584458d0d3
+      internalID: -869068037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_174
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 512
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34292c1ba70a487aa2c074d6608ef91
+      internalID: -1908697872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_175
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2e70bdbb2c441b1b8d66fd8591e5ff
+      internalID: 480981819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_176
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81bde20148a4489b204a424c8b0e58
+      internalID: -696077192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_177
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 513
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecb4ab08e87943a79461a5abd838e54
+      internalID: -1831566721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_178
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 512
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50788a9b481b14291953cb2cf5338c77
+      internalID: -1936049905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_179
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687f32e4a0a3242d6aa071a832d944e8
+      internalID: 1424841993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_180
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da069ae07c1274296b9a9d47eb1339bf
+      internalID: -1027771586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_181
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645737fe86a0841aebe20acb31ec3edd
+      internalID: -1816867901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_182
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 416
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc25aa2245414090a9dbd312699bfbc
+      internalID: -497470125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_183
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310559f7eaa2d458382c40c7edbd9ad5
+      internalID: 1782089104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_184
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e9c74b6673a471e83bb57a16fcec93
+      internalID: -1353798724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_185
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fad3b3c73dcd4056b95bb11990c632c
+      internalID: -656343103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_186
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 416
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6bf93196f064bceb0ae6a621dc23ac
+      internalID: -1028889677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_187
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 416
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e6cfcdbc1c46ff886a5bde9319a07
+      internalID: -1376236921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_188
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffff52eb0a77a4b7a9bed9dab2e8dfc4
+      internalID: 906852706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_189
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c08bb1360af42c9bc6a381b78f8766
+      internalID: 1034048157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_190
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c1ceaf0daa145a299d7ccc6cc9394c
+      internalID: 57714632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_191
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40942d8268b034fcb9222a845b676017
+      internalID: 560543848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_192
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 288
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364aa3b15b77b434784f4df16b9fabd3
+      internalID: -1746634081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_193
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 288
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e040e5ebb98a44f79c3e2a310f1563c
+      internalID: -1593519423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_194
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4b1781bd912468ab535972b62a3106
+      internalID: 1509132074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_195
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 288
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d20f88b64914fbe80e6888c647c3f6
+      internalID: -1408613117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_196
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 288
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c08bdbbf18a4862a9aa928913ed74e
+      internalID: 284147040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_197
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9f0c544810b4dbeaaec3278fc73221
+      internalID: 357162734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_198
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdf275082bf248d582b03663cc44141
+      internalID: 688522396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_199
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498293c37e03540bc8eea484d0157f44
+      internalID: 827444226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_200
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 160
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78217c3bd93942f7a3f02497d399efe
+      internalID: -342264114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_201
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8045c503a558a45329a3fe05a5cc296a
+      internalID: -269896350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_202
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b762d0ad09f4def8b10dbe1066c9bc
+      internalID: -1730763006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_203
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b79e3fdb32f4610893937f52881eaf
+      internalID: -13461186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_204
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 160
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17fb421462d149d39b9d1f4368ac9e9
+      internalID: 1590914870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_205
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 160
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d702f21a4800247ac88dc93977397bde
+      internalID: 361032390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_206
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085783625cee94873988ca80cb31ef0a
+      internalID: -601101866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_207
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 32
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6791a0c73bc9e414f9c0d60732059ee2
+      internalID: -596806819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_208
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8049cd447a6d40aa8c3380d0320e9fd
+      internalID: 1336990676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_209
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ff0030f0f2a4be58ac421eea0d8abb
+      internalID: -86348701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_210
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 32
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ac5e445284f43b894f561e75e87172
+      internalID: -2077869674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_211
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 32
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128dad2ad279346d1bf7ebc27769f565
+      internalID: -446726390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_212
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e87bc04b4e92498d95b83899aab872a
+      internalID: 1213658075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_213
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 32
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5a2eb4df7d84d5a8ab0e872fcfec8a
+      internalID: -1953249142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple_archer_female_knight_214
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 32
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedba91ed2802416aa446ad2a0b8d954
+      internalID: -636400549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +4673,222 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      simple_archer_female_knight_0: 143424256
+      simple_archer_female_knight_1: 484822032
+      simple_archer_female_knight_10: 1807579534
+      simple_archer_female_knight_100: 287271450
+      simple_archer_female_knight_101: 969502761
+      simple_archer_female_knight_102: 1170361398
+      simple_archer_female_knight_103: 1039480273
+      simple_archer_female_knight_104: 2027486273
+      simple_archer_female_knight_105: -790502630
+      simple_archer_female_knight_106: 633123878
+      simple_archer_female_knight_107: -1409475909
+      simple_archer_female_knight_108: -1942578725
+      simple_archer_female_knight_109: 1170112530
+      simple_archer_female_knight_11: -1370167589
+      simple_archer_female_knight_110: -2116910172
+      simple_archer_female_knight_111: -947908205
+      simple_archer_female_knight_112: 1710704254
+      simple_archer_female_knight_113: -1713171275
+      simple_archer_female_knight_114: -1846068998
+      simple_archer_female_knight_115: -1209973797
+      simple_archer_female_knight_116: -517520904
+      simple_archer_female_knight_117: 1984330370
+      simple_archer_female_knight_118: 1821440928
+      simple_archer_female_knight_119: -844064154
+      simple_archer_female_knight_12: -703713688
+      simple_archer_female_knight_120: 1653259643
+      simple_archer_female_knight_121: -1903760665
+      simple_archer_female_knight_122: -588754898
+      simple_archer_female_knight_123: 1225259872
+      simple_archer_female_knight_124: 135822172
+      simple_archer_female_knight_125: 1501226309
+      simple_archer_female_knight_126: 374717973
+      simple_archer_female_knight_127: 1238397259
+      simple_archer_female_knight_128: 13006999
+      simple_archer_female_knight_129: 565874120
+      simple_archer_female_knight_13: 489705047
+      simple_archer_female_knight_130: -2585522
+      simple_archer_female_knight_131: 1820041040
+      simple_archer_female_knight_132: -2038037627
+      simple_archer_female_knight_133: 692129752
+      simple_archer_female_knight_134: -565627633
+      simple_archer_female_knight_135: -1246074140
+      simple_archer_female_knight_136: -284886522
+      simple_archer_female_knight_137: 843996563
+      simple_archer_female_knight_138: -2013293166
+      simple_archer_female_knight_139: 316352963
+      simple_archer_female_knight_14: -642860966
+      simple_archer_female_knight_140: -1016095926
+      simple_archer_female_knight_141: -1242378368
+      simple_archer_female_knight_142: 496439743
+      simple_archer_female_knight_143: -1186178752
+      simple_archer_female_knight_144: -199278358
+      simple_archer_female_knight_145: 1044805680
+      simple_archer_female_knight_146: -1132291432
+      simple_archer_female_knight_147: 1054468430
+      simple_archer_female_knight_148: -650014994
+      simple_archer_female_knight_149: -755171495
+      simple_archer_female_knight_15: -769533536
+      simple_archer_female_knight_150: -233794905
+      simple_archer_female_knight_151: -1609968294
+      simple_archer_female_knight_152: 1668264606
+      simple_archer_female_knight_153: 1407327636
+      simple_archer_female_knight_154: 884373654
+      simple_archer_female_knight_155: -136685007
+      simple_archer_female_knight_156: -628291408
+      simple_archer_female_knight_157: -2037408484
+      simple_archer_female_knight_158: -1060991680
+      simple_archer_female_knight_159: 1181567846
+      simple_archer_female_knight_16: -938880030
+      simple_archer_female_knight_160: 351538915
+      simple_archer_female_knight_161: 1729925415
+      simple_archer_female_knight_162: -1319735272
+      simple_archer_female_knight_163: 685550981
+      simple_archer_female_knight_164: 327521496
+      simple_archer_female_knight_165: 428244508
+      simple_archer_female_knight_166: -866762618
+      simple_archer_female_knight_167: -1791492160
+      simple_archer_female_knight_168: 355736229
+      simple_archer_female_knight_169: -1711016122
+      simple_archer_female_knight_17: 454126714
+      simple_archer_female_knight_170: -1399240584
+      simple_archer_female_knight_171: -2063961007
+      simple_archer_female_knight_172: 925652814
+      simple_archer_female_knight_173: -869068037
+      simple_archer_female_knight_174: -1908697872
+      simple_archer_female_knight_175: 480981819
+      simple_archer_female_knight_176: -696077192
+      simple_archer_female_knight_177: -1831566721
+      simple_archer_female_knight_178: -1936049905
+      simple_archer_female_knight_179: 1424841993
+      simple_archer_female_knight_18: 1768121092
+      simple_archer_female_knight_180: -1027771586
+      simple_archer_female_knight_181: -1816867901
+      simple_archer_female_knight_182: -497470125
+      simple_archer_female_knight_183: 1782089104
+      simple_archer_female_knight_184: -1353798724
+      simple_archer_female_knight_185: -656343103
+      simple_archer_female_knight_186: -1028889677
+      simple_archer_female_knight_187: -1376236921
+      simple_archer_female_knight_188: 906852706
+      simple_archer_female_knight_189: 1034048157
+      simple_archer_female_knight_19: 1507251149
+      simple_archer_female_knight_190: 57714632
+      simple_archer_female_knight_191: 560543848
+      simple_archer_female_knight_192: -1746634081
+      simple_archer_female_knight_193: -1593519423
+      simple_archer_female_knight_194: 1509132074
+      simple_archer_female_knight_195: -1408613117
+      simple_archer_female_knight_196: 284147040
+      simple_archer_female_knight_197: 357162734
+      simple_archer_female_knight_198: 688522396
+      simple_archer_female_knight_199: 827444226
+      simple_archer_female_knight_2: 986642503
+      simple_archer_female_knight_20: -1825981370
+      simple_archer_female_knight_200: -342264114
+      simple_archer_female_knight_201: -269896350
+      simple_archer_female_knight_202: -1730763006
+      simple_archer_female_knight_203: -13461186
+      simple_archer_female_knight_204: 1590914870
+      simple_archer_female_knight_205: 361032390
+      simple_archer_female_knight_206: -601101866
+      simple_archer_female_knight_207: -596806819
+      simple_archer_female_knight_208: 1336990676
+      simple_archer_female_knight_209: -86348701
+      simple_archer_female_knight_21: -517264719
+      simple_archer_female_knight_210: -2077869674
+      simple_archer_female_knight_211: -446726390
+      simple_archer_female_knight_212: 1213658075
+      simple_archer_female_knight_213: -1953249142
+      simple_archer_female_knight_214: -636400549
+      simple_archer_female_knight_22: -1270526112
+      simple_archer_female_knight_23: -615323030
+      simple_archer_female_knight_24: -239648775
+      simple_archer_female_knight_25: 1466679591
+      simple_archer_female_knight_26: 1635311359
+      simple_archer_female_knight_27: -663406125
+      simple_archer_female_knight_28: -1644221634
+      simple_archer_female_knight_29: -222185257
+      simple_archer_female_knight_3: 1604732666
+      simple_archer_female_knight_30: -200537429
+      simple_archer_female_knight_31: -1331387544
+      simple_archer_female_knight_32: -1861322187
+      simple_archer_female_knight_33: 1517497641
+      simple_archer_female_knight_34: -817837329
+      simple_archer_female_knight_35: -753287258
+      simple_archer_female_knight_36: 1765443186
+      simple_archer_female_knight_37: -977482156
+      simple_archer_female_knight_38: -1390055625
+      simple_archer_female_knight_39: -2123606229
+      simple_archer_female_knight_4: 753771017
+      simple_archer_female_knight_40: 1709010320
+      simple_archer_female_knight_41: 552745640
+      simple_archer_female_knight_42: 1862400436
+      simple_archer_female_knight_43: -522820194
+      simple_archer_female_knight_44: 1852571285
+      simple_archer_female_knight_45: 760829829
+      simple_archer_female_knight_46: 306380841
+      simple_archer_female_knight_47: -166034143
+      simple_archer_female_knight_48: 844503135
+      simple_archer_female_knight_49: 963961301
+      simple_archer_female_knight_5: 219648457
+      simple_archer_female_knight_50: -652794417
+      simple_archer_female_knight_51: 685516236
+      simple_archer_female_knight_52: 51897176
+      simple_archer_female_knight_53: -182712871
+      simple_archer_female_knight_54: -2089114408
+      simple_archer_female_knight_55: 1327325325
+      simple_archer_female_knight_56: 426006885
+      simple_archer_female_knight_57: -1064605418
+      simple_archer_female_knight_58: -1545193447
+      simple_archer_female_knight_59: 1748687411
+      simple_archer_female_knight_6: 1963324653
+      simple_archer_female_knight_60: 1119350244
+      simple_archer_female_knight_61: 723502364
+      simple_archer_female_knight_62: -1737002302
+      simple_archer_female_knight_63: -1313096988
+      simple_archer_female_knight_64: 939303265
+      simple_archer_female_knight_65: 1556266322
+      simple_archer_female_knight_66: 1773834451
+      simple_archer_female_knight_67: -730536826
+      simple_archer_female_knight_68: -2108776736
+      simple_archer_female_knight_69: 840051873
+      simple_archer_female_knight_7: 523243980
+      simple_archer_female_knight_70: 1341749730
+      simple_archer_female_knight_71: -62399134
+      simple_archer_female_knight_72: -1676346764
+      simple_archer_female_knight_73: -1953483323
+      simple_archer_female_knight_74: -1631502925
+      simple_archer_female_knight_75: -1593256203
+      simple_archer_female_knight_76: 1681675275
+      simple_archer_female_knight_77: -1568950873
+      simple_archer_female_knight_78: 616244665
+      simple_archer_female_knight_79: -2119236084
+      simple_archer_female_knight_8: -1874269929
+      simple_archer_female_knight_80: -628085263
+      simple_archer_female_knight_81: 1621676394
+      simple_archer_female_knight_82: 238710804
+      simple_archer_female_knight_83: -2082240406
+      simple_archer_female_knight_84: 557952820
+      simple_archer_female_knight_85: 1065553914
+      simple_archer_female_knight_86: -1764134704
+      simple_archer_female_knight_87: -778113814
+      simple_archer_female_knight_88: 325618010
+      simple_archer_female_knight_89: -1541076205
+      simple_archer_female_knight_9: -1499670733
+      simple_archer_female_knight_90: -1151577916
+      simple_archer_female_knight_91: -1454673662
+      simple_archer_female_knight_92: 1771788038
+      simple_archer_female_knight_93: 440521895
+      simple_archer_female_knight_94: 1347219490
+      simple_archer_female_knight_95: 1779846153
+      simple_archer_female_knight_96: 517959524
+      simple_archer_female_knight_97: -492280413
+      simple_archer_female_knight_98: 2056612331
+      simple_archer_female_knight_99: -359952397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
