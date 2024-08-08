@@ -22,8 +22,16 @@ public class CharStats : MonoBehaviour {
     public Item equippedArmr;
     public Sprite charIamge;
 
-	// Use this for initialization
-	void Start () {
+
+    public int winHP;
+    public int winMP;
+    public int winStrength;
+    public int winDefence;
+    public int winMagie;
+    public int winResistance;
+
+    // Use this for initialization
+    void Start () {
         expToNextLevel = new int[maxLevel];
         expToNextLevel[1] = baseEXP;
 
@@ -39,27 +47,18 @@ public class CharStats : MonoBehaviour {
 
         if (playerLevel < maxLevel)
         {
-            if (currentEXP > expToNextLevel[playerLevel])
+            while (currentEXP > expToNextLevel[playerLevel])
             {
                 currentEXP -= expToNextLevel[playerLevel];
 
                 playerLevel++;
 
-                //determine whether to add to str or def based on odd or even
-                if (playerLevel % 2 == 0)
-                {
-                    strength++;
-                }
-                else
-                {
-                    defence++;
-                }
-
-                maxHP = Mathf.FloorToInt(maxHP * 1.05f);
-                //currentHP = maxHP;
-
-                maxMP += mpLvlBonus[playerLevel];
-                //currentMP = maxMP;
+                maxHP += winHP;
+                maxMP += winMP;
+                strength += winStrength;
+                defence += winDefence;
+                magie += winMagie;
+                resistance += winResistance;
             }
         }
 

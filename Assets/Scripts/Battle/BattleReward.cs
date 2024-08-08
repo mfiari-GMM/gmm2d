@@ -5,11 +5,12 @@ public class BattleReward : MonoBehaviour {
 
     public static BattleReward instance;
 
-    public Text xpText, itemText;
+    public Text xpText, moneyText, itemText;
     public GameObject rewardScreen;
 
     public string[] rewardItems;
     public int xpEarned;
+    public int moneyWin;
 
     public bool markQuestComplete;
     public string questToMark;
@@ -19,12 +20,16 @@ public class BattleReward : MonoBehaviour {
         instance = this;
 	}
 
-    public void OpenRewardScreen(int xp, string[] rewards)
+    public void OpenRewardScreen(int xp, int money, string[] rewards)
     {
         xpEarned = xp;
         rewardItems = rewards;
+        moneyWin = money;
 
         xpText.text = "Everyone earned " + xpEarned + " xp!";
+
+        moneyText.text = "You Gain " + moneyWin + " gold!";
+
         itemText.text = "";
 
         for(int i = 0; i < rewardItems.Length; i++)
@@ -45,7 +50,9 @@ public class BattleReward : MonoBehaviour {
             }
         }
 
-        for(int i = 0; i < rewardItems.Length; i++)
+        GameManager.instance.AddMoney(moneyWin);
+
+        for (int i = 0; i < rewardItems.Length; i++)
         {
             GameManager.instance.AddItem(rewardItems[i]);
         }

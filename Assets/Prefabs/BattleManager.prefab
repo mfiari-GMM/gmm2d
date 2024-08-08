@@ -1869,35 +1869,42 @@ MonoBehaviour:
   playerPrefabs:
   - {fileID: 114017839349114026, guid: 459124c72bda63a468a2cc892c618c38, type: 3}
   - {fileID: 114017839349114026, guid: c543b145567e07a40a314c854f3f8fcc, type: 3}
+  - {fileID: 114017839349114026, guid: ed1b1dc90c49643f7b375af7395bfb20, type: 3}
   enemyPrefabs:
-  - {fileID: 114811357314912286, guid: dc3408df2e0a65d49a7f96dc3a466dac, type: 3}
-  - {fileID: 114853531176991714, guid: 499b78d6beaa67b42a9e4641e043239a, type: 3}
-  - {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036, type: 3}
-  - {fileID: 114816084446038158, guid: 3567c682fe182d040b1cd8c0e0fb1c50, type: 3}
+  - {fileID: 114895784032005762, guid: f24adb2fc37e44233a144a711d0039b7, type: 3}
   - {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a, type: 3}
+  - {fileID: 114816084446038158, guid: 3567c682fe182d040b1cd8c0e0fb1c50, type: 3}
+  - {fileID: 114811357314912286, guid: dc3408df2e0a65d49a7f96dc3a466dac, type: 3}
+  - {fileID: 114895784032005762, guid: 6f6652242f79849349dc86383ee3e8ed, type: 3}
+  - {fileID: 114895784032005762, guid: 9f8cc7335c9394630a39f57f387b3f22, type: 3}
   - {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e, type: 3}
+  - {fileID: 114895784032005762, guid: 90345178139a6448f9eecdc4196860f0, type: 3}
+  - {fileID: 114853531176991714, guid: 499b78d6beaa67b42a9e4641e043239a, type: 3}
+  - {fileID: 114895784032005762, guid: 422c571d4d643408499bc35238e50e5c, type: 3}
+  - {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036, type: 3}
+  - {fileID: 114895784032005762, guid: 153324481d4aa4d20b010affbeed98c6, type: 3}
   activeBattlers: []
   currentTurn: 0
   turnWaiting: 0
   uiButtonsHolder: {fileID: 1695574381629516}
   movesList:
   - moveName: Slash
-    movePower: 20
+    movePower: 10
     moveCost: 0
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
   - moveName: Fire
-    movePower: 30
+    movePower: 20
     moveCost: 5
     theEffect: {fileID: 114252193273743618, guid: 043b88d04f672484e9403308ddcf2aa8,
       type: 3}
   - moveName: Ice
-    movePower: 30
+    movePower: 20
     moveCost: 5
     theEffect: {fileID: 114608741124403118, guid: 6a6c937b3e2bab1469fa74d00472e528,
       type: 3}
   - moveName: Plasma
-    movePower: 50
+    movePower: 30
     moveCost: 10
     theEffect: {fileID: 114011823187449262, guid: e4267b748e9498a4e96e8ccf7ac9f3ff,
       type: 3}
@@ -1946,6 +1953,7 @@ MonoBehaviour:
   chanceToFlee: 35
   gameOverScene: GameOver
   rewardXP: 500
+  rewardMoney: 0
   rewardItems:
   - Wooden Sword
   - Iron Armor

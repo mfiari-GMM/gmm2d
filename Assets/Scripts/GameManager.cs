@@ -78,6 +78,11 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void AddMoney (int money)
+    {
+        this.currentGold += money;
+    }
+
     public void AddItem(string itemToAdd)
     {
         int newItemPosition = 0;

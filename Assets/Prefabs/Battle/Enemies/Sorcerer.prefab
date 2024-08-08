@@ -99,17 +99,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
+  - Ice
+  - Fire
   - Plasma
-  charName: Spider
-  currentHp: 150
-  maxHP: 250
-  currentMP: 0
-  maxMP: 0
+  charName: Sorcerer
+  currentHp: 350
+  maxHP: 350
+  currentMP: 200
+  maxMP: 200
   strength: 5
-  defence: 5
-  magie: 0
-  resistance: 0
+  defence: 15
+  magie: 20
+  resistance: 20
   wpnPower: 5
   armrPower: 5
   hasDied: 0

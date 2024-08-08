@@ -46,6 +46,7 @@ public class BattleManager : MonoBehaviour {
     public string gameOverScene;
 
     public int rewardXP;
+    public int rewardMoney;
     public string[] rewardItems;
 
     public bool cannotFlee;
@@ -270,14 +271,23 @@ public class BattleManager : MonoBehaviour {
     public void DealDamage(int target, int movePower, bool magic)
     {
 
+        Debug.Log("DealDamage");
+
         float strength = magic ? activeBattlers[currentTurn].magie : activeBattlers[currentTurn].strength;
-        float defence = magic ? activeBattlers[currentTurn].resistance : activeBattlers[currentTurn].defence;
+        float defence = magic ? activeBattlers[target].resistance : activeBattlers[target].defence;
 
         float atkPwr = strength + activeBattlers[currentTurn].wpnPower;
         float defPwr = defence + activeBattlers[target].armrPower;
 
         float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f);
         int damageToGive = Mathf.RoundToInt(damageCalc);
+
+        Debug.Log("strength : " + strength);
+        Debug.Log("defence : " + defence);
+        Debug.Log("atkPwr : " + atkPwr);
+        Debug.Log("defPwr : " + defPwr);
+        Debug.Log("damageCalc : " + damageCalc);
+        Debug.Log("damageToGive : " + damageToGive);
 
         Debug.Log(activeBattlers[currentTurn].charName + " is dealing " + damageCalc + "(" + damageToGive + ") damage to " + activeBattlers[target].charName);
 
@@ -323,7 +333,7 @@ public class BattleManager : MonoBehaviour {
 
     public void PlayerAttack(string moveName, int selectedTarget)
     {
-
+        Debug.Log("PlayerAttack");
         int movePower = 0;
         for (int i = 0; i < movesList.Length; i++)
         {
@@ -333,6 +343,8 @@ public class BattleManager : MonoBehaviour {
                 movePower = movesList[i].movePower;
             }
         }
+
+        Debug.Log("moveName : " + moveName);
 
         bool magic = moveName != "Slash";
 
@@ -486,7 +498,7 @@ public class BattleManager : MonoBehaviour {
             fleeing = false;
         } else
         {
-            BattleReward.instance.OpenRewardScreen(rewardXP, rewardItems);
+            BattleReward.instance.OpenRewardScreen(rewardXP, rewardMoney, rewardItems);
         }
 
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);

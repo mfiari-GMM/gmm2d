@@ -100,18 +100,18 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Plasma
+  - Ice
   charName: Aqua
-  currentHp: 500
-  maxHP: 500
-  currentMP: 0
-  maxMP: 0
-  strength: 5
-  defence: 5
-  magie: 0
-  resistance: 0
-  wpnPower: 5
-  armrPower: 5
+  currentHp: 700
+  maxHP: 700
+  currentMP: 500
+  maxMP: 500
+  strength: 60
+  defence: 40
+  magie: 40
+  resistance: 30
+  wpnPower: 10
+  armrPower: 10
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}

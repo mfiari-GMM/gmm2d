@@ -4,5 +4,6 @@ public class BattleType {
 
     public string[] enemies;
     public int rewardXP;
+    public int rewardMoney;
     public string[] rewardItems;
 }

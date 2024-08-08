@@ -100,16 +100,15 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Plasma
-  charName: Spider
+  charName: Gobelin
   currentHp: 150
-  maxHP: 250
+  maxHP: 150
   currentMP: 0
   maxMP: 0
-  strength: 5
-  defence: 5
+  strength: 25
+  defence: 20
   magie: 0
-  resistance: 0
+  resistance: 8
   wpnPower: 5
   armrPower: 5
   hasDied: 0

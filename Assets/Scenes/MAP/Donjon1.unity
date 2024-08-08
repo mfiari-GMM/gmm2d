@@ -12168,7 +12168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1491018616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12184,10 +12184,11 @@ MonoBehaviour:
   potentialBattles:
   - enemies:
     - Sorcerer
-    rewardXP: 2000
+    rewardXP: 800
+    rewardMoney: 500
     rewardItems:
     - Mana Potion
-    - Iron Sword
+    - Health Potion
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0
@@ -21039,6 +21040,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 40.412983
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 21.037006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 18.58838
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394146175260542519, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 2.3260117
+      objectReference: {fileID: 0}
     - target: {fileID: 1718072336721018777, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: m_Name
@@ -21047,6 +21068,71 @@ PrefabInstance:
     - target: {fileID: 1718072336721018777, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: timeBetweenBattles
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardXP
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardXP
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].rewardXP
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardMoney
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardMoney
+      value: 135
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].rewardMoney
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemies.Array.data[0]
+      value: Eyeball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemies.Array.data[1]
+      value: Eyeball
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].enemies.Array.data[0]
+      value: Gobelin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardItems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].rewardItems.Array.size
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

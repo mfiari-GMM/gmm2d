@@ -80,6 +80,7 @@ public class BattleStarter : MonoBehaviour {
 
         BattleManager.instance.rewardItems = potentialBattles[selectedBattle].rewardItems;
         BattleManager.instance.rewardXP = potentialBattles[selectedBattle].rewardXP;
+        BattleManager.instance.rewardMoney = potentialBattles[selectedBattle].rewardMoney;
 
         yield return new WaitForSeconds(1.5f);
 
