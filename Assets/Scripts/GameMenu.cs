@@ -32,6 +32,11 @@ public class GameMenu : MonoBehaviour {
 
     public string mainMenuName;
 
+
+    public GameObject mapView;
+    public Text mapTitle;
+    public Text mapDescription;
+
     // Use this for initialization
     void Start () {
         instance = this;
@@ -250,5 +255,19 @@ public class GameMenu : MonoBehaviour {
         Destroy(PlayerController.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);
         Destroy(gameObject);
+    }
+
+    public void ShowMapInfo (string title, string description)
+    {
+        mapTitle.text = title;
+        mapDescription.text = description;
+
+        mapView.SetActive(true);
+    }
+
+    public void HideMapInfo()
+    {
+
+        mapView.SetActive(false);
     }
 }

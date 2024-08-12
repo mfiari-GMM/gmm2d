@@ -14,7 +14,7 @@ public class Item : MonoBehaviour {
 
     [Header("Item Details")]
     public int amountToChange;
-    public bool affectHP, affectMP, affectStr;
+    public bool affectHP, affectMP, affectStr, resurrect;
 
     [Header("Weapon/Armor Details")]
     public int weaponStrength;
@@ -41,6 +41,14 @@ public class Item : MonoBehaviour {
         {
             if(affectHP)
             {
+                if (selectedChar.currentHP <= 0)
+                {
+                    return;
+                }
+                if (selectedChar.currentHP >= selectedChar.maxHP)
+                {
+                    return;
+                }
                 selectedChar.currentHP += amountToChange;
 
                 if(selectedChar.currentHP > selectedChar.maxHP)
@@ -51,6 +59,14 @@ public class Item : MonoBehaviour {
 
             if(affectMP)
             {
+                if (selectedChar.currentHP <= 0)
+                {
+                    return;
+                }
+                if (selectedChar.currentMP >= selectedChar.maxMP)
+                {
+                    return;
+                }
                 selectedChar.currentMP += amountToChange;
 
                 if (selectedChar.currentMP > selectedChar.maxMP)
@@ -62,6 +78,14 @@ public class Item : MonoBehaviour {
             if(affectStr)
             {
                 selectedChar.strength += amountToChange;
+            }
+
+            if (resurrect)
+            {
+                if (selectedChar.currentHP <= 0)
+                {
+                    selectedChar.currentHP = selectedChar.maxHP / 2;
+                }
             }
         }
 

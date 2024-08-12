@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4614331974979114
 Transform:
   m_ObjectHideFlags: 0
@@ -197,15 +197,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questMarkerNames:
-  - 
-  - fight the demon
-  - enter the cave
-  - quest test
-  - save the world
-  - do something
-  - load test
-  - Defeat The Dragon
+  - intro
   - training battle 1
+  - training battle 2
+  - training forest
+  - Defeat The Spider
+  - after training forest
+  - examen
+  - mission1
+  - enter the cave
+  - Defeat The sorcerer
+  - encouter alexis
   questMarkersComplete: 
 --- !u!1 &1527901407061400
 GameObject:
@@ -223,7 +225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4946554146672954
 Transform:
   m_ObjectHideFlags: 0

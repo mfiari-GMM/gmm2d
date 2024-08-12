@@ -11,10 +11,13 @@ public class DialogActivator : MonoBehaviour {
     public bool shouldActivateQuest;
     public string questToMark;
     public bool markComplete;
+    public bool shouldHealPlayer;
+    public string[] playersToAdd;
+    public string[] playersToRemove;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -24,6 +27,9 @@ public class DialogActivator : MonoBehaviour {
         {
             DialogManager.instance.ShowDialog(lines, isPerson);
             DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
+            DialogManager.instance.ShouldHealPlayerAtEnd(shouldHealPlayer);
+            DialogManager.instance.ShouldAddPlayerAtEnd(playersToAdd);
+            DialogManager.instance.ShouldRemovePlayerAtEnd(playersToRemove);
         }
 	}
 

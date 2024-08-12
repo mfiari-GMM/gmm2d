@@ -18,6 +18,10 @@ public class DialogManager : MonoBehaviour {
     private string questToMark;
     private bool markQuestComplete;
     private bool shouldMarkQuest;
+    private bool shouldHealPlayers;
+
+    public string[] playersToAdd;
+    public string[] playersToRemove;
 
     // Use this for initialization
     void Start () {
@@ -37,21 +41,63 @@ public class DialogManager : MonoBehaviour {
 
                     if (currentLine >= dialogLines.Length)
                     {
-                        dialogBox.SetActive(false);
 
-                        GameManager.instance.dialogActive = false;
+                        string playerText = "";
+                        bool isTextDisplayed = false;
 
-                        if(shouldMarkQuest)
+                        if (playersToAdd.Length > 0)
                         {
-                            shouldMarkQuest = false;
-                            if(markQuestComplete)
+                            dialogBox.SetActive(true);
+                            nameBox.SetActive(false);
+                            for (int i = 0; i < playersToAdd.Length; i++)
                             {
-                                QuestManager.instance.MarkQuestComplete(questToMark);
-                            } else
+                                GameManager.instance.AddPlayer(playersToAdd[i]);
+                                playerText += playersToAdd[i] + " a rejoins le groupe";
+                            }
+                            dialogText.text = playerText;
+                            playersToAdd = new string[0];
+                            isTextDisplayed = true;
+                        }
+
+                        if (playersToRemove.Length > 0)
+                        {
+                            dialogBox.SetActive(true);
+                            nameBox.SetActive(false);
+                            for (int i = 0; i < playersToRemove.Length; i++)
                             {
-                                QuestManager.instance.MarkQuestIncomplete(questToMark);
+                                GameManager.instance.RemovePlayer(playersToRemove[i]);
+                                playerText += playersToRemove[i] + " a quitter le groupe";
+                            }
+                            dialogText.text = playerText;
+                            dialogBox.SetActive(true);
+                            playersToRemove = new string[0];
+                            isTextDisplayed = true;
+                        }
+
+                        if(!isTextDisplayed)
+                        {
+                            dialogBox.SetActive(false);
+
+                            GameManager.instance.dialogActive = false;
+
+                            if (shouldMarkQuest)
+                            {
+                                shouldMarkQuest = false;
+                                if (markQuestComplete)
+                                {
+                                    QuestManager.instance.MarkQuestComplete(questToMark);
+                                }
+                                else
+                                {
+                                    QuestManager.instance.MarkQuestIncomplete(questToMark);
+                                }
+                            }
+                            if (shouldHealPlayers)
+                            {
+                                GameManager.instance.HealPlayers();
                             }
                         }
+                        
                     }
                     else
                     {
@@ -102,6 +148,21 @@ public class DialogManager : MonoBehaviour {
         questToMark = questName;
         markQuestComplete = markComplete;
 
-        shouldMarkQuest = true;
+        shouldMarkQuest = questName != null && questName.Length > 0;
+    }
+
+    public void ShouldHealPlayerAtEnd(bool healPlayer)
+    {
+        shouldHealPlayers = healPlayer;
+    }
+
+    public void ShouldAddPlayerAtEnd(string[] playersToAdd)
+    {
+        this.playersToAdd = playersToAdd;
+    }
+
+    public void ShouldRemovePlayerAtEnd(string[] playersToRemove)
+    {
+        this.playersToRemove = playersToRemove;
     }
 }

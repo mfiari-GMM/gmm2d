@@ -156,6 +156,37 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void HealPlayers()
+    {
+        for (int i = 0; i < playerStats.Length; i++)
+        {
+            playerStats[i].currentHP = playerStats[i].maxHP;
+            playerStats[i].currentMP = playerStats[i].maxMP;
+        }
+    }
+
+    public void AddPlayer(string playerName)
+    {
+        for (int i = 0; i < playerStats.Length; i++)
+        {
+            if (playerStats[i].charName == playerName)
+            {
+                playerStats[i].gameObject.SetActive(true);
+            }
+        }
+    }
+
+    public void RemovePlayer(string playerName)
+    {
+        for (int i = 0; i < playerStats.Length; i++)
+        {
+            if (playerStats[i].charName == playerName)
+            {
+                playerStats[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
     public void SaveData()
     {
         PlayerPrefs.SetString("Current_Scene", SceneManager.GetActiveScene().name);
