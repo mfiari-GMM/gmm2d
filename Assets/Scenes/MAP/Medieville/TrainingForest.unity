@@ -195,6 +195,7 @@ GameObject:
   - component: {fileID: 219162616}
   - component: {fileID: 219162617}
   - component: {fileID: 219162618}
+  - component: {fileID: 219162619}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -292,6 +293,21 @@ MonoBehaviour:
   objectToActivate: {fileID: 1640049843}
   questToCheck: Defeat The Spider
   activeIfComplete: 1
+--- !u!114 &219162619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 239474892}
+  questToCheck: after training forest
+  activeIfComplete: 0
 --- !u!1001 &227482472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -440,7 +456,6 @@ GameObject:
   m_Component:
   - component: {fileID: 239474894}
   - component: {fileID: 239474893}
-  - component: {fileID: 239474895}
   - component: {fileID: 239474896}
   m_Layer: 0
   m_Name: Quest Zone
@@ -509,22 +524,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239474895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5224f3f12439d4d9f5315f7fb8ae8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questToMark: quest test
-  markComplete: 1
-  markOnEnter: 0
-  deactivateOnMarking: 0
 --- !u!114 &239474896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +550,7 @@ MonoBehaviour:
   questToMark: after training forest
   markComplete: 1
   shouldHealPlayer: 1
+  shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove: []
 --- !u!1 &471987512

@@ -25,12 +25,12 @@ public class QuestManager : MonoBehaviour {
         }
 
         Debug.LogError("Quest " + questToFind + " does not exist");
-        return 0;
+        return -1;
     }
 
     public bool CheckIfComplete(string questToCheck)
     {
-        if(GetQuestNumber(questToCheck) != 0)
+        if(GetQuestNumber(questToCheck) != -1)
         {
             return questMarkersComplete[GetQuestNumber(questToCheck)];
         }
@@ -97,5 +97,6 @@ public class QuestManager : MonoBehaviour {
                 questMarkersComplete[i] = true;
             }
         }
+        UpdateLocalQuestObjects();
     }
 }

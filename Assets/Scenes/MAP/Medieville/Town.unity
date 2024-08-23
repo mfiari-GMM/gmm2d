@@ -124,61 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &174951221
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1815508899592074, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.3992634
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.7207445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.076171875
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114730981052540990, guid: f2d3c32235d5bb747bea5c98642bf77d,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1296156905420382, guid: b0bf7e9865df2914ba33ffdc1b0ed7a1,
-        type: 3}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
 --- !u!1001 &195563607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -247,11 +192,14 @@ GameObject:
   - component: {fileID: 219162615}
   - component: {fileID: 219162614}
   - component: {fileID: 219162613}
+  - component: {fileID: 219162621}
   - component: {fileID: 219162617}
+  - component: {fileID: 219162622}
   - component: {fileID: 219162616}
   - component: {fileID: 219162618}
   - component: {fileID: 219162619}
   - component: {fileID: 219162620}
+  - component: {fileID: 219162623}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -379,100 +327,51 @@ MonoBehaviour:
   objectToActivate: {fileID: 425444074}
   questToCheck: training forest
   activeIfComplete: 0
---- !u!1 &239474892
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 239474894}
-  - component: {fileID: 239474893}
-  - component: {fileID: 239474895}
-  m_Layer: 0
-  m_Name: Quest Zone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!61 &239474893
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.01104784, y: -0.5744617}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 5.3968363, y: 4.049063}
-  m_EdgeRadius: 0
---- !u!4 &239474894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.15, y: -3.7831838, z: 0.7960658}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239474895
+--- !u!114 &219162621
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
+  m_GameObject: {fileID: 219162612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5224f3f12439d4d9f5315f7fb8ae8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToMark: quest test
-  markComplete: 1
-  markOnEnter: 0
-  deactivateOnMarking: 0
+  objectToActivate: {fileID: 273079926}
+  questToCheck: fin training battle 1
+  activeIfComplete: 0
+--- !u!114 &219162622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 1157115249}
+  questToCheck: fin training battle 2
+  activeIfComplete: 0
+--- !u!114 &219162623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToActivate: {fileID: 2084546145}
+  questToCheck: training forest
+  activeIfComplete: 0
 --- !u!1 &273079926
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,8 +423,8 @@ MonoBehaviour:
     rewardMoney: 0
     rewardItems: []
   questToCheck: training battle 1
-  shouldCompleteQuest: 0
-  QuestToComplete: 
+  shouldCompleteQuest: 1
+  QuestToComplete: fin training battle 1
 --- !u!1 &292103326
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +686,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &414884690
@@ -941,6 +841,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &425444079
@@ -1187,6 +1088,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &508732353
@@ -6540,6 +6442,7 @@ MonoBehaviour:
   questToMark: training battle 2
   markComplete: 1
   shouldHealPlayer: 1
+  shouldAutoLaunch: 0
   playersToAdd:
   - Vard
   playersToRemove: []
@@ -6953,6 +6856,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &865508447
@@ -7235,6 +7139,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &943776502
@@ -7340,8 +7245,8 @@ MonoBehaviour:
     rewardMoney: 0
     rewardItems: []
   questToCheck: training battle 2
-  shouldCompleteQuest: 0
-  QuestToComplete: 
+  shouldCompleteQuest: 1
+  QuestToComplete: fin training battle 2
 --- !u!1 &1177624438
 GameObject:
   m_ObjectHideFlags: 0
@@ -7501,6 +7406,7 @@ MonoBehaviour:
   questToMark: training battle 1
   markComplete: 1
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &1199242423
@@ -7637,6 +7543,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!61 &1204819432
@@ -7763,63 +7670,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1225190842}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1351201117
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1776286149934772, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4493909492483938, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1776286149934772, guid: a7b4b1d88b65cf34baa3634512ccd0bb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1889955085}
-    - targetCorrespondingSourceObject: {fileID: 1776286149934772, guid: a7b4b1d88b65cf34baa3634512ccd0bb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1889955086}
-  m_SourcePrefab: {fileID: 100100000, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
 --- !u!1001 &1397434787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31758,6 +31608,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &1539787125
@@ -31958,6 +31809,7 @@ MonoBehaviour:
   questToMark: 
   markComplete: 0
   shouldHealPlayer: 0
+  shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
 --- !u!212 &1561429856
@@ -32095,59 +31947,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1872376594}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1889955084 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1776286149934772, guid: a7b4b1d88b65cf34baa3634512ccd0bb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1351201117}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &1889955085
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889955084}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.83
---- !u!114 &1889955086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889955084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c665f46f0872a184991874508ac9be90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1928152799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
@@ -32294,7 +32093,7 @@ MonoBehaviour:
   lines:
   - n-Mok
   - Salut les gars
-  - "J'ai entendu dire qu'une araign\xE9 s'est cach\xE9 dans la foret"
+  - J'ai entendu dire qu'une araigne s'est cache dans la foret
   - Est-ce que vous voulez venir avec moi pour la chasser ?
   - n-Marco
   - Oui, ca nous fera un peu d'entrainement
@@ -32305,6 +32104,7 @@ MonoBehaviour:
   questToMark: training forest
   markComplete: 1
   shouldHealPlayer: 1
+  shouldAutoLaunch: 0
   playersToAdd:
   - Mok
   playersToRemove: []
@@ -69182,11 +68982,8 @@ SceneRoots:
   - {fileID: 1177624440}
   - {fileID: 1397434787}
   - {fileID: 471987514}
-  - {fileID: 174951221}
   - {fileID: 195563607}
   - {fileID: 1204819433}
-  - {fileID: 1351201117}
-  - {fileID: 239474894}
   - {fileID: 219162615}
   - {fileID: 523540770}
   - {fileID: 823580520}

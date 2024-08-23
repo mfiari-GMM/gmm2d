@@ -9,11 +9,6 @@ public class QuestObjectActivator : MonoBehaviour {
     public bool activeIfComplete;
 
     private bool initialCheckDone;
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {
