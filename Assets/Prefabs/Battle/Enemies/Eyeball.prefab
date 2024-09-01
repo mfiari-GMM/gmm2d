@@ -105,10 +105,10 @@ MonoBehaviour:
   maxHP: 70
   currentMP: 0
   maxMP: 0
-  strength: 16
-  defence: 12
+  strength: 40
+  defence: 15
   magie: 0
-  resistance: 8
+  resistance: 20
   wpnPower: 0
   armrPower: 0
   hasDied: 0
@@ -116,3 +116,5 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
+  weaknesses: 
+  resistances: 

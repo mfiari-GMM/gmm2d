@@ -275,7 +275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Attack
+  m_Text: Attaque
 --- !u!1 &1030203725288034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +1884,7 @@ MonoBehaviour:
   - {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036, type: 3}
   - {fileID: 114895784032005762, guid: 153324481d4aa4d20b010affbeed98c6, type: 3}
   - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
+  - {fileID: 114895784032005762, guid: 8ba6f1488b874469289ba4d9d4a7aa13, type: 3}
   activeBattlers: []
   currentTurn: 0
   turnWaiting: 0
@@ -1894,21 +1895,127 @@ MonoBehaviour:
     moveCost: 0
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
-  - moveName: Fire
+    battleType: 5
+  - moveName: Coup d'estoc
+    movePower: 20
+    moveCost: 10
+    theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
+      type: 3}
+    battleType: 5
+  - moveName: Estocade sonique
+    movePower: 30
+    moveCost: 15
+    theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
+      type: 3}
+    battleType: 5
+  - moveName: Estocade supersonique
+    movePower: 50
+    moveCost: 25
+    theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
+      type: 3}
+    battleType: 5
+  - moveName: Lame foudroyante
+    movePower: 30
+    moveCost: 20
+    theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
+      type: 3}
+    battleType: 6
+  - moveName: Coup puissant
+    movePower: 25
+    moveCost: 10
+    theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
+      type: 3}
+    battleType: 5
+  - moveName: Impact terrestre
+    movePower: 40
+    moveCost: 20
+    theEffect: {fileID: 114961059728432790, guid: 1a2990bd193ba4d34b86fc29bb31c7df,
+      type: 3}
+    battleType: 4
+  - moveName: Feu
     movePower: 20
     moveCost: 5
     theEffect: {fileID: 114252193273743618, guid: 043b88d04f672484e9403308ddcf2aa8,
       type: 3}
-  - moveName: Ice
+    battleType: 0
+  - moveName: Feu +
+    movePower: 40
+    moveCost: 15
+    theEffect: {fileID: 114252193273743618, guid: 140cb69abb9fe496a927cfb28f8f6783,
+      type: 3}
+    battleType: 0
+  - moveName: Feu X
+    movePower: 60
+    moveCost: 30
+    theEffect: {fileID: 114252193273743618, guid: 263112a125b1542dd94b7d78d1dd28e8,
+      type: 3}
+    battleType: 0
+  - moveName: Glace
     movePower: 20
     moveCost: 5
     theEffect: {fileID: 114608741124403118, guid: 6a6c937b3e2bab1469fa74d00472e528,
       type: 3}
+    battleType: 1
+  - moveName: Glace +
+    movePower: 40
+    moveCost: 15
+    theEffect: {fileID: 114608741124403118, guid: 5874ab0e428ee4d098dfb3c0bb7e94d0,
+      type: 3}
+    battleType: 1
+  - moveName: Glace X
+    movePower: 60
+    moveCost: 30
+    theEffect: {fileID: 114608741124403118, guid: 88c411e24dc5a4d35816269c999314e0,
+      type: 3}
+    battleType: 1
+  - moveName: Foudre
+    movePower: 20
+    moveCost: 5
+    theEffect: {fileID: 114252193273743618, guid: aa33a26d5a392425185e2223b880bfe6,
+      type: 3}
+    battleType: 6
+  - moveName: Foudre +
+    movePower: 40
+    moveCost: 15
+    theEffect: {fileID: 114252193273743618, guid: f3f97be1f321e497080ccea634e33e56,
+      type: 3}
+    battleType: 6
+  - moveName: Foudre X
+    movePower: 60
+    moveCost: 30
+    theEffect: {fileID: 114252193273743618, guid: 7309e511ea32f4252a50e96871e6ac53,
+      type: 3}
+    battleType: 6
   - moveName: Plasma
     movePower: 30
     moveCost: 10
     theEffect: {fileID: 114011823187449262, guid: e4267b748e9498a4e96e8ccf7ac9f3ff,
       type: 3}
+    battleType: 5
+  - moveName: Vent
+    movePower: 20
+    moveCost: 5
+    theEffect: {fileID: 114252193273743618, guid: c2a603d123bd1414d95f3e52ab15b6bf,
+      type: 3}
+    battleType: 3
+  - moveName: Tornade
+    movePower: 40
+    moveCost: 15
+    theEffect: {fileID: 114252193273743618, guid: 16189694985fa4bf69ff1eaed4c66157,
+      type: 3}
+    battleType: 3
+  - moveName: Cyclone
+    movePower: 60
+    moveCost: 30
+    theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
+      type: 3}
+    battleType: 3
+  - moveName: Seisme
+    movePower: 30
+    moveCost: 25
+    theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
+      type: 3}
+    battleType: 4
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801,
     type: 3}
   theDamageNumber: {fileID: 114429894980074712, guid: add1341ff4b53074794f5f54ef4f216d,
@@ -1959,6 +2066,16 @@ MonoBehaviour:
   - Wooden Sword
   - Iron Armor
   cannotFlee: 0
+  battleBg: {fileID: 212760558863176084}
+  battleBackgrounds:
+  - fieldName: donjon
+    background: {fileID: 21300000, guid: 16af20c94d442ab4c8bff6c6a7d1885f, type: 3}
+  - fieldName: country
+    background: {fileID: 21300000, guid: d330684629bb9cd4daa49df8677ff91f, type: 3}
+  - fieldName: forest
+    background: {fileID: 21300000, guid: 4c38a2b9041c88748add8abf7c31433c, type: 3}
+  - fieldName: village
+    background: {fileID: 21300000, guid: 2e06601d6168a084ca42ab37136eda4e, type: 3}
 --- !u!1 &1312058871969948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2674,7 +2791,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Flee
+  m_Text: Fuite
 --- !u!1 &1354537982258648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3474,7 +3591,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Magic
+  m_Text: Magie
 --- !u!1 &1412985851970014
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,7 +5203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MP -
+  m_Text: PM -
 --- !u!1 &1541221329485112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5356,7 +5473,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HP -
+  m_Text: PV -
 --- !u!1 &1561406316507572
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,7 +5552,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item
+  m_Text: Objets
 --- !u!1 &1563357184598746
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,7 +6088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MP -
+  m_Text: PM -
 --- !u!1 &1597354260861146
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,7 +8074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MP -
+  m_Text: PM -
 --- !u!1 &1773247249237874
 GameObject:
   m_ObjectHideFlags: 0
@@ -9113,7 +9230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HP -
+  m_Text: PV -
 --- !u!1 &1943750715585578
 GameObject:
   m_ObjectHideFlags: 0
@@ -9653,7 +9770,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HP -
+  m_Text: PV -
 --- !u!1 &1972797124630192
 GameObject:
   m_ObjectHideFlags: 0

@@ -100,14 +100,15 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: spell book
-  description: strong
-  value: 25
+  itemName: Livre de magie
+  description: Livre de magie
+  value: 200
   itemSprite: {fileID: -1353919610, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
-  amountToChange: 50
+  amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
+  resurrect: 0
   weaponStrength: 5
   armorStrength: 0
   weaponMagie: 10

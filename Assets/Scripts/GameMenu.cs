@@ -16,7 +16,7 @@ public class GameMenu : MonoBehaviour {
 
     public GameObject[] statusButtons;
 
-    public Text statusName, statusHP, statusMP, statusStr, statusDef, statusWpnEqpd, statusWpnPwr, statusArmrEqpd, statusArmrPwr, statusExp;
+    public Text statusName, statusHP, statusMP, statusStr, statusDef, statusMagie, statusRes, statusWpnEqpd, statusArmrEqpd, statusExp;
     public Image statusImage;
 
     public ItemButton[] itemButtons;
@@ -71,9 +71,9 @@ public class GameMenu : MonoBehaviour {
                 charStatHolder[i].SetActive(true);
 
                 nameText[i].text = playerStats[i].charName;
-                hpText[i].text = "HP: " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                mpText[i].text = "MP: " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
-                lvlText[i].text = "Lvl: " + playerStats[i].playerLevel;
+                hpText[i].text = "PV : " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
+                mpText[i].text = "PM : " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
+                lvlText[i].text = "Niv : " + playerStats[i].playerLevel;
                 expText[i].text = "" + playerStats[i].currentEXP + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
                 expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
                 expSlider[i].value = playerStats[i].currentEXP;
@@ -140,26 +140,24 @@ public class GameMenu : MonoBehaviour {
         statusMP.text = "" + playerStats[selected].currentMP + "/" + playerStats[selected].maxMP;
         statusStr.text = playerStats[selected].strength.ToString();
         statusDef.text = playerStats[selected].defence.ToString();
+        statusMagie.text = playerStats[selected].magie.ToString();
+        statusRes.text = playerStats[selected].resistance.ToString();
 
         if (playerStats[selected].equippedWpn != null)
         {
             statusWpnEqpd.text = playerStats[selected].equippedWpn.itemName;
-            statusWpnPwr.text = playerStats[selected].equippedWpn.weaponStrength.ToString();
         } else
         {
             statusWpnEqpd.text = "";
-            statusWpnPwr.text = "0";
         }
 
         if (playerStats[selected].equippedArmr != null)
         {
             statusArmrEqpd.text = playerStats[selected].equippedArmr.itemName;
-            statusArmrPwr.text = playerStats[selected].equippedArmr.armorStrength.ToString();
         }
         else
         {
             statusArmrEqpd.text = "";
-            statusArmrPwr.text = "0";
         }
         
         statusExp.text = (playerStats[selected].expToNextLevel[playerStats[selected].playerLevel] - playerStats[selected].currentEXP).ToString();
@@ -194,12 +192,12 @@ public class GameMenu : MonoBehaviour {
 
         if(activeItem.isItem)
         {
-            useButtonText.text = "Use";
+            useButtonText.text = "Utiliser";
         }
 
         if(activeItem.isWeapon || activeItem.isArmour)
         {
-            useButtonText.text = "Equip";
+            useButtonText.text = "Equiper";
         }
 
         itemName.text = activeItem.itemName;

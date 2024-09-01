@@ -17,7 +17,7 @@ public class Shop : MonoBehaviour {
     public ItemButton[] sellItemButtons;
 
     public Item selectedItem;
-    public Text buyItemName, buyItemDescription, buyItemValue;
+    public Text buyItemName, buyItemDescription, buyItemValue, buyItemStrength, buyItemMagie, buyItemDefence, buyItemResistance;
     public Text sellItemName, sellItemDescription, sellItemValue;
 
 	// Use this for initialization
@@ -105,7 +105,22 @@ public class Shop : MonoBehaviour {
             selectedItem = buyItem;
             buyItemName.text = selectedItem.itemName;
             buyItemDescription.text = selectedItem.description;
-            buyItemValue.text = "Value: " + selectedItem.value + "g";
+            buyItemValue.text = "Prix : " + selectedItem.value + "g";
+
+            bool isWeaponItem = buyItem.isWeapon || buyItem.isArmour;
+
+            buyItemStrength.gameObject.SetActive(isWeaponItem);
+            buyItemMagie.gameObject.SetActive(isWeaponItem);
+            buyItemDefence.gameObject.SetActive(isWeaponItem);
+            buyItemResistance.gameObject.SetActive(isWeaponItem);
+
+            if (isWeaponItem)
+            {
+                buyItemStrength.text = "frc : +" + selectedItem.weaponStrength.ToString();
+                buyItemMagie.text = "mag : +" + selectedItem.weaponMagie.ToString();
+                buyItemDefence.text = "def : +" + selectedItem.armorStrength.ToString();
+                buyItemResistance.text = "res : +" + selectedItem.armorResistance.ToString();
+            }
         }
     }
 
@@ -116,7 +131,7 @@ public class Shop : MonoBehaviour {
             selectedItem = sellItem;
             sellItemName.text = selectedItem.itemName;
             sellItemDescription.text = selectedItem.description;
-            sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+            sellItemValue.text = "Prix : " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
         }
     }
 

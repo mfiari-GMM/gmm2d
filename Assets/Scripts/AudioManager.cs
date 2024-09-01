@@ -9,13 +9,15 @@ public class AudioManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        instance = this;
+        if (instance == null)
+        {
+            instance = this;
 
-        DontDestroyOnLoad(this.gameObject);
-	}
-	
-	// Update is called once per frame
-	void Update () {
+            DontDestroyOnLoad(this.gameObject);
+        } else
+        {
+            Destroy(this.gameObject);
+        }
 	}
 
     public void PlaySFX(int soundToPlay)

@@ -100,13 +100,16 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: Iron axe
-  description: Sharp!
-  value: 25
+  itemName: Hache de fer
+  description: hache coupante et facile a manier.
+  value: 250
   itemSprite: {fileID: -841050919, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
-  amountToChange: 50
+  amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
+  resurrect: 0
   weaponStrength: 15
   armorStrength: 0
+  weaponMagie: 0
+  armorResistance: 0

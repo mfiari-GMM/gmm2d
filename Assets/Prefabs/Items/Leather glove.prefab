@@ -100,13 +100,16 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 0
   isArmour: 1
-  itemName: Leather glove
-  description: Leather glove
-  value: 10
+  itemName: Gant en cuir
+  description: Gant fait en cuir, pas tres solide. Ideal pour les debutants
+  value: 60
   itemSprite: {fileID: 323724577, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 50
   affectHP: 0
   affectMP: 0
   affectStr: 0
+  resurrect: 0
   weaponStrength: 0
-  armorStrength: 5
+  armorStrength: 2
+  weaponMagie: 0
+  armorResistance: 0

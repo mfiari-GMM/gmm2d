@@ -46,9 +46,6 @@ public class GameManager : MonoBehaviour {
             }
         }
 
-
-
-
         return null;
     }
 
@@ -193,9 +190,10 @@ public class GameManager : MonoBehaviour {
         PlayerPrefs.SetFloat("Player_Position_x", PlayerController.instance.transform.position.x);
         PlayerPrefs.SetFloat("Player_Position_y", PlayerController.instance.transform.position.y);
         PlayerPrefs.SetFloat("Player_Position_z", PlayerController.instance.transform.position.z);
+        PlayerPrefs.SetInt("Gold", currentGold);
 
         //save character info
-        for(int i = 0; i < playerStats.Length; i++)
+        for (int i = 0; i < playerStats.Length; i++)
         {
             if(playerStats[i].gameObject.activeInHierarchy)
             {
@@ -234,7 +232,9 @@ public class GameManager : MonoBehaviour {
     {
         PlayerController.instance.transform.position = new Vector3(PlayerPrefs.GetFloat("Player_Position_x"), PlayerPrefs.GetFloat("Player_Position_y"), PlayerPrefs.GetFloat("Player_Position_z"));
 
-        for(int i = 0; i < playerStats.Length; i++)
+        currentGold = PlayerPrefs.GetInt("Gold", 0);
+
+        for (int i = 0; i < playerStats.Length; i++)
         {
             if(PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_active") == 0)
             {

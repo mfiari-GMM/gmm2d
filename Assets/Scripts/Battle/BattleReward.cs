@@ -26,9 +26,9 @@ public class BattleReward : MonoBehaviour {
         rewardItems = rewards;
         moneyWin = money;
 
-        xpText.text = "Everyone earned " + xpEarned + " xp!";
+        xpText.text = "Tous le monde gagne " + xpEarned + " exp!";
 
-        moneyText.text = "You Gain " + moneyWin + " gold!";
+        moneyText.text = "Vous recevez " + moneyWin + " gold!";
 
         itemText.text = "";
 

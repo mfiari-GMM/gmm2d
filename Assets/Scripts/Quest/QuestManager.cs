@@ -7,12 +7,19 @@ public class QuestManager : MonoBehaviour {
 
     public static QuestManager instance;
 
+    private bool isInit = false;
+
 	// Use this for initialization
 	void Start () {
         instance = this;
 
         questMarkersComplete = new bool[questMarkerNames.Length];
-	}
+
+        UpdateLocalQuestObjects();
+
+        isInit = true;
+
+    }
 
     public int GetQuestNumber(string questToFind)
     {
@@ -30,7 +37,7 @@ public class QuestManager : MonoBehaviour {
 
     public bool CheckIfComplete(string questToCheck)
     {
-        if(GetQuestNumber(questToCheck) != -1)
+        if(isInit && GetQuestNumber(questToCheck) != -1)
         {
             return questMarkersComplete[GetQuestNumber(questToCheck)];
         }

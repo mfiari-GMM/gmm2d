@@ -100,13 +100,16 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 0
   isArmour: 1
-  itemName: Iron glove
-  description: Shiny glove
-  value: 25
+  itemName: gant de fer
+  description: gant basique en fer
+  value: 220
   itemSprite: {fileID: -1051830072, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
-  amountToChange: 50
+  amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
+  resurrect: 0
   weaponStrength: 0
-  armorStrength: 10
+  armorStrength: 6
+  weaponMagie: 0
+  armorResistance: 0

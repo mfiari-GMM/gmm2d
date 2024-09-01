@@ -14,12 +14,15 @@ public class BattleStarter : MonoBehaviour {
     public bool deactivateAfterStarting;
 
     public bool cannotFlee;
+    public string battleField;
 
     public bool shouldCompleteQuest;
     public string QuestToComplete;
 
-	// Use this for initialization
-	void Start () {
+    public bool isBoss;
+
+    // Use this for initialization
+    void Start () {
         betweenBattleCounter = Random.Range(timeBetweenBattles * .5f, timeBetweenBattles * 1.5f);
 	}
 	
@@ -81,10 +84,11 @@ public class BattleStarter : MonoBehaviour {
         BattleManager.instance.rewardItems = potentialBattles[selectedBattle].rewardItems;
         BattleManager.instance.rewardXP = potentialBattles[selectedBattle].rewardXP;
         BattleManager.instance.rewardMoney = potentialBattles[selectedBattle].rewardMoney;
+        BattleManager.instance.isBoss = isBoss;
 
         yield return new WaitForSeconds(1.5f);
 
-        BattleManager.instance.BattleStart(potentialBattles[selectedBattle].enemies, cannotFlee);
+        BattleManager.instance.BattleStart(potentialBattles[selectedBattle].enemies, cannotFlee, battleField);
         UIFade.instance.FadeFromBlack();
 
         if(deactivateAfterStarting)

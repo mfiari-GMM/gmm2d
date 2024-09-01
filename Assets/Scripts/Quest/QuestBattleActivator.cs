@@ -5,6 +5,7 @@ public class QuestBattleActivator : MonoBehaviour
 {
 
     public BattleType battleType;
+    public string battleField;
 
     public string questToCheck;
 
@@ -38,10 +39,11 @@ public class QuestBattleActivator : MonoBehaviour
 
         BattleManager.instance.rewardItems = battleType.rewardItems;
         BattleManager.instance.rewardXP = battleType.rewardXP;
+        BattleManager.instance.rewardMoney = battleType.rewardMoney;
 
         yield return new WaitForSeconds(1.5f);
 
-        BattleManager.instance.BattleStart(battleType.enemies, true);
+        BattleManager.instance.BattleStart(battleType.enemies, true, battleField);
         UIFade.instance.FadeFromBlack();
 
         BattleReward.instance.markQuestComplete = shouldCompleteQuest;

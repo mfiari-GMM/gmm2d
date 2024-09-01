@@ -52,7 +52,7 @@ public class DialogManager : MonoBehaviour {
                             for (int i = 0; i < playersToAdd.Length; i++)
                             {
                                 GameManager.instance.AddPlayer(playersToAdd[i]);
-                                playerText += playersToAdd[i] + " a rejoins le groupe";
+                                playerText += playersToAdd[i] + " a rejoins le groupe \n";
                             }
                             dialogText.text = playerText;
                             playersToAdd = new string[0];
@@ -66,7 +66,7 @@ public class DialogManager : MonoBehaviour {
                             for (int i = 0; i < playersToRemove.Length; i++)
                             {
                                 GameManager.instance.RemovePlayer(playersToRemove[i]);
-                                playerText += playersToRemove[i] + " a quitter le groupe";
+                                playerText += playersToRemove[i] + " a quitter le groupe \n";
                             }
                             dialogText.text = playerText;
                             dialogBox.SetActive(true);

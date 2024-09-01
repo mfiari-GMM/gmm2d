@@ -100,13 +100,16 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: Wooden Sword
-  description: Not very strong
-  value: 10
+  itemName: Epee en bois
+  description: Epee d'entrainement en bois.
+  value: 80
   itemSprite: {fileID: -1980618505, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
-  amountToChange: 50
+  amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
-  weaponStrength: 5
+  resurrect: 0
+  weaponStrength: 4
   armorStrength: 0
+  weaponMagie: 0
+  armorResistance: 0

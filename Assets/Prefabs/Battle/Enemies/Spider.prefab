@@ -108,7 +108,7 @@ MonoBehaviour:
   strength: 35
   defence: 20
   magie: 0
-  resistance: 10
+  resistance: 13
   wpnPower: 0
   armrPower: 0
   hasDied: 0
@@ -116,3 +116,9 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
+  weaknesses:
+  - enemies: []
+    rewardXP: 0
+    rewardMoney: 0
+    rewardItems: []
+  resistances: []

@@ -213,20 +213,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemsForSale:
-  - Health Potion
-  - Mana Potion
-  - basic spell book
-  - spell book
-  - Wooden Sword
-  - Iron Sword
-  - Wooden axe
-  - Iron axe
-  - Leather glove
-  - Iron glove
-  - Leather Armor
-  - Iron Armor
-  - Leather shield
-  - Iron shield
+  - Potion
+  - Potion de Mana
+  - livre apprenti
+  - Livre de magie
+  - Epee en bois
+  - Epee de fer
+  - Hache en bois
+  - Hache de fer
+  - Gant en cuir
+  - gant de fer
+  - Armure de cuir
+  - Armure de fer
+  - bouclier de cuir
+  - bouclier de fer
   - 
   - 
   - 
@@ -498,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -508,12 +508,12 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: Bonjour
+      value: Tu peux ouvrir le menu en appuyant sur la touche "tab".
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[2]
-      value: 
+      value: N'oublie pas egalement de sauvegarder regulierement ta partie.
       objectReference: {fileID: 0}
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -1006,7 +1006,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 64
-      m_TileSpriteIndex: 64
+      m_TileSpriteIndex: 66
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1056,7 +1056,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 63
-      m_TileSpriteIndex: 63
+      m_TileSpriteIndex: 64
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1086,7 +1086,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 59
-      m_TileSpriteIndex: 59
+      m_TileSpriteIndex: 63
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1176,7 +1176,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 58
-      m_TileSpriteIndex: 58
+      m_TileSpriteIndex: 59
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -1186,7 +1186,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 57
-      m_TileSpriteIndex: 57
+      m_TileSpriteIndex: 58
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2043,12 +2043,12 @@ Tilemap:
     m_Data: {fileID: 21300292, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 17
     m_Data: {fileID: 21300326, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300432, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300454, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300482, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300058, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
@@ -2056,13 +2056,13 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300056, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300148, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
+    m_Data: {fileID: 21300482, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300144, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
+    m_Data: {fileID: 21300148, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300146, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300144, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300044, guid: 1c6d3937a6785fd48aacd0d71d6f8c96, type: 3}
   - m_RefCount: 1
@@ -2495,12 +2495,23 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: Bonjour
+      value: Tu peux changer ton equipement en allant dans le menu et en cliquant
+        sur le bouton "objets".
       objectReference: {fileID: 0}
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.7111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1333333
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3810,7 +3821,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -3820,7 +3831,12 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: Bonjour
+      value: Les potions te permttent de restaurer tes PV ou tes PM.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: Les elixir peuvent meme te remettre sur pied si tu es mis K.O.
       objectReference: {fileID: 0}
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}

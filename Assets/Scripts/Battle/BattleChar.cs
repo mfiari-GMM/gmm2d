@@ -15,13 +15,11 @@ public class BattleChar : MonoBehaviour {
     private bool shouldFade;
     public float fadeSpeed = 1f;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    public BattleMove.BattleMoveType[] weaknesses;
+    public BattleMove.BattleMoveType[] resistances;
+
+    // Update is called once per frame
+    void Update () {
 		if(shouldFade)
         {
             theSprite.color = new Color(Mathf.MoveTowards(theSprite.color.r, 1f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.g, 0f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.b, 0f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.a, 0f, fadeSpeed * Time.deltaTime));

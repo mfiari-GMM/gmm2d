@@ -1,22 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PickupItem : MonoBehaviour {
 
-    private bool canPickup;
+    public bool isChest;
+    public Sprite chestSprite;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(canPickup && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove)
+    private bool canPickup;
+    private bool isOpen = false;
+
+    // Update is called once per frame
+    void Update () {
+		if(canPickup && !isOpen && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove)
         {
             GameManager.instance.AddItem(GetComponent<Item>().itemName);
-            Destroy(gameObject);
+
+            if (isChest)
+            {
+                GetComponent<SpriteRenderer>().sprite = chestSprite;
+                isOpen = true;
+            }
+            else {
+                Destroy(gameObject);
+            }
+            
         }
 	}
 
