@@ -1,0 +1,8218 @@
+fileFormatVersion: 2
+guid: 7363ad4d1195b0e49beb236c508ae06e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rose_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2879
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e343ee460b714f91478dad65f75ce
+      internalID: 2135253560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2879
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9291433ef504b4eae18fc556beabfa
+      internalID: -1376626343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2879
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdaefb08e4f1c840b61e81d81de118d
+      internalID: 801466254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2879
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed481576d39a8947a0f579f05a3ede1
+      internalID: -161042802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2879
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38cdc49921f76f41baf963d402cab30
+      internalID: -1041055852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2879
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b98c717d27e60d44b45bd2c85ea66d9
+      internalID: 1043123488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2879
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0f5f814e20a744cb58feed99349dd7
+      internalID: -850931276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2900
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720a0863a3fa81047926c7195bb7457a
+      internalID: -1598035161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2887
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e437a8fc4b41b4d80a31ee082e61ae
+      internalID: -1932109180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_9
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ac91fc42d45e549bfe23fcee0e3931
+      internalID: -1687656992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2814
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdaab826fc6f37a46a5bd972903ba801
+      internalID: 1033308983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2814
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5825a146c12a2ee44acb8dc154f23f2f
+      internalID: 1917310524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_12
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2814
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76861ed5e17aadd40aa6bd3f7e52db01
+      internalID: 1281757226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2814
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c869e5fabdc5ee4f89695e8eb4aef7f
+      internalID: 685234333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2814
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d14b4cc21a632841b6ac8fa7819ad25
+      internalID: 1408037330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_15
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2814
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c75f2568fe8047a915708682832d5
+      internalID: 972807142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_16
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2814
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc97c27b9b1225e4b883ff436afb4f20
+      internalID: 901984505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_17
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2751
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2bc5459698bcd49932e412f9a3a01d
+      internalID: -1421362600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b8ba436d9c2c4419516fcd86d46256
+      internalID: 1613448248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6a3e5068ecefd48874d7ceaa6c03d3
+      internalID: 640622499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2751
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1a72a78135e9447b5d6ff9ff6e6050
+      internalID: -629722780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_21
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2751
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5873b2c201d0074e868deb8891da95b
+      internalID: 1236590560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2751
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba86c61b4b3605469bab138a60021fe
+      internalID: 707212660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_23
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2751
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd92047732bdaa04fa30802d91ff012c
+      internalID: -582752283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2686
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012688fb07b6ed54d9ccff05409e64d6
+      internalID: 974203677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2686
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639291cdfb39ce94f9e3e30101e2fd82
+      internalID: -398643206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2686
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d732adaf31a73254eb167e63d9df7af6
+      internalID: -2099806895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_27
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2686
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae369a862a1586840bc0521c88b26b6f
+      internalID: -2085937992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2686
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862c5902ad19d4149bf7a32ac4c48868
+      internalID: 1160972923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2686
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69660a4ee0d9804aa11642b387af683
+      internalID: 219171651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_30
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2686
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc2e0c341626494fa233c5ba72f1492
+      internalID: 1975217301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_31
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2623
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855e97d43a56cb24c9d4bf9037c2cd04
+      internalID: 300700372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2623
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3f5fd2f4c0e043a86003325e5c334
+      internalID: 855167824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2623
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb70635eab3c894483cf2494abc8758
+      internalID: 2084777549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2623
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2ebc9e1db86da4580b984e9e89e99d
+      internalID: -1483152197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2623
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8384156b264297e4683f0a696b93ae0a
+      internalID: -1700069678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2623
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ea78190b41bf74b88263f482b8a7ca
+      internalID: -1211320072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2623
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e6fd674099b4941838dc624f47e627
+      internalID: 812460938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_38
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2623
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc78dbb19316ad40a603ef89e8aef38
+      internalID: 351968339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2558
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f79486053f09944684aa13ff4934899
+      internalID: -1571294402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_40
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2558
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ee42a57962904449e9d86a66813346
+      internalID: -787057839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2558
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf65e1480d02824589624adfcbc5862
+      internalID: 1175347380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2558
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272404c7f0967a0459bc0de1dd5b2543
+      internalID: -1205419047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_43
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2558
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ecf5e374d41074a961c63874eafc46
+      internalID: -1349245041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2558
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9523c7a13b1cc9469ef2d42db2c7afa
+      internalID: 1730761732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_45
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2558
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa47160fdb1acfc4dbeea20934a1e38b
+      internalID: 1200055189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_46
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2558
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00a0752fd55f0c47872ef1b910ce0f2
+      internalID: -442982349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_47
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2495
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07b6dad6c587e04196e2d3094e92dc9
+      internalID: -443978904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2495
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ad4aa320d2d3c43afb2b58c00dba8d
+      internalID: -865862110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_49
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2495
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c245c795f8be94a9d42bc6a4c7d09c
+      internalID: -10404893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2495
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7af425bc2ec8b44816cb79c88c5203
+      internalID: 2121543385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2495
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7580467d8248f624793f6c5851843bcb
+      internalID: 1862513445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2495
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7543f9a04d62b439a14086ca496037
+      internalID: 91243906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2495
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d866fcdf13080d41b9ca116b6af59e5
+      internalID: -1697537685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_54
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2495
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64747ba8c47f4fb4bab669cabb9bd22a
+      internalID: 1803862918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2430
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878476bfc15346e42a58d6dee1419012
+      internalID: 1841420416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_56
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2430
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b45a185559ea4789b25e3a6f94a8c
+      internalID: -185948724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_57
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2430
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d7bfbcec6432a4db04aa6e5e6498cb
+      internalID: -1673830652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_58
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2430
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a2327a4c265545a99ab7fc6a40f47
+      internalID: 377992691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_59
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2430
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35bbf2e4e2d94941afc691f0a92d842
+      internalID: -244563169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2430
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78881983a5d33f498b4e379b46d076d
+      internalID: -500314518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_61
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2430
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640cf58b8b8d20f43b7922b36e3eb091
+      internalID: -1581295665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_62
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2430
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdd176b46ccfd447a21681adaf1451d
+      internalID: 746536083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_63
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2367
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f64afffcc75014e91dc059e27ad6b7
+      internalID: 1165407105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_64
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2367
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4c88ee220d9844290859d49ce4347f
+      internalID: -1964009409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_65
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2367
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4873c8351c2d44469dcbc7c48a3e1cc
+      internalID: 225950941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_66
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2367
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12969bf867c4ea643bb2763efdd2dbba
+      internalID: 1984430435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_67
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2367
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dec6850e0ad6c54897cbed52fb5cde7
+      internalID: 1801850848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_68
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2367
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aff421830496a041ac326ac6c30150e
+      internalID: -831097240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_69
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2367
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5eaf9ffe99d6444a99322e9a66c45a1
+      internalID: -1338913008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_70
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2367
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a08c5f53d393a48aa48442f7841392
+      internalID: 1876625981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_71
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2367
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b502ee9484c8a42b6a02e5b1cd2e15
+      internalID: -246189490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2302
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a16254138bc08240942f98451e7a0c8
+      internalID: -1862763778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_73
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2302
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042d9f6830442fa488a52cdfe4f8ac4c
+      internalID: 1994208621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2302
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa1ed11d5184e4b981bd295feb9d6d
+      internalID: 536794266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_75
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2302
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e069140cdccb0643a3029c0bcd195dc
+      internalID: -130479064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_76
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2302
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71506bebeb91e04797bcf988ec9cd3c
+      internalID: 867126545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_77
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2302
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b014aabdcbe5d9240931252c937bd400
+      internalID: 1157525474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_78
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2302
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d85498f0049e45bdc6354fc68f571
+      internalID: -698042060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_79
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2302
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c723ccbf44071a147904575c8fbd5d0b
+      internalID: -1930106229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_80
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 2302
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840463aa38812c44eb0d9bb081ef395f
+      internalID: 633023813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2239
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2dc2c854362f4cae5493985d48e9b
+      internalID: -1173007895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_82
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2239
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714afe5b8ef2c284e8c83a17e51138e0
+      internalID: -563591029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_83
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2239
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e05fd3d3651d342aa6cf6f47e48ac8
+      internalID: -358150734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2239
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927b8a556d628994eb0caa63e6ae264d
+      internalID: 1177484139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_85
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2239
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5e9f65007c6d46bdfbbd70fe11469
+      internalID: 1399451865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_86
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2239
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9ede14c39c0b489ad74a9ee159cce
+      internalID: -403694280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_87
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2239
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5d7adfa891f249a440fbbf108bf57
+      internalID: -718004275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_88
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2239
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178cde0d2273efa49a92d9fee7efa85b
+      internalID: 22805260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_89
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2239
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c174004d06012f045859ef1cbb70cb83
+      internalID: -1566949250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2174
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f9e044639251d40b62e3dd7410edb7
+      internalID: -1907468991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_91
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2174
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5cc3fd5dc862d44bbee7569c8186f3
+      internalID: 1558850724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_92
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2174
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc402d8bc5d40049ace6ac1b31c3cc0
+      internalID: 689233066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_93
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2174
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434399c00a7691446830896223dbd289
+      internalID: -1385674952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_94
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2174
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4122ddd1262c140b2c2a43b9835480
+      internalID: 1556044518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_95
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2174
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc8646e6a221b44fac9caa23fc3ab45
+      internalID: -342397423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_96
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2174
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d7513ec2ea0164e8cbba9f89a621f9
+      internalID: -638906716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_97
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2174
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c892496887b9d74eb07bfb34d79940a
+      internalID: -2079063906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_98
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2174
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866974cc7cde88141a71097cc9d324af
+      internalID: -1385440666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2110
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e1419796b73e647b013a6a7a3082ec
+      internalID: 158922808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_100
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2111
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbe42342c30173439ca1e8ccf67ec75
+      internalID: 1862759149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_101
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2111
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ba1a4ee278e3a46aeeb65b639c0822
+      internalID: 1700379208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2110
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d850b7fee048194d864b93691fe3356
+      internalID: 2142909887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_103
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2110
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa2a5bc1247d284aa182c040ce3911d
+      internalID: 729988780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_104
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2110
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dd764811a1ce74b90dedb0053f3573
+      internalID: 1037691195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_105
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2046
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da09882db7fa3f1409cac55f8206a991
+      internalID: 1639805050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_106
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2046
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d240992be89149958d0fac68a5faf
+      internalID: -1709773490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_107
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2046
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0751222f2debdbd43963c88b16e58f8d
+      internalID: 1008767412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_108
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2046
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d48bc1d897b1cb4f9f2925a41626109
+      internalID: -1514733337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_109
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2046
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a34786aeb413489a6dd9f72e7ddb1
+      internalID: 1131185566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_110
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2046
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae02459848e58be41b9fc97a2948fcdd
+      internalID: -299871999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_111
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1982
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8008e2c9ecb1f7b4cbbded3b5b1b50fb
+      internalID: -1925586657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1982
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c34d36ae3cc04db6f760b9e7cac75
+      internalID: 1173623007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_113
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1982
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ee1af5eda665746811fc31ae58d8fe
+      internalID: 2101580129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1982
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf775808075c024089425b6c98a8700
+      internalID: -1954305189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_115
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1982
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea827ad97cf6c46bd222e12b11e492
+      internalID: 17288932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_116
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1982
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f7139743525b540aae839af991d634
+      internalID: 2145899021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_117
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1918
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0247013508b61408ee9f5de2c87ace
+      internalID: 294708329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1918
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8629609ccd0ebb45bf0326306df7965
+      internalID: -1338113462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_119
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1918
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbebe7f1edf4bc418788cdc06206e78
+      internalID: -1056958511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_120
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1918
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9088b2b624de1e446b4f152f60e972f4
+      internalID: -1144446241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_121
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1918
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887fd292fdf9e5c4aa39825909be8a8b
+      internalID: -21855363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_122
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1918
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be511bc708bf3f74b9443d9720d06aaf
+      internalID: 791349210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_123
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1854
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc292ebbf0d15fc46b2a0a63e45ce24e
+      internalID: 1985853360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_124
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3b41c27e184ce4ab2f858bad148893
+      internalID: -107920382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_125
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1854
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e48e506fdd8b84487899bd70a55596
+      internalID: -632142752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_126
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e39bd67b6c89409b5cb4829691753
+      internalID: 1983685715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_127
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d332df6d87b5245b56358054fe0f2e
+      internalID: 779541831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_128
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1854
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4867208f7bd320e429b785e683e2f8cb
+      internalID: -1069213687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_129
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1854
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b420c2aef6792418e82718140e49b9
+      internalID: -1010540893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_130
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1854
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a67b93663c05684682fdade7c1970d0
+      internalID: 428302475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_131
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37386fff280e7e94e81124049b4227fb
+      internalID: 658692970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_132
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1854
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6aec92e4a841f42b0c2fd70b2ed700
+      internalID: 929322346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_133
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1a51a321196f248aa47d99b89a8cfd
+      internalID: -1412373333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_134
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1854
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519acfa98958a324b914833182ae4232
+      internalID: -2086609730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_135
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1854
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73af698595bb7fa40b1d1c0dedd8eebb
+      internalID: -75103156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_136
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1790
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a1857fbf09bd74d97b2ddaff14712d
+      internalID: 1426290413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_137
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1790
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bda512a7aa3414e9990d086cd65bb6
+      internalID: 33678560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_138
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1790
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303b4063b6a1cc54d85b641cb5646679
+      internalID: 973231686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_139
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1790
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cd2ee177d68254a82c3f9dfff7825b
+      internalID: -1378079094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_140
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1790
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a97b0bb64a0e458805ae9fd6d5153
+      internalID: 1183472803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_141
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1790
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1639b9a1c80ad7b43a16cce7225efe6b
+      internalID: -1896281644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_142
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1790
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa92712753ac5cc49a5491836247ee14
+      internalID: 1327837485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_143
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1790
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad87884109940c240b8a7a14b77f2a94
+      internalID: -549425575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_144
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1790
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb8dc9618fa74141a06eb40cf7c4e23
+      internalID: -18644269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_145
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1790
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c91664258462fd448ff7268344b8099
+      internalID: 1838704563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_146
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1790
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229953da6aaf43546bcdf16f917b8138
+      internalID: 1799307019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_147
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1790
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07f979f19c4e0d4ca5b64f68c88f2d6
+      internalID: 1603760044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_148
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1790
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d329f56c4619640a4c4c9d8d5671a5
+      internalID: -1686422435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_149
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1726
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6811aa9fbb397064c8c58fd34a391bc1
+      internalID: 597901309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_150
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1726
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5ae7b7c7521ea4383597e2f29fa154
+      internalID: -324375237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_151
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1726
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908d630beab094459f2440586751e80
+      internalID: 826450334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_152
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1726
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918bd19cf851d4b4fb09ec0a9a0ae2a9
+      internalID: 1504435824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_153
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1726
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af57f5c71f657548808071bb596042c
+      internalID: -387025276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_154
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436028fc736d0a4686f53360e14874e
+      internalID: -1726533019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_155
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6e83ce978df184d8d46a58a043b10d
+      internalID: 45324174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_156
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa020a93bb561e4eb93cbb3569e4e6f
+      internalID: -587432770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_157
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1726
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b7dd55eca96e54b9817c012085a57f
+      internalID: -502852428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_158
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f788a85b2adbdf44c96f198628de9e8a
+      internalID: 1446170639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_159
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1726
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc4673c9e80bde4ab416331212e8246
+      internalID: 112339046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_160
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb865d895c136ec4f9f0b7f5316f35b4
+      internalID: 2011224619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_161
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1726
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fece8f98b723e4c9259b87a0a7bc48
+      internalID: -464264995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_162
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1726
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1634ca74b4a75ad4baf97563befcb66d
+      internalID: 1580376810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_163
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1662
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec2e9dbeee6e284f8197d9563166dbe
+      internalID: 616793516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_164
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1662
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb881a332018664ab236f2e55fb94ae
+      internalID: -925955984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_165
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1662
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08823e1f6600fd84790a21b6d3ed9555
+      internalID: -136031144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_166
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1662
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec782c0e4aaf2b44680477ccc9f65eb6
+      internalID: -982611296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_167
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1662
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b18f788da13cf4e9a133c72da9f66c
+      internalID: -594446859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_168
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b572bb502e54cd47b002d0de488c263
+      internalID: 689235126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_169
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1662
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7419e819dca2140b3d3aeba8742b4d
+      internalID: -1721958198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_170
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1662
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341acad6fa9a9fc46a5c910ad0359b57
+      internalID: -1135792709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_171
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c37777769ad7074091e0a3e3a1aaa7b
+      internalID: 1702727494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_172
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa72381e39a1f94598d0b02f398cc8f
+      internalID: -1169697792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_173
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a863c4d960f4249985f06c914ccac4
+      internalID: -1177358624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_174
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e6ce809baf8d24baa7928eb04381f5
+      internalID: -1272359358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_175
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1662
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84804d3cd1fbdf40a09e5c965c24065
+      internalID: -753292020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_176
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1598
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0b75a224c206243a74afc6c03e8efc
+      internalID: -815326710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_177
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1598
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884fa02bee13e2b468779fc393f43ae4
+      internalID: 1486774801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_178
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1598
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ff82505aa71f147b2058cf1dbe93da
+      internalID: -2114379718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_179
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1598
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb65cb06f0207644a28928d1d21b49d
+      internalID: -488618023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_180
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1599
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bc0f1ede403014582f87a5216f52ed
+      internalID: -2096637530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_181
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1598
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a31ce3e464c2439ee143c133f6c35
+      internalID: -67946910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_182
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1537
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8806f7817fce7941a4dab5d157de141
+      internalID: -639028098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_183
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1536
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a51d7dfbcd72f4185dfe1618eb44b7
+      internalID: -835095691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1540
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8067e1d6cee7f124696afd58b1cfe898
+      internalID: 85044897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_185
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1537
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e329db8a370a37147923bc3e88f15c35
+      internalID: -122828794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_186
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1536
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe276d6d819e7d54791f4ae42932c21b
+      internalID: -393614374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_187
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1540
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ad15767bf8a304983bfdec070e4492
+      internalID: -1561681074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_188
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1473
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2ac2a29821c8449623f8687959980
+      internalID: 1315874740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_189
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1473
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ee426624909324489226867df52d7e
+      internalID: 84360316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_190
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1473
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e28109f20a7eef4b93ae3c69ad7ec31
+      internalID: -183900135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_191
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1473
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c245d09e383d3454f9d361b32fc058d7
+      internalID: -1954860978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_192
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1408
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17ee20cb3f02e43b18e28dcabbb025
+      internalID: -1261062406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_193
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1408
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2faf3c7e24dd1a4c8e840d409225be0
+      internalID: -1752795747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_194
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1408
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82af79385248f04ca145b399b72834e
+      internalID: -1162959900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_195
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1408
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c7f325a7eb40042abb72df380fd0d7
+      internalID: 1348774802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_196
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1345
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ca6d24406264d4fb1bbb28c6b8883a
+      internalID: 288292784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_197
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1345
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b646d83ccbead4c89e04cb7eb6ef3c
+      internalID: -1866664983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_198
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1343
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465415cab9480454b86244b74c490e74
+      internalID: -592375188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_199
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1343
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f657b542c9d1c429e04f3653871a06
+      internalID: -303860808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_200
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1280
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae60d44a0203641b3ed1a063fe7b8b
+      internalID: 676388645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_201
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1280
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cb9e2b8db41764f90d2c79338f46e1
+      internalID: -295254101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_202
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1280
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4163eaa03977ee84eb9c1df5c1ba1cbd
+      internalID: -1594604787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_203
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1280
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bc1e1533d45b947bcf1ed14030909a
+      internalID: 1693904203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_204
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1217
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bdd398929da2146a5cb8e4011c356a
+      internalID: 1716482894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_205
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1217
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ebb6dc69a032d449d2a7135cf7c6db
+      internalID: -1750288855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_206
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1217
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06195b6e12be35246873bf9d6aa2cda1
+      internalID: 1124685417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_207
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1224
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c7cf10a175314e83691011944f06e
+      internalID: -649681896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_208
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1220
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f8772ddd4877640a7ce48471186194
+      internalID: 1250061486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_209
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1152
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7ee07cd38819a42b9deb2c11f669ce
+      internalID: -1412629268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_210
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1152
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c145ae77c51f3eb48bec019da705c9a1
+      internalID: -190157742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_211
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1154
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ad9619e93220478fdad4e34633eb9
+      internalID: -167007521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_212
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1155
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d2487c1b5ea15438ffe668f7bfc5f8
+      internalID: 56482333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_213
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1152
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b101663f409b5245bfc16fa792272cb
+      internalID: -2142186982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_214
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1089
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b830692610f4dd94ba9c9beafe589b9a
+      internalID: 345065110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_215
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1089
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b2e6af499b5e44493816b482d0bae0
+      internalID: -1103705164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_216
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1090
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f6ba1a0b2a7d4ca0f12ec098f17e6
+      internalID: 575691827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_217
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1095
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01a3e070009a734e8ccfc806b86cd9e
+      internalID: -568028823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_218
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1092
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0f068ecaf9e0c4fbd541c03d119f72
+      internalID: -1996750987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_219
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1024
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b83004874fe17a4dbc20021be1debd0
+      internalID: 206119970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_220
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1024
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a0fb87dd99a544484272b7c10c5797
+      internalID: -1299066239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_221
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1026
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713072232e4abe49992b5d77da3c372
+      internalID: -762775387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_222
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1027
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fe5ab143086784a9bc2578b223daa9
+      internalID: -931598639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_223
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1024
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e47788e03a4442868205f10bd7c69
+      internalID: 644295000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_224
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 960
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0756ae054b1d20c4c98b4d428b69a454
+      internalID: -94787792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_225
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 960
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a188ff4cb785e04ea1bd409bfb3f7fa
+      internalID: -495309105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_226
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 970
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84df99aea5dd8b242b9ebef23b637690
+      internalID: 571562795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_227
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 960
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1420cc44a9a19f4abc79c6c962e3ecc
+      internalID: 641266025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_228
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 960
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8b04e4c3fe24c4ab8b5b05b2f5d406
+      internalID: 2038606755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_229
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 960
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d101f20ecdd7e46ba84b554e19f194
+      internalID: 63473936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_230
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 898
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d463b542720373b42a468b1d902a2793
+      internalID: -67757747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_231
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 896
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8111ecaad0225bd4aa7fd6bf62ceb04b
+      internalID: -830939783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_232
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 898
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fcf22876804db4b8ff3828dbfc22bc
+      internalID: 100009491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_233
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 896
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8f7457ca66cba44aab7cba1df39b34
+      internalID: -222568997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_234
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 896
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8131c071702fd0b45bad24ee3f832953
+      internalID: -1376523587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_235
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 896
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c959438444a117f4488327d83fc56049
+      internalID: -148301201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_236
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c505f658f6b07d429fa372680f0457c
+      internalID: -393214720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_237
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 832
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726e63ef8c36cbd4fa52bf6d5816b091
+      internalID: -1968908195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_238
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 832
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c415fbe3be84848a8827c7fd0d8354
+      internalID: 1470770363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_239
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 832
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c5e8bacc1aa2489f498ffa8e47bca
+      internalID: 918365101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_240
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 832
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dbdfac97c74d344a9f0530bf8d979d
+      internalID: 69066865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_241
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 832
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e19449eeb10dc409edcbe22be4c7d7
+      internalID: 252834898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_242
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 770
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330947420243ac64684e652cebd6e381
+      internalID: -1960808361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_243
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 768
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e018647a137d4b9ca85189bb3e996
+      internalID: 411072694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_244
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 770
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499c0e5d9c72caf45802935f940ade90
+      internalID: -1833960011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_245
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 768
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf71d80ed9a6d742b2f357b6aecb3b8
+      internalID: -1675522510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_246
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 768
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9b4f0d9d7aef840a4b3029c6ec6433
+      internalID: 1036461916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_247
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 768
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5373ce04bd66ab468f9167e19270f9f
+      internalID: 541089138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_248
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9058c43b876b431459fab26bac901c46
+      internalID: 1154621382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_249
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 702
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21795c0fdb7dd84abe14a79e9466a9d
+      internalID: 393623456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_250
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 702
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcbe4b60d1e7764ba591b21329e2d06
+      internalID: 1070582214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_251
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 702
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60965ea533970aa4f87eeffbec3e0ecc
+      internalID: -1299101808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_252
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 705
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048478d752ed09b4ab2d607633deb666
+      internalID: 2129605100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_253
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 702
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa18595495a71343a1743839d2bad7d
+      internalID: -1302032058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_254
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 702
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f10be5ed09bed749a0490d2686d064d
+      internalID: -130425981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_255
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 702
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85035542a7d838f49bced70a681a02cb
+      internalID: -660859583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_256
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 640
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7573d954ac44627499aa940de3330035
+      internalID: 438312474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_257
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 640
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dfef9aaa4229040b2c61a915103c11
+      internalID: 1930472445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_258
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 640
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67e50542e630f4381bd3cb5d6e6c5b
+      internalID: -994616132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_259
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 643
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5d7787799e6c44bb49c25e70acd0f
+      internalID: 367578693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_260
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 640
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f1993e5cc1fff4f9ea35d48030ee69
+      internalID: 471264051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_261
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 640
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f553dc53892234c9553594f18a98a5
+      internalID: -1615898538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_262
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 639
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d79183610ec74e9f64bde4769fa61
+      internalID: 913053051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_263
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 642
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def1b78863ad0ca46894bfcb107cb8e8
+      internalID: 940550832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_264
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 574
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a5d928ff84fb448eceff41879e777
+      internalID: 1762891327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_265
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 574
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af001daf20db29141a0e0f47c471dad8
+      internalID: -430420783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_266
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 576
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5114070431744fa33a57083c05c8f
+      internalID: 1946830281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_267
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 579
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0c4ccb16523346a3cffc7739462dc
+      internalID: 2105737877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_268
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 574
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2d37499785b0a4b98e9eba26ecc633
+      internalID: -2089192293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_269
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 574
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669ae35bf07a4d74f86b091efef25efe
+      internalID: -1029625899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_270
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 576
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddbd91f9ad143f4284f88729532bd3a
+      internalID: 1822323199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_271
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 579
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85731a75ee78b8149aa9ffaed27b446e
+      internalID: 61940838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_272
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 512
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2930cde227d5b8645903a7466f433323
+      internalID: -1826445889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_273
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 512
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3972554e34ed104588da2701fb4c2b7
+      internalID: -669498279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_274
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 512
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dfb98af02235649af4ca48487a69bc
+      internalID: -378432753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_275
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 515
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acdba4d584941b478e40d59f5f0a744
+      internalID: 1417704855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_276
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 512
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11b66c35ce003448a946edaec81ea4f
+      internalID: -1153285222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_277
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364a486cfdea2b44dacd665d5eb099a8
+      internalID: 777382580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_278
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 511
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec819dd39d9c3041af411b53abe5f23
+      internalID: 811387562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_279
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 514
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145ea49c16e417f438273b5f300cb110
+      internalID: -1333899088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_280
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 448
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7713953a0be933d438029ede80ede28c
+      internalID: 1445492420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_281
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16045e3e8e3059749aff7fbf165689a8
+      internalID: 758620841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_282
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 466
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d399968e536d468c5b70c6bc49169
+      internalID: 1591952060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_283
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 448
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07c88d8fabc5c349b05be751482c03a
+      internalID: 91745600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_284
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 448
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7407756d9c300ed49b6bf9b88b287383
+      internalID: 647530447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_285
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 448
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c82ba8f8b2fdc42a11396ebaedae12
+      internalID: 2080758180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_286
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 448
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0418723cfb937a443bb335369397ed2a
+      internalID: -1870065159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_287
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 448
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046f9f30f1663a44abd673f498b4ae86
+      internalID: 1716247516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_288
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 448
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e00a03948ca744f8261b0771c90d02
+      internalID: 384300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_289
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 448
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5692724ba26fa146abbb974b52f7968
+      internalID: -2011748671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_290
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 448
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1eaa30bc9bf794c9c2ec6633309af2
+      internalID: 73839606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_291
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 448
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74363e5627d52414887bec0375cbbc74
+      internalID: 834319726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_292
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 448
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c5048e3ea176049a69a6cf630e668b
+      internalID: -420631105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_293
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 448
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4438a1e79e004a42a70157830a5e1b2
+      internalID: 1777678455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_294
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 385
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db370eece3dcd489501b0da9212c7b
+      internalID: -882956849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_295
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 435
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bda64fa3dd53a4abb3a8abc380e146
+      internalID: 1134734586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_296
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 385
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8311e1d050c289945b82ffd473b3aedd
+      internalID: 1181836459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_297
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 435
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba47006ea8d72f46a221197c3e1657d
+      internalID: -1861798943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_298
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 385
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ed0c0bd5d1f043a9e0a2af3664c07
+      internalID: 810460067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_299
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 435
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9965226136849548b339c8c8b19a4c4
+      internalID: -1760754833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_300
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 385
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2c48c76b303c94b803c8a60e879151
+      internalID: 1198282988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_301
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 385
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573c035299f44049bbbe1cc91194fd5
+      internalID: 582096863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_302
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 385
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3824466a8279a44ab4cac7806e7a65
+      internalID: -972524249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_303
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 385
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7f50cc0b128924698c0786036bb746
+      internalID: -1445238812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_304
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 385
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b1b780f66a9034abcdcec6e832eee0
+      internalID: -895433503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_305
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 385
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d27f744cad434f8daed9cbe0aabb3
+      internalID: 1744501850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_306
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 385
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b57c10ee8ee7d04bb47ad908b9f39e6
+      internalID: -80092165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_307
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 385
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1957d617996f24280a10eac32f20d2
+      internalID: 1003655630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_308
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 385
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c79e9bd918c842a40209ee1cc1c8d
+      internalID: -886255986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_309
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 385
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa96c270b7aab845adcfac46fb2ac10
+      internalID: -2127194646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_310
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 320
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c538918e504026d4d9ea3a6c9c23bb71
+      internalID: 2039982369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_311
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4abac668b4c85443a5535a98fe473fe
+      internalID: -622109228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_312
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 320
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea2ae9c7baa0447ac1afa58aad9bf3
+      internalID: -88505362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_313
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 320
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0de55cd7b0d494b807de24fdc1af5c
+      internalID: -423927787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_314
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252fabdb54331024a8d2b193107a79e6
+      internalID: -1324746220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_315
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 320
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0d6a3d877a7604f99b5afd8749389d
+      internalID: -951809525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_316
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 320
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a745c31f008f941bbf7ead153efad6
+      internalID: 1973003206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_317
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090612904a3715442ae1f53d9c6c4b85
+      internalID: -376267321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_318
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 320
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9412303afab67a4419616550046081c3
+      internalID: 281483943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_319
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 320
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a213af8ba43234992d197071062541
+      internalID: 903351050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_320
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 320
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1828be42e769e640a4b23ce0b571a67
+      internalID: -729576800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_321
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 320
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b12ac2f254d584bab5512f508d5996
+      internalID: -1710617365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_322
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 320
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45ed710edee78841a9684bc5a8a427c
+      internalID: -1807072422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_323
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 257
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544b48fde19f39645bb06f2f7a5f7019
+      internalID: 1085839305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_324
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 257
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11081c865ff933c449846da8ad4e5d4e
+      internalID: 261435574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_325
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 307
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfa9d646cec5f146bf23bc52073bee6
+      internalID: -1708099629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_326
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 257
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15e771e54bc2a440887da06cf13cf17
+      internalID: -1618736454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_327
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 307
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96142ff67eb526840ae238f344324d72
+      internalID: -1424476314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_328
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 61
+        width: 52
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9df4019591c44fbfe2cae02d7ccea
+      internalID: 1517640916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_329
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 307
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4f1db83deaaa4bbdb58e9d80af225
+      internalID: 214928948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_330
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 257
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a46f9e29b2f9f48922dff8ef103e53
+      internalID: -1104939988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_331
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 257
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c220316ed7694aa5ad388d1cbcde4
+      internalID: 967141759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_332
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 257
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44041a63c302a64b8be5cc2f88ff24b
+      internalID: 774090048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_333
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 257
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b4b1a50b2fe0d4fbecdfc35f9c6950
+      internalID: -633287299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_334
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 257
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dcc530bedef9642a7be4a5035b66f3
+      internalID: 120069348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_335
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 257
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c1bff0b4d66684baf1d0a1a713f7cc
+      internalID: -1448214208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_336
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 257
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dacbde642563b449dd18498e616b51
+      internalID: 1873967345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_337
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 257
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f24c88874616d45b9770af9061c3b2
+      internalID: 2048839836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_338
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 257
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d8a3d1cbdfa7045ae5513709756fd6
+      internalID: 1250123063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_339
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 192
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56cd21e6e17fd0409fae23945397e9a
+      internalID: 1806820528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_340
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 192
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe7345736fe36247a20ea817ffb79af
+      internalID: -2137227431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_341
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 193
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d37fdcd8a898645b3c4cf4d8fb93b3
+      internalID: 1180233716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_342
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 195
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7e3315bb70cda42b597c161ac2cef0
+      internalID: 925191282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_343
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 195
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9fcc10ee6f1da468ffad137fff8e6a
+      internalID: 1624749643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_344
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 192
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59039c9b0e724c64485ee5fbc4623df2
+      internalID: -1773126103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_345
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 129
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03436d2b5daf454fab140868ad9201f
+      internalID: -970360762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_346
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 128
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63606c5f8e3c17d47abdc46a85031519
+      internalID: -1185880451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_347
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 128
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271e1540ae4d0894d8f55c20055a4b7d
+      internalID: 1395789721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_348
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2135af14f17df7242872eb6b963dd70b
+      internalID: 83575358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_349
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 128
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b372ca024d46f44b3e7e0f207d98f1
+      internalID: -627562790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_350
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 148
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f3720daa5de148b7ccd812bd6a8d7
+      internalID: -70439705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_351
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 128
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e02a814d6471849b8caa89a93bf253
+      internalID: -102401666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_352
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2903702207f8d14b83ef5878e03c4fe
+      internalID: -1533113529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_353
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 63
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb89c7e070f7e7f4e8f4bd686daa4e00
+      internalID: -592681528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_354
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b9a9cbd44f6184d9b2d21acf9d3545
+      internalID: -151599355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_355
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 63
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10bbb518fd85d943b2870a681326385
+      internalID: -1711439052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_356
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 63
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013ca0d16999db44fa202e4dae060b46
+      internalID: 756091847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_357
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 63
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e888ee44aa4fe479625e33e7a0ea48
+      internalID: 835501455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_358
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 63
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b77d9767e6e70d408ad8ddcdd9bf140
+      internalID: -254400228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_359
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7adc5a160609c34d96cc74878da5fca
+      internalID: 1012142818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_360
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfeb23b23a9814488f70d1a3c148265
+      internalID: -1329028885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_361
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc57ab590f874a4293375a8de744c9a
+      internalID: 450424133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_362
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b30bf69b16bbe489fc3e0c659c85d9
+      internalID: -1032044798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_363
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a87ca11cede6642a9ee483438268e1
+      internalID: 1456807369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_364
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07427d8dd52ef9742ae6df96c5266f2a
+      internalID: -1224959757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rose_365
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 20
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1ccb885aa32c54c943b70cd1439fd7
+      internalID: -1084441628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rose_0: 2135253560
+      rose_1: -1376626343
+      rose_10: 1033308983
+      rose_100: 1862759149
+      rose_101: 1700379208
+      rose_102: 2142909887
+      rose_103: 729988780
+      rose_104: 1037691195
+      rose_105: 1639805050
+      rose_106: -1709773490
+      rose_107: 1008767412
+      rose_108: -1514733337
+      rose_109: 1131185566
+      rose_11: 1917310524
+      rose_110: -299871999
+      rose_111: -1925586657
+      rose_112: 1173623007
+      rose_113: 2101580129
+      rose_114: -1954305189
+      rose_115: 17288932
+      rose_116: 2145899021
+      rose_117: 294708329
+      rose_118: -1338113462
+      rose_119: -1056958511
+      rose_12: 1281757226
+      rose_120: -1144446241
+      rose_121: -21855363
+      rose_122: 791349210
+      rose_123: 1985853360
+      rose_124: -107920382
+      rose_125: -632142752
+      rose_126: 1983685715
+      rose_127: 779541831
+      rose_128: -1069213687
+      rose_129: -1010540893
+      rose_13: 685234333
+      rose_130: 428302475
+      rose_131: 658692970
+      rose_132: 929322346
+      rose_133: -1412373333
+      rose_134: -2086609730
+      rose_135: -75103156
+      rose_136: 1426290413
+      rose_137: 33678560
+      rose_138: 973231686
+      rose_139: -1378079094
+      rose_14: 1408037330
+      rose_140: 1183472803
+      rose_141: -1896281644
+      rose_142: 1327837485
+      rose_143: -549425575
+      rose_144: -18644269
+      rose_145: 1838704563
+      rose_146: 1799307019
+      rose_147: 1603760044
+      rose_148: -1686422435
+      rose_149: 597901309
+      rose_15: 972807142
+      rose_150: -324375237
+      rose_151: 826450334
+      rose_152: 1504435824
+      rose_153: -387025276
+      rose_154: -1726533019
+      rose_155: 45324174
+      rose_156: -587432770
+      rose_157: -502852428
+      rose_158: 1446170639
+      rose_159: 112339046
+      rose_16: 901984505
+      rose_160: 2011224619
+      rose_161: -464264995
+      rose_162: 1580376810
+      rose_163: 616793516
+      rose_164: -925955984
+      rose_165: -136031144
+      rose_166: -982611296
+      rose_167: -594446859
+      rose_168: 689235126
+      rose_169: -1721958198
+      rose_17: -1421362600
+      rose_170: -1135792709
+      rose_171: 1702727494
+      rose_172: -1169697792
+      rose_173: -1177358624
+      rose_174: -1272359358
+      rose_175: -753292020
+      rose_176: -815326710
+      rose_177: 1486774801
+      rose_178: -2114379718
+      rose_179: -488618023
+      rose_18: 1613448248
+      rose_180: -2096637530
+      rose_181: -67946910
+      rose_182: -639028098
+      rose_183: -835095691
+      rose_184: 85044897
+      rose_185: -122828794
+      rose_186: -393614374
+      rose_187: -1561681074
+      rose_188: 1315874740
+      rose_189: 84360316
+      rose_19: 640622499
+      rose_190: -183900135
+      rose_191: -1954860978
+      rose_192: -1261062406
+      rose_193: -1752795747
+      rose_194: -1162959900
+      rose_195: 1348774802
+      rose_196: 288292784
+      rose_197: -1866664983
+      rose_198: -592375188
+      rose_199: -303860808
+      rose_2: 801466254
+      rose_20: -629722780
+      rose_200: 676388645
+      rose_201: -295254101
+      rose_202: -1594604787
+      rose_203: 1693904203
+      rose_204: 1716482894
+      rose_205: -1750288855
+      rose_206: 1124685417
+      rose_207: -649681896
+      rose_208: 1250061486
+      rose_209: -1412629268
+      rose_21: 1236590560
+      rose_210: -190157742
+      rose_211: -167007521
+      rose_212: 56482333
+      rose_213: -2142186982
+      rose_214: 345065110
+      rose_215: -1103705164
+      rose_216: 575691827
+      rose_217: -568028823
+      rose_218: -1996750987
+      rose_219: 206119970
+      rose_22: 707212660
+      rose_220: -1299066239
+      rose_221: -762775387
+      rose_222: -931598639
+      rose_223: 644295000
+      rose_224: -94787792
+      rose_225: -495309105
+      rose_226: 571562795
+      rose_227: 641266025
+      rose_228: 2038606755
+      rose_229: 63473936
+      rose_23: -582752283
+      rose_230: -67757747
+      rose_231: -830939783
+      rose_232: 100009491
+      rose_233: -222568997
+      rose_234: -1376523587
+      rose_235: -148301201
+      rose_236: -393214720
+      rose_237: -1968908195
+      rose_238: 1470770363
+      rose_239: 918365101
+      rose_24: 974203677
+      rose_240: 69066865
+      rose_241: 252834898
+      rose_242: -1960808361
+      rose_243: 411072694
+      rose_244: -1833960011
+      rose_245: -1675522510
+      rose_246: 1036461916
+      rose_247: 541089138
+      rose_248: 1154621382
+      rose_249: 393623456
+      rose_25: -398643206
+      rose_250: 1070582214
+      rose_251: -1299101808
+      rose_252: 2129605100
+      rose_253: -1302032058
+      rose_254: -130425981
+      rose_255: -660859583
+      rose_256: 438312474
+      rose_257: 1930472445
+      rose_258: -994616132
+      rose_259: 367578693
+      rose_26: -2099806895
+      rose_260: 471264051
+      rose_261: -1615898538
+      rose_262: 913053051
+      rose_263: 940550832
+      rose_264: 1762891327
+      rose_265: -430420783
+      rose_266: 1946830281
+      rose_267: 2105737877
+      rose_268: -2089192293
+      rose_269: -1029625899
+      rose_27: -2085937992
+      rose_270: 1822323199
+      rose_271: 61940838
+      rose_272: -1826445889
+      rose_273: -669498279
+      rose_274: -378432753
+      rose_275: 1417704855
+      rose_276: -1153285222
+      rose_277: 777382580
+      rose_278: 811387562
+      rose_279: -1333899088
+      rose_28: 1160972923
+      rose_280: 1445492420
+      rose_281: 758620841
+      rose_282: 1591952060
+      rose_283: 91745600
+      rose_284: 647530447
+      rose_285: 2080758180
+      rose_286: -1870065159
+      rose_287: 1716247516
+      rose_288: 384300076
+      rose_289: -2011748671
+      rose_29: 219171651
+      rose_290: 73839606
+      rose_291: 834319726
+      rose_292: -420631105
+      rose_293: 1777678455
+      rose_294: -882956849
+      rose_295: 1134734586
+      rose_296: 1181836459
+      rose_297: -1861798943
+      rose_298: 810460067
+      rose_299: -1760754833
+      rose_3: -161042802
+      rose_30: 1975217301
+      rose_300: 1198282988
+      rose_301: 582096863
+      rose_302: -972524249
+      rose_303: -1445238812
+      rose_304: -895433503
+      rose_305: 1744501850
+      rose_306: -80092165
+      rose_307: 1003655630
+      rose_308: -886255986
+      rose_309: -2127194646
+      rose_31: 300700372
+      rose_310: 2039982369
+      rose_311: -622109228
+      rose_312: -88505362
+      rose_313: -423927787
+      rose_314: -1324746220
+      rose_315: -951809525
+      rose_316: 1973003206
+      rose_317: -376267321
+      rose_318: 281483943
+      rose_319: 903351050
+      rose_32: 855167824
+      rose_320: -729576800
+      rose_321: -1710617365
+      rose_322: -1807072422
+      rose_323: 1085839305
+      rose_324: 261435574
+      rose_325: -1708099629
+      rose_326: -1618736454
+      rose_327: -1424476314
+      rose_328: 1517640916
+      rose_329: 214928948
+      rose_33: 2084777549
+      rose_330: -1104939988
+      rose_331: 967141759
+      rose_332: 774090048
+      rose_333: -633287299
+      rose_334: 120069348
+      rose_335: -1448214208
+      rose_336: 1873967345
+      rose_337: 2048839836
+      rose_338: 1250123063
+      rose_339: 1806820528
+      rose_34: -1483152197
+      rose_340: -2137227431
+      rose_341: 1180233716
+      rose_342: 925191282
+      rose_343: 1624749643
+      rose_344: -1773126103
+      rose_345: -970360762
+      rose_346: -1185880451
+      rose_347: 1395789721
+      rose_348: 83575358
+      rose_349: -627562790
+      rose_35: -1700069678
+      rose_350: -70439705
+      rose_351: -102401666
+      rose_352: -1533113529
+      rose_353: -592681528
+      rose_354: -151599355
+      rose_355: -1711439052
+      rose_356: 756091847
+      rose_357: 835501455
+      rose_358: -254400228
+      rose_359: 1012142818
+      rose_36: -1211320072
+      rose_360: -1329028885
+      rose_361: 450424133
+      rose_362: -1032044798
+      rose_363: 1456807369
+      rose_364: -1224959757
+      rose_365: -1084441628
+      rose_37: 812460938
+      rose_38: 351968339
+      rose_39: -1571294402
+      rose_4: -1041055852
+      rose_40: -787057839
+      rose_41: 1175347380
+      rose_42: -1205419047
+      rose_43: -1349245041
+      rose_44: 1730761732
+      rose_45: 1200055189
+      rose_46: -442982349
+      rose_47: -443978904
+      rose_48: -865862110
+      rose_49: -10404893
+      rose_5: 1043123488
+      rose_50: 2121543385
+      rose_51: 1862513445
+      rose_52: 91243906
+      rose_53: -1697537685
+      rose_54: 1803862918
+      rose_55: 1841420416
+      rose_56: -185948724
+      rose_57: -1673830652
+      rose_58: 377992691
+      rose_59: -244563169
+      rose_6: -850931276
+      rose_60: -500314518
+      rose_61: -1581295665
+      rose_62: 746536083
+      rose_63: 1165407105
+      rose_64: -1964009409
+      rose_65: 225950941
+      rose_66: 1984430435
+      rose_67: 1801850848
+      rose_68: -831097240
+      rose_69: -1338913008
+      rose_7: -1598035161
+      rose_70: 1876625981
+      rose_71: -246189490
+      rose_72: -1862763778
+      rose_73: 1994208621
+      rose_74: 536794266
+      rose_75: -130479064
+      rose_76: 867126545
+      rose_77: 1157525474
+      rose_78: -698042060
+      rose_79: -1930106229
+      rose_8: -1932109180
+      rose_80: 633023813
+      rose_81: -1173007895
+      rose_82: -563591029
+      rose_83: -358150734
+      rose_84: 1177484139
+      rose_85: 1399451865
+      rose_86: -403694280
+      rose_87: -718004275
+      rose_88: 22805260
+      rose_89: -1566949250
+      rose_9: -1687656992
+      rose_90: -1907468991
+      rose_91: 1558850724
+      rose_92: 689233066
+      rose_93: -1385674952
+      rose_94: 1556044518
+      rose_95: -342397423
+      rose_96: -638906716
+      rose_97: -2079063906
+      rose_98: -1385440666
+      rose_99: 158922808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
