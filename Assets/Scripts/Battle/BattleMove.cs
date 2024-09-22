@@ -9,4 +9,5 @@ public class BattleMove {
     public int moveCost;
     public AttackEffect theEffect;
     public BattleMoveType battleType;
+    public bool isMagic;
 }

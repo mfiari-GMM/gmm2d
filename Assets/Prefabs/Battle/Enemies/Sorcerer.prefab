@@ -103,14 +103,14 @@ MonoBehaviour:
   - Feu
   - Plasma
   charName: Sorcerer
-  currentHp: 500
-  maxHP: 500
-  currentMP: 300
-  maxMP: 300
+  currentHp: 700
+  maxHP: 700
+  currentMP: 500
+  maxMP: 500
   strength: 10
-  defence: 15
-  magie: 30
-  resistance: 20
+  defence: 20
+  magie: 50
+  resistance: 30
   wpnPower: 5
   armrPower: 5
   hasDied: 0
@@ -118,5 +118,5 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
-  weaknesses: 
+  weaknesses: 01000000
   resistances: 

@@ -30,6 +30,8 @@ public class CharStats : MonoBehaviour {
     public int winMagie;
     public int winResistance;
 
+    public WinMove[] winMoves;
+
     // Use this for initialization
     void Start () {
         expToNextLevel = new int[maxLevel];

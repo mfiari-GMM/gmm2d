@@ -69,6 +69,23 @@ MonoBehaviour:
   winDefence: 1
   winMagie: 4
   winResistance: 3
+  winMoves:
+  - level: 15
+    moveName: Feu +
+  - level: 30
+    moveName: Feu X
+  - level: 5
+    moveName: Glace
+  - level: 17
+    moveName: Glace +
+  - level: 32
+    moveName: Glace X
+  - level: 9
+    moveName: Foudre
+  - level: 20
+    moveName: Foudre +
+  - level: 35
+    moveName: Foudre X
 --- !u!1 &1190594902282344
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +230,11 @@ MonoBehaviour:
   - after examen
   - end examen
   - mission1
+  - Bandit
+  - Battle bandit
+  - fin battle bandit
   - enter the cave
+  - Before battle sorcerer
   - Battle sorcerer
   - Defeat The sorcerer
   - encouter alexis
@@ -288,6 +309,11 @@ MonoBehaviour:
   winDefence: 3
   winMagie: 1
   winResistance: 1
+  winMoves:
+  - level: 10
+    moveName: Coup puissant
+  - level: 20
+    moveName: Impact terrestre
 --- !u!1 &1674758041330280
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,3 +383,10 @@ MonoBehaviour:
   winDefence: 2
   winMagie: 2
   winResistance: 2
+  winMoves:
+  - level: 6
+    moveName: Coup d'estoc
+  - level: 15
+    moveName: Estocade sonique
+  - level: 30
+    moveName: Estocade supersonique

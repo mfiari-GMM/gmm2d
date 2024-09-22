@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -32,10 +33,12 @@ public class GameMenu : MonoBehaviour {
 
     public string mainMenuName;
 
-
     public GameObject mapView;
     public Text mapTitle;
     public Text mapDescription;
+
+    public GameObject savePanel;
+    public Text saveText;
 
     // Use this for initialization
     void Start () {
@@ -236,8 +239,19 @@ public class GameMenu : MonoBehaviour {
 
     public void SaveGame()
     {
+        StartCoroutine(SaveAction());
+    }
+
+    private IEnumerator SaveAction()
+    {
+        savePanel.SetActive(true);
+        saveText.text = "Sauvegarde en cours, ne pas eteindre";
+        yield return new WaitForSeconds(2f);
         GameManager.instance.SaveData();
         QuestManager.instance.SaveQuestData();
+        saveText.text = "Sauvegarde terminé";
+        yield return new WaitForSeconds(2f);
+        savePanel.SetActive(false);
     }
 
     public void PlayButtonSound()

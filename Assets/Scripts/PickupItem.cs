@@ -12,7 +12,8 @@ public class PickupItem : MonoBehaviour {
     void Update () {
 		if(canPickup && !isOpen && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove)
         {
-            GameManager.instance.AddItem(GetComponent<Item>().itemName);
+            string itemName = GetComponent<Item>().itemName;
+            GameManager.instance.AddItem(itemName);
 
             if (isChest)
             {
@@ -22,6 +23,9 @@ public class PickupItem : MonoBehaviour {
             else {
                 Destroy(gameObject);
             }
+
+            string[] dialog = { "Obtenu " + itemName };
+            DialogManager.instance.ShowDialog(dialog, false);
             
         }
 	}

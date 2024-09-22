@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
+using System.Linq;
 
 public class BattleManager : MonoBehaviour
 {
@@ -146,6 +147,21 @@ public class BattleManager : MonoBehaviour
                             activeBattlers[i].resistance = thePlayer.resistance;
                             activeBattlers[i].wpnPower = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponStrength : 0;
                             activeBattlers[i].armrPower = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorStrength : 0;
+
+                            for (int playerLevel = 1 ; playerLevel <= thePlayer.playerLevel ; playerLevel++)
+                            {
+                                for (int k = 0 ; k < thePlayer.winMoves.Length ; k++)
+                                {
+                                    if (thePlayer.winMoves[k].level == playerLevel)
+                                    {
+                                        if (!activeBattlers[i].movesAvailable.Contains(thePlayer.winMoves[k].moveName))
+                                        {
+                                            activeBattlers[i].movesAvailable = activeBattlers[i].movesAvailable.Concat(new string[] { thePlayer.winMoves[k].moveName }).ToArray();
+                                        }
+                                    }
+                                }
+                                
+                            }
                         }
                     }
 
@@ -275,7 +291,7 @@ public class BattleManager : MonoBehaviour
 
         int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
         int movePower = 0;
-        bool magic = false;
+        bool magic = true;
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
         for (int i = 0; i < movesList.Length; i++)
         {
@@ -283,7 +299,7 @@ public class BattleManager : MonoBehaviour
             {
                 Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
                 movePower = movesList[i].movePower;
-                magic = i != 0;
+                magic = movesList[i].isMagic;
                 battleType = movesList[i].battleType;
             }
         }
@@ -361,6 +377,7 @@ public class BattleManager : MonoBehaviour
     public void PlayerAttack(string moveName, int selectedTarget)
     {
         int movePower = 0;
+        bool magic = true;
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
         for (int i = 0; i < movesList.Length; i++)
         {
@@ -369,10 +386,9 @@ public class BattleManager : MonoBehaviour
                 Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
                 movePower = movesList[i].movePower;
                 battleType = movesList[i].battleType;
+                magic = movesList[i].isMagic;
             }
         }
-
-        bool magic = moveName != "Slash";
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
