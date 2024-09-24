@@ -2,7 +2,7 @@
 
 public class QuestObjectActivator : MonoBehaviour {
 
-    public GameObject objectToActivate;
+    public GameObject[] objectsToActivate;
 
     public string questToCheck;
 
@@ -24,7 +24,11 @@ public class QuestObjectActivator : MonoBehaviour {
     {
         if(QuestManager.instance != null && QuestManager.instance.CheckIfComplete(questToCheck))
         {
-            objectToActivate.SetActive(activeIfComplete);
+            for (int i = 0; i < objectsToActivate.Length; i++)
+            {
+                objectsToActivate[i].SetActive(activeIfComplete);
+            }
+            
         }
     }
 }

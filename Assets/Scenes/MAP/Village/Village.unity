@@ -211,7 +211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1687168281}
+  objectsToActivate:
+  - {fileID: 1687168281}
   questToCheck: Defeat The sorcerer
   activeIfComplete: 1
 --- !u!114 &219162614
@@ -226,7 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1928152797}
+  objectsToActivate:
+  - {fileID: 1928152797}
   questToCheck: Defeat The sorcerer
   activeIfComplete: 0
 --- !u!4 &219162615
@@ -238,7 +240,7 @@ Transform:
   m_GameObject: {fileID: 219162612}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.079872, y: -1.1096892, z: -0.03768118}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13696,16 +13698,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - n-Girl
-  - Wow you defeated the dragon!
-  - n-Player
-  - I sure did!
-  - n-Girl
-  - Thanks!
+  - n-Marco
+  - Voici le fer
+  - n-Fille
+  - Merci beaucoup
+  - Grace a vous je vais pouvoir continuer a fabriquer mes armures
+  - J'espere que je ne vous ai pas trop causer de soucis
+  - n-Marco
+  - Non, pas t'inquietude, ce n'est rien pour nous.
   isPerson: 1
   shouldActivateQuest: 0
-  questToMark: enter the cave
-  markComplete: 0
+  questToMark: end enter the cave
+  markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 0
   playersToAdd: []

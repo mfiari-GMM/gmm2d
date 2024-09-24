@@ -12462,18 +12462,9 @@ GameObject:
   - component: {fileID: 1511560412}
   - component: {fileID: 1511560414}
   - component: {fileID: 1511560416}
-  - component: {fileID: 1511560417}
-  - component: {fileID: 1511560418}
-  - component: {fileID: 1511560419}
-  - component: {fileID: 1511560420}
   - component: {fileID: 1511560413}
   - component: {fileID: 1511560426}
   - component: {fileID: 1511560415}
-  - component: {fileID: 1511560421}
-  - component: {fileID: 1511560422}
-  - component: {fileID: 1511560423}
-  - component: {fileID: 1511560425}
-  - component: {fileID: 1511560424}
   m_Layer: 0
   m_Name: NPC control
   m_TagString: Untagged
@@ -12508,7 +12499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1843510922813765525}
+  objectsToActivate:
+  - {fileID: 1843510922813765525}
   questToCheck: Battle sorcerer
   activeIfComplete: 1
 --- !u!114 &1511560414
@@ -12523,7 +12515,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1696414253}
+  objectsToActivate:
+  - {fileID: 1696414253}
   questToCheck: Before battle sorcerer
   activeIfComplete: 0
 --- !u!114 &1511560415
@@ -12538,7 +12531,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1843510922813765525}
+  objectsToActivate:
+  - {fileID: 2078895448}
+  - {fileID: 1843510922813765525}
+  - {fileID: 1961943794}
+  - {fileID: 514213495}
+  - {fileID: 318561700}
   questToCheck: Defeat The sorcerer
   activeIfComplete: 0
 --- !u!114 &1511560416
@@ -12553,144 +12551,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 2078895448}
+  objectsToActivate:
+  - {fileID: 2078895448}
+  - {fileID: 1961943794}
+  - {fileID: 514213495}
+  - {fileID: 318561700}
+  - {fileID: 1854024267}
   questToCheck: Before battle sorcerer
   activeIfComplete: 1
---- !u!114 &1511560417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1961943794}
-  questToCheck: Before battle sorcerer
-  activeIfComplete: 1
---- !u!114 &1511560418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 514213495}
-  questToCheck: Before battle sorcerer
-  activeIfComplete: 1
---- !u!114 &1511560419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 318561700}
-  questToCheck: Before battle sorcerer
-  activeIfComplete: 1
---- !u!114 &1511560420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1854024267}
-  questToCheck: Before battle sorcerer
-  activeIfComplete: 1
---- !u!114 &1511560421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 2078895448}
-  questToCheck: Defeat The sorcerer
-  activeIfComplete: 0
---- !u!114 &1511560422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1961943794}
-  questToCheck: Defeat The sorcerer
-  activeIfComplete: 0
---- !u!114 &1511560423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 514213495}
-  questToCheck: Defeat The sorcerer
-  activeIfComplete: 0
---- !u!114 &1511560424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1854024267}
-  questToCheck: Defeat The sorcerer
-  activeIfComplete: 0
---- !u!114 &1511560425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511560411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 318561700}
-  questToCheck: Defeat The sorcerer
-  activeIfComplete: 0
 --- !u!114 &1511560426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12703,7 +12571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1242923691}
+  objectsToActivate:
+  - {fileID: 1854024267}
   questToCheck: Battle sorcerer
   activeIfComplete: 0
 --- !u!1 &1696414253

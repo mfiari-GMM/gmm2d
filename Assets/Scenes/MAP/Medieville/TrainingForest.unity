@@ -190,14 +190,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219162615}
-  - component: {fileID: 219162614}
   - component: {fileID: 219162613}
+  - component: {fileID: 219162614}
   - component: {fileID: 219162616}
-  - component: {fileID: 219162617}
-  - component: {fileID: 219162618}
   - component: {fileID: 219162619}
-  - component: {fileID: 219162621}
-  - component: {fileID: 219162620}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -217,7 +213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1382738939}
+  objectsToActivate:
+  - {fileID: 1382738939}
   questToCheck: training forest
   activeIfComplete: 1
 --- !u!114 &219162614
@@ -232,7 +229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1382738939}
+  objectsToActivate:
+  - {fileID: 1382738939}
   questToCheck: Defeat The Spider
   activeIfComplete: 0
 --- !u!4 &219162615
@@ -262,37 +260,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 239474892}
-  questToCheck: Defeat The Spider
-  activeIfComplete: 1
---- !u!114 &219162617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219162612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 227482474}
-  questToCheck: Defeat The Spider
-  activeIfComplete: 1
---- !u!114 &219162618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219162612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1640049843}
+  objectsToActivate:
+  - {fileID: 239474892}
+  - {fileID: 227482474}
+  - {fileID: 1640049843}
   questToCheck: Defeat The Spider
   activeIfComplete: 1
 --- !u!114 &219162619
@@ -307,37 +278,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 239474892}
-  questToCheck: after training forest
-  activeIfComplete: 0
---- !u!114 &219162620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219162612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1640049843}
-  questToCheck: after training forest
-  activeIfComplete: 0
---- !u!114 &219162621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219162612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 227482474}
+  objectsToActivate:
+  - {fileID: 239474892}
+  - {fileID: 227482474}
+  - {fileID: 1640049843}
   questToCheck: after training forest
   activeIfComplete: 0
 --- !u!1001 &227482472
@@ -11498,6 +11442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c665f46f0872a184991874508ac9be90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChest: 0
+  chestSprite: {fileID: 0}
 --- !u!61 &1889955087
 BoxCollider2D:
   m_ObjectHideFlags: 0
