@@ -42,6 +42,9 @@ public class BattleManager : MonoBehaviour
     public GameObject magicMenu;
     public BattleMagicSelect[] magicButtons;
 
+    public GameObject objectMenu;
+    public BattleObjectSelect[] objectButtons;
+
     public BattleNotification battleNotice;
 
     public int chanceToFlee = 35;
@@ -374,6 +377,19 @@ public class BattleManager : MonoBehaviour
         }
     }
 
+    public void UseItem (string itemName, int selectedTarget)
+    {
+        Item selectItem = GameManager.instance.GetItemDetails(itemName);
+        selectItem.UseBattle(selectedTarget);
+
+        UpdateUIStats();
+
+        uiButtonsHolder.SetActive(false);
+        targetMenu.SetActive(false);
+
+        NextTurn();
+    }
+
     public void PlayerAttack(string moveName, int selectedTarget)
     {
         int movePower = 0;
@@ -432,10 +448,42 @@ public class BattleManager : MonoBehaviour
             {
                 targetButtons[i].gameObject.SetActive(true);
 
+                targetButtons[i].isItem = false;
                 targetButtons[i].moveName = moveName;
                 targetButtons[i].activeBattlerTarget = Enemies[i];
                 targetButtons[i].targetName.text = activeBattlers[Enemies[i]].charName;
             } else
+            {
+                targetButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void OpenPlayersMenu(string itemName)
+    {
+        targetMenu.SetActive(true);
+
+        List<int> players = new List<int>();
+        for (int i = 0; i < activeBattlers.Count; i++)
+        {
+            if (activeBattlers[i].isPlayer)
+            {
+                players.Add(i);
+            }
+        }
+
+        for (int i = 0; i < targetButtons.Length; i++)
+        {
+            if (players.Count > i && activeBattlers[players[i]].currentHp > 0)
+            {
+                targetButtons[i].gameObject.SetActive(true);
+
+                targetButtons[i].isItem = true;
+                targetButtons[i].activeBattlerTarget = players[i];
+                targetButtons[i].itemName = itemName;
+                targetButtons[i].targetName.text = activeBattlers[players[i]].charName;
+            }
+            else
             {
                 targetButtons[i].gameObject.SetActive(false);
             }
@@ -467,6 +515,36 @@ public class BattleManager : MonoBehaviour
             } else
             {
                 magicButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void OpenObjectMenu()
+    {
+        objectMenu.SetActive(true);
+        int itemIndex = 0;
+
+        for (int i = 0; i < objectButtons.Length; i++)
+        {
+            objectButtons[i].gameObject.SetActive(false);
+        }
+
+        for (int i = 0; i < objectButtons.Length; i++)
+        {
+            while (itemIndex < GameManager.instance.itemsHeld.Length)
+            {
+                string itemName = GameManager.instance.itemsHeld[itemIndex];
+                int quantity = GameManager.instance.numberOfItems[itemIndex];
+                itemIndex++;
+                Item selectItem = GameManager.instance.GetItemDetails(itemName);
+                if (selectItem != null && selectItem.isItem)
+                {
+                    objectButtons[i].gameObject.SetActive(true);
+                    objectButtons[i].itemName = itemName;
+                    objectButtons[i].nameText.text = itemName;
+                    objectButtons[i].quantityText.text = quantity.ToString();
+                    break;
+                }
             }
         }
     }

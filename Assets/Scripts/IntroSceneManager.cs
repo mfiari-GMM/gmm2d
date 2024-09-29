@@ -25,20 +25,27 @@ public class IntroSceneManager : MonoBehaviour
     {
         if (Input.GetButtonDown("Submit"))
         {
-            SceneManager.LoadScene(newGameScene);
+            StartGame();
         }
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        float speed = 0.013f;
+        float speed = 0.010f;
 
         scrollbar.value -= speed * Time.deltaTime;
 
         if (scrollbar.value < 0)
         {
-            SceneManager.LoadScene(newGameScene);
+            StartGame();
         }
+    }
+
+    private void StartGame ()
+    {
+
+        PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene(newGameScene);
     }
 }

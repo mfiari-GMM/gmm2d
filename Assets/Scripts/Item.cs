@@ -49,7 +49,7 @@ public class Item : MonoBehaviour {
 
             if(affectMP)
             {
-                if (selectedChar.currentHP <= 0)
+                if (selectedChar.currentMP <= 0)
                 {
                     return;
                 }
@@ -97,6 +97,66 @@ public class Item : MonoBehaviour {
             }
 
             selectedChar.equippedArmr = this;
+        }
+
+        GameManager.instance.RemoveItem(itemName);
+    }
+
+
+    public void UseBattle(int charToUseOn)
+    {
+        BattleChar selectedChar = BattleManager.instance.activeBattlers[charToUseOn];
+
+        if (isItem)
+        {
+            if (affectHP)
+            {
+                if (selectedChar.currentHp <= 0)
+                {
+                    return;
+                }
+                if (selectedChar.currentHp >= selectedChar.maxHP)
+                {
+                    return;
+                }
+                selectedChar.currentHp += amountToChange;
+
+                if (selectedChar.currentHp > selectedChar.maxHP)
+                {
+                    selectedChar.currentHp = selectedChar.maxHP;
+                }
+            }
+
+            if (affectMP)
+            {
+                if (selectedChar.currentMP <= 0)
+                {
+                    return;
+                }
+                if (selectedChar.currentMP >= selectedChar.maxMP)
+                {
+                    return;
+                }
+                selectedChar.currentMP += amountToChange;
+
+                if (selectedChar.currentMP > selectedChar.maxMP)
+                {
+                    selectedChar.currentMP = selectedChar.maxMP;
+                }
+            }
+
+            if (affectStr)
+            {
+                selectedChar.strength += amountToChange;
+            }
+
+            if (resurrect)
+            {
+                if (selectedChar.currentHp <= 0)
+                {
+                    selectedChar.currentHp = selectedChar.maxHP / 2;
+                }
+            }
         }
 
         GameManager.instance.RemoveItem(itemName);

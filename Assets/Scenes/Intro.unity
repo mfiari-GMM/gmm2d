@@ -296,89 +296,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 173463050}
   m_CullTransparentMesh: 1
---- !u!1 &200942405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 200942406}
-  - component: {fileID: 200942408}
-  - component: {fileID: 200942407}
-  m_Layer: 5
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &200942406
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200942405}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1356859242}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -46.390503, y: 30.927002}
-  m_SizeDelta: {x: 1492.781, y: 871.3219}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &200942407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200942405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 6
-    m_MaxSize: 80
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Cr\xE9ation d'une grille (Grid) avec diff\xE9rent niveau de profondeur
-    : \n\n - Sol (ground) : pour dessiner le sol (herbe, chemin, ...)\n - ground
-    2 : pour dessiner les objets au dessus du sol (fleurs, bordure, ...)\n- solid
-    object : pour dessiner les objets solides (maisons, arbres, ...)\n\n\nutilisation
-    d'une Tile Palette pour dessiner le niveau"
---- !u!222 &200942408
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 200942405}
-  m_CullTransparentMesh: 1
 --- !u!1 &543992616
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +805,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1500511686}
-  - {fileID: 200942406}
   - {fileID: 1327892868}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1299,40 +1215,43 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\n\n\n\n\nLe mode est divis\xE9 en 4 continents, le continent des \xAB\_humains\_\xBB,
-    le continent des metamorphes, le continents des sorci\xE8res et le continent
-    des monstres\n\nLe continent des humains contient 3 pays \n\nChaque pays poss\xE8des
-    une grande ville dans lequel vivent le roi et la reine.\n\nIl existe \xE9galement
-    beaucoup de donjon dans le continent des humains. Ces donjons contiennent des
-    monstres qui apparaissent r\xE9guli\xE8rement. On pense que ces monstres proviennent
-    du continent des monstres.\n\nEn temps jadis, les humains se sont d\xE9velopp\xE9s
-    et ont construit des bateaux pour explorer les continents voisins. \n\nLe continent
-    des monstres \xE9tant tr\xE8s difficile \xE0 atteindre et \xE0 explorer il est
-    tr\xE8s peu connu, voir pas connu. Il est appel\xE9 ainsi car on pense que les
-    monstres pr\xE9sent dans les donjons viennent de ce continent.\n\nLe continent
-    des sorci\xE8res aussi a tr\xE8s peu \xE9t\xE9 explor\xE9, car les sorci\xE8res
-    prot\xE8ges leurs secrets. Mais du commerce et des \xE9changes sont parfois fais
-    avec les sorci\xE8res.\n\nLe continent des metamorphes est celui qui a \xE9t\xE9
-    le plus explor\xE9, m\xEAme si certain endroit reste inconnu pour les humains
-    car soit difficile d\u2019acc\xE8s ou alors prot\xE9g\xE9 par les peuples. On
-    connait 4 peuples qui vivent sur le continent des metamorphes, le peuples des
-    loups, le peuples des serpents, le peuples des oiseau et le peuple des f\xE9lins.
-    Il y a des l\xE9gendes qui disent qu\u2019un peuple dragon existerai \xE9galement
-    mais personne n\u2019en n\u2019a jamais vu.\n\nLes relations avec le peuple des
-    loups se passent plut\xF4t bien mais f\xFBt plus compliqu\xE9 avec les autres
-    peuples.\nCertains humains se m\xE9fiaient des metamorphes et certains m\xE9tamorphes,
-    notamment le peuple des serpent, ne voulaient pas traiter avec les humains.\n
-    \nUn conflit \xE9clata entre les humains, le peuple des loups, le peuple des
-    serpents et celui des oiseaux. \nCe conflit se passa en partie sur le pays le
-    plus proche du continent metamorphe, le pays fut partiellement d\xE9truit.\n\nApr\xE8s
-    ce conflit une tr\xEAve fut trouv\xE9 entre ces peuples.\n\nCertains humains
-    et les metamorphes loups essay\xE8rent de garder de bonne relation entre les
-    peuples, mais d\u2019autres humains ayant vu la puissance des metamorphes avaient
-    peur d\u2019eux et ne souhaitaient pas continuer ces relations.\nLe peuple oiseau
-    coupa toute relation et parti \xE0 bonne distance pour ne pas \xEAtre vu par
-    les humains. Le peuple serpent eux se m\xE9fiait des humains et rentrait en conflit
-    avec le peuple loup \xE0 cause de leur relation avec ceux-ci.\n\n\nC\u2019est
-    \xE0 ce moment que commence notre histoire."
+  m_Text: "\n\n\n\n\nLe monde est divis\xE9 en 4 continents, le continent des \_humains,
+    le continent des m\xE9tamorphes, le continents des sorci\xE8res et le continent
+    des monstres\n\nLe continent des humains contient 3 Grandes villes, Moonshine,
+    Riverspring et Skyridge. Dans lequel se trouve un ch\xE2teau dirig\xE9 par un
+    roi et une reine.\n\nIl existe \xE9galement beaucoup de donjon dans le continent
+    des humains. Ces donjons contiennent des monstres qui apparaissent r\xE9guli\xE8rement.
+    On pense que ces monstres proviennent du continent des monstres.\n\nEn temps
+    jadis, les humains se sont d\xE9velopp\xE9s et ont construit des bateaux pour
+    explorer les continents voisins. \n\nLe continent des monstres \xE9tant tr\xE8s
+    difficile \xE0 atteindre et \xE0 explorer il est tr\xE8s peu connu, voir pas
+    connu. Il est appel\xE9 ainsi car on pense que les monstres pr\xE9sents dans
+    les donjons viennent de ce continent.\n\nLe continent des sorci\xE8res aussi
+    a tr\xE8s peu \xE9t\xE9 explor\xE9, car les sorci\xE8res prot\xE8gent leurs secrets.
+    Mais du commerce et des \xE9changes sont parfois faits avec les sorci\xE8res.\n\nLe
+    continent des m\xE9tamorphes est celui qui a \xE9t\xE9 le plus explor\xE9, m\xEAme
+    si certain endroit reste inconnu pour les humains car soit difficile d\u2019acc\xE8s
+    ou alors prot\xE9g\xE9 par les peuples. On conna\xEEt 4 peuples qui vivent sur
+    le continent des m\xE9tamorphes, le peuple des loups, le peuple des serpents,
+    le peuple des oiseaux et le peuple des f\xE9lins. Il y a des l\xE9gendes qui
+    disent qu\u2019un peuple dragon existerait \xE9galement mais personne n\u2019en
+    n\u2019a jamais vu.\n\nLes relations avec le peuple des loups se pass\xE8rent
+    plut\xF4t bien mais furent plus compliqu\xE9es avec les autres peuples.\nCertains
+    humains se m\xE9fi\xE8rent des m\xE9tamorphes et certains m\xE9tamorphes, notamment
+    le peuple des serpents, ne voulaient pas traiter avec les humains.\n \nUn conflit
+    \xE9clata entre les humains, le peuple des loups, le peuple des serpents et celui
+    des oiseaux.\nDurant ce conflit, la ville de Riverspring, qui \xE9tait la plus
+    proche du continent des m\xE9tamorphes, fut en grande partie d\xE9truite.\n\nMais
+    gr\xE2ce \xE0 un groupe de h\xE9ros provenant du peuple des Humains, des Loups
+    et des sorci\xE8res, le conflit prit fin.\n\nApr\xE8s ce conflit une tr\xEAve
+    fut trouv\xE9 entre ces peuples.\n\nCertains humains et les m\xE9tamorphes loups
+    essay\xE8rent de garder de bonne relation entre les peuples, mais d\u2019autres
+    humains ayant vu la puissance des m\xE9tamorphes avaient peur d\u2019eux et ne
+    souhaitaient pas continuer ces relations.\nLe peuple oiseau coupa toute relation
+    et partit \xE0 bonne distance pour ne pas \xEAtre vu par les humains. Le peuple
+    serpent eux se m\xE9fiait des humains et rentrait en conflit avec le peuple loup
+    \xE0 cause de leur relation avec ceux-ci.\n\n\nC\u2019est \xE0 ce moment que
+    commence notre histoire."
 --- !u!222 &1917388323
 CanvasRenderer:
   m_ObjectHideFlags: 0

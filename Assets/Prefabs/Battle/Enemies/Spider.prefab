@@ -101,14 +101,14 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   charName: Spider
-  currentHp: 250
-  maxHP: 250
+  currentHp: 400
+  maxHP: 400
   currentMP: 0
   maxMP: 0
-  strength: 35
-  defence: 20
+  strength: 70
+  defence: 25
   magie: 0
-  resistance: 13
+  resistance: 15
   wpnPower: 0
   armrPower: 0
   hasDied: 0
@@ -116,9 +116,5 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
-  weaknesses:
-  - enemies: []
-    rewardXP: 0
-    rewardMoney: 0
-    rewardItems: []
-  resistances: []
+  weaknesses: 00000000
+  resistances: 

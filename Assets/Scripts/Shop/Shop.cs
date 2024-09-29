@@ -17,7 +17,7 @@ public class Shop : MonoBehaviour {
     public ItemButton[] sellItemButtons;
 
     public Item selectedItem;
-    public Text buyItemName, buyItemDescription, buyItemValue, buyItemStrength, buyItemMagie, buyItemDefence, buyItemResistance;
+    public Text buyItemName, buyItemDescription, buyItemValue, buyItemQuantity, buyItemStrength, buyItemMagie, buyItemDefence, buyItemResistance;
     public Text sellItemName, sellItemDescription, sellItemValue;
 
 	// Use this for initialization
@@ -120,7 +120,11 @@ public class Shop : MonoBehaviour {
                 buyItemMagie.text = "mag : +" + selectedItem.weaponMagie.ToString();
                 buyItemDefence.text = "def : +" + selectedItem.armorStrength.ToString();
                 buyItemResistance.text = "res : +" + selectedItem.armorResistance.ToString();
+
             }
+
+
+            ShowItemQuantity(selectedItem);
         }
     }
 
@@ -144,10 +148,48 @@ public class Shop : MonoBehaviour {
                 GameManager.instance.currentGold -= selectedItem.value;
 
                 GameManager.instance.AddItem(selectedItem.itemName);
+
+                ShowItemQuantity(selectedItem);
             }
         }
 
         goldText.text = GameManager.instance.currentGold.ToString() + "g";
+    }
+
+    private void ShowItemQuantity (Item selectedItem)
+    {
+        int quantity = 0;
+        for (int i = 0; i < GameManager.instance.itemsHeld.Length; i++)
+        {
+
+            if (GameManager.instance.itemsHeld[i] == selectedItem.itemName)
+            {
+                quantity = GameManager.instance.numberOfItems[i];
+            }
+        }
+
+        bool isWeaponItem = selectedItem.isWeapon || selectedItem.isArmour;
+
+        if (isWeaponItem)
+        {
+
+            for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
+            {
+
+                if (GameManager.instance.playerStats[i].equippedWpn != null
+                    && GameManager.instance.playerStats[i].equippedWpn.itemName == selectedItem.itemName)
+                {
+                    quantity++;
+                }
+                if (GameManager.instance.playerStats[i].equippedArmr != null
+                    && GameManager.instance.playerStats[i].equippedArmr.itemName == selectedItem.itemName)
+                {
+                    quantity++;
+                }
+            }
+
+        }
+        buyItemQuantity.text = "En stock : " + quantity;
     }
 
     public void SellItem()
