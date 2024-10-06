@@ -44,8 +44,10 @@ public class IntroSceneManager : MonoBehaviour
 
     private void StartGame ()
     {
-
-        PlayerPrefs.DeleteAll();
+        if ("House4".Equals(newGameScene))
+        {
+            PlayerPrefs.DeleteAll();
+        }
         SceneManager.LoadScene(newGameScene);
     }
 }
