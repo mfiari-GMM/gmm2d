@@ -17,7 +17,7 @@ Pas de configuration requise
 
 G.M.M (Guerrier Mages et Metamorphes) est un J-RPG 2D
 
-####Histoire
+#### Histoire
 
 Marco, un jeune garçon souhaite devenir chevalier. Avec son ami magicien, Vard, ils passent l'examen afin de devenir apprenti chevalier.
 
