@@ -120,6 +120,9 @@ Transform:
   - {fileID: 4364162826067014}
   - {fileID: 4614331974979114}
   - {fileID: 4946554146672954}
+  - {fileID: 8952801572295804572}
+  - {fileID: 5346683023085199211}
+  - {fileID: 8491843743784522898}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &114004588852274480
@@ -395,3 +398,253 @@ MonoBehaviour:
     moveName: Estocade sonique
   - level: 30
     moveName: Estocade supersonique
+--- !u!1 &914761772766140176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5346683023085199211}
+  - component: {fileID: 3368532159293657462}
+  m_Layer: 0
+  m_Name: 'Player5 Stat '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5346683023085199211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914761772766140176}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4094487156371976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368532159293657462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914761772766140176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76952862b77b3a498c16adc915c1bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Cynthia
+  playerLevel: 10
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 230
+  currentHP: 430
+  maxHP: 430
+  currentMP: 180
+  maxMP: 180
+  mpLvlBonus: 000000000000000005000000000000000a00000000000000000000000c0000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 32
+  defence: 30
+  magie: 45
+  resistance: 30
+  equippedWpn: {fileID: 114143543785605942, guid: 8f881f9e17c974b94ac330f3280fc410,
+    type: 3}
+  equippedArmr: {fileID: 0}
+  charIamge: {fileID: -1279744134, guid: e708e76c2435ffc46a7a900ba57f4c3d, type: 3}
+  winHP: 25
+  winMP: 12
+  winStrength: 2
+  winDefence: 2
+  winMagie: 3
+  winResistance: 2
+  winMoves:
+  - level: 12
+    moveName: tornade
+  - level: 16
+    moveName: defense -
+  - level: 16
+    moveName: force -
+  - level: 16
+    moveName: magie -
+  - level: 16
+    moveName: resistance -
+  - level: 20
+    moveName: seisme
+  - level: 25
+    moveName: sangsue
+  - level: 30
+    moveName: quart
+  - level: 35
+    moveName: affaiblissement
+  - level: 40
+    moveName: cyclone
+--- !u!1 &4154041414927079086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8491843743784522898}
+  - component: {fileID: 2719132837184284375}
+  m_Layer: 0
+  m_Name: Player6 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8491843743784522898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154041414927079086}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4094487156371976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2719132837184284375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154041414927079086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76952862b77b3a498c16adc915c1bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Alexis
+  playerLevel: 15
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 400
+  currentHP: 825
+  maxHP: 825
+  currentMP: 200
+  maxMP: 200
+  mpLvlBonus: 000000000000000005000000000000000a00000000000000000000000c0000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 115
+  defence: 80
+  magie: 42
+  resistance: 38
+  equippedWpn: {fileID: 114143543785605942, guid: 154da8d5ccf7011438ff6289a377335e,
+    type: 3}
+  equippedArmr: {fileID: 0}
+  charIamge: {fileID: 1586992253, guid: bf50395a79d26c740be987e19e5b09f8, type: 3}
+  winHP: 35
+  winMP: 10
+  winStrength: 5
+  winDefence: 4
+  winMagie: 2
+  winResistance: 2
+  winMoves: []
+--- !u!1 &8856893764327555147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8952801572295804572}
+  - component: {fileID: 4543965303000983660}
+  m_Layer: 0
+  m_Name: Player4 Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8952801572295804572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856893764327555147}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4094487156371976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4543965303000983660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8856893764327555147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76952862b77b3a498c16adc915c1bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Rose
+  playerLevel: 2
+  currentEXP: 0
+  expToNextLevel: 
+  maxLevel: 100
+  baseEXP: 190
+  currentHP: 120
+  maxHP: 120
+  currentMP: 90
+  maxMP: 90
+  mpLvlBonus: 000000000000000005000000000000000a00000000000000000000000c0000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  strength: 1
+  defence: 2
+  magie: 25
+  resistance: 20
+  equippedWpn: {fileID: 114143543785605942, guid: f4ee96fd453d78042bb3cf50a56dbfec,
+    type: 3}
+  equippedArmr: {fileID: 0}
+  charIamge: {fileID: -1421362600, guid: 7363ad4d1195b0e49beb236c508ae06e, type: 3}
+  winHP: 15
+  winMP: 20
+  winStrength: 1
+  winDefence: 1
+  winMagie: 6
+  winResistance: 4
+  winMoves:
+  - level: 6
+    moveName: soin etat
+  - level: 11
+    moveName: protect
+  - level: 15
+    moveName: lumiere
+  - level: 19
+    moveName: soin +
+  - level: 23
+    moveName: boost
+  - level: 28
+    moveName: resurection
+  - level: 34
+    moveName: flash
+  - level: 40
+    moveName: Soin X
+  - level: 48
+    moveName: resurection max
+  - level: 55
+    moveName: lance sacre
