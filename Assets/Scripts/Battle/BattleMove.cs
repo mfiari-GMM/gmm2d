@@ -10,4 +10,6 @@ public class BattleMove {
     public AttackEffect theEffect;
     public BattleMoveType battleType;
     public bool isMagic;
+    public bool heal;
+    public bool isPlayer;
 }

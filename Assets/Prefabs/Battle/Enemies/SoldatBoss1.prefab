@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
   m_Layer: 0
-  m_Name: Soldat
+  m_Name: SoldatBoss1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,21 +100,23 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  charName: Soldat
-  currentHp: 200
-  maxHP: 200
-  currentMP: 0
-  maxMP: 0
-  strength: 90
-  defence: 12
-  magie: 0
-  resistance: 8
-  wpnPower: 5
-  armrPower: 5
+  - epee enflamme
+  - tornade de feu
+  charName: Soldat boss 1
+  currentHp: 3000
+  maxHP: 3000
+  currentMP: 1000
+  maxMP: 1000
+  strength: 1000
+  defence: 600
+  magie: 1200
+  resistance: 700
+  wpnPower: 100
+  armrPower: 100
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
-  weaknesses: 
-  resistances: 
+  weaknesses: 02000000
+  resistances: 0000000001000000

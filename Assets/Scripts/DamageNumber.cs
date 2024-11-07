@@ -24,7 +24,14 @@ public class DamageNumber : MonoBehaviour {
             damageText.fontStyle = FontStyle.Bold;
             damageText.color = Color.yellow;
             damageText.fontSize = 109;
-        } else if (damageWeakness == -1)
+        }
+        else if (damageWeakness == 2)
+        {
+            damageText.fontStyle = FontStyle.Bold;
+            damageText.color = Color.green;
+            damageText.fontSize = 109;
+        }
+        else if (damageWeakness == -1)
         {
             damageText.fontStyle = FontStyle.Normal;
             damageText.color = Color.white;

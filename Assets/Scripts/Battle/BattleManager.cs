@@ -124,52 +124,60 @@ public class BattleManager : MonoBehaviour
             {
                 AudioManager.instance.PlayBGM(0);
             }
-            
 
+            int addIndex = 0;
             for(int i = 0; i < playerPositions.Length; i++)
             {
-                if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+                int playerIndex = i + addIndex;
+                if (GameManager.instance.playerStats.Length > playerIndex)
                 {
-                    for(int j = 0; j < playerPrefabs.Length; j++)
+                    if (GameManager.instance.playerStats[playerIndex].gameObject.activeInHierarchy)
                     {
-                        if(playerPrefabs[j].charName == GameManager.instance.playerStats[i].charName)
+                        for (int j = 0; j < playerPrefabs.Length; j++)
                         {
-                            BattleChar newPlayer = Instantiate(playerPrefabs[j], playerPositions[i].position, playerPositions[i].rotation);
-                            newPlayer.transform.parent = playerPositions[i];
-                            activeBattlers.Add(newPlayer);
-
-
-                            CharStats thePlayer = GameManager.instance.playerStats[i];
-                            activeBattlers[i].currentHp = thePlayer.currentHP;
-                            activeBattlers[i].maxHP = thePlayer.maxHP;
-                            activeBattlers[i].currentMP = thePlayer.currentMP;
-                            activeBattlers[i].maxMP = thePlayer.maxMP;
-                            activeBattlers[i].strength = thePlayer.strength;
-                            activeBattlers[i].defence = thePlayer.defence;
-                            activeBattlers[i].magie = thePlayer.magie;
-                            activeBattlers[i].resistance = thePlayer.resistance;
-                            activeBattlers[i].wpnPower = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponStrength : 0;
-                            activeBattlers[i].armrPower = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorStrength : 0;
-
-                            for (int playerLevel = 1 ; playerLevel <= thePlayer.playerLevel ; playerLevel++)
+                            if (playerPrefabs[j].charName == GameManager.instance.playerStats[playerIndex].charName)
                             {
-                                for (int k = 0 ; k < thePlayer.winMoves.Length ; k++)
+                                BattleChar newPlayer = Instantiate(playerPrefabs[j], playerPositions[i].position, playerPositions[i].rotation);
+                                newPlayer.transform.parent = playerPositions[i];
+                                activeBattlers.Add(newPlayer);
+
+
+                                CharStats thePlayer = GameManager.instance.playerStats[playerIndex];
+                                activeBattlers[i].currentHp = thePlayer.currentHP;
+                                activeBattlers[i].maxHP = thePlayer.maxHP;
+                                activeBattlers[i].currentMP = thePlayer.currentMP;
+                                activeBattlers[i].maxMP = thePlayer.maxMP;
+                                activeBattlers[i].strength = thePlayer.strength;
+                                activeBattlers[i].defence = thePlayer.defence;
+                                activeBattlers[i].magie = thePlayer.magie;
+                                activeBattlers[i].resistance = thePlayer.resistance;
+                                activeBattlers[i].wpnPower = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponStrength : 0;
+                                activeBattlers[i].armrPower = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorStrength : 0;
+
+                                for (int playerLevel = 1; playerLevel <= thePlayer.playerLevel; playerLevel++)
                                 {
-                                    if (thePlayer.winMoves[k].level == playerLevel)
+                                    for (int k = 0; k < thePlayer.winMoves.Length; k++)
                                     {
-                                        if (!activeBattlers[i].movesAvailable.Contains(thePlayer.winMoves[k].moveName))
+                                        if (thePlayer.winMoves[k].level == playerLevel)
                                         {
-                                            activeBattlers[i].movesAvailable = activeBattlers[i].movesAvailable.Concat(new string[] { thePlayer.winMoves[k].moveName }).ToArray();
+                                            if (!activeBattlers[i].movesAvailable.Contains(thePlayer.winMoves[k].moveName))
+                                            {
+                                                activeBattlers[i].movesAvailable = activeBattlers[i].movesAvailable.Concat(new string[] { thePlayer.winMoves[k].moveName }).ToArray();
+                                            }
                                         }
                                     }
+
                                 }
-                                
                             }
                         }
                     }
-
-
+                    else
+                    {
+                        i--;
+                        addIndex++;
+                    }
                 }
+                
             }
 
             for (int i = 0; i < enemiesToSpawn.Length; i++)
@@ -220,8 +228,12 @@ public class BattleManager : MonoBehaviour
             {
                 activeBattlers[i].currentHp = 0;
             }
+            if (activeBattlers[i].currentHp > activeBattlers[i].maxHP)
+            {
+                activeBattlers[i].currentHp = activeBattlers[i].maxHP;
+            }
 
-            if(activeBattlers[i].currentHp == 0)
+            if (activeBattlers[i].currentHp == 0)
             {
                 //Handle dead battler
                 if(activeBattlers[i].isPlayer)
@@ -295,6 +307,7 @@ public class BattleManager : MonoBehaviour
         int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
         int movePower = 0;
         bool magic = true;
+        bool heal = false;
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
         for (int i = 0; i < movesList.Length; i++)
         {
@@ -304,12 +317,36 @@ public class BattleManager : MonoBehaviour
                 movePower = movesList[i].movePower;
                 magic = movesList[i].isMagic;
                 battleType = movesList[i].battleType;
+                heal = movesList[i].heal;
             }
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        DealDamage(selectedTarget, movePower, magic, battleType);
+        if (heal)
+        {
+            Heal(selectedTarget, movePower);
+        } else
+        {
+            DealDamage(selectedTarget, movePower, magic, battleType);
+        }
+        
+    }
+
+    public void Heal(int target, int movePower)
+    {
+        float strength = activeBattlers[currentTurn].magie;
+
+        float atkPwr = strength + activeBattlers[currentTurn].wpnPower;
+
+        float damageCalc = (atkPwr / 10) * movePower * Random.Range(.9f, 1.1f);
+        int damageToGive = Mathf.RoundToInt(damageCalc);
+
+        activeBattlers[target].currentHp += damageToGive;
+
+        Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive, 2);
+
+        UpdateUIStats();
     }
 
     public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType)
@@ -394,6 +431,7 @@ public class BattleManager : MonoBehaviour
     {
         int movePower = 0;
         bool magic = true;
+        bool heal = false;
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
         for (int i = 0; i < movesList.Length; i++)
         {
@@ -403,12 +441,20 @@ public class BattleManager : MonoBehaviour
                 movePower = movesList[i].movePower;
                 battleType = movesList[i].battleType;
                 magic = movesList[i].isMagic;
+                heal = movesList[i].heal;
             }
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        DealDamage(selectedTarget, movePower, magic, battleType);
+        if (heal)
+        {
+            Heal(selectedTarget, movePower);
+        }
+        else
+        {
+            DealDamage(selectedTarget, movePower, magic, battleType);
+        }
 
         uiButtonsHolder.SetActive(false);
         targetMenu.SetActive(false);
@@ -432,11 +478,20 @@ public class BattleManager : MonoBehaviour
     public void OpenTargetMenu(string moveName)
     {
         targetMenu.SetActive(true);
+        bool choosePlayer = false;
+
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == moveName)
+            {
+                choosePlayer = movesList[i].isPlayer;
+            }
+        }
 
         List<int> Enemies = new List<int>();
         for(int i = 0; i < activeBattlers.Count; i++)
         {
-            if(!activeBattlers[i].isPlayer)
+            if((!choosePlayer && !activeBattlers[i].isPlayer) || (choosePlayer && activeBattlers[i].isPlayer))
             {
                 Enemies.Add(i);
             }

@@ -950,6 +950,8 @@ GameObject:
   - component: {fileID: 219162639}
   - component: {fileID: 219162636}
   - component: {fileID: 219162638}
+  - component: {fileID: 219162641}
+  - component: {fileID: 219162642}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -1304,6 +1306,41 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 173625853}
   questToCheck: end mission apple
+  activeIfComplete: 0
+--- !u!114 &219162641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1523665261}
+  questToCheck: soldat moonshine
+  activeIfComplete: 0
+--- !u!114 &219162642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 915823749}
+  - {fileID: 4772847}
+  - {fileID: 1768630795}
+  - {fileID: 784305362}
+  questToCheck: escape village
   activeIfComplete: 0
 --- !u!1 &273079926
 GameObject:
@@ -34299,7 +34336,7 @@ MonoBehaviour:
   - Il faut que je previenne les autres.
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: end demo
+  questToMark: soldat moonshine
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1

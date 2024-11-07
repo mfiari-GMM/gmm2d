@@ -229,6 +229,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 70794012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &70794014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 70794012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &195563607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -299,6 +305,8 @@ GameObject:
   - component: {fileID: 219873462}
   - component: {fileID: 219873461}
   - component: {fileID: 219873463}
+  - component: {fileID: 219873464}
+  - component: {fileID: 219873465}
   m_Layer: 0
   m_Name: objectActivator
   m_TagString: Untagged
@@ -389,6 +397,45 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 418273755}
   questToCheck: metamorph
+  activeIfComplete: 0
+--- !u!114 &219873464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219873453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 2137265112}
+  questToCheck: soldat moonshine
+  activeIfComplete: 1
+--- !u!114 &219873465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219873453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 70794014}
+  - {fileID: 858185676}
+  - {fileID: 897929351}
+  - {fileID: 273889204}
+  - {fileID: 1170321494}
+  - {fileID: 1990026519}
+  - {fileID: 1469730848}
+  - {fileID: 2137265112}
+  questToCheck: escape village
   activeIfComplete: 0
 --- !u!1001 &273889202
 PrefabInstance:
@@ -595,7 +642,8 @@ MonoBehaviour:
   - n-???
   - ...
   - n-Pepe
-  - Moonshine.
+  - La derniere fois que j'ai vu ce genre de blessure, c'etait lors d'une bataille
+    avec Moonshine.
   - Etes-vous poursuivi par leurs  soldats ?
   - n-???
   - ...
@@ -622,6 +670,20 @@ MonoBehaviour:
   - C'est la que votre petit fils nous a trouver.
   - n-Pepe
   - Hum, cette histoire est tres inquitante, cela ne me plait pas.
+  - n-Yekel
+  - Maintenant, nous somme accuse d'etre des criminels, et cela va empirer les relations
+    entre nos peuples.
+  - n-Pepe
+  - Oui, cela risque d'avoir des consequences.
+  - Il faudrait aller raconter votre histoire au roi de Skyridge.
+  - Il a toujours ete un allie des metamorphe, peut-etre pourras t-il vous aider
+    dans cette histoire.
+  - n-Yekel
+  - C'est vrai que nous avons toujours eu de bonne relation avec Skyridge
+  - Au debut c'est la bas que nous souhaitions nous rendre mais les soldats nous
+    on bloquer le passage.
+  - J'espere juste que le prince de Moonshine ne les auras pas retourner contre nous
+    avant.
   - n-Marco
   - '!?'
   - Il se passe quelque chose dehors !
@@ -1226,6 +1288,7 @@ Transform:
   m_Children:
   - {fileID: 929335883}
   - {fileID: 418273756}
+  - {fileID: 2137265113}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1225190842
@@ -5453,6 +5516,162 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2137265112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137265113}
+  - component: {fileID: 2137265115}
+  - component: {fileID: 2137265114}
+  m_Layer: 0
+  m_Name: questMetamoph2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2137265113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137265112}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.7, y: -0.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1221509312}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137265114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137265112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - n-Marco
+  - Les soldats de Moonshine sont la, ils recherchent Alexis et Yekel
+  - Ils ont encercle le village et fouillent les maisons.
+  - n-Yekel
+  - Oh non ! Vous allez avoir des ennuis a cause de nous.
+  - Merci de votre aide, mais nous allons devoir partir
+  - n-Pepe
+  - Attendez ! Vous n'irez pas loin, surtout avec un blesse.
+  - n-Yekel
+  - Mais nous ne pouvons pas rester ici !
+  - Et puis nous vous mettons en danger
+  - n-Marco
+  - Nous allons vous accompagner.
+  - n-Yekel
+  - C'est bien trop dangereux !
+  - n-Pepe
+  - Il a raison, ce n'est pas un simple entrainement, il s'agit de soldat entrainer.
+  - Il nous faut un plan, sinon nous seront tous en danger.
+  - n-Marco
+  - Que faire ?
+  - n-Mok
+  - Je vais m'en charger
+  - Je vais faire diversion pour vous offrir une chance de sortie.
+  - n-Vard
+  - Comment vas tu faire ?
+  - n-Mok
+  - Je vais attirer les soldats proche de la sortie du village. Comme ca vous pourrez
+    sortir.
+  - n-Pepe
+  - De mon conte je vais retenir les soldats encore present dans le village.
+  - Vous devrez vous depecher et aller directement a la sortie sans vous faire reperer.
+  - n-Yekel
+  - Pourquoi faites vous tous ca pour nous ?
+  - n-Pepe
+  - Car vous etes innocent
+  - Bien maintenant je vais vous soigner
+  - Rose ?
+  - n-Rose
+  - Oui ?
+  - n-Pepe
+  - Tu veux bien les accompagner ? Ca sera un long voyage et ils auront besoin de
+    quelqu'un pour les soigner au besoin
+  - n-Rose
+  - Bien sur ! Et puis j'aimerais bien rencontrer une sorciere.
+  - n-Pepe
+  - Bien depechons nous allors.
+  - Marco, soit prudent
+  - n-Marco
+  - Oui, nous allons reussir.
+  - n-Mok
+  - 'A moi de jouer. '
+  - n-Pepe
+  - Moi aussi je dois y aller
+  - n-Rose
+  - Marco, Vard, Yekel, allons-y et soyons discret.
+  isPerson: 1
+  shouldActivateQuest: 1
+  questToMark: escape village
+  markComplete: 1
+  shouldHealPlayer: 1
+  shouldAutoLaunch: 1
+  playersToAdd:
+  - Rose
+  playersToRemove:
+  - Mok
+--- !u!61 &2137265115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137265112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.2301502, y: -0.28121066}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.974449, y: 3.02712}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

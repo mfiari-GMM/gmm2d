@@ -689,7 +689,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114324007513725800}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1100190688898036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,6 +1885,9 @@ MonoBehaviour:
   - {fileID: 114017839349114026, guid: 459124c72bda63a468a2cc892c618c38, type: 3}
   - {fileID: 114017839349114026, guid: c543b145567e07a40a314c854f3f8fcc, type: 3}
   - {fileID: 114017839349114026, guid: ed1b1dc90c49643f7b375af7395bfb20, type: 3}
+  - {fileID: 114017839349114026, guid: c839220ecfea7ad4e85e68ed870827ca, type: 3}
+  - {fileID: 114017839349114026, guid: 030d75bff29c48542a3f8f05d1de0aba, type: 3}
+  - {fileID: 114017839349114026, guid: ddb67db0593b56d479ea9a606802932f, type: 3}
   enemyPrefabs:
   - {fileID: 114895784032005762, guid: f24adb2fc37e44233a144a711d0039b7, type: 3}
   - {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a, type: 3}
@@ -1913,6 +1916,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Coup d'estoc
     movePower: 20
     moveCost: 10
@@ -1920,6 +1925,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Estocade sonique
     movePower: 30
     moveCost: 15
@@ -1927,6 +1934,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Estocade supersonique
     movePower: 50
     moveCost: 25
@@ -1934,6 +1943,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Lame foudroyante
     movePower: 30
     moveCost: 20
@@ -1941,6 +1952,8 @@ MonoBehaviour:
       type: 3}
     battleType: 6
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Coup puissant
     movePower: 25
     moveCost: 10
@@ -1948,6 +1961,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Impact terrestre
     movePower: 40
     moveCost: 20
@@ -1955,6 +1970,8 @@ MonoBehaviour:
       type: 3}
     battleType: 4
     isMagic: 0
+    heal: 0
+    isPlayer: 0
   - moveName: Feu
     movePower: 20
     moveCost: 5
@@ -1962,6 +1979,8 @@ MonoBehaviour:
       type: 3}
     battleType: 0
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Feu +
     movePower: 40
     moveCost: 15
@@ -1969,6 +1988,8 @@ MonoBehaviour:
       type: 3}
     battleType: 0
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Feu X
     movePower: 60
     moveCost: 30
@@ -1976,6 +1997,8 @@ MonoBehaviour:
       type: 3}
     battleType: 0
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Glace
     movePower: 20
     moveCost: 5
@@ -1983,6 +2006,8 @@ MonoBehaviour:
       type: 3}
     battleType: 1
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Glace +
     movePower: 40
     moveCost: 15
@@ -1990,6 +2015,8 @@ MonoBehaviour:
       type: 3}
     battleType: 1
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Glace X
     movePower: 60
     moveCost: 30
@@ -1997,6 +2024,8 @@ MonoBehaviour:
       type: 3}
     battleType: 1
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Foudre
     movePower: 20
     moveCost: 5
@@ -2004,6 +2033,8 @@ MonoBehaviour:
       type: 3}
     battleType: 6
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Foudre +
     movePower: 40
     moveCost: 15
@@ -2011,6 +2042,8 @@ MonoBehaviour:
       type: 3}
     battleType: 6
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Foudre X
     movePower: 60
     moveCost: 30
@@ -2018,6 +2051,8 @@ MonoBehaviour:
       type: 3}
     battleType: 6
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Plasma
     movePower: 30
     moveCost: 10
@@ -2025,6 +2060,8 @@ MonoBehaviour:
       type: 3}
     battleType: 5
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Vent
     movePower: 20
     moveCost: 5
@@ -2032,6 +2069,8 @@ MonoBehaviour:
       type: 3}
     battleType: 3
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Tornade
     movePower: 40
     moveCost: 15
@@ -2039,6 +2078,8 @@ MonoBehaviour:
       type: 3}
     battleType: 3
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Cyclone
     movePower: 60
     moveCost: 30
@@ -2046,6 +2087,8 @@ MonoBehaviour:
       type: 3}
     battleType: 3
     isMagic: 1
+    heal: 0
+    isPlayer: 0
   - moveName: Seisme
     movePower: 30
     moveCost: 25
@@ -2053,6 +2096,17 @@ MonoBehaviour:
       type: 3}
     battleType: 4
     isMagic: 1
+    heal: 0
+    isPlayer: 0
+  - moveName: Soin
+    movePower: 10
+    moveCost: 15
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 1
+    heal: 1
+    isPlayer: 1
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801,
     type: 3}
   theDamageNumber: {fileID: 114429894980074712, guid: add1341ff4b53074794f5f54ef4f216d,
@@ -5758,7 +5812,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114274751335041244}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1571096523146450
 GameObject:
   m_ObjectHideFlags: 0
@@ -6067,7 +6121,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114935390955250222}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1595396702520892
 GameObject:
   m_ObjectHideFlags: 0
@@ -8055,7 +8109,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114444067161019596}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1769953219547854
 GameObject:
   m_ObjectHideFlags: 0
@@ -8528,7 +8582,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114431351206739344}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1816862234595526
 GameObject:
   m_ObjectHideFlags: 0
@@ -9604,7 +9658,7 @@ MonoBehaviour:
   activeBattlerTarget: 0
   targetName: {fileID: 114408048641654842}
   isItem: 0
-  selectItem: {fileID: 0}
+  itemName: 
 --- !u!1 &1953708712436902
 GameObject:
   m_ObjectHideFlags: 0
