@@ -336,16 +336,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Battle Zone
       objectReference: {fileID: 0}
-    - target: {fileID: 1718072336721018777, guid: b4c55a11d883666448dcb4f938bdda24,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
-        type: 3}
-      propertyPath: battleField
-      value: country
-      objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: timeBetweenBattles
@@ -538,7 +528,7 @@ PrefabInstance:
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: areaToLoad
-      value: Eastcliff
+      value: Village2
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}

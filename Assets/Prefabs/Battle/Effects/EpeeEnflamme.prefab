@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1231586786634542
+--- !u!1 &1013446985705388
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4155484428091270}
-  - component: {fileID: 212249034564438036}
-  - component: {fileID: 114143543785605942}
+  - component: {fileID: 4762593337908814}
+  - component: {fileID: 212886306315250568}
+  - component: {fileID: 95438328859673098}
+  - component: {fileID: 114252193273743618}
   m_Layer: 0
-  m_Name: baton
+  m_Name: EpeeEnflamme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4155484428091270
+--- !u!4 &4762593337908814
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231586786634542}
+  m_GameObject: {fileID: 1013446985705388}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.23, y: -3.19, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212249034564438036
+--- !u!212 &212886306315250568
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231586786634542}
+  m_GameObject: {fileID: 1013446985705388}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -71,45 +72,52 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -76193021
-  m_SortingLayer: 2
-  m_SortingOrder: -5
-  m_Sprite: {fileID: -573681297, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  m_SortingLayerID: 971942665
+  m_SortingLayer: 4
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300038, guid: 7384dec0e667b8643bee02d3ecaf659c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 6.25, y: 6.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114143543785605942
+--- !u!95 &95438328859673098
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013446985705388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d1b92f180d71a44e95888fc5a98ed1e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &114252193273743618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231586786634542}
+  m_GameObject: {fileID: 1013446985705388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ddf7c1ada77bbe419831ca4fc18005b, type: 3}
+  m_Script: {fileID: 11500000, guid: b0f963bb22816ac478459fcac6f5d718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isItem: 0
-  isWeapon: 1
-  isArmour: 0
-  itemName: baton
-  description: baton
-  value: 100
-  itemSprite: {fileID: -1555301365, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
-  amountToChange: 0
-  affectHP: 0
-  affectMP: 0
-  affectStr: 0
-  resurrect: 0
-  weaponStrength: 6
-  armorStrength: 0
-  weaponMagie: 8
-  armorResistance: 0
+  effectLength: 4
+  soundEffect: 2

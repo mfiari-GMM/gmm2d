@@ -218,6 +218,8 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_MaxMP", playerStats[i].maxMP);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Strength", playerStats[i].strength);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Defence", playerStats[i].defence);
+            PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Magie", playerStats[i].magie);
+            PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Resistance", playerStats[i].resistance);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_WpnPwr", playerStats[i].equippedWpn.weaponStrength);
             PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedWpn", playerStats[i].equippedWpn.itemName);
             if (playerStats[i].equippedArmr != null)
@@ -243,7 +245,7 @@ public class GameManager : MonoBehaviour {
 
         for (int i = 0; i < playerStats.Length; i++)
         {
-            if (PlayerPrefs.HasKey("Player_" + playerStats[i].charName + "_Level") && playerStats[i].charName != "Rose")
+            if (PlayerPrefs.HasKey("Player_" + playerStats[i].charName + "_Level"))
             {
                 if (PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_active") == 0)
                 {
@@ -262,6 +264,19 @@ public class GameManager : MonoBehaviour {
                 playerStats[i].maxMP = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_MaxMP");
                 playerStats[i].strength = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Strength");
                 playerStats[i].defence = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Defence");
+                playerStats[i].magie = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Magie");
+                playerStats[i].resistance = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Resistance");
+                /*if (playerStats[i].charName == "Vard")
+                {
+                    playerStats[i].magie = 66;
+                    playerStats[i].resistance = 49;
+                }
+                if (playerStats[i].charName == "Marco")
+                {
+                    playerStats[i].magie = 31;
+                    playerStats[i].resistance = 30;
+                }*/
+
                 playerStats[i].equippedWpn = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedWpn"));
                 playerStats[i].equippedArmr = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedArmr"));
             }

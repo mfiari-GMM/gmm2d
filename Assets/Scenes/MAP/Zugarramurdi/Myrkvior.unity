@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1275003598}
+  objectsToActivate: []
   questToCheck: quest test
   activeIfComplete: 0
 --- !u!4 &89125743
@@ -172,55 +172,6 @@ Transform:
   - {fileID: 1275003599}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &174951221
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1815508899592074, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.3992634
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.7207445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.076171875
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4618796693575320, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f2d3c32235d5bb747bea5c98642bf77d, type: 3}
 --- !u!1001 &195563607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -308,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 0}
+  objectsToActivate: []
   questToCheck: Defeat The Dragon
   activeIfComplete: 1
 --- !u!114 &219162614
@@ -323,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 0}
+  objectsToActivate: []
   questToCheck: Defeat The Dragon
   activeIfComplete: 0
 --- !u!4 &219162615
@@ -464,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 2041253564}
+  objectsToActivate: []
   questToCheck: enter the cave
   activeIfComplete: 0
 --- !u!4 &296457749
@@ -574,6 +525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c665f46f0872a184991874508ac9be90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChest: 0
+  chestSprite: {fileID: 0}
 --- !u!58 &313768388
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1454,6 +1407,52 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1111574650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1111574652}
+  - component: {fileID: 1111574651}
+  m_Layer: 0
+  m_Name: MapInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1111574651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111574650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dabacfa8f79e4170a2e9af03e931dc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Myrkvior
+  description: La foret des sorcieres
+--- !u!4 &1111574652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111574650}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1225190842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1509,7 +1508,7 @@ PrefabInstance:
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Size.x
-      value: 6.0200844
+      value: 3.5571194
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
@@ -1519,7 +1518,7 @@ PrefabInstance:
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Offset.x
-      value: 1.4584045
+      value: 0.22692204
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
@@ -1529,12 +1528,12 @@ PrefabInstance:
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: areaToLoad
-      value: Countryside
+      value: Zugarramurdi
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: areaTransitionName
-      value: Countryside-4
+      value: Zugarramurdi-2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40298,6 +40297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c665f46f0872a184991874508ac9be90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChest: 0
+  chestSprite: {fileID: 0}
 --- !u!58 &1431272074
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -40595,7 +40596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 1610882990}
+  objectsToActivate: []
   questToCheck: quest test
   activeIfComplete: 1
 --- !u!4 &1814847229
@@ -40667,6 +40668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c665f46f0872a184991874508ac9be90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isChest: 0
+  chestSprite: {fileID: 0}
 --- !u!1 &2041253564
 GameObject:
   m_ObjectHideFlags: 0
@@ -79985,9 +79988,9 @@ Tilemap:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1111574652}
   - {fileID: 1397434787}
   - {fileID: 471987514}
-  - {fileID: 174951221}
   - {fileID: 1225190842}
   - {fileID: 195563607}
   - {fileID: 89125743}
