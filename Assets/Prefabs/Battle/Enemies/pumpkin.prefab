@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: pumpkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
+  m_Sprite: {fileID: 1620269099, guid: 1e3962a914b5ea648ac2cdfb6a268347, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  charName: Monstre
+  charName: Citrouille
   currentHp: 150
   maxHP: 250
   currentMP: 0
@@ -116,5 +116,5 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
-  weaknesses: 
-  resistances: 
+  weaknesses: 06000000
+  resistances: 00000000
