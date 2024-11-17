@@ -124,6 +124,223 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &194063642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 975056853}
+    m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.5100183
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.708024
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17783213
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.354012
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.8222222
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1559318
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1733349881, guid: 389519e9b8d94444b850ea5ea71c9d9c,
+        type: 3}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: questToMark
+      value: mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldAutoLaunch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Salut !
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Mok ! Tu etait la !?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Oui, j'ai reussi a leur echapper dans la foret.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Mais le chemin a gauche est bloque par les soldats de Moonshine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: De toute facon le village que l'on cherche se trouve a droite.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: Je vous accompagnerais, allons retrouver cette sorciere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldActivateQuest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[10]
+      value: SUper, ton aide sera la bienvenue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.data[0]
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Name
+      value: Soldat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.8222222
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1559318
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+    - {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+--- !u!4 &194063643 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 194063642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &195563607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,8 +443,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToActivate: []
-  questToCheck: escape village
+  objectsToActivate:
+  - {fileID: 1167121541}
+  questToCheck: mok
   activeIfComplete: 0
 --- !u!4 &219162615
 Transform:
@@ -244,100 +462,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &239474892
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 239474894}
-  - component: {fileID: 239474893}
-  - component: {fileID: 239474895}
-  m_Layer: 0
-  m_Name: Quest Zone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &239474893
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.6815872, y: 0.721436}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 6.7821064, y: 3.5128298}
-  m_EdgeRadius: 0
---- !u!4 &239474894
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.5, y: -10, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 379272263}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &239474895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239474892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f5224f3f12439d4d9f5315f7fb8ae8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questToMark: quest mok
-  markComplete: 1
-  markOnEnter: 0
-  deactivateOnMarking: 0
 --- !u!1 &296457747
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,29 +471,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296457749}
-  - component: {fileID: 296457748}
   m_Layer: 0
-  m_Name: Quest Object (2)
+  m_Name: Quest Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &296457748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296457747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectsToActivate: []
-  questToCheck: enter the cave
-  activeIfComplete: 0
+  m_IsActive: 1
 --- !u!4 &296457749
 Transform:
   m_ObjectHideFlags: 0
@@ -543,7 +651,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 239474894}
   - {fileID: 296457749}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1518,10 +1625,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1026389302}
   - {fileID: 1167121540}
+  - {fileID: 1483863359}
+  - {fileID: 194063643}
+  - {fileID: 1984832112}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1167121539
+--- !u!1001 &1026389301
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1529,6 +1640,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 975056853}
     m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.0895978
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0666667
+      objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1588,12 +1709,237 @@ PrefabInstance:
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Edson
       objectReference: {fileID: 0}
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.0895978
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0666667
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+--- !u!4 &1026389302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1026389301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1167121539
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 975056853}
+    m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.5100183
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.708024
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17783213
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.354012
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.0895978
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1814350722, guid: 8fdee18d4d1bc894abb77dab63b3cc89,
+        type: 3}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: questToMark
+      value: mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldAutoLaunch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Salut !
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Mok ! Tu etait la !?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Oui, j'ai reussi a leur echapper dans la foret.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Mais le chemin a gauche est bloque par les soldats de Moonshine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: De toute facon le village que l'on cherche se trouve a droite.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: Je vous accompagnerais, allons retrouver cette sorciere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldActivateQuest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[10]
+      value: SUper, ton aide sera la bienvenue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.data[0]
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Name
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.0895978
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.0666667
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1603,6 +1949,12 @@ PrefabInstance:
 --- !u!4 &1167121540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1167121539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1167121541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
     type: 3}
   m_PrefabInstance: {fileID: 1167121539}
   m_PrefabAsset: {fileID: 0}
@@ -1786,7 +2138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1348632689
 Transform:
   m_ObjectHideFlags: 0
@@ -40257,6 +40609,223 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.83
+--- !u!1001 &1483863358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 975056853}
+    m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.5100183
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.708024
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17783213
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.354012
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.7111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.2000978
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -34.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1733349881, guid: 389519e9b8d94444b850ea5ea71c9d9c,
+        type: 3}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: questToMark
+      value: mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldAutoLaunch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Salut !
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Mok ! Tu etait la !?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Oui, j'ai reussi a leur echapper dans la foret.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Mais le chemin a gauche est bloque par les soldats de Moonshine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: De toute facon le village que l'on cherche se trouve a droite.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: Je vous accompagnerais, allons retrouver cette sorciere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldActivateQuest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[10]
+      value: SUper, ton aide sera la bienvenue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.data[0]
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Name
+      value: Soldat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.7111111
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.2000978
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+    - {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+--- !u!4 &1483863359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483863358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1486813660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40344,6 +40913,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Battle Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: battleField
+      value: forest
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -40688,6 +41262,262 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isChest: 0
   chestSprite: {fileID: 0}
+--- !u!1001 &1984832111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 975056853}
+    m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 8.566114
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.0335388
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.02900219
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -1.0167694
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.8222222
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1559318
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1733349881, guid: 389519e9b8d94444b850ea5ea71c9d9c,
+        type: 3}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: questToMark
+      value: mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: markComplete
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldAutoLaunch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: Salut !
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[2]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[3]
+      value: Mok ! Tu etait la !?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[4]
+      value: n-Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[5]
+      value: Oui, j'ai reussi a leur echapper dans la foret.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[6]
+      value: Mais le chemin a gauche est bloque par les soldats de Moonshine.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[7]
+      value: De toute facon le village que l'on cherche se trouve a droite.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[8]
+      value: Je vous accompagnerais, allons retrouver cette sorciere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[9]
+      value: n-Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldActivateQuest
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[10]
+      value: SUper, ton aide sera la bienvenue.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToAdd.Array.data[0]
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_Name
+      value: Mae
+      objectReference: {fileID: 0}
+    - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.8222222
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1559318
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1984832114}
+  m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+--- !u!4 &1984832112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1984832111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1984832113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1984832111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1984832114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984832113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd69dda360402ee46997ba454dde2ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialBattles:
+  - enemies:
+    - Soldat
+    - Soldat
+    - Mae
+    rewardXP: 5000
+    rewardMoney: 10000
+    rewardItems: []
+  activateOnEnter: 1
+  activateOnStay: 0
+  activateOnExit: 0
+  timeBetweenBattles: 10
+  deactivateAfterStarting: 0
+  cannotFlee: 1
+  battleField: forest
+  shouldCompleteQuest: 1
+  QuestToComplete: Defeat Mae
+  isBoss: 1
 --- !u!1 &2041253564
 GameObject:
   m_ObjectHideFlags: 0
