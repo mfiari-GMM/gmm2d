@@ -40,6 +40,8 @@ public class GameMenu : MonoBehaviour {
     public GameObject savePanel;
     public Text saveText;
 
+    public int playerToChange = -1;
+
     // Use this for initialization
     void Start () {
         instance = this;
@@ -72,6 +74,8 @@ public class GameMenu : MonoBehaviour {
             if(playerStats[i].gameObject.activeInHierarchy)
             {
                 charStatHolder[i].SetActive(true);
+                charStatHolder[i].GetComponent<CharInfoChange>().SetPlayerIndex(i);
+                charStatHolder[i].GetComponent<CharInfoChange>().ResetDisplay();
 
                 nameText[i].text = playerStats[i].charName;
                 hpText[i].text = "PV : " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
