@@ -175,19 +175,20 @@ public class Shop : MonoBehaviour {
 
             for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
             {
-
-                if (GameManager.instance.playerStats[i].equippedWpn != null
+                if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+                {
+                    if (GameManager.instance.playerStats[i].equippedWpn != null
                     && GameManager.instance.playerStats[i].equippedWpn.itemName == selectedItem.itemName)
-                {
-                    quantity++;
-                }
-                if (GameManager.instance.playerStats[i].equippedArmr != null
-                    && GameManager.instance.playerStats[i].equippedArmr.itemName == selectedItem.itemName)
-                {
-                    quantity++;
+                    {
+                        quantity++;
+                    }
+                    if (GameManager.instance.playerStats[i].equippedArmr != null
+                        && GameManager.instance.playerStats[i].equippedArmr.itemName == selectedItem.itemName)
+                    {
+                        quantity++;
+                    }
                 }
             }
-
         }
         buyItemQuantity.text = "En stock : " + quantity;
     }

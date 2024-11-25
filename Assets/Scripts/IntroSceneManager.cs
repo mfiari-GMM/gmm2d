@@ -32,7 +32,7 @@ public class IntroSceneManager : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float speed = 0.010f;
+        float speed = 0.009f;
 
         scrollbar.value -= speed * Time.deltaTime;
 
