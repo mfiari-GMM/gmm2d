@@ -47,6 +47,8 @@ public class BattleManager : MonoBehaviour
 
     public BattleNotification battleNotice;
 
+    public BattleNotification battleText;
+
     public int chanceToFlee = 35;
     private bool fleeing;
 
@@ -318,6 +320,12 @@ public class BattleManager : MonoBehaviour
                 magic = movesList[i].isMagic;
                 battleType = movesList[i].battleType;
                 heal = movesList[i].heal;
+
+                if ("Slash" != movesList[i].moveName)
+                {
+                    battleText.theText.text = movesList[i].moveName;
+                    battleText.Activate();
+                }
             }
         }
 
@@ -443,6 +451,12 @@ public class BattleManager : MonoBehaviour
                 magic = movesList[i].isMagic;
                 heal = movesList[i].heal;
             }
+        }
+
+        if ("Slash" != moveName)
+        {
+            battleText.theText.text = moveName;
+            battleText.Activate();
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);

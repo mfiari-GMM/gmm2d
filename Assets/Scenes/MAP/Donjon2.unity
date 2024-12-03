@@ -267,6 +267,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: timeBetweenBattles
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardXP
       value: 300
       objectReference: {fileID: 0}
@@ -45139,6 +45144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: battleField
       value: donjon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: timeBetweenBattles
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
