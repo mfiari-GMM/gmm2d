@@ -42,11 +42,13 @@ public class BattleReward : MonoBehaviour {
 
     public void CloseRewardScreen()
     {
+        int nbPlayerHasWinExp = 0;
         for(int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
             if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy && GameManager.instance.playerStats[i].currentHP > 0)
             {
-                GameManager.instance.playerStats[i].AddExp(xpEarned);
+                GameManager.instance.playerStats[i].AddExp(nbPlayerHasWinExp >= 3 ? xpEarned / 2 : xpEarned);
+                nbPlayerHasWinExp++;
             }
         }
 

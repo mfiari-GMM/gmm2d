@@ -100,15 +100,16 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Ice
+  - Glace
+  - Glace +
   charName: Aqua
   currentHp: 700
   maxHP: 700
   currentMP: 500
   maxMP: 500
-  strength: 60
+  strength: 200
   defence: 40
-  magie: 40
+  magie: 100
   resistance: 30
   wpnPower: 10
   armrPower: 10
@@ -118,4 +119,4 @@ MonoBehaviour:
   aliveSprite: {fileID: 0}
   fadeSpeed: 1
   weaknesses: 06000000
-  resistances: 00000000
+  resistances: 000000000100000002000000
