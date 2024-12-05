@@ -1129,6 +1129,7 @@ GameObject:
   - component: {fileID: 219162641}
   - component: {fileID: 219162642}
   - component: {fileID: 219162643}
+  - component: {fileID: 219162644}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -1538,6 +1539,23 @@ MonoBehaviour:
   - {fileID: 441148441}
   questToCheck: escape village
   activeIfComplete: 1
+--- !u!114 &219162644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1391791039}
+  - {fileID: 2075906537}
+  questToCheck: battle soldat village
+  activeIfComplete: 0
 --- !u!1 &273079926
 GameObject:
   m_ObjectHideFlags: 0
@@ -10586,7 +10604,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.24147224, y: 0.41311073}
+  m_Offset: {x: 0.83833504, y: 0.035098076}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10597,7 +10615,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.548077, y: 6.5969086}
+  m_Size: {x: 8.354351, y: 5.8408833}
   m_EdgeRadius: 0
 --- !u!61 &1391791043
 BoxCollider2D:

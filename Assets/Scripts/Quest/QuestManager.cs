@@ -50,6 +50,8 @@ public class QuestManager : MonoBehaviour {
         questMarkersComplete[GetQuestNumber(questToMark)] = true;
 
         UpdateLocalQuestObjects();
+
+        UpdateLocalQuestObject(questToMark);
     }
 
     public void MarkQuestIncomplete(string questToMark)
@@ -68,6 +70,22 @@ public class QuestManager : MonoBehaviour {
             for(int i = 0; i < questObjects.Length; i++)
             {
                 questObjects[i].CheckCompletion();
+            }
+        }
+    }
+
+    public void UpdateLocalQuestObject(string questToMark)
+    {
+        QuestObjectActivator[] questObjects = FindObjectsOfType<QuestObjectActivator>();
+
+        if (questObjects.Length > 0)
+        {
+            for (int i = 0; i < questObjects.Length; i++)
+            {
+                if (questObjects[i].questToCheck == questToMark)
+                {
+                    questObjects[i].CheckCompletion();
+                }
             }
         }
     }

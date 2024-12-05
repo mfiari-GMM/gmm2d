@@ -1421,12 +1421,12 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[0]
-      value: plante
+      value: Pomme
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[2].rewardItems.Array.data[0]
-      value: fraise
+      value: Fraise
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1699,6 +1699,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItems.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[0]
       value: Potion
       objectReference: {fileID: 0}
@@ -1706,6 +1711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[1]
       value: Potion de Mana
+      objectReference: {fileID: 0}
+    - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[2]
+      value: plante
       objectReference: {fileID: 0}
     - target: {fileID: 1023898004596848717, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
@@ -11298,12 +11308,12 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[0]
-      value: pomme
+      value: Pomme
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[2].rewardItems.Array.data[0]
-      value: fraise
+      value: Fraise
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

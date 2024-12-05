@@ -29,6 +29,8 @@ public class BattleManager : MonoBehaviour
 
     public GameObject uiButtonsHolder;
 
+    public Text magicButtonText;
+
     public BattleMove[] movesList;
     public GameObject enemyAttackEffect;
 
@@ -404,6 +406,13 @@ public class BattleManager : MonoBehaviour
                     if (currentTurn == i)
                     {
                         playerName[i].color = Color.yellow;
+                        if (playerData.charName == "Vard" || playerData.charName == "Rose")
+                        {
+                            magicButtonText.text = "Magie";
+                        } else
+                        {
+                            magicButtonText.text = "Tech.";
+                        }
                     } else
                     {
                         playerName[i].color = Color.white;
