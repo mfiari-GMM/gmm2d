@@ -17,7 +17,9 @@ public class BattleTargetButton : MonoBehaviour {
             BattleManager.instance.UseItem(itemName, activeBattlerTarget);
         } else
         {
-            BattleManager.instance.PlayerAttack(moveName, activeBattlerTarget);
+            int[] targets = new int[1];
+            targets[0] = activeBattlerTarget;
+            BattleManager.instance.PlayerAttack(moveName, targets);
         }
         
     }

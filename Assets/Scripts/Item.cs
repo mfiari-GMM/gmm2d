@@ -129,7 +129,7 @@ public class Item : MonoBehaviour {
 
             if (affectMP)
             {
-                if (selectedChar.currentMP <= 0)
+                if (selectedChar.currentHp <= 0)
                 {
                     return;
                 }

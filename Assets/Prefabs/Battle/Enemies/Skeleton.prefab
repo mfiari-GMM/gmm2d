@@ -101,12 +101,12 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   charName: Skeleton
-  currentHp: 500
-  maxHP: 500
+  currentHp: 800
+  maxHP: 800
   currentMP: 0
   maxMP: 0
-  strength: 600
-  defence: 40
+  strength: 400
+  defence: 35
   magie: 0
   resistance: 20
   wpnPower: 10
@@ -114,7 +114,9 @@ MonoBehaviour:
   hasDied: 0
   theSprite: {fileID: 212849580792183462}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 0}
+  aliveSprite: {fileID: 21300014, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
   fadeSpeed: 1
-  weaknesses: 0000000007000000
+  weaknesses: 07000000
   resistances: 
+  transformation: {fileID: 0}
+  maxTransformationTurn: 3

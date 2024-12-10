@@ -354,7 +354,7 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -364,12 +364,17 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[1].rewardXP
-      value: 250
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardMoney
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardMoney
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -394,7 +399,7 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[1].enemies.Array.data[0]
-      value: Bandit
+      value: Soldat
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -414,6 +419,16 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[1]
+      value: Pomme
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardItems.Array.data[0]
+      value: Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardItems.Array.data[1]
       value: Pomme
       objectReference: {fileID: 0}
     m_RemovedComponents: []

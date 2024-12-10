@@ -41125,7 +41125,7 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -41154,6 +41154,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: potentialBattles.Array.data[5].rewardXP
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardMoney
       value: 75
       objectReference: {fileID: 0}
@@ -41179,6 +41184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: potentialBattles.Array.data[5].rewardMoney
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].enemies.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -41201,6 +41211,11 @@ PrefabInstance:
         type: 3}
       propertyPath: potentialBattles.Array.data[4].enemies.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].enemies.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -41269,6 +41284,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: potentialBattles.Array.data[5].enemies.Array.data[0]
+      value: Soldat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].enemies.Array.data[1]
+      value: Guepe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -41291,6 +41316,11 @@ PrefabInstance:
         type: 3}
       propertyPath: potentialBattles.Array.data[4].rewardItems.Array.size
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].rewardItems.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -41320,6 +41350,16 @@ PrefabInstance:
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
       propertyPath: potentialBattles.Array.data[4].rewardItems.Array.data[1]
+      value: plante
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].rewardItems.Array.data[0]
+      value: Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].rewardItems.Array.data[1]
       value: plante
       objectReference: {fileID: 0}
     m_RemovedComponents: []

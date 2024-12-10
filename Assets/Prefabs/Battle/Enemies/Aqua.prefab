@@ -102,21 +102,24 @@ MonoBehaviour:
   - Slash
   - Glace
   - Glace +
+  - Coup de queue
   charName: Aqua
-  currentHp: 1000
-  maxHP: 1000
-  currentMP: 500
-  maxMP: 500
-  strength: 800
-  defence: 60
-  magie: 400
-  resistance: 30
+  currentHp: 2500
+  maxHP: 2500
+  currentMP: 600
+  maxMP: 600
+  strength: 750
+  defence: 30
+  magie: 650
+  resistance: 40
   wpnPower: 0
   armrPower: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 0}
+  aliveSprite: {fileID: 21300006, guid: 988d560df8d322a468c97243cbfd76e8, type: 3}
   fadeSpeed: 1
   weaknesses: 06000000
   resistances: 000000000100000002000000
+  transformation: {fileID: 0}
+  maxTransformationTurn: 3

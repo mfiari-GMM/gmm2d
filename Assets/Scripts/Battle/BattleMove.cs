@@ -12,4 +12,5 @@ public class BattleMove {
     public bool isMagic;
     public bool heal;
     public bool isPlayer;
+    public bool allChar;
 }

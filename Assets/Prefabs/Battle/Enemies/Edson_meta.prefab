@@ -100,21 +100,25 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
+  - Coup de queue
+  - Crochet venin
   charName: Edson
-  currentHp: 800
-  maxHP: 800
+  currentHp: 1000
+  maxHP: 1000
   currentMP: 400
   maxMP: 400
-  strength: 200
-  defence: 50
+  strength: 500
+  defence: 30
   magie: 30
-  resistance: 35
-  wpnPower: 15
+  resistance: 25
+  wpnPower: 20
   armrPower: 10
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 0}
+  aliveSprite: {fileID: -1323957944, guid: dd61146dbe36aa6449131fb544979165, type: 3}
   fadeSpeed: 1
-  weaknesses: 01000000
+  weaknesses: 00000000
   resistances: 
+  transformation: {fileID: 0}
+  maxTransformationTurn: 3

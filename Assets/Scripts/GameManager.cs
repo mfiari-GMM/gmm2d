@@ -266,16 +266,6 @@ public class GameManager : MonoBehaviour {
                 playerStats[i].defence = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Defence");
                 playerStats[i].magie = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Magie");
                 playerStats[i].resistance = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Resistance");
-                /*if (playerStats[i].charName == "Vard")
-                {
-                    playerStats[i].magie = 66;
-                    playerStats[i].resistance = 49;
-                }
-                if (playerStats[i].charName == "Marco")
-                {
-                    playerStats[i].magie = 31;
-                    playerStats[i].resistance = 30;
-                }*/
 
                 playerStats[i].equippedWpn = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedWpn"));
                 playerStats[i].equippedArmr = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedArmr"));

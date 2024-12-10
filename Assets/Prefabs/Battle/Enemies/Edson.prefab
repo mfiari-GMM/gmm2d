@@ -100,21 +100,25 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
+  - Metamorphose
   charName: Edson
-  currentHp: 800
-  maxHP: 800
-  currentMP: 400
-  maxMP: 400
-  strength: 150
-  defence: 40
+  currentHp: 2000
+  maxHP: 2000
+  currentMP: 200
+  maxMP: 200
+  strength: 400
+  defence: 20
   magie: 20
-  resistance: 25
-  wpnPower: 15
+  resistance: 20
+  wpnPower: 20
   armrPower: 10
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 0}
+  aliveSprite: {fileID: 712122600, guid: 941e0a526f1dc844ba707990214da835, type: 3}
   fadeSpeed: 1
-  weaknesses: 01000000
+  weaknesses: 00000000
   resistances: 
+  transformation: {fileID: 114895784032005762, guid: 759f63abe839b564daffd1f1a336d7d1,
+    type: 3}
+  maxTransformationTurn: 3

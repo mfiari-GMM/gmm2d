@@ -13,7 +13,7 @@ public class BattleMagicSelect : MonoBehaviour {
         if (BattleManager.instance.activeBattlers[BattleManager.instance.currentTurn].currentMP >= spellCost)
         {
             BattleManager.instance.magicMenu.SetActive(false);
-            BattleManager.instance.OpenTargetMenu(spellName);
+            BattleManager.instance.SelectMove(spellName);
             BattleManager.instance.activeBattlers[BattleManager.instance.currentTurn].currentMP -= spellCost;
         } else
         {

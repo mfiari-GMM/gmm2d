@@ -250,10 +250,10 @@ public class BattleManager : MonoBehaviour
 
             } else
             {
-                if(activeBattlers[i].isPlayer)
+                activeBattlers[i].theSprite.sprite = activeBattlers[i].GetAliveSprite();
+                if (activeBattlers[i].isPlayer)
                 {
                     allPlayersDead = false;
-                    activeBattlers[i].theSprite.sprite = activeBattlers[i].aliveSprite;
                 } else
                 {
                     allEnemiesDead = false;
@@ -294,6 +294,18 @@ public class BattleManager : MonoBehaviour
         NextTurn();
     }
 
+    private BattleMove GetMoveByName(string moveName)
+    {
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == moveName)
+            {
+                return movesList[i];
+            }
+        }
+        return null;
+    }
+
     public void EnemyAttack()
     {
         List<int> players = new List<int>();
@@ -306,29 +318,44 @@ public class BattleManager : MonoBehaviour
         }
         int selectedTarget = players[Random.Range(0, players.Count)];
 
-        //activeBattlers[selectedTarget].currentHp -= 30;
+        if (activeBattlers[currentTurn].IsTransformed())
+        {
+            activeBattlers[currentTurn].NextTransformationTurn();
+        }
 
-        int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
+        int selectAttack = Random.Range(0, activeBattlers[currentTurn].GetMovesAvailable().Length);
         int movePower = 0;
         bool magic = true;
         bool heal = false;
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
-        for (int i = 0; i < movesList.Length; i++)
-        {
-            if(movesList[i].moveName == activeBattlers[currentTurn].movesAvailable[selectAttack])
-            {
-                Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
-                movePower = movesList[i].movePower;
-                magic = movesList[i].isMagic;
-                battleType = movesList[i].battleType;
-                heal = movesList[i].heal;
 
-                if ("Slash" != movesList[i].moveName)
-                {
-                    battleText.theText.text = movesList[i].moveName;
-                    battleText.Activate();
-                }
-            }
+        BattleMove theMove = GetMoveByName(activeBattlers[currentTurn].GetMovesAvailable()[selectAttack]);
+
+        if (theMove == null || theMove.moveCost > activeBattlers[currentTurn].currentMP)
+        {
+            theMove = GetMoveByName("Slash");
+        }
+
+        activeBattlers[currentTurn].currentMP -= theMove.moveCost;
+
+        if ("Metamorphose" == theMove.moveName)
+        {
+            activeBattlers[currentTurn].Transformation();
+            battleText.theText.text = theMove.moveName;
+            battleText.Activate();
+            return;
+        }
+
+        Instantiate(theMove.theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+        movePower = theMove.movePower;
+        magic = theMove.isMagic;
+        battleType = theMove.battleType;
+        heal = theMove.heal;
+
+        if ("Slash" != theMove.moveName)
+        {
+            battleText.theText.text = theMove.moveName;
+            battleText.Activate();
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
@@ -341,13 +368,20 @@ public class BattleManager : MonoBehaviour
             DealDamage(selectedTarget, movePower, magic, battleType);
         }
         
+        if (activeBattlers[currentTurn].ShoudlDeTransform())
+        {
+            activeBattlers[currentTurn].Detransformation();
+            battleText.theText.text = "Detransformation";
+            battleText.Activate();
+        }
+
     }
 
     public void Heal(int target, int movePower)
     {
-        float strength = activeBattlers[currentTurn].magie;
+        float strength = activeBattlers[currentTurn].GetMagie();
 
-        float atkPwr = strength + activeBattlers[currentTurn].wpnPower;
+        float atkPwr = strength + activeBattlers[currentTurn].GetWpnPower();
 
         float damageCalc = (atkPwr / 10) * movePower * Random.Range(.9f, 1.1f);
         int damageToGive = Mathf.RoundToInt(damageCalc);
@@ -362,20 +396,20 @@ public class BattleManager : MonoBehaviour
     public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType)
     {
 
-        float strength = magic ? activeBattlers[currentTurn].magie : activeBattlers[currentTurn].strength;
-        float defence = magic ? activeBattlers[target].resistance : activeBattlers[target].defence;
+        float strength = magic ? activeBattlers[currentTurn].GetMagie() : activeBattlers[currentTurn].GetStrength();
+        float defence = magic ? activeBattlers[target].GetResistance() : activeBattlers[target].GetDefence();
 
-        float atkPwr = strength + activeBattlers[currentTurn].wpnPower;
-        float defPwr = defence + activeBattlers[target].armrPower;
+        float atkPwr = strength + activeBattlers[currentTurn].GetWpnPower();
+        float defPwr = defence + activeBattlers[target].GetArmrPower();
 
         float damageMutiplicator = 1f;
         int damageWeakness = 0;
 
-        if (Array.IndexOf(activeBattlers[target].weaknesses, battleType) != -1)
+        if (Array.IndexOf(activeBattlers[target].GetWeaknesses(), battleType) != -1)
         {
             damageMutiplicator = 1.5f;
             damageWeakness = 1;
-        } else if (Array.IndexOf(activeBattlers[target].resistances, battleType) != -1)
+        } else if (Array.IndexOf(activeBattlers[target].GetResistances(), battleType) != -1)
         {
             damageMutiplicator = 0.5f;
             damageWeakness = -1;
@@ -444,23 +478,15 @@ public class BattleManager : MonoBehaviour
         NextTurn();
     }
 
-    public void PlayerAttack(string moveName, int selectedTarget)
+    public void PlayerAttack(string moveName, int[] selectedTarget)
     {
         int movePower = 0;
         bool magic = true;
         bool heal = false;
+
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
-        for (int i = 0; i < movesList.Length; i++)
-        {
-            if (movesList[i].moveName == moveName)
-            {
-                Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
-                movePower = movesList[i].movePower;
-                battleType = movesList[i].battleType;
-                magic = movesList[i].isMagic;
-                heal = movesList[i].heal;
-            }
-        }
+
+        BattleMove battleMove = movesList[0];
 
         if ("Slash" != moveName)
         {
@@ -468,16 +494,36 @@ public class BattleManager : MonoBehaviour
             battleText.Activate();
         }
 
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == moveName)
+            {
+                battleMove = movesList[i];
+                movePower = battleMove.movePower;
+                battleType = battleMove.battleType;
+                magic = battleMove.isMagic;
+                heal = battleMove.heal;
+                break;
+            }
+        }
+
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        if (heal)
+        for (int i = 0 ; i < selectedTarget.Length; i++)
         {
-            Heal(selectedTarget, movePower);
+            Instantiate(battleMove.theEffect, activeBattlers[selectedTarget[i]].transform.position, activeBattlers[selectedTarget[i]].transform.rotation);
+
+
+            if (heal)
+            {
+                Heal(selectedTarget[i], movePower);
+            }
+            else
+            {
+                DealDamage(selectedTarget[i], movePower, magic, battleType);
+            }
         }
-        else
-        {
-            DealDamage(selectedTarget, movePower, magic, battleType);
-        }
+        
 
         uiButtonsHolder.SetActive(false);
         targetMenu.SetActive(false);
@@ -495,6 +541,32 @@ public class BattleManager : MonoBehaviour
         if (magicMenu.activeInHierarchy)
         {
             magicMenu.SetActive(false);
+        }
+    }
+
+    public void SelectMove (string moveName)
+    {
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == moveName)
+            {
+                if (movesList[i].allChar)
+                {
+                    List<int> Enemies = new List<int>();
+                    for (int j = 0; j < activeBattlers.Count; j++)
+                    {
+                        if ((!movesList[i].isPlayer && !activeBattlers[j].isPlayer) || (movesList[i].isPlayer && activeBattlers[j].isPlayer))
+                        {
+                            Enemies.Add(j);
+                        }
+                    }
+                    PlayerAttack(moveName, Enemies.ToArray());
+                } else
+                {
+                    OpenTargetMenu(moveName);
+                }
+                break;
+            }
         }
     }
 
@@ -552,7 +624,9 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < targetButtons.Length; i++)
         {
-            if (players.Count > i && activeBattlers[players[i]].currentHp > 0)
+            if (players.Count > i && (
+                (itemName == "Elixir" && activeBattlers[players[i]].currentHp <= 0)
+                || (itemName != "Elixir" && activeBattlers[players[i]].currentHp > 0)))
             {
                 targetButtons[i].gameObject.SetActive(true);
 
@@ -574,11 +648,11 @@ public class BattleManager : MonoBehaviour
 
         for(int i = 0; i < magicButtons.Length; i++)
         {
-            if(activeBattlers[currentTurn].movesAvailable.Length > i)
+            if(activeBattlers[currentTurn].GetMovesAvailable().Length > i)
             {
                 magicButtons[i].gameObject.SetActive(true);
 
-                magicButtons[i].spellName = activeBattlers[currentTurn].movesAvailable[i];
+                magicButtons[i].spellName = activeBattlers[currentTurn].GetMovesAvailable()[i];
                 magicButtons[i].nameText.text = magicButtons[i].spellName;
 
                 for(int j = 0; j < movesList.Length; j++)
@@ -631,7 +705,7 @@ public class BattleManager : MonoBehaviour
     {
         if (cannotFlee)
         {
-            battleNotice.theText.text = "Can not flee this battle!";
+            battleNotice.theText.text = "Fuite impossible !";
             battleNotice.Activate();
         }
         else
@@ -648,7 +722,7 @@ public class BattleManager : MonoBehaviour
             else
             {
                 NextTurn();
-                battleNotice.theText.text = "Couldn't escape!";
+                battleNotice.theText.text = "La fuite a echoue !";
                 battleNotice.Activate();
             }
         }

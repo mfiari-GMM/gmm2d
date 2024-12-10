@@ -1908,6 +1908,7 @@ MonoBehaviour:
   - {fileID: 114895784032005762, guid: 2376b7a480351d14a8e41becc2fca1b9, type: 3}
   - {fileID: 114895784032005762, guid: 4c9a2a72107f6034b8e115c3d71fdb8d, type: 3}
   - {fileID: 114895784032005762, guid: f1dc165437f5ba14395fa581f62bb245, type: 3}
+  - {fileID: 114895784032005762, guid: 30850d78dee01f44eb514306f33c6d6b, type: 3}
   activeBattlers: []
   currentTurn: 0
   turnWaiting: 0
@@ -1923,6 +1924,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Coup d'estoc
     movePower: 15
     moveCost: 10
@@ -1932,6 +1934,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Estocade sonique
     movePower: 20
     moveCost: 15
@@ -1941,6 +1944,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Estocade supersonique
     movePower: 30
     moveCost: 25
@@ -1950,6 +1954,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Lame foudroyante
     movePower: 20
     moveCost: 20
@@ -1959,6 +1964,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Coup puissant
     movePower: 20
     moveCost: 10
@@ -1968,6 +1974,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Impact terrestre
     movePower: 30
     moveCost: 20
@@ -1977,6 +1984,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Feu
     movePower: 10
     moveCost: 5
@@ -1986,6 +1994,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Feu +
     movePower: 20
     moveCost: 15
@@ -1995,6 +2004,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Feu X
     movePower: 30
     moveCost: 30
@@ -2004,6 +2014,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Glace
     movePower: 10
     moveCost: 5
@@ -2013,6 +2024,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Glace +
     movePower: 20
     moveCost: 15
@@ -2022,6 +2034,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Glace X
     movePower: 30
     moveCost: 30
@@ -2031,6 +2044,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Foudre
     movePower: 10
     moveCost: 5
@@ -2040,6 +2054,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Foudre +
     movePower: 20
     moveCost: 15
@@ -2049,6 +2064,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Foudre X
     movePower: 30
     moveCost: 30
@@ -2058,6 +2074,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Plasma
     movePower: 15
     moveCost: 10
@@ -2067,6 +2084,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Vent
     movePower: 10
     moveCost: 5
@@ -2076,8 +2094,9 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Tornade
-    movePower: 20
+    movePower: 15
     moveCost: 15
     theEffect: {fileID: 114252193273743618, guid: 16189694985fa4bf69ff1eaed4c66157,
       type: 3}
@@ -2085,6 +2104,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 1
   - moveName: Cyclone
     movePower: 30
     moveCost: 30
@@ -2094,6 +2114,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Seisme
     movePower: 15
     moveCost: 25
@@ -2103,6 +2124,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: Soin
     movePower: 10
     moveCost: 8
@@ -2112,8 +2134,9 @@ MonoBehaviour:
     isMagic: 1
     heal: 1
     isPlayer: 1
-  - moveName: Soin +
-    movePower: 15
+    allChar: 0
+  - moveName: soin +
+    movePower: 20
     moveCost: 18
     theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
       type: 3}
@@ -2121,6 +2144,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 1
     isPlayer: 1
+    allChar: 0
   - moveName: epee enflamme
     movePower: 30
     moveCost: 50
@@ -2130,6 +2154,7 @@ MonoBehaviour:
     isMagic: 0
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: tornade de feu
     movePower: 30
     moveCost: 50
@@ -2139,6 +2164,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
   - moveName: lumiere
     movePower: 15
     moveCost: 20
@@ -2148,6 +2174,36 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
+    allChar: 0
+  - moveName: Metamorphose
+    movePower: 0
+    moveCost: 100
+    theEffect: {fileID: 0}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 0
+    allChar: 0
+  - moveName: Coup de queue
+    movePower: 20
+    moveCost: 0
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 0
+    allChar: 0
+  - moveName: Crochet venin
+    movePower: 15
+    moveCost: 0
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 0
+    allChar: 0
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801,
     type: 3}
   theDamageNumber: {fileID: 114429894980074712, guid: add1341ff4b53074794f5f54ef4f216d,
@@ -2208,7 +2264,7 @@ MonoBehaviour:
   - {fileID: 5941920848501352685}
   battleNotice: {fileID: 114533488029285936}
   battleText: {fileID: 5735147929110410221}
-  chanceToFlee: 35
+  chanceToFlee: 70
   gameOverScene: GameOver
   rewardXP: 500
   rewardMoney: 0
