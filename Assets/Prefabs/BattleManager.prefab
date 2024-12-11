@@ -2086,8 +2086,8 @@ MonoBehaviour:
     isPlayer: 0
     allChar: 0
   - moveName: Vent
-    movePower: 10
-    moveCost: 5
+    movePower: 15
+    moveCost: 7
     theEffect: {fileID: 114252193273743618, guid: c2a603d123bd1414d95f3e52ab15b6bf,
       type: 3}
     battleType: 3
@@ -2106,7 +2106,7 @@ MonoBehaviour:
     isPlayer: 0
     allChar: 1
   - moveName: Cyclone
-    movePower: 30
+    movePower: 25
     moveCost: 30
     theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
       type: 3}
@@ -2114,7 +2114,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
-    allChar: 0
+    allChar: 1
   - moveName: Seisme
     movePower: 15
     moveCost: 25

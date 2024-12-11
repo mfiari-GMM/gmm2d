@@ -220,8 +220,12 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Defence", playerStats[i].defence);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Magie", playerStats[i].magie);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Resistance", playerStats[i].resistance);
-            PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_WpnPwr", playerStats[i].equippedWpn.weaponStrength);
-            PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedWpn", playerStats[i].equippedWpn.itemName);
+            if (playerStats[i].equippedWpn != null)
+            {
+                PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_WpnPwr", playerStats[i].equippedWpn.weaponStrength);
+                PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedWpn", playerStats[i].equippedWpn.itemName);
+            }
+            
             if (playerStats[i].equippedArmr != null)
             {
                 PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_ArmrPwr", playerStats[i].equippedArmr.armorStrength);

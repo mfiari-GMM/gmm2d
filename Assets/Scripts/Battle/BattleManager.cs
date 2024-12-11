@@ -555,7 +555,9 @@ public class BattleManager : MonoBehaviour
                     List<int> Enemies = new List<int>();
                     for (int j = 0; j < activeBattlers.Count; j++)
                     {
-                        if ((!movesList[i].isPlayer && !activeBattlers[j].isPlayer) || (movesList[i].isPlayer && activeBattlers[j].isPlayer))
+                        if (activeBattlers[j].currentHp > 0 
+                            && ((!movesList[i].isPlayer && !activeBattlers[j].isPlayer) 
+                            || (movesList[i].isPlayer && activeBattlers[j].isPlayer)))
                         {
                             Enemies.Add(j);
                         }
