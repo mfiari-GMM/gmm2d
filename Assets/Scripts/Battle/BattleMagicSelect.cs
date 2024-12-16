@@ -14,7 +14,6 @@ public class BattleMagicSelect : MonoBehaviour {
         {
             BattleManager.instance.magicMenu.SetActive(false);
             BattleManager.instance.SelectMove(spellName);
-            BattleManager.instance.activeBattlers[BattleManager.instance.currentTurn].currentMP -= spellCost;
         } else
         {
             //let player know there is not enough MP

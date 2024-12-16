@@ -506,6 +506,7 @@ public class BattleManager : MonoBehaviour
                 break;
             }
         }
+        activeBattlers[currentTurn].currentMP -= battleMove.moveCost;
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
@@ -562,6 +563,7 @@ public class BattleManager : MonoBehaviour
                             Enemies.Add(j);
                         }
                     }
+                    activeBattlers[currentTurn].currentMP -= movesList[i].moveCost;
                     PlayerAttack(moveName, Enemies.ToArray());
                 } else
                 {
