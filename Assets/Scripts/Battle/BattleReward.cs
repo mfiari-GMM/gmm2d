@@ -22,6 +22,8 @@ public class BattleReward : MonoBehaviour {
 
     public void OpenRewardScreen(int xp, int money, string[] rewards)
     {
+
+        AudioManager.instance.PlayBGM(6);
         xpEarned = xp;
         rewardItems = rewards;
         moneyWin = money;
@@ -66,5 +68,7 @@ public class BattleReward : MonoBehaviour {
         {
             QuestManager.instance.MarkQuestComplete(questToMark);
         }
+
+        AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
     }
 }

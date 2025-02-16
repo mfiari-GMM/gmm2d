@@ -14,6 +14,7 @@ public class PickupItem : MonoBehaviour {
         {
             string itemName = GetComponent<Item>().itemName;
             GameManager.instance.AddItem(itemName);
+            AudioManager.instance.PlaySFX(5);
 
             if (isChest)
             {

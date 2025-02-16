@@ -13699,13 +13699,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Marco
-  - Voici le fer
+  - Voici le fer.
   - n-Fille
-  - Merci beaucoup
-  - Grace a vous je vais pouvoir continuer a fabriquer mes armures
-  - J'espere que je ne vous ai pas trop causer de soucis
+  - Merci beaucoup !
+  - "Gr\xE2ce a vous, je vais pouvoir continuer \xE0 fabriquer mes armures."
+  - "J'esp\xE8re que je ne vous ai pas trop causer de soucis."
   - n-Marco
-  - Non, pas t'inquietude, ce n'est rien pour nous.
+  - "Non, pas t'inqui\xE8tude, ce n'est rien pour nous."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: end enter the cave
@@ -13976,21 +13976,22 @@ MonoBehaviour:
   - n-Marco
   - Quelque chose ne vas pas ?
   - n-Fille
-  - Je dois creer des nouvelles armures pour la boutique, mais il me manque des materiaux.
+  - "Je dois cr\xE9er des nouvelles armures pour la boutique, mais il me manque des
+    materiaux."
   - n-Marco
   - Que vous manque t'il ?
   - n-Fille
   - Il me manque du fer, sans cela je ne peux pas fabriquer les armures.
   - n-Marco
-  - Et ou pouvons nous trouver du fer ?
+  - "Et o\xF9 pouvons nous trouver du fer ?"
   - n-Fille
-  - On en trouve dans le donjon pres du village, mais c'est dangereux la bas, il
-    y a plein de monstres.
+  - "On en trouve dans le donjon pr\xE8s du village, mais c'est dangereux l\xE0 bas,
+    il y a plein de monstres."
   - n-Marco
   - Ne vous inquietez pas, nous sommes des chevalier, nous pouvons allez vous chercher
     votre fer.
   - n-Fille
-  - C'est vrai !? Merci
+  - C'est vrai !? Merci !
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: enter the cave

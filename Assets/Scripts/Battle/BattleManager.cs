@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 using System.Linq;
+using static UnityEngine.GraphicsBuffer;
 
 public class BattleManager : MonoBehaviour
 {
@@ -129,6 +130,7 @@ public class BattleManager : MonoBehaviour
                 AudioManager.instance.PlayBGM(0);
             }
 
+
             int addIndex = 0;
             for(int i = 0; i < playerPositions.Length; i++)
             {
@@ -203,6 +205,7 @@ public class BattleManager : MonoBehaviour
             turnWaiting = true;
             currentTurn = Random.Range(0, activeBattlers.Count);
 
+            UpdateBattle();
             UpdateUIStats();
         }
     }
@@ -469,9 +472,11 @@ public class BattleManager : MonoBehaviour
     {
         Item selectItem = GameManager.instance.GetItemDetails(itemName);
         selectItem.UseBattle(selectedTarget);
+        AudioManager.instance.PlaySFX(6);
+
+        Instantiate(theDamageNumber, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation).SetDamage(selectItem.amountToChange, 2);
 
         UpdateUIStats();
-
         uiButtonsHolder.SetActive(false);
         targetMenu.SetActive(false);
 
@@ -786,8 +791,6 @@ public class BattleManager : MonoBehaviour
                 GameManager.instance.battleActive = false;
             }
         }
-
-        AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
     }
 
     public IEnumerator GameOverCo()

@@ -263,7 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Personne ne sort
+  - Personne ne sort !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -371,41 +371,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Chevalier
-  - C'etait un tres beau combat.
-  - Vous etes pret pour commencer votre formation pour devenir chevalier.
+  - "C'\xE9tait un tr\xE8s beau combat."
+  - "Vous \xEAtes pr\xEAt pour commencer votre formation pour devenir chevalier."
   - La route sera longue, mais je vous accompagnerai dans ce chemin.
   - n-Marco
   - Merci.
   - Qu'allons nous faire maintenant ?
   - n-Chevalier
-  - Je serais votre formateur, c'est moi qui vous enseignerai tout ce qu'il faut
-    savoir sur le monde et votre role en tant que chevalier.
-  - Vous serez egalement acoompagner par Mok, qui a passer son examen l'annee derniere
-    et qui vous aidera lors des combats.
+  - "Je serais votre formateur, c'est moi qui vous enseignerai tout ce qu'il faut
+    savoir sur le monde et votre r\xF4le en tant que chevalier."
+  - "Vous serez \xE9galement acoompagner par Mok, qui a pass\xE9 son examen l'ann\xE9e
+    derni\xE8re et qui vous aidera lors des combats."
   - n-Marco
-  - Je suis content d'etre avec Mok.
+  - "Je suis content d'\xEAtre avec Mok."
   - n-Chevalier
   - Bien, maintenant je vais vous parler de nos missions.
   - Bien entendu, nous vous entrainons au combat car c'est une grande partie de nos
     missions.
-  - Nous devons etre capable de proteger les gens contres les bandits ou les monstres.
-  - Parfois on en rencontre dehors sur les routes ou dans les forets.
+  - "Nous devons \xEAtre capable de prot\xE9ger les gens contre les bandits ou les
+    monstres."
+  - "Parfois, on en rencontre dehors sur les routes ou dans les for\xEAts."
   - Mais la plupart des monstres se trouvent dans les donjons.
-  - Or les donjons contiennent des ressources qui sont necessaires pour notre developpement.
-  - C'est pour cela que lors de votre apprentissage, nous ferons egalement une mission
-    dans un donjon.
-  - Mais le role du chevalier n'ai pas uniquement de combattre.
-  - Notre role est aussi d'aider la population.
-  - C'est pour cela que pour commencer nous allons voir si des habitants ont besoins
+  - "Or les donjons contiennent des ressources qui sont n\xE9cessaires pour notre
+    d\xE9veloppement."
+  - "C'est pour cel\xE0 que lors de votre apprentissage, nous ferons \xE9galement
+    une mission dans un donjon."
+  - "Mais le r\xF4le du chevalier n'es pas uniquement de combattre."
+  - "Notre r\xF4le est aussi d'aider la population."
+  - C'est pour cela que pour commencer, nous allons voir si des habitants ont besoins
     de notre aide.
-  - Maintenant que je suis avec vous, vous pouvez egalement sortir du village.
-  - Le village voisin n'a pas d'ecole de chevalier, allons egalement les voir.
+  - "Maintenant que je suis avec vous, vous pouvez \xE9galement sortir du village."
+  - "Le village voisin n'a pas d'\xE9cole de chevalier, allons \xE9galement les voir."
   - n-Mok
-  - Avant de partir n'hesitez pas a passer a la boutique pour vous equiper.
+  - "Avant de partir n'hesitez pas \xE0 passer \xE0 la boutique pour vous \xE9quiper."
   - n-Marco
   - J'ai hate de commencer.
-  - Avec vous je me sens en securite. Et puis si jamais on est blesse, nous pouvons
-    toujours aller voir Rose.
+  - "Avec vous je me sens en s\xE9curite. Et puis si jamais on est bless\xE9, nous
+    pouvons toujours aller voir Rose."
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: end examen
@@ -599,7 +601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Homme
-  - Il faut capturer ces monstres
+  - Il faut capturer ces monstres !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -975,12 +977,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Homme
-  - Je voudrais faire une tarte aux pomme, mais je n'ai plus de pomme
-  - Il y en a dans la foret mais j'ai peur d'y aller a cause des monstres
+  - Je voudrais faire une tarte aux pomme, mais je n'ai plus de pomme.
+  - "Il y en a dans la for\xEAt, mais j'ai peur d'y aller \xE0 cause des monstres."
   - n-Marco
-  - Ne vous inquitez pas, nous allons vous chercher des pommes.
+  - "Ne vous inqui\xE8tez pas, nous allons vous chercher des pommes."
   - n-Homme
-  - Merci beaucoup
+  - Merci beaucoup !
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: mission apple
@@ -1741,10 +1743,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Mok
-  - C'etait une bonne seance d'entrainement.
-  - Je pense que vous etes pret pour demain
+  - "C'\xE9tait une bonne s\xE9ance d'entrainement."
+  - "Je pense que vous \xEAtes pret pour demain."
   - n-Marco
-  - Une bonne nuit de repos nous fera du bien
+  - Une bonne nuit de repos nous fera du bien.
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: after training forest 2
@@ -2132,7 +2134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Vous ne pouvez pas acceder a la foret pour le moment
+  - "Vous ne pouvez pas acceder \xE0 la foret pour le moment."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -2586,7 +2588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - C'est dangereux de sortir du village tout seul
+  - C'est dangereux de sortir du village tout seul !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -7914,7 +7916,7 @@ MonoBehaviour:
   lines:
   - n-Chevalier
   - Beau combat !
-  - Mais certains ennemis sont difficile a battre avec de simples attaques.
+  - "Mais certains ennemis sont difficile \xE0 battre avec de simples attaques."
   - n-Marco
   - Comment faire alors ?
   - n-Chevalier
@@ -7922,25 +7924,26 @@ MonoBehaviour:
   - n-Marco
   - Mais je ne sais pas en utiliser.
   - n-Chevalier
-  - C'est pour cela que pour le prochain combat tu sera acommpagne de Vard.
+  - "C'est pour cela que pour le prochain combat, tu sera acommpagn\xE9 de Vard."
   - Est-ce que tu es pret Vard ?
   - n-Vard
   - Oui, je vais aider Marco !
   - n-Marco
   - Cool !!
   - n-Chevalier
-  - Tres bien.
+  - "Tr\xE8s bien."
   - Pour utiliser la magie, il faut cliquer sur le bouton "magie",
-  - Puis choisir la magie a utiliser.
-  - Contrairement aux attaques, les magies utilise des points de magie ou PM.
-  - Les PM sont limite, alors verifiez bien vos PM avant un combat.
-  - Est-ce que vous etes pret ?
+  - "Puis choisir la magie \xE0 utiliser."
+  - Contrairement aux attaques de base, les magies et les techniques utilisent des
+    points de magie ou PM.
+  - "Les PM sont limit\xE9s, alors v\xE9rifiez bien vos PM avant un combat."
+  - "Est-ce que vous \xEAtes pr\xEAt ?"
   - n-Vard
   - Oui !
   - n-Marco
   - Je suis pret !
   - n-Chevalier
-  - Tres bien, allons-y.
+  - "Tr\xE8s bien, allons-y !"
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: training battle 2
@@ -8214,7 +8217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Personne ne sort
+  - 'Personne ne sort ! '
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -8575,7 +8578,7 @@ MonoBehaviour:
   lines:
   - n-Chevalier
   - On a revu les bases du combat ensemble.
-  - Vous etes pret pour votre examen de demain
+  - "Vous \xEAtes pr\xEAt pour votre examen de demain."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -8858,7 +8861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Si vous avez des informations, il faut nous le dire
+  - Si vous avez des informations, il faut nous le dire.
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -9058,7 +9061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Homme
-  - Qu'est-ce que je pourrais faire a manger aujourd'hui ?
+  - "Qu'est-ce que je pourrais faire \xE0 manger aujourd'hui ?"
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -9258,7 +9261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Femme
-  - Mon dieu c'est horrible
+  - Mon dieu c'est horrible !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -9512,7 +9515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Fouiller les maisons
+  - Fouillez les maisons !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -9713,20 +9716,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Chevalier
-  - Tu es pret pour ton entrainement
+  - "Tu es pr\xEAt pour ton entrainement ?"
   - n-Marco
-  - Oui
+  - Oui !
   - n-Chevalier
-  - Ok, aujourd'hui nous allons revoir les bases
-  - Les combats se deroulent en tour par tour, chaque joueur attaque chacun son tour
-  - Commencons par l'attaque
-  - Pour attaquer clique sur le boutton "attaque"
-  - On va essayer cela en combat
-  - Es-tu pret ?
+  - Ok, aujourd'hui nous allons revoir les bases.
+  - "Les combats se d\xE9roulent en tour par tour, chaque joueur attaque chacun son
+    tour."
+  - Commencons par l'attaque.
+  - Pour attaquer, clique sur le boutton "attaque".
+  - On va essayer cela en combat.
+  - "Es-tu pr\xEAt ?"
   - n-Marco
-  - Oui
+  - Oui !
   - n-Chevalier
-  - Tres bien allons-y
+  - "Tr\xE8s bien. Allons-y !"
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: training battle 1
@@ -10071,7 +10075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Personne ne passe
+  - Personne ne passe !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -10263,7 +10267,7 @@ PrefabInstance:
         type: 3}
       propertyPath: lines.Array.data[1]
       value: "Je n'ai jamais vu de metamorphes. On dit qu'ils ressemblent \xE0 des
-        betes sauvages."
+        b\xEAtes sauvages."
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -10436,14 +10440,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Chevalier
-  - Bien, j'espere que vous etes pret pour votre examen.
+  - "Bien, j'esp\xE8re que vous \xEAtes pr\xEAt pour votre examen."
   - n-Marco
-  - Oui, nous sommes pret
+  - "Oui, nous sommes pr\xEAt"
   - n-Chevalier
-  - Tres bien, c'est moi qui vais vous evaluez aujourd'hui.
-  - Vous allez me combattre, cela me permettra de voir tout ce que vous avez retenu
-  - Si vous arrivez a me battre votre examen sera valide
-  - preparez-vous pour le combat !
+  - "Tr\xE8s bien, c'est moi qui vais vous \xE9valuez aujourd'hui."
+  - Vous allez me combattre, cela me permettra de voir tout ce que vous avez retenu.
+  - "Si vous arrivez \xE0 me battre, votre examen sera valid\xE9"
+  - Preparez-vous pour le combat !
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: examen
@@ -34646,7 +34650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Chercher partout
+  - Cherchez partout !!
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -34846,7 +34850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Homme
-  - Merci pour les pommes, grace a vous je vais pouvoir faire ma tarte
+  - "Merci pour les pommes, gr\xE2ce \xE0 vous je vais pouvoir faire ma tarte."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -34954,23 +34958,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Solat
-  - Chere habitant
-  - Nous sommes ici car des metamorphes ont ete appercu dans les environs
-  - Ces creatures sont couplable d'avoir assassiner sa majeste, le roi de Moonshine
+  - "Ch\xE8re habitant !"
+  - "Nous sommes ici car des m\xE9tamorphes ont \xE9t\xE9 apper\xE7u dans les environs."
+  - "Ces cr\xE9atures sont couplable d'avoir assassin\xE9 sa majest\xE9, le roi de
+    Moonshine."
   - "Si vous avez des informations qui pourraient nous aider \xE0 leur capture, venez
     nous en parler."
-  - "Faites attention, ce sont des cr\xE9atures dangereuse, ne vous approcher surtout
+  - "Faites attention, ce sont des cr\xE9atures dangereuse, ne vous approchez surtout
     pas d'elles."
-  - Si vous les voyez appeler nous immediatement !
-  - Nous allons passer dans vos maisons ainsi que dans la foret pour voir si ils
-    se cachent ici.
-  - Attention ! toute personne qui aidera ces criminel sera elle aussi condamne.
-  - Rester ici, nous allons fouiller le village.
+  - "Si vous les voyez, appeler nous imm\xE9diatement !"
+  - "Nous allons passer dans vos maisons ainsi que dans la for\xEAt pour voir si
+    ils se cachent ici."
+  - "Attention ! toute personne qui aidera ces criminel sera elle aussi condamn\xE9e."
+  - Restez ici, nous allons fouiller le village.
   - n-Marco
   - Il faut que je previenne les autres.
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: soldat moonshine
+  questToMark: end demo
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1
@@ -35160,7 +35165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Vard
-  - Entrainons nous pour etre pret pour demain
+  - "Entrainons nous pour \xEAtre pr\xEAt pour demain."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -35360,8 +35365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Femme
-  - Si tu part te balader pense a prendre des potions
-  - Tu peux en acheter a la boutique en bas du village
+  - "Si tu part te balader pense \xE0 prendre des potions."
+  - "Tu peux en acheter \xE0 la boutique en bas du village."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -35561,7 +35566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Personne ne passe
+  - Personne ne passe !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -35961,7 +35966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Soldat
-  - Personne ne sort
+  - Personne ne sort !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -36161,7 +36166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Mok
-  - On m'a demande de venir observer votre examen.
+  - "On m'a demand\xE9 de venir observer votre examen."
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -36605,7 +36610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Vard
-  - Bien allons-y
+  - Bien allons-y !
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -36981,13 +36986,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lines:
   - n-Mok
-  - Salut les gars
-  - J'ai entendu dire qu'une araigne s'est cache dans la foret
+  - Salut les gars !
+  - "J'ai entendu dire qu'une araign\xE9e s'est cach\xE9e dans la for\xEAt."
   - Est-ce que vous voulez venir avec moi pour la chasser ?
   - n-Marco
-  - Oui, ca nous fera un peu d'entrainement
+  - Oui, ca nous fera un peu d'entrainement.
   - n-Mok
-  - Ok, allons-y
+  - Ok, allons-y !
   isPerson: 1
   shouldActivateQuest: 1
   questToMark: training forest
@@ -73857,7 +73862,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: Il y a un donjon pres du village.
+      value: "Il y a un donjon pr\xE8s du village."
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
