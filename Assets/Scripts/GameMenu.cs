@@ -78,9 +78,9 @@ public class GameMenu : MonoBehaviour {
                 charStatHolder[i].GetComponent<CharInfoChange>().ResetDisplay();
 
                 nameText[i].text = playerStats[i].charName;
-                hpText[i].text = "PV : " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                mpText[i].text = "PM : " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
-                lvlText[i].text = "Niv : " + playerStats[i].playerLevel;
+                hpText[i].text = "LP : " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
+                mpText[i].text = "MP : " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
+                lvlText[i].text = "Lvl : " + playerStats[i].playerLevel;
                 expText[i].text = "" + playerStats[i].currentEXP + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
                 expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
                 expSlider[i].value = playerStats[i].currentEXP;
@@ -199,12 +199,12 @@ public class GameMenu : MonoBehaviour {
 
         if(activeItem.isItem)
         {
-            useButtonText.text = "Utiliser";
+            useButtonText.text = "Use";
         }
 
         if(activeItem.isWeapon || activeItem.isArmour)
         {
-            useButtonText.text = "Equiper";
+            useButtonText.text = "Equip";
         }
 
         itemName.text = activeItem.itemName;

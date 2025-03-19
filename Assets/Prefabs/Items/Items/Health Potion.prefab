@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4493909492483938}
   - component: {fileID: 212640747491253864}
   - component: {fileID: 114774137024542062}
+  - component: {fileID: 4601168894025974109}
   m_Layer: 0
   m_Name: Health Potion
   m_TagString: Untagged
@@ -101,7 +102,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemName: Potion
-  description: Restore 100 PV
+  description: Heal 100 LP
   value: 30
   itemSprite: {fileID: -442218547, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 100
@@ -113,3 +114,46 @@ MonoBehaviour:
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+--- !u!114 &4601168894025974109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776286149934772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3013574793388098084
+  references:
+    version: 2
+    RefIds:
+    - rid: 3013574793388098084
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114774137024542062}
+        m_TrackedProperties:
+          items:
+          - rid: 3013574793388098085
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 3013574793388098085
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 3914717289730048
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

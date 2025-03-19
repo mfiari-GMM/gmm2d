@@ -445,7 +445,7 @@ public class BattleManager : MonoBehaviour
                         playerName[i].color = Color.yellow;
                         if (playerData.charName == "Vard" || playerData.charName == "Rose")
                         {
-                            magicButtonText.text = "Magie";
+                            magicButtonText.text = "Magic";
                         } else
                         {
                             magicButtonText.text = "Tech.";

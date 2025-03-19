@@ -105,7 +105,7 @@ public class Shop : MonoBehaviour {
             selectedItem = buyItem;
             buyItemName.text = selectedItem.itemName;
             buyItemDescription.text = selectedItem.description;
-            buyItemValue.text = "Prix : " + selectedItem.value + "g";
+            buyItemValue.text = "Price : " + selectedItem.value + "g";
 
             bool isWeaponItem = buyItem.isWeapon || buyItem.isArmour;
 
@@ -135,7 +135,7 @@ public class Shop : MonoBehaviour {
             selectedItem = sellItem;
             sellItemName.text = selectedItem.itemName;
             sellItemDescription.text = selectedItem.description;
-            sellItemValue.text = "Prix : " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+            sellItemValue.text = "Price : " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
         }
     }
 
@@ -190,7 +190,7 @@ public class Shop : MonoBehaviour {
                 }
             }
         }
-        buyItemQuantity.text = "En stock : " + quantity;
+        buyItemQuantity.text = "Quantity : " + quantity;
     }
 
     public void SellItem()
