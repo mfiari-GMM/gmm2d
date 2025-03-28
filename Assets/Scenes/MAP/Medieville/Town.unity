@@ -2086,6 +2086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273079927}
   - component: {fileID: 273079928}
+  - component: {fileID: 273079929}
   m_Layer: 0
   m_Name: Quest1
   m_TagString: Untagged
@@ -2123,6 +2124,8 @@ MonoBehaviour:
   battleType:
     enemies:
     - Guepe
+    enemyPrefabs:
+    - {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e, type: 3}
     rewardXP: 0
     rewardMoney: 0
     rewardItems: []
@@ -2130,6 +2133,65 @@ MonoBehaviour:
   questToCheck: training battle 1
   shouldCompleteQuest: 1
   QuestToComplete: fin training battle 1
+--- !u!114 &273079929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273079926}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3013575060975517821
+  references:
+    version: 2
+    RefIds:
+    - rid: 3013575060975517821
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 273079928}
+        m_TrackedProperties:
+          items:
+          - rid: 3013575060975517822
+          - rid: 3013575060975517823
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 3013575060975517822
+      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: battleType.enemyPrefabs.Array.size
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 1
+        - localeIdentifier:
+            m_Code: en
+          value: 1
+    - rid: 3013575060975517823
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 3013575060975517824
+        m_PropertyPath: battleType.enemyPrefabs.Array.data[0]
+    - rid: 3013575060975517824
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 7148295788122112
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
 --- !u!1 &292103326
 GameObject:
   m_ObjectHideFlags: 0
@@ -3129,6 +3191,7 @@ MonoBehaviour:
     - Soldat
     - Soldat
     - Lukas
+    enemyPrefabs: []
     rewardXP: 5000
     rewardMoney: 10000
     rewardItems: []
@@ -10724,6 +10787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157115250}
   - component: {fileID: 1157115251}
+  - component: {fileID: 1157115252}
   m_Layer: 0
   m_Name: Quest2
   m_TagString: Untagged
@@ -10761,6 +10825,8 @@ MonoBehaviour:
   battleType:
     enemies:
     - Blob
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a, type: 3}
     rewardXP: 0
     rewardMoney: 0
     rewardItems: []
@@ -10768,6 +10834,65 @@ MonoBehaviour:
   questToCheck: training battle 2
   shouldCompleteQuest: 1
   QuestToComplete: fin training battle 2
+--- !u!114 &1157115252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157115249}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3013575060975517830
+  references:
+    version: 2
+    RefIds:
+    - rid: 3013575060975517830
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1157115251}
+        m_TrackedProperties:
+          items:
+          - rid: 3013575060975517831
+          - rid: 3013575060975517832
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 3013575060975517831
+      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: battleType.enemyPrefabs.Array.size
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 1
+        - localeIdentifier:
+            m_Code: en
+          value: 1
+    - rid: 3013575060975517832
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 3013575060975517833
+        m_PropertyPath: battleType.enemyPrefabs.Array.data[0]
+    - rid: 3013575060975517833
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 7148701452816384
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
 --- !u!1 &1163945969
 GameObject:
   m_ObjectHideFlags: 0
@@ -11551,6 +11676,7 @@ GameObject:
   - component: {fileID: 1204819433}
   - component: {fileID: 1204819432}
   - component: {fileID: 1204819431}
+  - component: {fileID: 1204819434}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
@@ -11640,6 +11766,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204819434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204819430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3013575060975517819
+  references:
+    version: 2
+    RefIds:
+    - rid: 3013575060975517819
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1204819431}
+        m_TrackedProperties:
+          items:
+          - rid: 3013575060975517820
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 3013575060975517820
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7144238583336960
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[0]
 --- !u!1 &1212501909
 GameObject:
   m_ObjectHideFlags: 0
@@ -12536,6 +12705,7 @@ MonoBehaviour:
   - enemies:
     - Soldat
     - Soldat
+    enemyPrefabs: []
     rewardXP: 200
     rewardMoney: 300
     rewardItems:
@@ -38918,6 +39088,7 @@ MonoBehaviour:
   battleType:
     enemies:
     - Chevalier
+    enemyPrefabs: []
     rewardXP: 200
     rewardMoney: 500
     rewardItems:

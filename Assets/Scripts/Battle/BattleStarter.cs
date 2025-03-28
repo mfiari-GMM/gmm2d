@@ -88,7 +88,7 @@ public class BattleStarter : MonoBehaviour {
 
         yield return new WaitForSeconds(1.5f);
 
-        BattleManager.instance.BattleStart(potentialBattles[selectedBattle].enemies, cannotFlee, battleField);
+        BattleManager.instance.BattleStart(potentialBattles[selectedBattle].enemyPrefabs, cannotFlee, battleField);
         UIFade.instance.FadeFromBlack();
 
         if(deactivateAfterStarting)

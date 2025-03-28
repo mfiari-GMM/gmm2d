@@ -101,7 +101,7 @@ public class BattleManager : MonoBehaviour
         }
 	}
 
-    public void BattleStart(string[] enemiesToSpawn, bool setCannotFlee, string battleField)
+    public void BattleStart(BattleChar[] enemiesToSpawn, bool setCannotFlee, string battleField)
     {
         if(!battleActive)
         {
@@ -186,20 +186,17 @@ public class BattleManager : MonoBehaviour
                 
             }
 
+            Debug.Log(enemiesToSpawn);
+            Debug.Log(enemiesToSpawn.Length);
+            Debug.Log(enemiesToSpawn[0]);
+
             for (int i = 0; i < enemiesToSpawn.Length; i++)
             {
-                if (enemiesToSpawn[i] != "")
-                {
-                    for (int j = 0; j < enemyPrefabs.Length; j++)
-                    {
-                        if (enemyPrefabs[j].charName == enemiesToSpawn[i])
-                        {
-                            BattleChar newEnemy = Instantiate(enemyPrefabs[j], enemyPositions[i].position, enemyPositions[i].rotation);
-                            newEnemy.transform.parent = enemyPositions[i];
-                            activeBattlers.Add(newEnemy);
-                        }
-                    }
-                }
+                Debug.Log(i);
+                Debug.Log(enemiesToSpawn[i]);
+                BattleChar newEnemy = Instantiate(enemiesToSpawn[i], enemyPositions[i].position, enemyPositions[i].rotation);
+                newEnemy.transform.parent = enemyPositions[i];
+                activeBattlers.Add(newEnemy);
             }
 
             turnWaiting = true;
@@ -789,6 +786,7 @@ public class BattleManager : MonoBehaviour
                     QuestManager.instance.MarkQuestComplete(BattleReward.instance.questToMark);
                 }
                 GameManager.instance.battleActive = false;
+                AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
             }
         }
     }

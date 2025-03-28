@@ -14,9 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: MyAssetTableCollection
   m_TableCollectionNameGuidString: 2430dbb7a799f3a45a879f73cda0f92c
-  m_Entries: []
+  m_Entries:
+  - m_Id: 7148295788122112
+    m_Key: Town/Quests/Quest1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7148701452816384
+    m_Key: Town/Quests/Quest2
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 3013575060975517825
   m_KeyGenerator:
     rid: 3013574630929596441
   references:
@@ -27,3 +36,17 @@ MonoBehaviour:
         asm: Unity.Localization}
       data:
         m_CustomEpoch: 1741391528807
+    - rid: 3013575060975517825
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 7148295788122112
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7148701452816384
+          m_TableCodes:
+          - en
+          - fr
+        m_TypeString: BattleChar, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null

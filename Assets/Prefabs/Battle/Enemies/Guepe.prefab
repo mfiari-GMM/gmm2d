@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4182019504055666}
   - component: {fileID: 212849580792183462}
   - component: {fileID: 114853531176991714}
+  - component: {fileID: 5296007311006786302}
   m_Layer: 0
   m_Name: Guepe
   m_TagString: Untagged
@@ -100,7 +101,7 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  charName: Guepe
+  charName: Wasp
   currentHp: 60
   maxHP: 60
   currentMP: 0
@@ -120,3 +121,46 @@ MonoBehaviour:
   resistances: 
   transformation: {fileID: 0}
   maxTransformationTurn: 3
+--- !u!114 &5296007311006786302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596079706168960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3013575060975517826
+  references:
+    version: 2
+    RefIds:
+    - rid: 3013575060975517826
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114853531176991714}
+        m_TrackedProperties:
+          items:
+          - rid: 3013575060975517827
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 3013575060975517827
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7148466575986688
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: charName

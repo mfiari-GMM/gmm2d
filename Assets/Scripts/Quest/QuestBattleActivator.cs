@@ -43,7 +43,11 @@ public class QuestBattleActivator : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
-        BattleManager.instance.BattleStart(battleType.enemies, true, battleField);
+        Debug.Log(battleType.enemyPrefabs);
+        Debug.Log(battleType.enemyPrefabs.Length);
+        Debug.Log(battleType.enemyPrefabs[0]);
+
+        BattleManager.instance.BattleStart(battleType.enemyPrefabs, true, battleField);
         UIFade.instance.FadeFromBlack();
 
         BattleReward.instance.markQuestComplete = shouldCompleteQuest;
