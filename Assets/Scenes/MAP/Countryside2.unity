@@ -413,6 +413,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].enemyPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[0]
       value: Potion
       objectReference: {fileID: 0}
@@ -431,6 +441,35 @@ PrefabInstance:
       propertyPath: potentialBattles.Array.data[1].rewardItems.Array.data[1]
       value: Pomme
       objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: 9bda92601e273654986d69d0c9405f45,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 697acd1dc55eaf944885d97106c65b68,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

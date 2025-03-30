@@ -754,6 +754,8 @@ MonoBehaviour:
   battleType:
     enemies:
     - Edson
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: f1dc165437f5ba14395fa581f62bb245, type: 3}
     rewardXP: 600
     rewardMoney: 1000
     rewardItems:
@@ -762,6 +764,12 @@ MonoBehaviour:
     - Potion de Mana
     - Antidote
     - Elixir
+    rewardItemsPrefabs:
+    - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
+    - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
+    - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
+    - {fileID: 114774137024542062, guid: 6f80b0c1aaf34a64c83e5027d4562af0, type: 3}
+    - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}
   battleField: forest
   questToCheck: Battle edson
   shouldCompleteQuest: 1
@@ -41324,6 +41332,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].enemyPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].enemyPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].enemyPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].enemyPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].enemyPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.data[0]
       value: Pomme
       objectReference: {fileID: 0}
@@ -41362,6 +41400,139 @@ PrefabInstance:
       propertyPath: potentialBattles.Array.data[5].rewardItems.Array.data[1]
       value: plante
       objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].enemyPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].enemyPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].enemyPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: 50dfc597023a36844b3918cbbcd96036,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].enemyPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[5].enemyPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardItemsPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].rewardItemsPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].rewardItemsPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].rewardItemsPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 697acd1dc55eaf944885d97106c65b68,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[1].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 53cfd4b74035ae54889cc40419ffc329,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[2].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 53cfd4b74035ae54889cc40419ffc329,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[3].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: eaaff820e9a6af44c8bb3aa7b8c712cf,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].rewardItemsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb,
+        type: 3}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: potentialBattles.Array.data[4].rewardItemsPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 114378626586349076, guid: 53cfd4b74035ae54889cc40419ffc329,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41768,9 +41939,14 @@ MonoBehaviour:
     - Soldat
     - Soldat
     - Mae
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
+    - {fileID: 114895784032005762, guid: 4c9a2a72107f6034b8e115c3d71fdb8d, type: 3}
     rewardXP: 5000
     rewardMoney: 10000
     rewardItems: []
+    rewardItemsPrefabs: []
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0

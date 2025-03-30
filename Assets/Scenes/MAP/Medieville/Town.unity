@@ -3130,6 +3130,7 @@ GameObject:
   - component: {fileID: 441148444}
   - component: {fileID: 441148443}
   - component: {fileID: 441148447}
+  - component: {fileID: 441148448}
   m_Layer: 0
   m_Name: NPC_SoldatBoss
   m_TagString: Untagged
@@ -3311,7 +3312,10 @@ MonoBehaviour:
     - Soldat
     - Soldat
     - Lukas
-    enemyPrefabs: []
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
+    - {fileID: 114895784032005762, guid: 2376b7a480351d14a8e41becc2fca1b9, type: 3}
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     rewardXP: 5000
     rewardMoney: 10000
     rewardItems: []
@@ -3326,6 +3330,101 @@ MonoBehaviour:
   shouldCompleteQuest: 1
   QuestToComplete: battle boss village
   isBoss: 1
+--- !u!114 &441148448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441148441}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815244
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815244
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 441148447}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815245
+          - rid: 8232520309824815246
+          - rid: 8232520309824815248
+          - rid: 8232520309824815250
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815245
+      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.size
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 0
+        - localeIdentifier:
+            m_Code: en
+          value: 3
+    - rid: 8232520309824815246
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815247
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[0]
+    - rid: 8232520309824815247
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8153927469699072
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815248
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815249
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[1]
+    - rid: 8232520309824815249
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8153982419275776
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815250
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815251
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[2]
+    - rid: 8232520309824815251
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8154011963953152
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
 --- !u!1 &471987512
 GameObject:
   m_ObjectHideFlags: 0
@@ -12789,6 +12888,7 @@ GameObject:
   - component: {fileID: 1391791043}
   - component: {fileID: 1391791042}
   - component: {fileID: 1391791041}
+  - component: {fileID: 1391791045}
   m_Layer: 0
   m_Name: NPC_Soldat9
   m_TagString: Untagged
@@ -12827,14 +12927,19 @@ MonoBehaviour:
   - enemies:
     - Soldat
     - Soldat
-    enemyPrefabs: []
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
+    - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     rewardXP: 200
     rewardMoney: 300
     rewardItems:
     - Potion
     - Potion de Mana
     - Elixir
-    rewardItemsPrefabs: []
+    rewardItemsPrefabs:
+    - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
+    - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
+    - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0
@@ -12987,6 +13092,150 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1391791045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391791039}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815252
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815252
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1391791041}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815253
+          - rid: 8232520309824815254
+          - rid: 8232520309824815256
+          - rid: 8232520309824815258
+          - rid: 8232520309824815259
+          - rid: 8232520309824815261
+          - rid: 8232520309824815263
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815253
+      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.size
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 0
+        - localeIdentifier:
+            m_Code: en
+          value: 2
+    - rid: 8232520309824815254
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815255
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[0]
+    - rid: 8232520309824815255
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8154203635257344
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815256
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815257
+        m_PropertyPath: potentialBattles.Array.data[0].enemyPrefabs.Array.data[1]
+    - rid: 8232520309824815257
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8154257590784000
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815258
+      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.size
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 0
+        - localeIdentifier:
+            m_Code: en
+          value: 3
+    - rid: 8232520309824815259
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815260
+        m_PropertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[0]
+    - rid: 8232520309824815260
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8154941795012608
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815261
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815262
+        m_PropertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[1]
+    - rid: 8232520309824815262
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8154993548529664
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+    - rid: 8232520309824815263
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8232520309824815264
+        m_PropertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.data[2]
+    - rid: 8232520309824815264
+      type: {class: LocalizedObject, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 8155010862616576
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
 --- !u!1001 &1397434787
 PrefabInstance:
   m_ObjectHideFlags: 0
