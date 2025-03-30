@@ -81,7 +81,7 @@ public class BattleStarter : MonoBehaviour {
 
         int selectedBattle = Random.Range(0, potentialBattles.Length);
 
-        BattleManager.instance.rewardItems = potentialBattles[selectedBattle].rewardItems;
+        BattleManager.instance.rewardItems = potentialBattles[selectedBattle].rewardItemsPrefabs;
         BattleManager.instance.rewardXP = potentialBattles[selectedBattle].rewardXP;
         BattleManager.instance.rewardMoney = potentialBattles[selectedBattle].rewardMoney;
         BattleManager.instance.isBoss = isBoss;

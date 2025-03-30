@@ -4,6 +4,7 @@ public class BattleMove {
 
     public enum BattleMoveType { Fire, Ice, Water, Wind, Earth, Normal, lightning, light };
 
+    public string moveCode;
     public string moveName;
     public int movePower;
     public int moveCost;

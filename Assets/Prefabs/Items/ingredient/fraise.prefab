@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4040958231194332}
   - component: {fileID: 212836658781236804}
   - component: {fileID: 114378626586349076}
+  - component: {fileID: -8703821194139141692}
   m_Layer: 0
   m_Name: fraise
   m_TagString: Untagged
@@ -100,7 +101,8 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
-  itemName: Fraise
+  itemCode: STRAWBERRY
+  itemName: Strawberry
   description: soigne 5 PM
   value: 20
   itemSprite: {fileID: 1440644768, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
@@ -113,3 +115,76 @@ MonoBehaviour:
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+--- !u!114 &-8703821194139141692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509501079894724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815149
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815149
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114378626586349076}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815150
+          - rid: 8232520309824815151
+          - rid: 8232520309824815152
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815150
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7765603403894784
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemCode
+    - rid: 8232520309824815151
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7765764934930432
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 8232520309824815152
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7766892263182336
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

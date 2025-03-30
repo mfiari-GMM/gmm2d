@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4837038083411678}
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
+  - component: {fileID: 8894828691235342236}
   m_Layer: 0
   m_Name: Chevalier
   m_TagString: Untagged
@@ -99,13 +100,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  charName: Chevalier
-  currentHp: 200
-  maxHP: 200
+  - SLASH
+  charName: Knight
+  currentHp: 300
+  maxHP: 300
   currentMP: 0
   maxMP: 0
-  strength: 30
+  strength: 35
   defence: 12
   magie: 0
   resistance: 13
@@ -120,3 +121,46 @@ MonoBehaviour:
   resistances: 
   transformation: {fileID: 0}
   maxTransformationTurn: 3
+--- !u!114 &8894828691235342236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962906933442992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815231
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815231
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114895784032005762}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815232
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815232
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7923486737240064
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: charName

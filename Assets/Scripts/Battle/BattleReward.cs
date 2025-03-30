@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 
 public class BattleReward : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class BattleReward : MonoBehaviour {
     public Text xpText, moneyText, itemText;
     public GameObject rewardScreen;
 
-    public string[] rewardItems;
+    public Item[] rewardItems;
     public int xpEarned;
     public int moneyWin;
 
@@ -20,7 +21,7 @@ public class BattleReward : MonoBehaviour {
         instance = this;
 	}
 
-    public void OpenRewardScreen(int xp, int money, string[] rewards)
+    public void OpenRewardScreen(int xp, int money, Item[] rewards)
     {
 
         AudioManager.instance.PlayBGM(6);
@@ -28,15 +29,15 @@ public class BattleReward : MonoBehaviour {
         rewardItems = rewards;
         moneyWin = money;
 
-        xpText.text = "Tous le monde gagne " + xpEarned + " exp!";
+        xpText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "EXP_WIN") + xpEarned + " exp!";
 
-        moneyText.text = "Vous recevez " + moneyWin + " gold!";
+        moneyText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "GOLD_WIN") + moneyWin + " gold!";
 
         itemText.text = "";
 
         for(int i = 0; i < rewardItems.Length; i++)
         {
-            itemText.text += rewards[i] + "\n";
+            itemText.text += rewards[i].itemName + "\n";
         }
 
         rewardScreen.SetActive(true);
@@ -58,7 +59,7 @@ public class BattleReward : MonoBehaviour {
 
         for (int i = 0; i < rewardItems.Length; i++)
         {
-            GameManager.instance.AddItem(rewardItems[i]);
+            GameManager.instance.AddItem(rewardItems[i].itemCode);
         }
 
         rewardScreen.SetActive(false);

@@ -2172,6 +2172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4123005656995624}
   - component: {fileID: 114767406652574682}
+  - component: {fileID: 1018043688685727923}
   m_Layer: 0
   m_Name: BattleManager
   m_TagString: Untagged
@@ -2252,7 +2253,8 @@ MonoBehaviour:
   uiButtonsHolder: {fileID: 1695574381629516}
   magicButtonText: {fileID: 114025162781393818}
   movesList:
-  - moveName: Slash
+  - moveCode: SLASH
+    moveName: Slash
     movePower: 10
     moveCost: 0
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
@@ -2262,7 +2264,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Coup d'estoc
+  - moveCode: THRUST
+    moveName: Thrust
     movePower: 15
     moveCost: 10
     theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
@@ -2272,7 +2275,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Estocade sonique
+  - moveCode: SONIC_THRUST
+    moveName: Sonic thrust
     movePower: 20
     moveCost: 15
     theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
@@ -2282,7 +2286,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Estocade supersonique
+  - moveCode: SUPERSONIC_THRUST
+    moveName: Supersonic thrust
     movePower: 30
     moveCost: 25
     theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
@@ -2292,7 +2297,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Lame foudroyante
+  - moveCode: LIGHTING_BLADE
+    moveName: Lame foudroyante
     movePower: 20
     moveCost: 20
     theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
@@ -2302,7 +2308,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Coup puissant
+  - moveCode: POWER_ATTACK
+    moveName: Coup puissant
     movePower: 20
     moveCost: 10
     theEffect: {fileID: 114961059728432790, guid: 0c30ca4cfedfd490f99bc292e6b71bb9,
@@ -2312,7 +2319,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Impact terrestre
+  - moveCode: EARTH_IMPACT
+    moveName: Impact terrestre
     movePower: 30
     moveCost: 20
     theEffect: {fileID: 114961059728432790, guid: 1a2990bd193ba4d34b86fc29bb31c7df,
@@ -2322,7 +2330,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Feu
+  - moveCode: FIRE
+    moveName: Feu
     movePower: 10
     moveCost: 5
     theEffect: {fileID: 114252193273743618, guid: 043b88d04f672484e9403308ddcf2aa8,
@@ -2332,7 +2341,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Feu +
+  - moveCode: FIRE+
+    moveName: Feu +
     movePower: 20
     moveCost: 15
     theEffect: {fileID: 114252193273743618, guid: 140cb69abb9fe496a927cfb28f8f6783,
@@ -2342,7 +2352,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Feu X
+  - moveCode: FIRE_X
+    moveName: Feu X
     movePower: 30
     moveCost: 30
     theEffect: {fileID: 114252193273743618, guid: 263112a125b1542dd94b7d78d1dd28e8,
@@ -2352,7 +2363,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Glace
+  - moveCode: ICE
+    moveName: Glace
     movePower: 10
     moveCost: 5
     theEffect: {fileID: 114608741124403118, guid: 6a6c937b3e2bab1469fa74d00472e528,
@@ -2362,7 +2374,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Glace +
+  - moveCode: ICE+
+    moveName: Glace +
     movePower: 20
     moveCost: 15
     theEffect: {fileID: 114608741124403118, guid: 5874ab0e428ee4d098dfb3c0bb7e94d0,
@@ -2372,7 +2385,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Glace X
+  - moveCode: ICE_X
+    moveName: Glace X
     movePower: 30
     moveCost: 30
     theEffect: {fileID: 114608741124403118, guid: 88c411e24dc5a4d35816269c999314e0,
@@ -2382,7 +2396,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Foudre
+  - moveCode: LIGHTING
+    moveName: Foudre
     movePower: 10
     moveCost: 5
     theEffect: {fileID: 114252193273743618, guid: aa33a26d5a392425185e2223b880bfe6,
@@ -2392,7 +2407,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Foudre +
+  - moveCode: LIGHTING+
+    moveName: Foudre +
     movePower: 20
     moveCost: 15
     theEffect: {fileID: 114252193273743618, guid: f3f97be1f321e497080ccea634e33e56,
@@ -2402,7 +2418,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Foudre X
+  - moveCode: LIGHTING_X
+    moveName: Foudre X
     movePower: 30
     moveCost: 30
     theEffect: {fileID: 114252193273743618, guid: 7309e511ea32f4252a50e96871e6ac53,
@@ -2412,7 +2429,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Plasma
+  - moveCode: PLASMA
+    moveName: Plasma
     movePower: 15
     moveCost: 10
     theEffect: {fileID: 114011823187449262, guid: e4267b748e9498a4e96e8ccf7ac9f3ff,
@@ -2422,7 +2440,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Vent
+  - moveCode: WIND
+    moveName: Vent
     movePower: 15
     moveCost: 7
     theEffect: {fileID: 114252193273743618, guid: c2a603d123bd1414d95f3e52ab15b6bf,
@@ -2432,7 +2451,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Tornade
+  - moveCode: TORNADO
+    moveName: Tornade
     movePower: 15
     moveCost: 15
     theEffect: {fileID: 114252193273743618, guid: 16189694985fa4bf69ff1eaed4c66157,
@@ -2442,7 +2462,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 1
-  - moveName: Cyclone
+  - moveCode: CYCLONE
+    moveName: Cyclone
     movePower: 25
     moveCost: 30
     theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
@@ -2452,7 +2473,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 1
-  - moveName: Seisme
+  - moveCode: SEISME
+    moveName: Seisme
     movePower: 15
     moveCost: 25
     theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
@@ -2462,7 +2484,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Soin
+  - moveCode: HEAL
+    moveName: Soin
     movePower: 10
     moveCost: 8
     theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
@@ -2472,7 +2495,8 @@ MonoBehaviour:
     heal: 1
     isPlayer: 1
     allChar: 0
-  - moveName: soin +
+  - moveCode: HEAL+
+    moveName: soin +
     movePower: 20
     moveCost: 18
     theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
@@ -2482,7 +2506,8 @@ MonoBehaviour:
     heal: 1
     isPlayer: 1
     allChar: 0
-  - moveName: epee enflamme
+  - moveCode: FIRE_SWORD
+    moveName: epee enflamme
     movePower: 30
     moveCost: 50
     theEffect: {fileID: 114252193273743618, guid: 61776e2397c01c64aa0093f676d16ca2,
@@ -2492,7 +2517,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: tornade de feu
+  - moveCode: FIRE_TORNADO
+    moveName: tornade de feu
     movePower: 30
     moveCost: 50
     theEffect: {fileID: 114252193273743618, guid: 61776e2397c01c64aa0093f676d16ca2,
@@ -2502,7 +2528,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: lumiere
+  - moveCode: LIGHT
+    moveName: lumiere
     movePower: 15
     moveCost: 20
     theEffect: {fileID: 114608741124403118, guid: 84489c0ab4ca8fa4a95571a3a0c9d533,
@@ -2512,7 +2539,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Metamorphose
+  - moveCode: TRANSFORM
+    moveName: Metamorphose
     movePower: 0
     moveCost: 100
     theEffect: {fileID: 0}
@@ -2521,7 +2549,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Coup de queue
+  - moveCode: TAIL_ATTACK
+    moveName: Coup de queue
     movePower: 20
     moveCost: 0
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
@@ -2531,7 +2560,8 @@ MonoBehaviour:
     heal: 0
     isPlayer: 0
     allChar: 0
-  - moveName: Crochet venin
+  - moveCode: POISON_FANG
+    moveName: Crochet venin
     movePower: 15
     moveCost: 0
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
@@ -2606,8 +2636,8 @@ MonoBehaviour:
   rewardXP: 500
   rewardMoney: 0
   rewardItems:
-  - Wooden Sword
-  - Iron Armor
+  - {fileID: 0}
+  - {fileID: 0}
   cannotFlee: 0
   battleBg: {fileID: 212760558863176084}
   battleBackgrounds:
@@ -2620,6 +2650,94 @@ MonoBehaviour:
   - fieldName: village
     background: {fileID: 21300000, guid: 2e06601d6168a084ca42ab37136eda4e, type: 3}
   isBoss: 0
+--- !u!114 &1018043688685727923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299714629954660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815220
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815220
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114767406652574682}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815221
+          - rid: 8232520309824815235
+          - rid: 8232520309824815238
+          - rid: 8232520309824815241
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815221
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7908121646927872
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[7].moveName
+    - rid: 8232520309824815235
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7927097412227072
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[1].moveName
+    - rid: 8232520309824815238
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7927175258509312
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[2].moveName
+    - rid: 8232520309824815241
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7927212969496576
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[3].moveName
 --- !u!1 &1312058871969948
 GameObject:
   m_ObjectHideFlags: 0
@@ -7673,7 +7791,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Slash
+          m_StringArgument: SLASH
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &5126683678058022126

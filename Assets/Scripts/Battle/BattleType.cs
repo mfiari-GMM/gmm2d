@@ -7,4 +7,5 @@ public class BattleType {
     public int rewardXP;
     public int rewardMoney;
     public string[] rewardItems;
+    public Item[] rewardItemsPrefabs;
 }

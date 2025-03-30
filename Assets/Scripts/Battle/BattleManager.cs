@@ -59,7 +59,7 @@ public class BattleManager : MonoBehaviour
 
     public int rewardXP;
     public int rewardMoney;
-    public string[] rewardItems;
+    public Item[] rewardItems;
 
     public bool cannotFlee;
 
@@ -186,14 +186,8 @@ public class BattleManager : MonoBehaviour
                 
             }
 
-            Debug.Log(enemiesToSpawn);
-            Debug.Log(enemiesToSpawn.Length);
-            Debug.Log(enemiesToSpawn[0]);
-
             for (int i = 0; i < enemiesToSpawn.Length; i++)
             {
-                Debug.Log(i);
-                Debug.Log(enemiesToSpawn[i]);
                 BattleChar newEnemy = Instantiate(enemiesToSpawn[i], enemyPositions[i].position, enemyPositions[i].rotation);
                 newEnemy.transform.parent = enemyPositions[i];
                 activeBattlers.Add(newEnemy);
@@ -298,7 +292,7 @@ public class BattleManager : MonoBehaviour
     {
         for (int i = 0; i < movesList.Length; i++)
         {
-            if (movesList[i].moveName == moveName)
+            if (movesList[i].moveCode == moveName)
             {
                 return movesList[i];
             }
@@ -333,12 +327,12 @@ public class BattleManager : MonoBehaviour
 
         if (theMove == null || theMove.moveCost > activeBattlers[currentTurn].currentMP)
         {
-            theMove = GetMoveByName("Slash");
+            theMove = GetMoveByName("SLASH");
         }
 
         activeBattlers[currentTurn].currentMP -= theMove.moveCost;
 
-        if ("Metamorphose" == theMove.moveName)
+        if ("TRANSFORM" == theMove.moveCode)
         {
             activeBattlers[currentTurn].Transformation();
             battleText.theText.text = theMove.moveName;
@@ -352,7 +346,7 @@ public class BattleManager : MonoBehaviour
         battleType = theMove.battleType;
         heal = theMove.heal;
 
-        if ("Slash" != theMove.moveName)
+        if ("SLASH" != theMove.moveCode)
         {
             battleText.theText.text = theMove.moveName;
             battleText.Activate();
@@ -490,16 +484,15 @@ public class BattleManager : MonoBehaviour
 
         BattleMove battleMove = movesList[0];
 
-        if ("Slash" != moveName)
-        {
-            battleText.theText.text = moveName;
-            battleText.Activate();
-        }
-
         for (int i = 0; i < movesList.Length; i++)
         {
-            if (movesList[i].moveName == moveName)
+            if (movesList[i].moveCode == moveName)
             {
+                if ("SLASH" != moveName)
+                {
+                    battleText.theText.text = movesList[i].moveName;
+                    battleText.Activate();
+                }
                 battleMove = movesList[i];
                 movePower = battleMove.movePower;
                 battleType = battleMove.battleType;
@@ -551,7 +544,7 @@ public class BattleManager : MonoBehaviour
     {
         for (int i = 0; i < movesList.Length; i++)
         {
-            if (movesList[i].moveName == moveName)
+            if (movesList[i].moveCode == moveName)
             {
                 if (movesList[i].allChar)
                 {
@@ -583,7 +576,7 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < movesList.Length; i++)
         {
-            if (movesList[i].moveName == moveName)
+            if (movesList[i].moveCode == moveName)
             {
                 choosePlayer = movesList[i].isPlayer;
             }
@@ -656,15 +649,13 @@ public class BattleManager : MonoBehaviour
         {
             if(activeBattlers[currentTurn].GetMovesAvailable().Length > i)
             {
-                magicButtons[i].gameObject.SetActive(true);
-
-                magicButtons[i].spellName = activeBattlers[currentTurn].GetMovesAvailable()[i];
-                magicButtons[i].nameText.text = magicButtons[i].spellName;
-
                 for(int j = 0; j < movesList.Length; j++)
                 {
-                    if(movesList[j].moveName == magicButtons[i].spellName)
+                    if(movesList[j].moveCode == activeBattlers[currentTurn].GetMovesAvailable()[i])
                     {
+                        magicButtons[i].spellName = movesList[j].moveCode;
+                        magicButtons[i].gameObject.SetActive(true);
+                        magicButtons[i].nameText.text = movesList[j].moveName;
                         magicButtons[i].spellCost = movesList[j].moveCost;
                         magicButtons[i].costText.text = magicButtons[i].spellCost.ToString();
                     }
@@ -776,7 +767,7 @@ public class BattleManager : MonoBehaviour
             fleeing = false;
         } else
         {
-            if (rewardXP > 0 || rewardMoney > 0 || rewardItems.Length > 0)
+            if (rewardXP > 0 || rewardMoney > 0 || (rewardItems != null && rewardItems.Length > 0))
             {
                 BattleReward.instance.OpenRewardScreen(rewardXP, rewardMoney, rewardItems);
             } else

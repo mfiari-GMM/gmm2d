@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization.Settings;
 
 public class GameMenu : MonoBehaviour {
 
@@ -249,11 +250,11 @@ public class GameMenu : MonoBehaviour {
     private IEnumerator SaveAction()
     {
         savePanel.SetActive(true);
-        saveText.text = "Sauvegarde en cours, ne pas eteindre";
+        saveText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "SAVE_IN_PROGRESS");
         yield return new WaitForSeconds(2f);
         GameManager.instance.SaveData();
         QuestManager.instance.SaveQuestData();
-        saveText.text = "Sauvegarde terminé";
+        saveText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "SAVE_ENDED");
         yield return new WaitForSeconds(2f);
         savePanel.SetActive(false);
     }

@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 1
   movesAvailable:
-  - Soin
+  - HEAL
   charName: Rose
   currentHp: 0
   maxHP: 0
@@ -118,3 +118,5 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  transformation: {fileID: 0}
+  maxTransformationTurn: 3

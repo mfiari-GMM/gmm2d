@@ -101,7 +101,8 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
-  itemName: Potion
+  itemCode: HEALTH_POTION
+  itemName: Health potion
   description: Heal 100 LP
   value: 30
   itemSprite: {fileID: -442218547, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
@@ -139,6 +140,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 3013574793388098085
+          - rid: 8232520309824815176
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
@@ -157,3 +159,17 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: description
+    - rid: 8232520309824815176
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7768949699317760
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName

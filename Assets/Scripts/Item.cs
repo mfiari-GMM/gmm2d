@@ -7,6 +7,7 @@ public class Item : MonoBehaviour {
     public bool isArmour;
 
     [Header("Item Details")]
+    public string itemCode;
     public string itemName;
     public string description;
     public int value;
@@ -83,7 +84,7 @@ public class Item : MonoBehaviour {
         {
             if(selectedChar.equippedWpn != null)
             {
-                GameManager.instance.AddItem(selectedChar.equippedWpn.itemName);
+                GameManager.instance.AddItem(selectedChar.equippedWpn.itemCode);
             }
 
             selectedChar.equippedWpn = this;
@@ -93,13 +94,13 @@ public class Item : MonoBehaviour {
         {
             if (selectedChar.equippedArmr != null)
             {
-                GameManager.instance.AddItem(selectedChar.equippedArmr.itemName);
+                GameManager.instance.AddItem(selectedChar.equippedArmr.itemCode);
             }
 
             selectedChar.equippedArmr = this;
         }
 
-        GameManager.instance.RemoveItem(itemName);
+        GameManager.instance.RemoveItem(itemCode);
     }
 
 
@@ -159,6 +160,6 @@ public class Item : MonoBehaviour {
             }
         }
 
-        GameManager.instance.RemoveItem(itemName);
+        GameManager.instance.RemoveItem(itemCode);
     }
 }

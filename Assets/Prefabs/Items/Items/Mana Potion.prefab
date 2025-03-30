@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4040958231194332}
   - component: {fileID: 212836658781236804}
   - component: {fileID: 114378626586349076}
+  - component: {fileID: 3179228280565525380}
   m_Layer: 0
   m_Name: Mana Potion
   m_TagString: Untagged
@@ -100,6 +101,7 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
+  itemCode: MANA_POTION
   itemName: Potion de Mana
   description: Restore 50 PM
   value: 40
@@ -113,3 +115,61 @@ MonoBehaviour:
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+--- !u!114 &3179228280565525380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509501079894724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815179
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815179
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114378626586349076}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815180
+          - rid: 8232520309824815181
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815180
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7769109481328640
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 8232520309824815181
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7769171250843648
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

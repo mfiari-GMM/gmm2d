@@ -38,10 +38,9 @@ public class GameManager : MonoBehaviour {
 
     public Item GetItemDetails(string itemToGrab)
     {
-
-        for(int i = 0; i < referenceItems.Length; i++)
+        for (int i = 0; i < referenceItems.Length; i++)
         {
-            if(referenceItems[i].itemName == itemToGrab)
+            if(referenceItems[i].itemCode == itemToGrab)
             {
                 return referenceItems[i];
             }
@@ -101,7 +100,7 @@ public class GameManager : MonoBehaviour {
             bool itemExists = false;
             for(int i = 0; i < referenceItems.Length; i++)
             {
-                if(referenceItems[i].itemName == itemToAdd)
+                if(referenceItems[i].itemCode == itemToAdd)
                 {
                     itemExists = true;
 

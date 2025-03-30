@@ -23,9 +23,50 @@ MonoBehaviour:
     m_Key: Town/Quests/Quest2
     m_Metadata:
       m_Items: []
+  - m_Id: 7762365980020736
+    m_Key: TrainingForest/BattleZones/Battle Zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7762380387454976
+    m_Key: TrainingForest/BattleZones/Battle Zone 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7762438835081216
+    m_Key: TrainingForest/BattleZones/Battle Zone 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7762506703114240
+    m_Key: TrainingForest/BattleZones/Battle Zone 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7762586143232000
+    m_Key: TrainingForest/BattleZones/Battle Zone (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7762598172495872
+    m_Key: TrainingForest/BattleZones/Battle Zone (2) 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7775601693495296
+    m_Key: TrainingForest/BattleZones/Battle Zone (2) 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7775640457252864
+    m_Key: TrainingForest/BattleZones/Battle Zone (2) 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7778256528543744
+    m_Key: TrainingForest/BattleZones/Battle Zone (2) 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7778309502603264
+    m_Key: TrainingForest/BattleZones/Battle Zone (2) 5
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 3013575060975517825
+    - rid: 8232520309824815214
   m_KeyGenerator:
     rid: 3013574630929596441
   references:
@@ -48,5 +89,50 @@ MonoBehaviour:
           m_TableCodes:
           - en
           - fr
+        - m_KeyId: 7762365980020736
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7762380387454976
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7762438835081216
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7762506703114240
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7762586143232000
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7762598172495872
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7775601693495296
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7775640457252864
+          m_TableCodes:
+          - en
+          - fr
         m_TypeString: BattleChar, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
           PublicKeyToken=null
+    - rid: 8232520309824815214
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 7778256528543744
+          m_TableCodes:
+          - en
+          - fr
+        - m_KeyId: 7778309502603264
+          m_TableCodes:
+          - en
+          - fr
+        m_TypeString: Item, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

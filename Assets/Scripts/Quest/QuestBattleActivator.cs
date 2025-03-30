@@ -37,15 +37,11 @@ public class QuestBattleActivator : MonoBehaviour
         UIFade.instance.FadeToBlack();
         GameManager.instance.battleActive = true;
 
-        BattleManager.instance.rewardItems = battleType.rewardItems;
+        BattleManager.instance.rewardItems = battleType.rewardItemsPrefabs;
         BattleManager.instance.rewardXP = battleType.rewardXP;
         BattleManager.instance.rewardMoney = battleType.rewardMoney;
 
         yield return new WaitForSeconds(1.5f);
-
-        Debug.Log(battleType.enemyPrefabs);
-        Debug.Log(battleType.enemyPrefabs.Length);
-        Debug.Log(battleType.enemyPrefabs[0]);
 
         BattleManager.instance.BattleStart(battleType.enemyPrefabs, true, battleField);
         UIFade.instance.FadeFromBlack();

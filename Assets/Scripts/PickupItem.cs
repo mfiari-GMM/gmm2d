@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Localization.Settings;
 
 public class PickupItem : MonoBehaviour {
 
@@ -13,7 +14,8 @@ public class PickupItem : MonoBehaviour {
 		if(canPickup && !isOpen && Input.GetButtonDown("Fire1") && PlayerController.instance.canMove)
         {
             string itemName = GetComponent<Item>().itemName;
-            GameManager.instance.AddItem(itemName);
+            string itemCode = GetComponent<Item>().itemCode;
+            GameManager.instance.AddItem(itemCode);
             AudioManager.instance.PlaySFX(5);
 
             if (isChest)
@@ -25,7 +27,7 @@ public class PickupItem : MonoBehaviour {
                 Destroy(gameObject);
             }
 
-            string[] dialog = { "Obtenu " + itemName };
+            string[] dialog = { LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "ITEM_GET") + itemName };
             DialogManager.instance.ShowDialog(dialog, false);
             
         }

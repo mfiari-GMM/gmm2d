@@ -71,21 +71,21 @@ MonoBehaviour:
   winResistance: 3
   winMoves:
   - level: 15
-    moveName: Feu +
+    moveName: FIRE+
   - level: 30
-    moveName: Feu X
+    moveName: FIRE_X
   - level: 5
-    moveName: Glace
+    moveName: ICE
   - level: 17
-    moveName: Glace +
+    moveName: ICE+
   - level: 32
-    moveName: Glace X
+    moveName: ICE_X
   - level: 9
-    moveName: Foudre
+    moveName: LIGHTING
   - level: 20
-    moveName: Foudre +
+    moveName: LIGHTING+
   - level: 35
-    moveName: Foudre X
+    moveName: LIGHTING_X
 --- !u!1 &1190594902282344
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 4094487156371976}
   - component: {fileID: 114004588852274480}
   - component: {fileID: 114145718813029494}
+  - component: {fileID: 6761693661197367381}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -150,8 +151,8 @@ MonoBehaviour:
   shopActive: 0
   battleActive: 0
   itemsHeld:
-  - Potion
-  - Potion de Mana
+  - HEALTH_POTION
+  - MANA_POTION
   - 
   - 
   - 
@@ -276,6 +277,49 @@ MonoBehaviour:
   - Defeat edson
   - Defeat Aqua
   questMarkersComplete: 
+--- !u!114 &6761693661197367381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190594902282344}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815218
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815218
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114004588852274480}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815219
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815219
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7899895316549632
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemsHeld.Array.data[0]
 --- !u!1 &1527901407061400
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,9 +391,9 @@ MonoBehaviour:
   winResistance: 1
   winMoves:
   - level: 10
-    moveName: Coup puissant
+    moveName: POWER_ATTACK
   - level: 20
-    moveName: Impact terrestre
+    moveName: EARTH_IMPACT
 --- !u!1 &1674758041330280
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,11 +465,11 @@ MonoBehaviour:
   winResistance: 2
   winMoves:
   - level: 6
-    moveName: Coup d'estoc
+    moveName: THRUST
   - level: 15
-    moveName: Estocade sonique
+    moveName: SONIC_THRUST
   - level: 30
-    moveName: Estocade supersonique
+    moveName: SUPERSONIC_THRUST
 --- !u!1 &914761772766140176
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +542,7 @@ MonoBehaviour:
   winResistance: 3
   winMoves:
   - level: 12
-    moveName: Tornade
+    moveName: TORNADO
   - level: 16
     moveName: defense -
   - level: 16
@@ -659,22 +703,22 @@ MonoBehaviour:
   winResistance: 4
   winMoves:
   - level: 8
-    moveName: soin etat
+    moveName: HEAL_STATE
   - level: 13
-    moveName: protect
+    moveName: PROTECT
   - level: 17
-    moveName: lumiere
+    moveName: LIGHT
   - level: 22
-    moveName: soin +
+    moveName: HEAL+
   - level: 26
-    moveName: boost
+    moveName: BOOST
   - level: 30
-    moveName: resurection
+    moveName: RESURECTION
   - level: 34
-    moveName: flash
+    moveName: FLASH
   - level: 40
-    moveName: Soin X
+    moveName: HEAL_X
   - level: 48
-    moveName: resurection max
+    moveName: RESURECTION_MAX
   - level: 55
-    moveName: lance sacre
+    moveName: HOLY_LANCE
