@@ -12406,6 +12406,7 @@ GameObject:
   - component: {fileID: 1771058991}
   - component: {fileID: 1771058992}
   - component: {fileID: 1771058993}
+  - component: {fileID: 1771058994}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -12468,7 +12469,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: -5
   m_Sprite: {fileID: -366272957, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12594,6 +12595,64 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1771058994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771058988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815400
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815400
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1771058991}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815401
+          - rid: 8232520309824815402
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815401
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8626497826525184
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[1]
+    - rid: 8232520309824815402
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8626664348782592
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[2]
 --- !u!1 &1889955084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1776286149934772, guid: a7b4b1d88b65cf34baa3634512ccd0bb,

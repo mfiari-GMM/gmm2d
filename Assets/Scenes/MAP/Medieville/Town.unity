@@ -423,8 +423,8 @@ MonoBehaviour:
   - Thank you.
   - What's next ?
   - n-Knight
-  - I wil be in charge of your mentor. I will teach you everything you need to know
-    about the world and how to become a knight.
+  - I will be your mentor. I will teach you everything you need to know about the
+    world and how to become a knight.
   - You will also be joined by Mok. He has passed his exam last year and will help
     you during the fights.
   - n-Marco
@@ -432,10 +432,10 @@ MonoBehaviour:
   - n-Knight
   - Now, I am going to talk about your missions.
   - Of course, we will be training your fighting skills. Because fighting will be
-    a great part of your missions.
-  - We need to be able to protect people against thief or monster.
+    a big part of your missions.
+  - We need to be able to protect people against thief or monsters.
   - We can encounter some outside the village, on the road or in the forest.
-  - But some of the monster will be in the donjons.
+  - But most of the monster will be in the donjons.
   - However, donjons contains usefull resources for our development.
   - That's why, during your training we will also go to donjons.
   - But our role is not only to fight.
@@ -2241,13 +2241,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleType:
-    enemies:
-    - Guepe
     enemyPrefabs:
     - {fileID: 114853531176991714, guid: a04ddd72e75c3484c9f89149d464ca4e, type: 3}
     rewardXP: 0
     rewardMoney: 0
-    rewardItems: []
     rewardItemsPrefabs: []
   battleField: village
   questToCheck: training battle 1
@@ -3308,17 +3305,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potentialBattles:
-  - enemies:
-    - Soldat
-    - Soldat
-    - Lukas
-    enemyPrefabs:
+  - enemyPrefabs:
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     - {fileID: 114895784032005762, guid: 2376b7a480351d14a8e41becc2fca1b9, type: 3}
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     rewardXP: 5000
     rewardMoney: 10000
-    rewardItems: []
     rewardItemsPrefabs: []
   activateOnEnter: 1
   activateOnStay: 0
@@ -11043,13 +11035,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleType:
-    enemies:
-    - Blob
     enemyPrefabs:
     - {fileID: 114895784032005762, guid: cc805bc6170fb48c388ac02d0a59d43a, type: 3}
     rewardXP: 0
     rewardMoney: 0
-    rewardItems: []
     rewardItemsPrefabs: []
   battleField: village
   questToCheck: training battle 2
@@ -12924,18 +12913,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potentialBattles:
-  - enemies:
-    - Soldat
-    - Soldat
-    enemyPrefabs:
+  - enemyPrefabs:
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     rewardXP: 200
     rewardMoney: 300
-    rewardItems:
-    - Potion
-    - Potion de Mana
-    - Elixir
     rewardItemsPrefabs:
     - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
     - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
@@ -39546,14 +39528,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleType:
-    enemies:
-    - Chevalier
     enemyPrefabs:
     - {fileID: 114895784032005762, guid: 8ba6f1488b874469289ba4d9d4a7aa13, type: 3}
     rewardXP: 200
     rewardMoney: 500
-    rewardItems:
-    - Potion
     rewardItemsPrefabs: []
   battleField: village
   questToCheck: examen

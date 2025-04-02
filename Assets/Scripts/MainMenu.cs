@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.Localization.Settings;
 
 public class MainMenu : MonoBehaviour {
 
@@ -9,8 +11,11 @@ public class MainMenu : MonoBehaviour {
 
     public string loadGameScene;
 
-	// Use this for initialization
-	void Start () {
+    public Button frButton;
+    public Button enButton;
+
+    // Use this for initialization
+    void Start () {
 		if(PlayerPrefs.HasKey("Current_Scene"))
         {
             continueButton.SetActive(true);
@@ -18,6 +23,7 @@ public class MainMenu : MonoBehaviour {
         {
             continueButton.SetActive(false);
         }
+        SwitchToFr();
 	}
 	
 	// Update is called once per frame
@@ -43,5 +49,19 @@ public class MainMenu : MonoBehaviour {
     public void Credit()
     {
         SceneManager.LoadScene("Credit");
+    }
+
+    public void SwitchToFr()
+    {
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
+        frButton.interactable = false;
+        enButton.interactable = true;
+    }
+
+    public void SwitchToEn()
+    {
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
+        frButton.interactable = true;
+        enButton.interactable = false;
     }
 }

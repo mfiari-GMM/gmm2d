@@ -220,8 +220,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Fille
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
       propertyPath: lines.Array.data[1]
-      value: Merci d'avoir retrouver mon sac.
+      value: Thank you for bring me back my bag.
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -261,7 +266,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 116147415}
   m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
 --- !u!1 &116147413 stripped
 GameObject:
@@ -269,6 +278,76 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 116147412}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &116147414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 116147412}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116147413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &116147415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116147413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815363
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815363
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 116147414}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815364
+          - rid: 8232520309824815365
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815364
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8257338642993152
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[0]
+    - rid: 8232520309824815365
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8257374294577152
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[1]
 --- !u!1001 &195563607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1838,6 +1917,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1911,6 +2000,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Fille
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
       propertyPath: lines.Array.data[1]
       value: "Un bandit m'a vol\xE9 mes affaires."
       objectReference: {fileID: 0}
@@ -1922,7 +2016,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[3]
-      value: S'il vous plait, pouvez-vous m'aidez ? *snif*
+      value: Please can you help me ? *snif*
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -1934,10 +2028,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.9375
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1866670316}
   m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
 --- !u!1 &1866670314 stripped
 GameObject:
@@ -1945,6 +2053,106 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1866670313}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866670315 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 1866670313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866670314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1866670316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866670314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815358
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815358
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1866670315}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815359
+          - rid: 8232520309824815360
+          - rid: 8232520309824815361
+          - rid: 8232520309824815362
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815359
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8255871810998272
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[0]
+    - rid: 8232520309824815360
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8256178792108032
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[1]
+    - rid: 8232520309824815361
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8256666665160704
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[2]
+    - rid: 8232520309824815362
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8257172296896512
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[3]
 --- !u!1 &2100020448
 GameObject:
   m_ObjectHideFlags: 0

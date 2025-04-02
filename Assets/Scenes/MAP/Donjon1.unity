@@ -21595,6 +21595,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 370632698}
     m_Modifications:
+    - target: {fileID: 5603146515658992496, guid: 3bbbe0fa215789342bec663c0e8a6c9c,
+        type: 3}
+      propertyPath: itemCode
+      value: ELIXIR
+      objectReference: {fileID: 0}
     - target: {fileID: 6529940594708286759, guid: 3bbbe0fa215789342bec663c0e8a6c9c,
         type: 3}
       propertyPath: m_Name
@@ -21653,8 +21658,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6529940594708286759, guid: 3bbbe0fa215789342bec663c0e8a6c9c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7198987982239739884}
   m_SourcePrefab: {fileID: 100100000, guid: 3bbbe0fa215789342bec663c0e8a6c9c, type: 3}
+--- !u!1 &1011269262660219425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6529940594708286759, guid: 3bbbe0fa215789342bec663c0e8a6c9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1011269262660219424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1011269262660219426 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5603146515658992496, guid: 3bbbe0fa215789342bec663c0e8a6c9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1011269262660219424}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011269262660219425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ddf7c1ada77bbe419831ca4fc18005b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1777208900725020059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22224,6 +22251,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7068849441153179167, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 4.4576674
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068849441153179167, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 10.772286
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068849441153179167, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.16633368
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068849441153179167, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.96473837
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22401,6 +22448,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1011269262660219424}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7198987982239739884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011269262660219425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815397
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815397
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1011269262660219426}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815398
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815398
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8613366547025920
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemCode
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

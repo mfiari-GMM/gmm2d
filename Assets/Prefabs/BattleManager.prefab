@@ -2678,6 +2678,9 @@ MonoBehaviour:
           - rid: 8232520309824815235
           - rid: 8232520309824815238
           - rid: 8232520309824815241
+          - rid: 8232520309824815395
+          - rid: 8232520309824815396
+          - rid: 8232520309824815399
         m_UpdateType: 1
         m_Changed:
           m_PersistentCalls:
@@ -2738,6 +2741,48 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: movesList.Array.data[3].moveName
+    - rid: 8232520309824815395
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8510662386585600
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[10].moveName
+    - rid: 8232520309824815396
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8613136749498368
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[5].moveName
+    - rid: 8232520309824815399
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 8625752410624000
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: movesList.Array.data[13].moveName
 --- !u!1 &1312058871969948
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 using System.Linq;
+using UnityEngine.Localization.Settings;
+
 using static UnityEngine.GraphicsBuffer;
 
 public class BattleManager : MonoBehaviour
@@ -690,7 +692,7 @@ public class BattleManager : MonoBehaviour
                 {
                     objectButtons[i].gameObject.SetActive(true);
                     objectButtons[i].itemName = itemName;
-                    objectButtons[i].nameText.text = itemName;
+                    objectButtons[i].nameText.text = selectItem.itemName;
                     objectButtons[i].quantityText.text = quantity.ToString();
                     break;
                 }
@@ -702,7 +704,7 @@ public class BattleManager : MonoBehaviour
     {
         if (cannotFlee)
         {
-            battleNotice.theText.text = "Fuite impossible !";
+            battleNotice.theText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "CANNOT_FLEE");
             battleNotice.Activate();
         }
         else
@@ -710,16 +712,13 @@ public class BattleManager : MonoBehaviour
             int fleeSuccess = Random.Range(0, 100);
             if (fleeSuccess < chanceToFlee)
             {
-                //end the battle
-                //battleActive = false;
-                //battleScene.SetActive(false);
                 fleeing = true;
                 StartCoroutine(EndBattleCo());
             }
             else
             {
                 NextTurn();
-                battleNotice.theText.text = "La fuite a echoue !";
+                battleNotice.theText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "ESCAPE_FAIL");
                 battleNotice.Activate();
             }
         }
@@ -765,6 +764,7 @@ public class BattleManager : MonoBehaviour
         {
             GameManager.instance.battleActive = false;
             fleeing = false;
+            AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
         } else
         {
             if (rewardXP > 0 || rewardMoney > 0 || (rewardItems != null && rewardItems.Length > 0))
