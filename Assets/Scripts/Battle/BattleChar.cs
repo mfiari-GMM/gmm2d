@@ -6,7 +6,7 @@ public class BattleChar : MonoBehaviour {
     public string[] movesAvailable;
 
     public string charName;
-    public int currentHp, maxHP, currentMP, maxMP, strength, defence, magie, resistance, wpnPower, armrPower;
+    public int currentHp, maxHP, currentMP, maxMP, strength, defence, magie, resistance, wpnPower, armrPower, criticalRate, dodgeRate;
     public bool hasDied;
 
     public SpriteRenderer theSprite;
@@ -106,6 +106,24 @@ public class BattleChar : MonoBehaviour {
             return transformation.armrPower;
         }
         return armrPower;
+    }
+
+    public int GetCriticalRate()
+    {
+        if (isTransformed)
+        {
+            return transformation.criticalRate;
+        }
+        return criticalRate;
+    }
+
+    public int GetDodgeRate()
+    {
+        if (isTransformed)
+        {
+            return transformation.dodgeRate;
+        }
+        return dodgeRate;
     }
 
     public BattleMove.BattleMoveType[] GetWeaknesses ()

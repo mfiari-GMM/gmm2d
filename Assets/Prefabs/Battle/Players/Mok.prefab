@@ -110,8 +110,14 @@ MonoBehaviour:
   resistance: 0
   wpnPower: 0
   armrPower: 0
+  criticalRate: 12
+  dodgeRate: 3
   hasDied: 0
   theSprite: {fileID: 212531649469236500}
   deadSprite: {fileID: 1230267009, guid: 8fdee18d4d1bc894abb77dab63b3cc89, type: 3}
   aliveSprite: {fileID: -1456354987, guid: 8fdee18d4d1bc894abb77dab63b3cc89, type: 3}
   fadeSpeed: 1
+  weaknesses: 
+  resistances: 
+  transformation: {fileID: 0}
+  maxTransformationTurn: 3

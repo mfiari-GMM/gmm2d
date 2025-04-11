@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class DamageNumber : MonoBehaviour {
 
@@ -15,6 +17,15 @@ public class DamageNumber : MonoBehaviour {
         Destroy(gameObject, lifetime);
         transform.position += new Vector3(0f, moveSpeed * Time.deltaTime, 0f);
 	}
+
+    public void DisplayText (string textToDisplay)
+    {
+        damageText.text = textToDisplay;
+        damageText.fontStyle = FontStyle.Normal;
+        damageText.color = Color.white;
+        damageText.fontSize = 70;
+        transform.position += new Vector3(1f, 0.6f, 0f);
+    }
 
     public void SetDamage(int damageAmount, int damageWeakness)
     {
@@ -43,6 +54,6 @@ public class DamageNumber : MonoBehaviour {
             damageText.color = Color.white;
             damageText.fontSize = 109;
         }
-        transform.position += new Vector3(Random.Range(-placementJitter, placementJitter), Random.Range(-placementJitter, placementJitter), 0f);
+        transform.position += new Vector3(0f, 0f, 0f);
     }
 }

@@ -9,6 +9,7 @@ using System.Linq;
 using UnityEngine.Localization.Settings;
 
 using static UnityEngine.GraphicsBuffer;
+using System.Diagnostics;
 
 public class BattleManager : MonoBehaviour
 {
@@ -399,24 +400,49 @@ public class BattleManager : MonoBehaviour
         float defPwr = defence + activeBattlers[target].GetArmrPower();
 
         float damageMutiplicator = 1f;
+        float criticalMutiplicator = 1f;
         int damageWeakness = 0;
 
-        if (Array.IndexOf(activeBattlers[target].GetWeaknesses(), battleType) != -1)
+        bool critical = false;
+
+        int dodgeNumber = Random.Range(0, 100);
+
+        if (dodgeNumber <= activeBattlers[target].GetDodgeRate())
         {
-            damageMutiplicator = 1.5f;
-            damageWeakness = 1;
-        } else if (Array.IndexOf(activeBattlers[target].GetResistances(), battleType) != -1)
+            Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).DisplayText("Rate !");
+        } else
         {
-            damageMutiplicator = 0.5f;
-            damageWeakness = -1;
+            int criticalNumber = Random.Range(0, 100);
+
+            if (criticalNumber <= activeBattlers[target].GetCriticalRate())
+            {
+                criticalMutiplicator = 2f;
+                critical = true;
+            }
+
+            if (Array.IndexOf(activeBattlers[target].GetWeaknesses(), battleType) != -1)
+            {
+                damageMutiplicator = 1.5f;
+                damageWeakness = 1;
+            }
+            else if (Array.IndexOf(activeBattlers[target].GetResistances(), battleType) != -1)
+            {
+                damageMutiplicator = 0.5f;
+                damageWeakness = -1;
+            }
+
+            float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f) * damageMutiplicator * criticalMutiplicator;
+            int damageToGive = Mathf.RoundToInt(damageCalc);
+
+            activeBattlers[target].currentHp -= damageToGive;
+
+            Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive, damageWeakness);
+
+            if (critical)
+            {
+                Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).DisplayText("Critique !");
+            }
         }
-
-        float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f) * damageMutiplicator;
-        int damageToGive = Mathf.RoundToInt(damageCalc);
-
-        activeBattlers[target].currentHp -= damageToGive;
-
-        Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive, damageWeakness);
 
         UpdateUIStats();
     }
