@@ -507,6 +507,7 @@ public class BattleManager : MonoBehaviour
         int movePower = 0;
         bool magic = true;
         bool heal = false;
+        bool boostDef = false;
 
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
 
@@ -526,6 +527,7 @@ public class BattleManager : MonoBehaviour
                 battleType = battleMove.battleType;
                 magic = battleMove.isMagic;
                 heal = battleMove.heal;
+                boostDef = battleMove.boostDef;
                 break;
             }
         }
@@ -537,10 +539,14 @@ public class BattleManager : MonoBehaviour
         {
             Instantiate(battleMove.theEffect, activeBattlers[selectedTarget[i]].transform.position, activeBattlers[selectedTarget[i]].transform.rotation);
 
-
             if (heal)
             {
+                AudioManager.instance.PlaySFX(6);
                 Heal(selectedTarget[i], movePower);
+            } else if (boostDef)
+            {
+                AudioManager.instance.PlaySFX(6);
+                activeBattlers[selectedTarget[i]].IncreaseDef();
             }
             else
             {

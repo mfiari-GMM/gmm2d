@@ -99,16 +99,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - Glace
-  - Glace +
-  - Coup de queue
+  - SLASH
+  - ICE
+  - ICE+
+  - TAIL_ATTACK
   charName: Aqua
   currentHp: 2500
   maxHP: 2500
   currentMP: 600
   maxMP: 600
-  strength: 750
+  strength: 400
   defence: 30
   magie: 650
   resistance: 40

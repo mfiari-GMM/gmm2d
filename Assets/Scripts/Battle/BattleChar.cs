@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class BattleChar : MonoBehaviour {
 
@@ -23,6 +24,7 @@ public class BattleChar : MonoBehaviour {
 
     private int transformationTurn = 0;
     private bool isTransformed = false;
+    private float boostAtk = 1f, boostDef = 1f, boostMagie = 1f, boostRes = 1f, boostCritic = 1f, boostDodge = 1f;
 
     // Update is called once per frame
     void Update () {
@@ -58,36 +60,36 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return transformation.strength;
+            return (int)Math.Round(transformation.strength * boostAtk);
         }
-        return strength;
+        return (int)Math.Round(strength * boostAtk);
     }
 
     public int GetDefence()
     {
         if (isTransformed)
         {
-            return transformation.defence;
+            return (int)Math.Round(transformation.defence * boostDef);
         }
-        return defence;
+        return (int)Math.Round(defence * boostDef);
     }
 
     public int GetMagie()
     {
         if (isTransformed)
         {
-            return transformation.magie;
+            return (int)Math.Round(transformation.magie * boostMagie);
         }
-        return magie;
+        return (int)Math.Round(magie * boostMagie);
     }
 
     public int GetResistance()
     {
         if (isTransformed)
         {
-            return transformation.resistance;
+            return (int)Math.Round(transformation.resistance * boostRes);
         }
-        return resistance;
+        return (int)Math.Round(resistance * boostRes);
     }
 
     public int GetWpnPower()
@@ -112,18 +114,18 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return transformation.criticalRate;
+            return (int)Math.Round(transformation.criticalRate * boostCritic);
         }
-        return criticalRate;
+        return (int)Math.Round(criticalRate * boostCritic);
     }
 
     public int GetDodgeRate()
     {
         if (isTransformed)
         {
-            return transformation.dodgeRate;
+            return (int)Math.Round(transformation.dodgeRate * boostDodge);
         }
-        return dodgeRate;
+        return (int)Math.Round(dodgeRate * boostDodge);
     }
 
     public BattleMove.BattleMoveType[] GetWeaknesses ()
@@ -177,5 +179,20 @@ public class BattleChar : MonoBehaviour {
         this.isTransformed = false;
         this.transformationTurn = 0;
 
+    }
+
+    public void IncreaseAtk ()
+    {
+        boostAtk = 1.5f;
+    }
+
+    public void IncreaseDef()
+    {
+        boostDef = 2f;
+    }
+
+    public void resetDef()
+    {
+        boostDef = 1f;
     }
 }

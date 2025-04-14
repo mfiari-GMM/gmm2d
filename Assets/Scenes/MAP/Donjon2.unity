@@ -20772,7 +20772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1491018616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20786,17 +20786,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potentialBattles:
-  - enemies:
-    - Aqua
-    enemyPrefabs:
+  - enemyPrefabs:
     - {fileID: 114895784032005762, guid: f24adb2fc37e44233a144a711d0039b7, type: 3}
     rewardXP: 1000
     rewardMoney: 1000
-    rewardItems:
-    - Elixir
-    - Elixir
-    - Potion de Mana
-    - Potion de Mana
     rewardItemsPrefabs:
     - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}
     - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}

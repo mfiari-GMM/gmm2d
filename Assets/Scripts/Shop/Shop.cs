@@ -147,7 +147,7 @@ public class Shop : MonoBehaviour {
             {
                 GameManager.instance.currentGold -= selectedItem.value;
 
-                GameManager.instance.AddItem(selectedItem.itemName);
+                GameManager.instance.AddItem(selectedItem.itemCode);
 
                 ShowItemQuantity(selectedItem);
             }
@@ -162,7 +162,7 @@ public class Shop : MonoBehaviour {
         for (int i = 0; i < GameManager.instance.itemsHeld.Length; i++)
         {
 
-            if (GameManager.instance.itemsHeld[i] == selectedItem.itemName)
+            if (GameManager.instance.itemsHeld[i] == selectedItem.itemCode)
             {
                 quantity = GameManager.instance.numberOfItems[i];
             }
@@ -178,12 +178,12 @@ public class Shop : MonoBehaviour {
                 if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
                 {
                     if (GameManager.instance.playerStats[i].equippedWpn != null
-                    && GameManager.instance.playerStats[i].equippedWpn.itemName == selectedItem.itemName)
+                    && GameManager.instance.playerStats[i].equippedWpn.itemCode == selectedItem.itemCode)
                     {
                         quantity++;
                     }
                     if (GameManager.instance.playerStats[i].equippedArmr != null
-                        && GameManager.instance.playerStats[i].equippedArmr.itemName == selectedItem.itemName)
+                        && GameManager.instance.playerStats[i].equippedArmr.itemCode == selectedItem.itemCode)
                     {
                         quantity++;
                     }
@@ -199,7 +199,7 @@ public class Shop : MonoBehaviour {
         {
             GameManager.instance.currentGold += Mathf.FloorToInt(selectedItem.value * .5f);
 
-            GameManager.instance.RemoveItem(selectedItem.itemName);
+            GameManager.instance.RemoveItem(selectedItem.itemCode);
         }
 
         goldText.text = GameManager.instance.currentGold.ToString() + "g";

@@ -8268,17 +8268,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   battleType:
-    enemies:
-    - Soldat
-    - Soldat
-    - Mae
     enemyPrefabs:
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     - {fileID: 114895784032005762, guid: 5a0e25d011a414a05acb98effcdf283f, type: 3}
     - {fileID: 114895784032005762, guid: 4c9a2a72107f6034b8e115c3d71fdb8d, type: 3}
     rewardXP: 0
     rewardMoney: 0
-    rewardItems: []
     rewardItemsPrefabs: []
   battleField: village
   questToCheck: Battle Mae
@@ -24150,10 +24145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemsForSale:
-  - Potion
-  - Potion de Mana
-  - Elixir
-  - Antidote
+  - HEALTH_POTION
+  - MANA_POTION
+  - ELIXIR
+  - ANTIDOTE
   - 
   - 
   - 
