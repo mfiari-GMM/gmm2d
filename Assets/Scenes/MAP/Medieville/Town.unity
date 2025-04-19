@@ -9889,7 +9889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &865508443
 Transform:
   m_ObjectHideFlags: 0
@@ -10011,6 +10011,9 @@ MonoBehaviour:
   - n-Knight
   - We reviewed the basic fight move together.
   - I think you are ready for tomorrow exam.
+  - Je vous conseille d'aller vous reposez, vous en aurez besoin.
+  - "Si vous souhaitez vous entrainez d'avantage, la foret est l'endroit id\xE9al."
+  - Mok pourras vous y accompagner.
   isPerson: 1
   shouldActivateQuest: 0
   questToMark: 
@@ -10098,6 +10101,9 @@ MonoBehaviour:
           - rid: 3013575060975517737
           - rid: 3013575060975517738
           - rid: 3013575060975517739
+          - rid: 8705473738670604300
+          - rid: 8705473738670604301
+          - rid: 8705473738670604302
         m_UpdateType: 1
         m_Changed:
           m_PersistentCalls:
@@ -10144,6 +10150,48 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: lines.Array.data[2]
+    - rid: 8705473738670604300
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15505345130205184
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[3]
+    - rid: 8705473738670604301
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15505528589062144
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[4]
+    - rid: 8705473738670604302
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15505956194160640
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[5]
 --- !u!1001 &909593607
 PrefabInstance:
   m_ObjectHideFlags: 0

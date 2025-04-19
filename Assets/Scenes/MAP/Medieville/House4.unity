@@ -2053,6 +2053,11 @@ MonoBehaviour:
   - Bien ! Voici des potions. Elles te seront utile lors de tes combats.
   - n-Marco
   - "Merci Grand-p\xE8re !"
+  - Nous allons revoir les bases du combat.
+  - "N'h\xE9site pas \xE0 venir nous voir si tu es bless\xE9."
+  - Bien ! Voici des potions. Elles te seront utile lors de tes combats.
+  - n-Marco
+  - "Merci Grand-p\xE8re !"
   - n-Pepe
   - "N'h\xE9site pas \xE0 venir nous voir si tu es bless\xE9."
   isPerson: 1
@@ -2092,6 +2097,10 @@ MonoBehaviour:
           - rid: 3013574793388097544
           - rid: 3013574793388097545
           - rid: 3013574793388097546
+          - rid: 8705473738670604296
+          - rid: 8705473738670604297
+          - rid: 8705473738670604298
+          - rid: 8705473738670604299
         m_UpdateType: 1
         m_Changed:
           m_PersistentCalls:
@@ -2166,6 +2175,62 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: lines.Array.data[9]
+    - rid: 8705473738670604296
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15503407919599616
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[10]
+    - rid: 8705473738670604297
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15503455478812672
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[12]
+    - rid: 8705473738670604298
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15503478652342272
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[14]
+    - rid: 8705473738670604299
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 15503956123521024
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[8]
 --- !u!1001 &1170321492
 PrefabInstance:
   m_ObjectHideFlags: 0
