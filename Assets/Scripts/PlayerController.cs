@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
@@ -45,6 +46,9 @@ public class PlayerController : MonoBehaviour {
 
         myAnim.SetFloat("moveX", theRB.velocity.x);
         myAnim.SetFloat("moveY", theRB.velocity.y);
+
+        UnityEngine.Debug.Log(Input.GetAxisRaw("Horizontal"));
+        UnityEngine.Debug.Log(Input.GetAxisRaw("Vertical"));
 
         if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {

@@ -10,6 +10,7 @@ using UnityEngine.Localization.Settings;
 
 using static UnityEngine.GraphicsBuffer;
 using System.Diagnostics;
+using System.Collections.Specialized;
 
 public class BattleManager : MonoBehaviour
 {
@@ -86,6 +87,7 @@ public class BattleManager : MonoBehaviour
             {
                 if(activeBattlers[currentTurn].isPlayer)
                 {
+                    //MoveActivePlayerPosition();
                     uiButtonsHolder.SetActive(true);
 
                     if (Input.GetKeyDown(KeyCode.Z))
@@ -303,6 +305,32 @@ public class BattleManager : MonoBehaviour
         return null;
     }
 
+    private void ResetActivePlayerPosition()
+    {
+        if (activeBattlers[currentTurn].isPlayer)
+        {
+            Transform playerPosition = playerPositions[currentTurn];
+
+            Vector3 vector3 = new Vector3(playerPosition.position.x, playerPosition.position.y, playerPosition.position.z);
+
+            activeBattlers[currentTurn].gameObject.transform.position = vector3;
+
+        }
+    }
+
+    private void MoveActivePlayerPosition()
+    {
+        if (activeBattlers[currentTurn].isPlayer)
+        {
+            Transform playerPosition = playerPositions[currentTurn];
+
+            Vector3 vector3 = new Vector3(playerPosition.position.x - 1f, playerPosition.position.y, playerPosition.position.z);
+
+            activeBattlers[currentTurn].gameObject.transform.position = vector3;
+
+        }
+    }
+
     public void EnemyAttack()
     {
         List<int> players = new List<int>();
@@ -464,7 +492,7 @@ public class BattleManager : MonoBehaviour
                         playerName[i].color = Color.yellow;
                         if (playerData.charName == "Vard" || playerData.charName == "Rose")
                         {
-                            magicButtonText.text = "Magic";
+                            magicButtonText.text = "Magie";
                         } else
                         {
                             magicButtonText.text = "Tech.";

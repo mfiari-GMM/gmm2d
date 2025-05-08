@@ -105,7 +105,7 @@ MonoBehaviour:
   itemName: Bones
   description: Skull bones
   value: 50
-  itemSprite: {fileID: 683426157, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemSprite: {fileID: 1860297529, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
@@ -142,6 +142,7 @@ MonoBehaviour:
           - rid: 8232520309824815154
           - rid: 8232520309824815155
           - rid: 8232520309824815156
+          - rid: 8700492819418054656
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
@@ -188,3 +189,20 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: description
+    - rid: 8700492819418054656
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 8700492819418054657
+        m_PropertyPath: itemSprite
+    - rid: 8700492819418054657
+      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 21356084054396928
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0

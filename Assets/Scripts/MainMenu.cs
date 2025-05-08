@@ -24,7 +24,8 @@ public class MainMenu : MonoBehaviour {
             continueButton.SetActive(false);
         }
         SwitchToFr();
-	}
+        AudioManager.instance.PlayBGM(4);
+    }
 	
 	// Update is called once per frame
 	void Update () {

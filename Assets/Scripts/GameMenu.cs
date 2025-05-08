@@ -181,7 +181,7 @@ public class GameMenu : MonoBehaviour {
         {
             itemButtons[i].buttonValue = i;
 
-            if(GameManager.instance.itemsHeld[i] != "")
+            if(GameManager.instance.itemsHeld[i] != "" && GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[i]) != null)
             {
                 itemButtons[i].buttonImage.gameObject.SetActive(true);
                 itemButtons[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[i]).itemSprite;

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
+using Random = UnityEngine.Random;
+using System;
 
 public class BattleReward : MonoBehaviour {
 
@@ -26,8 +28,21 @@ public class BattleReward : MonoBehaviour {
 
         AudioManager.instance.PlayBGM(6);
         xpEarned = xp;
-        rewardItems = rewards;
         moneyWin = money;
+
+        rewardItems = new Item[rewards.Length];
+
+        for (int i = 0; i < rewards.Length; i++)
+        {
+            int rand = Random.Range(0, 1);
+            if (rand == 0)
+            {
+                rewardItems[i] = rewards[i];
+            } else
+            {
+                rewardItems[i] = null;
+            }
+        }
 
         xpText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "EXP_WIN") + xpEarned + " exp!";
 
@@ -37,7 +52,10 @@ public class BattleReward : MonoBehaviour {
 
         for(int i = 0; i < rewardItems.Length; i++)
         {
-            itemText.text += rewards[i].itemName + "\n";
+            if (rewardItems[i] != null)
+            {
+                itemText.text += rewardItems[i].itemName + "\n";
+            }
         }
 
         rewardScreen.SetActive(true);
@@ -59,7 +77,10 @@ public class BattleReward : MonoBehaviour {
 
         for (int i = 0; i < rewardItems.Length; i++)
         {
-            GameManager.instance.AddItem(rewardItems[i].itemCode);
+            if (rewardItems[i] != null)
+            {
+                GameManager.instance.AddItem(rewardItems[i].itemCode);
+            }
         }
 
         rewardScreen.SetActive(false);

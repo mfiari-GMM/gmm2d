@@ -11,13 +11,6 @@ public class MapInfo : MonoBehaviour
 
     private bool infoHasBeenDisplayed = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-        
-    }
-
     void Update()
     {
         if (isFisrtVisit())
@@ -31,7 +24,7 @@ public class MapInfo : MonoBehaviour
 
     private bool isFisrtVisit ()
     {
-        return true;
+        return !PlayerPrefs.HasKey("SCENE_" + title);
     }
 
     private IEnumerator DisplayMapInfo ()
@@ -42,6 +35,7 @@ public class MapInfo : MonoBehaviour
             GameMenu.instance.ShowMapInfo(title, description);
             yield return new WaitForSeconds(5f);
             GameMenu.instance.HideMapInfo();
+            PlayerPrefs.SetInt("SCENE_" + title, 1);
         }
     }
 }

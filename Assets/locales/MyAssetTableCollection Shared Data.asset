@@ -167,10 +167,19 @@ MonoBehaviour:
     m_Key: Donjon1/Sorcerer 4
     m_Metadata:
       m_Items: []
+  - m_Id: 20105466656526336
+    m_Key: Town/NPC Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21356084054396928
+    m_Key: os
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 3013575060975517825
     - rid: 8232520309824815214
+    - rid: 8700492819418054658
   m_KeyGenerator:
     rid: 3013574630929596441
   references:
@@ -320,3 +329,13 @@ MonoBehaviour:
           m_TableCodes:
           - en
         m_TypeString: Item, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - rid: 8700492819418054658
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 21356084054396928
+          m_TableCodes:
+          - fr
+          - en
+        m_TypeString: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
