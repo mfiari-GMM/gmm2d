@@ -2595,7 +2595,7 @@ MonoBehaviour:
     boosteDodge: 0
   - moveCode: SEISME
     moveName: Seisme
-    movePower: 15
+    movePower: 20
     moveCost: 25
     theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
       type: 3}
@@ -2603,7 +2603,7 @@ MonoBehaviour:
     isMagic: 1
     heal: 0
     isPlayer: 0
-    allChar: 0
+    allChar: 1
     boostAtk: 0
     boostDef: 0
     boostMagie: 0
@@ -2781,6 +2781,91 @@ MonoBehaviour:
     boosteDodge: 0
   - moveCode: HEAL_STATE
     moveName: Soin etat
+    movePower: 0
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    boostCritic: 0
+    boosteDodge: 0
+  - moveCode: POISON
+    moveName: Poison
+    movePower: 0
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    boostCritic: 0
+    boosteDodge: 0
+  - moveCode: DEFENSE-
+    moveName: Defense -
+    movePower: 0
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    boostCritic: 0
+    boosteDodge: 0
+  - moveCode: MAGIE-
+    moveName: Magie -
+    movePower: 0
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    boostCritic: 0
+    boosteDodge: 0
+  - moveCode: FORCE -
+    moveName: Force -
+    movePower: 0
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    isMagic: 0
+    heal: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    boostCritic: 0
+    boosteDodge: 0
+  - moveCode: RESISTANCE -
+    moveName: Resistance -
     movePower: 0
     moveCost: 10
     theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,

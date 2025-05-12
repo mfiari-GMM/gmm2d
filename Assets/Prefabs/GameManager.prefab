@@ -279,6 +279,11 @@ MonoBehaviour:
   - Battle edson
   - Defeat edson
   - Defeat Aqua
+  - Zugarramurdi part1
+  - Zugarramurdi part2
+  - Myrkvior
+  - Fin Myrkvior
+  - remede Alexis
   questMarkersComplete: 
 --- !u!114 &6761693661197367381
 MonoBehaviour:
@@ -518,20 +523,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   charName: Cynthia
-  playerLevel: 20
+  playerLevel: 30
   currentEXP: 0
   expToNextLevel: 
   maxLevel: 100
   baseEXP: 240
-  currentHP: 750
-  maxHP: 750
-  currentMP: 320
-  maxMP: 320
+  currentHP: 950
+  maxHP: 950
+  currentMP: 440
+  maxMP: 440
   mpLvlBonus: 000000000000000005000000000000000a00000000000000000000000c0000000000000000000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  strength: 65
-  defence: 48
-  magie: 85
-  resistance: 65
+  strength: 85
+  defence: 68
+  magie: 105
+  resistance: 95
   equippedWpn: {fileID: 114143543785605942, guid: dd45714d212c2b04abd328e83cb1c453,
     type: 3}
   equippedArmr: {fileID: 114158117718962746, guid: 682aa24c4782f45d1b47a7fa66a30170,
@@ -547,19 +552,19 @@ MonoBehaviour:
   - level: 12
     moveName: TORNADO
   - level: 16
-    moveName: defense -
+    moveName: DEFENSE-
   - level: 16
-    moveName: force -
+    moveName: FORCE-
   - level: 16
-    moveName: magie -
+    moveName: MAGIE-
   - level: 16
-    moveName: resistance -
+    moveName: RESISTANCE-
   - level: 20
-    moveName: seisme
+    moveName: SEISME
   - level: 25
-    moveName: sangsue
-  - level: 30
     moveName: quart
+  - level: 30
+    moveName: Nosferatu
   - level: 35
     moveName: affaiblissement
   - level: 40
