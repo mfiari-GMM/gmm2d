@@ -9,10 +9,14 @@ public class MainMenu : MonoBehaviour {
 
     public GameObject continueButton;
 
+    public GameObject settingsPanel;
+
     public string loadGameScene;
 
     public Button frButton;
     public Button enButton;
+
+    public Slider soundSlider;
 
     // Use this for initialization
     void Start () {
@@ -23,7 +27,20 @@ public class MainMenu : MonoBehaviour {
         {
             continueButton.SetActive(false);
         }
-        SwitchToFr();
+        if (PlayerPrefs.HasKey("language"))
+        {
+            string language = PlayerPrefs.GetString("language");
+            if (language != "fr")
+            {
+                SwitchToFr();
+            } else
+            {
+                SwitchToEn();
+            }
+        } else
+        {
+            SwitchToEn();
+        }
         AudioManager.instance.PlayBGM(4);
     }
 	
@@ -42,6 +59,21 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(newGameScene);
     }
 
+    public void Settings()
+    {
+        settingsPanel.SetActive(true);
+    }
+
+    public void CloseSettings()
+    {
+        settingsPanel.SetActive(false);
+    }
+
+    public void ChangeVolume()
+    {
+        AudioManager.instance.ChangeVolume(soundSlider.value);
+    }
+
     public void Exit()
     {
         Application.Quit();
@@ -57,6 +89,7 @@ public class MainMenu : MonoBehaviour {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[1];
         frButton.interactable = false;
         enButton.interactable = true;
+        PlayerPrefs.SetString("language", LocalizationSettings.SelectedLocale.LocaleName);
     }
 
     public void SwitchToEn()
@@ -64,5 +97,6 @@ public class MainMenu : MonoBehaviour {
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[0];
         frButton.interactable = true;
         enButton.interactable = false;
+        PlayerPrefs.SetString("language", LocalizationSettings.SelectedLocale.LocaleName);
     }
 }

@@ -7,6 +7,9 @@ public class AudioManager : MonoBehaviour {
 
     public static AudioManager instance;
 
+    private float soundVolume = 1.0f;
+    private int musicPlaying = 0;
+
     // Use this for initialization
     void Start () {
         if (instance == null)
@@ -20,11 +23,18 @@ public class AudioManager : MonoBehaviour {
         }
 	}
 
+    public void ChangeVolume(float volume)
+    {
+        soundVolume = volume;
+        bgm[musicPlaying].volume = soundVolume;
+    }
+
     public void PlaySFX(int soundToPlay)
     {
         if (soundToPlay < sfx.Length)
         {
             sfx[soundToPlay].Play();
+            sfx[soundToPlay].volume = soundVolume;
         }
     }
 
@@ -33,10 +43,12 @@ public class AudioManager : MonoBehaviour {
         if (!bgm[musicToPlay].isPlaying)
         {
             StopMusic();
+            this.musicPlaying = musicToPlay;
 
             if (musicToPlay < bgm.Length)
             {
                 bgm[musicToPlay].Play();
+                bgm[musicToPlay].volume = soundVolume;
             }
         }
     }
