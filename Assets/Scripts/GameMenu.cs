@@ -3,6 +3,10 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Localization.Settings;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
+using System;
+using UnityEditor.PackageManager.UI;
+using UnityEditor;
 
 public class GameMenu : MonoBehaviour {
 
@@ -200,12 +204,12 @@ public class GameMenu : MonoBehaviour {
 
         if(activeItem.isItem)
         {
-            useButtonText.text = "Use";
+            useButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_USE_BUTTON");
         }
 
         if(activeItem.isWeapon || activeItem.isArmour)
         {
-            useButtonText.text = "Equip";
+            useButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_EQUIP_BUTTON");
         }
 
         itemName.text = activeItem.itemName;

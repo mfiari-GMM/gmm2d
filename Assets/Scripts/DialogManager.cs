@@ -118,7 +118,7 @@ public class DialogManager : MonoBehaviour {
 
 	}
 
-    public void ShowDialog(string[] newLines, bool isPerson)
+    public void ShowDialog(string[] newLines, bool isPerson, bool isAuto)
     {
         dialogLines = newLines;
 
@@ -129,7 +129,7 @@ public class DialogManager : MonoBehaviour {
         dialogText.text = dialogLines[currentLine];
         dialogBox.SetActive(true);
 
-        justStarted = true;
+        justStarted = !isAuto;
 
         nameBox.SetActive(isPerson);
 

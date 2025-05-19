@@ -28,7 +28,7 @@ public class PickupItem : MonoBehaviour {
             }
 
             string[] dialog = { LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "ITEM_GET") + itemName };
-            DialogManager.instance.ShowDialog(dialog, false);
+            DialogManager.instance.ShowDialog(dialog, false, false);
             
         }
 	}
