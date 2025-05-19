@@ -3,10 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Localization.Settings;
-using static UnityEngine.UIElements.UxmlAttributeDescription;
 using System;
-using UnityEditor.PackageManager.UI;
-using UnityEditor;
 
 public class GameMenu : MonoBehaviour {
 
