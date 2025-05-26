@@ -222,13 +222,13 @@ public class GameManager : MonoBehaviour {
             if (playerStats[i].equippedWpn != null)
             {
                 PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_WpnPwr", playerStats[i].equippedWpn.weaponStrength);
-                PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedWpn", playerStats[i].equippedWpn.itemName);
+                PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedWpn", playerStats[i].equippedWpn.itemCode);
             }
             
             if (playerStats[i].equippedArmr != null)
             {
                 PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_ArmrPwr", playerStats[i].equippedArmr.armorStrength);
-                PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedArmr", playerStats[i].equippedArmr.itemName);
+                PlayerPrefs.SetString("Player_" + playerStats[i].charName + "_EquippedArmr", playerStats[i].equippedArmr.itemCode);
             }
         }
 
