@@ -100,7 +100,8 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: baton
+  itemCode: BATTLE_STAFF
+  itemName: baton de combat
   description: baton
   value: 100
   itemSprite: {fileID: -1555301365, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
@@ -109,6 +110,7 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 30
   armorStrength: 0
   weaponMagie: 15

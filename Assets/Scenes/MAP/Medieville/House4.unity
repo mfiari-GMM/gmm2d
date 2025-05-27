@@ -458,7 +458,7 @@ MonoBehaviour:
   - {fileID: 1990026519}
   - {fileID: 1469730848}
   - {fileID: 418273755}
-  questToCheck: encouter alexis
+  questToCheck: metamorph5
   activeIfComplete: 1
 --- !u!114 &219873462
 MonoBehaviour:
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 858185676}
-  questToCheck: encouter alexis
+  questToCheck: metamorph5
   activeIfComplete: 0
 --- !u!114 &219873463
 MonoBehaviour:
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 418273755}
-  questToCheck: metamorph
+  questToCheck: metamorph6
   activeIfComplete: 0
 --- !u!114 &219873464
 MonoBehaviour:
@@ -847,7 +847,7 @@ MonoBehaviour:
   - Je crains le pire. Marco va voir ce qu'il se passe.
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: metamorph
+  questToMark: metamorph6
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1

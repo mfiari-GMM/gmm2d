@@ -270,8 +270,16 @@ public class GameManager : MonoBehaviour {
                 playerStats[i].magie = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Magie");
                 playerStats[i].resistance = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Resistance");
 
-                playerStats[i].equippedWpn = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedWpn"));
-                playerStats[i].equippedArmr = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedArmr"));
+                Item weapon = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedWpn"));
+                if (weapon != null)
+                {
+                    playerStats[i].equippedWpn = weapon;
+                }
+                Item armor = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedArmr"));
+                if (weapon != null)
+                {
+                    playerStats[i].equippedArmr = armor;
+                }
             }
         }
 

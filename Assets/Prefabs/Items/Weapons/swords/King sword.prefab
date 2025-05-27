@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212797731134643688}
   - component: {fileID: 114126653972101484}
   m_Layer: 0
-  m_Name: Ice Sword
+  m_Name: King sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,8 +100,9 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: Epee de fer
-  description: epee coupante et facile a manier
+  itemCode: KING_SWORD
+  itemName: "Ep\xE9e du roi"
+  description: "Ep\xE9e appartenant au roi de "
   value: 200
   itemSprite: {fileID: -521806459, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 0
@@ -109,7 +110,7 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
-  weaponStrength: 10
+  weaponStrength: 30
   armorStrength: 0
-  weaponMagie: 0
+  weaponMagie: 30
   armorResistance: 0

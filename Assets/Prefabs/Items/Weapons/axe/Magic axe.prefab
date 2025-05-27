@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212797731134643688}
   - component: {fileID: 114126653972101484}
   m_Layer: 0
-  m_Name: Iron axe 2
+  m_Name: Magic axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,8 +100,9 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: Hache de fer
-  description: hache coupante et facile a manier.
+  itemCode: MAGIC_AXE
+  itemName: Hache magique
+  description: Hache magique, utilise la puissance magique.
   value: 250
   itemSprite: {fileID: -841050919, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 0
@@ -109,6 +110,7 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 1
   weaponStrength: 15
   armorStrength: 0
   weaponMagie: 0

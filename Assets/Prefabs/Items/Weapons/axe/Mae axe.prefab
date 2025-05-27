@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212797731134643688}
   - component: {fileID: 114126653972101484}
   m_Layer: 0
-  m_Name: Hellfire
+  m_Name: Mae axe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: -521806459, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  m_Sprite: {fileID: -841050919, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,16 +100,18 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: Hellfire
-  description: epee coupante et facile a manier
-  value: 200
-  itemSprite: {fileID: -521806459, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemCode: MAE_AXE
+  itemName: Hache de Mae
+  description: "Hache de Mae, poss\xE8de des pouvoirs"
+  value: 250
+  itemSprite: {fileID: -841050919, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
   resurrect: 0
-  weaponStrength: 30
+  isMagic: 0
+  weaponStrength: 15
   armorStrength: 0
-  weaponMagie: 30
+  weaponMagie: 0
   armorResistance: 0

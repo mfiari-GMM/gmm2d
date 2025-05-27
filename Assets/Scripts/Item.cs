@@ -18,6 +18,7 @@ public class Item : MonoBehaviour {
     public bool affectHP, affectMP, affectStr, resurrect;
 
     [Header("Weapon/Armor Details")]
+    public bool isMagic;
     public int weaponStrength;
     public int armorStrength;
     public int weaponMagie;

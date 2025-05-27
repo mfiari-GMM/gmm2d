@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212249034564438036}
   - component: {fileID: 114143543785605942}
   m_Layer: 0
-  m_Name: holy baton
+  m_Name: baton de pepe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,7 +100,8 @@ MonoBehaviour:
   isItem: 0
   isWeapon: 1
   isArmour: 0
-  itemName: baton
+  itemCode: PEPE_STAFF
+  itemName: baton de pepe
   description: baton
   value: 100
   itemSprite: {fileID: -1555301365, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
@@ -109,7 +110,8 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
-  weaponStrength: 35
+  isMagic: 1
+  weaponStrength: 10
   armorStrength: 0
-  weaponMagie: 45
+  weaponMagie: 35
   armorResistance: 0
