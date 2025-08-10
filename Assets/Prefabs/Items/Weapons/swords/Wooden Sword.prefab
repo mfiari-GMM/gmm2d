@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: -1980618505, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  m_Sprite: {fileID: -489622140, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,12 +104,13 @@ MonoBehaviour:
   itemName: Epee en bois
   description: Epee d'entrainement en bois.
   value: 80
-  itemSprite: {fileID: -1980618505, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemSprite: {fileID: -489622140, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 4
   armorStrength: 0
   weaponMagie: 0

@@ -52,6 +52,8 @@ public class QuestManager : MonoBehaviour {
         UpdateLocalQuestObjects();
 
         UpdateLocalQuestObject(questToMark);
+
+        SteamGameManager.instance.UnlockAchievement(questToMark);
     }
 
     public void MarkQuestIncomplete(string questToMark)

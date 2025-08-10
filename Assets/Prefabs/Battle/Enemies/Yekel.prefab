@@ -119,7 +119,7 @@ MonoBehaviour:
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: -1334668131, guid: dc3b9f28d2ba2814a90ef33d06514d49, type: 3}
   fadeSpeed: 1
-  weaknesses: 
+  weaknesses: 00000000
   resistances: 
   transformation: {fileID: 0}
   maxTransformationTurn: 3
@@ -146,23 +146,8 @@ MonoBehaviour:
       data:
         m_Target: {fileID: 114853531176991714}
         m_TrackedProperties:
-          items:
-          - rid: 3013575060975517827
+          items: []
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 3013575060975517827
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7148466575986688
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: charName

@@ -43,9 +43,10 @@ public class CharStats : MonoBehaviour {
         }
 	}
 
-    public void AddExp(int expToAdd)
+    public int AddExp(int expToAdd)
     {
         currentEXP += expToAdd;
+        int levelWin = 0;
 
         if (playerLevel < maxLevel)
         {
@@ -54,6 +55,7 @@ public class CharStats : MonoBehaviour {
                 currentEXP -= expToNextLevel[playerLevel];
 
                 playerLevel++;
+                levelWin++;
 
                 maxHP += winHP;
                 maxMP += winMP;
@@ -68,5 +70,6 @@ public class CharStats : MonoBehaviour {
         {
             currentEXP = 0;
         }
+        return levelWin;
     }
 }

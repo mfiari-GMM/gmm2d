@@ -3,13 +3,15 @@ using UnityEngine.UI;
 using UnityEngine.Localization.Settings;
 using Random = UnityEngine.Random;
 using System;
+using System.Collections;
 
 public class BattleReward : MonoBehaviour {
 
     public static BattleReward instance;
 
     public Text xpText, moneyText, itemText;
-    public GameObject rewardScreen;
+    public GameObject rewardScreen, rewardExpScreen;
+    public MenuCharInfo[] menuCharInfos;
 
     public Item[] rewardItems;
     public int xpEarned;
@@ -61,17 +63,48 @@ public class BattleReward : MonoBehaviour {
         rewardScreen.SetActive(true);
     }
 
-    public void CloseRewardScreen()
+    public void ContinueRewardScreen ()
     {
-        int nbPlayerHasWinExp = 0;
-        for(int i = 0; i < GameManager.instance.playerStats.Length; i++)
+        rewardScreen.SetActive(false);
+        rewardExpScreen.SetActive(true);
+        StartCoroutine(DisplayRewardExp());
+    }
+
+    private IEnumerator DisplayRewardExp()
+    {
+        for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
-            if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy && GameManager.instance.playerStats[i].currentHP > 0)
+            menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
+        }
+        yield return new WaitForSeconds(2f);
+        int nbPlayerHasWinExp = 0;
+        for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
+        {
+            CharStats charStats = GameManager.instance.playerStats[i];
+            if (charStats.gameObject.activeInHierarchy && charStats.currentHP > 0)
             {
-                GameManager.instance.playerStats[i].AddExp(nbPlayerHasWinExp >= 3 ? xpEarned / 2 : xpEarned);
+                int levelWin = charStats.AddExp(nbPlayerHasWinExp >= 3 ? xpEarned / 2 : xpEarned);
                 nbPlayerHasWinExp++;
+                if (levelWin > 0)
+                {
+                    for (int j = 0; j < charStats.winMoves.Length; j++)
+                    {
+                        if (charStats.winMoves[j].level == charStats.playerLevel)
+                        {
+                            Debug.Log(charStats.winMoves[j].moveName);
+                        }
+                    }
+                }
             }
         }
+        for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
+        {
+            menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
+        }
+    }
+
+    public void CloseRewardScreen()
+    {
 
         GameManager.instance.AddMoney(moneyWin);
 
@@ -83,7 +116,7 @@ public class BattleReward : MonoBehaviour {
             }
         }
 
-        rewardScreen.SetActive(false);
+        rewardExpScreen.SetActive(false);
         GameManager.instance.battleActive = false;
 
         if(markQuestComplete)

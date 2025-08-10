@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ddf7c1ada77bbe419831ca4fc18005b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isItem: 1
+  isItem: 0
   isWeapon: 0
   isArmour: 0
   itemCode: BELLADONE
@@ -111,6 +111,7 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 0
   armorStrength: 0
   weaponMagie: 0

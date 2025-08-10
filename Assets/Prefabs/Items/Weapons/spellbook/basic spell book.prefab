@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4155484428091270}
   - component: {fileID: 212249034564438036}
   - component: {fileID: 114143543785605942}
+  - component: {fileID: 5192421861705682952}
   m_Layer: 0
   m_Name: basic spell book
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: 21300000, guid: f74b961d2421e004aba58b7abf30c6c6, type: 3}
+  m_Sprite: {fileID: -1316187890, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,13 +105,68 @@ MonoBehaviour:
   itemName: livre apprenti
   description: livre d'entrainement
   value: 100
-  itemSprite: {fileID: 21300000, guid: f74b961d2421e004aba58b7abf30c6c6, type: 3}
+  itemSprite: {fileID: -1316187890, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 2
   armorStrength: 0
   weaponMagie: 4
   armorResistance: 0
+--- !u!114 &5192421861705682952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231586786634542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 721278704506109959
+  references:
+    version: 2
+    RefIds:
+    - rid: 721278704506109959
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114143543785605942}
+        m_TrackedProperties:
+          items:
+          - rid: 721278704506109960
+          - rid: 721278704506109961
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 721278704506109960
+      type: {class: IntTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: weaponStrength
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 1
+        - localeIdentifier:
+            m_Code: en
+          value: 1
+    - rid: 721278704506109961
+      type: {class: IntTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: weaponMagie
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: fr
+          value: 3
+        - localeIdentifier:
+            m_Code: en
+          value: 3

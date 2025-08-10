@@ -21,9 +21,8 @@ public class DialogActivator : MonoBehaviour {
     void Update () {
 		if(canActivate && ((shouldAutoLaunch && !hasBeenActivated) || Input.GetButtonDown("Fire1")) && !DialogManager.instance.dialogBox.activeInHierarchy && !GameManager.instance.battleActive)
         {
-            DialogManager.instance.ShowDialog(lines, isPerson, shouldAutoLaunch);
+            DialogManager.instance.ShowDialog(lines, isPerson, shouldAutoLaunch, shouldHealPlayer);
             DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
-            DialogManager.instance.ShouldHealPlayerAtEnd(shouldHealPlayer);
             DialogManager.instance.ShouldAddPlayerAtEnd(playersToAdd);
             DialogManager.instance.ShouldRemovePlayerAtEnd(playersToRemove);
             hasBeenActivated = true;

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
   m_Layer: 0
-  m_Name: small dragon
+  m_Name: Prince
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1267757400, guid: dd61146dbe36aa6449131fb544979165, type: 3}
+  m_Sprite: {fileID: -521412202, guid: 91ca7d2730c635b4eabd5ce2b30e461c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,23 +100,27 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  charName: petit dragon
-  currentHp: 150
-  maxHP: 250
-  currentMP: 0
-  maxMP: 0
-  strength: 5
-  defence: 5
-  magie: 0
-  resistance: 0
-  wpnPower: 5
-  armrPower: 5
+  - epee enflamme
+  - tornade de feu
+  charName: Lukas
+  currentHp: 3000
+  maxHP: 3000
+  currentMP: 1000
+  maxMP: 1000
+  strength: 600
+  defence: 30
+  magie: 600
+  resistance: 30
+  wpnPower: 50
+  armrPower: 10
+  criticalRate: 10
+  dodgeRate: 10
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 1267757400, guid: dd61146dbe36aa6449131fb544979165, type: 3}
+  aliveSprite: {fileID: -521412202, guid: 91ca7d2730c635b4eabd5ce2b30e461c, type: 3}
   fadeSpeed: 1
-  weaknesses: 06000000
-  resistances: 00000000
+  weaknesses: 02000000
+  resistances: 0000000001000000
   transformation: {fileID: 0}
   maxTransformationTurn: 3

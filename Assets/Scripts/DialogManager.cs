@@ -118,7 +118,7 @@ public class DialogManager : MonoBehaviour {
 
 	}
 
-    public void ShowDialog(string[] newLines, bool isPerson, bool isAuto)
+    public void ShowDialog(string[] newLines, bool isPerson, bool isAuto, bool shoulHealPlayer)
     {
         dialogLines = newLines;
 
@@ -132,6 +132,8 @@ public class DialogManager : MonoBehaviour {
         justStarted = !isAuto;
 
         nameBox.SetActive(isPerson);
+
+        shouldHealPlayers = shoulHealPlayer;
 
         GameManager.instance.dialogActive = true;
     }
@@ -151,11 +153,6 @@ public class DialogManager : MonoBehaviour {
         markQuestComplete = markComplete;
 
         shouldMarkQuest = questName != null && questName.Length > 0;
-    }
-
-    public void ShouldHealPlayerAtEnd(bool healPlayer)
-    {
-        shouldHealPlayers = healPlayer;
     }
 
     public void ShouldAddPlayerAtEnd(string[] playersToAdd)

@@ -71,15 +71,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2508299206610944
-    m_Localized: n-Cassandre
+    m_Localized: n-Homme
     m_Metadata:
       m_Items: []
   - m_Id: 2508350255484928
-    m_Localized: Cette histoire est preocuppante.
+    m_Localized: "Certains ennemis ont des faiblesses et des r\xE9sistances."
     m_Metadata:
       m_Items: []
   - m_Id: 2508916822069248
-    m_Localized: "Je sens que quelque chose se pr\xE9pare."
+    m_Localized: Il faut prendre cela en compte lors des combats.
     m_Metadata:
       m_Items: []
   - m_Id: 2509626947096576
@@ -493,7 +493,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3899878995611648
-    m_Localized: Fermer
+    m_Localized: Continuer
     m_Metadata:
       m_Items: []
   - m_Id: 3899917964890112
@@ -942,7 +942,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7148466575986688
-    m_Localized: ???
+    m_Localized: Guepe
     m_Metadata:
       m_Items: []
   - m_Id: 7731136954044416
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7770431655972864
-    m_Localized: armure faite en cuir, pas tres solide. Ideal pour les debutants
+    m_Localized: "Armure de cuir, pas tr\xE8s solide. Id\xE9al pour les apprentis"
     m_Metadata:
       m_Items: []
   - m_Id: 7772943037435904
@@ -1418,35 +1418,36 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 8314442716221440
-    m_Localized: "Vous \xEAtes des m\xE9tamorphes ?"
+    m_Localized: ...
     m_Metadata:
       m_Items: []
   - m_Id: 8314612216434688
-    m_Localized: "Est-ce que vous \xEAtes ceux qui sont recherch\xE9 ?"
+    m_Localized: ...
     m_Metadata:
       m_Items: []
   - m_Id: 8315058456825856
-    m_Localized: n-???
+    m_Localized: "Vous \xEAtes des m\xE9tamorphes ?"
     m_Metadata:
       m_Items: []
   - m_Id: 8315126974976000
-    m_Localized: Je ...
+    m_Localized: ...
     m_Metadata:
       m_Items: []
   - m_Id: 8315165973614592
-    m_Localized: "Mon grand-pere est gu\xE9risseur, il pourra soigner vos blessure."
+    m_Localized: n-???
     m_Metadata:
       m_Items: []
   - m_Id: 8421975430729728
-    m_Localized: 
+    m_Localized: Je ... Non !
     m_Metadata:
       m_Items: []
   - m_Id: 8422771702566912
-    m_Localized: 
+    m_Localized: n-???
     m_Metadata:
       m_Items: []
   - m_Id: 8423128008691712
-    m_Localized: 
+    m_Localized: Nous devons continuer notre chemin, nous ne pouvons pas abandonner
+      ici.
     m_Metadata:
       m_Items: []
   - m_Id: 8423577025712128
@@ -2099,8 +2100,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 28990374355341312
-    m_Localized: "D\xE9sol\xE9, je ne souhaite pas vous bl\xE9sser, mais je ne peux
-      pas abandonner ici."
+    m_Localized: n-???
     m_Metadata:
       m_Items: []
   - m_Id: 28990834608902144
@@ -2173,6 +2173,50 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 28993859163459584
     m_Localized: "\xE7a suffit ! Vous allez tous venir avec moi. Maintenant !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52457446800297984
+    m_Localized: n-Vendeur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52457503037526016
+    m_Localized: "La boutique est ferm\xE9 pour le moment. Revenez plus tard."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52468136969703424
+    m_Localized: Fermer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56442295802335232
+    m_Localized: n-Marco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56442295919775744
+    m_Localized: Attention, vous allez tomber. Laisser moi vous aider.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56442517253197824
+    m_Localized: n-Marco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56442517274169344
+    m_Localized: n-Marco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56443380176719872
+    m_Localized: "Etes vous ceux qui sont recherch\xE9s ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56443819072884736
+    m_Localized: "Ne vous inqui\xE9tez pas, nous voulons juste vous aidez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56444095045505024
+    m_Localized: "D\xE9sol\xE9, mais je ne peux pas vous faire confiance."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56444966332469248
+    m_Localized: Laissez nous passer !
     m_Metadata:
       m_Items: []
   references:
