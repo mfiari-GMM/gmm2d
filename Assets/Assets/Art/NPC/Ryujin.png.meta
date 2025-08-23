@@ -1,0 +1,7910 @@
+fileFormatVersion: 2
+guid: a9afc6f3f96600b4582df1250db12d0f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ryujin_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3394
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df8e3bbe84e0304bb092d99d162f23b
+      internalID: 1622860117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3394
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a28ed0db6e1643a635f023f0575f0
+      internalID: -1077294164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3394
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c5d580fa95b4b45aa47f6b4d9c9551
+      internalID: 1342669520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3394
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34bab1445e2f6846b15a6ce6e624934
+      internalID: 1108907920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3394
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11286d8fc335054285970a4052e967b
+      internalID: -631551121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3394
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed901376282e6444b521c3082086ec3
+      internalID: -1246099694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3394
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3ad7a2f5422954a898728fd3dcd3fe
+      internalID: 1994465874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3330
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17654f1ed94d1f048be76739d787821c
+      internalID: 1555819205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 3330
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8809c72c724396e469d8a41622ea339a
+      internalID: -839958733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 3330
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869f280cf64c4b046b588baea9b6c6df
+      internalID: 1211309939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3330
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5fc0f00a6c1ac48943cefb10bab9fa
+      internalID: -561839466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3330
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87373ccc8a927ab46b3d5d2fc96c5a56
+      internalID: -828822254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3330
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0ce8e73d308114baa14efd223d9eeb
+      internalID: -323932670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3330
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf18a0fe981f7e849847578f3d7e6799
+      internalID: -656110824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3266
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5429e7db01e1c458267b18ec045973
+      internalID: -1251690374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3266
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7644f553cd171408600dfb129bba07
+      internalID: -1137956014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_16
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3266
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9e8d72a91644b409cbfa57387c5687
+      internalID: -241322324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3266
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca486334656c749819bed5a97100a9
+      internalID: 987327749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3266
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9775be6f95c8b4541b45741f1443ed77
+      internalID: -1506952808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3266
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3baae3e0a225ad478ce77336b42eef9
+      internalID: -1484270647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3266
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58523e8a9a030df42a47cb3b30b35e1a
+      internalID: -1765449375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3202
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f8820eb37b5641ab7ed89a84d20b1
+      internalID: -1029256434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3202
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02f1814d4b28c4993d4aeb1103a694
+      internalID: 445583621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_23
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3202
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27757d40cd28b9e4697f6a7edbd91649
+      internalID: 2117287765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3202
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6e2b4aa1be895499fe3f930f042461
+      internalID: -32960860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_25
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3202
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a4110519771cb46b379cb53e2460be
+      internalID: -43616190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3202
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86983989f7cbc674ca7721947ab4a544
+      internalID: 732081564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3202
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ced092c78a08c46b837da6e534238b
+      internalID: -1986051041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3138
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39aaaf89beb81a41baf8d8e783200dd
+      internalID: 1496892477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3136
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d393a687456dd40b2f54c73caa32a1
+      internalID: 1290668985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3136
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e97f2be18d2754e87c3ddcbfc855f6
+      internalID: -1162179484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3136
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac031b185c70e44c976f11162e9776e
+      internalID: -1370914941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_32
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3136
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fedb0d9e0ca92948a32d74e38c021bf
+      internalID: 1418531356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_33
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3136
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1faaa0bd0af76e4b95dd36d4cbff086
+      internalID: -629585225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3136
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5ff7484dfa52e48ab0dc5ed90f6888
+      internalID: -1431414495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_35
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3136
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8a7ce02d717cf4097e188dcfca7622
+      internalID: -154109464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 3074
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b266c939b715eb24198cb8a2d1a9523f
+      internalID: -1577515316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_37
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3074
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8460757cf53df40808e586c842f506
+      internalID: -714485767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_38
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3074
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf42cbf08d71a045b5c192539a134a8
+      internalID: 149924259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_39
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3074
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a062fb537404e94fbc33f7dadf27e64
+      internalID: -1943974773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3074
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312abaf335423c849a05ecfa15e22f22
+      internalID: -1073993336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3074
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c7699a9f1805438b83ed219b74812
+      internalID: -1279660832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3074
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb1da619e72a9844b3930dce4440285
+      internalID: -1054153834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3074
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da3abb507795ea4aa0e46b0514b8225
+      internalID: 111639818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3010
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b263bb6215754f9168a4b5288bf39
+      internalID: 1124138980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_45
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3011
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583680eef52d1a945a9ca7430a4d9b0e
+      internalID: -1385913625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_46
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 3011
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ef5dbd334c6e46aa4c2d37e2214b7
+      internalID: -1504136451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_47
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3011
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc758aa22b5e1ef498361ee5f0e3313c
+      internalID: 1264600977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_48
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3011
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790ce15153a91c6499a1d5196af24cb3
+      internalID: 1964690357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3011
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f86f30fe07d94b9a8819b0c337c49
+      internalID: -1380588701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_50
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3011
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a4929b9102d784aa9d0ee2b21847a9
+      internalID: 2046874989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_51
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 3011
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ef45512a2206447aa60c2b9e2018b7
+      internalID: -1508162317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_52
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2946
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29943644de4f204ab8a4d0646d4cd2d
+      internalID: -953089405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_53
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2946
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6c3972364d44b4dabd4752652901d6
+      internalID: 1050882568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_54
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2946
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8238c9f16a6b1a4cb1df776aeef73fb
+      internalID: -1213900216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_55
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2946
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e05335900a2864983085c07e210bf8
+      internalID: -1610726814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_56
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2946
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5095906d6214df44285bcd7824ba31f7
+      internalID: -299369561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_57
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2946
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff0d99c7c02864aaedef5fea5ae23d
+      internalID: 16571662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_58
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2946
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b706e93bc57369a44950a70f930f1d5f
+      internalID: 1604412366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_59
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2946
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117b0a04cf9efd9479f142372f228459
+      internalID: 1354070272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_60
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2883
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b6c7bb7b1a0b84a9a3209ce23621f6
+      internalID: 1370080249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_61
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2883
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7b342e0feb0346991352b417c31f5
+      internalID: 512634163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_62
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2882
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a9e94851c1c614fb6320800d73c443
+      internalID: -1568943047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_63
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2881
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf17f7e1e2844f04eafbdf3360872749
+      internalID: -1418180655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_64
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2882
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6c4de63a739994eb10ab0ac53732e7
+      internalID: 1648008567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2883
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75abb20ccd9d14198dc376ab2a18ac
+      internalID: -1668915965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_66
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2882
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436c888d64ce84046b54b8a6f3c1ad5b
+      internalID: -860350109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_67
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2881
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e38d5400dffb1f4080b330e2356245b
+      internalID: -1683872367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_68
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2882
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af55b8aa69b726f4c8ec7f0bfc71cba8
+      internalID: 8739767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_69
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2818
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa689f05f877834bbca23ef2b27cdaa
+      internalID: 26862531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_70
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2818
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dff3c6c78adc9841ad58ff9a13174d0
+      internalID: -499909224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2819
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6a2cd1b0673b444bb63d966dfd3f81
+      internalID: 2020428195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_72
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2819
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a377981ed8a335d41a9bc8908461f3cf
+      internalID: 2048000098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2818
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf816fcb04317b49b1e0680633eb180
+      internalID: 428506771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_74
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2818
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204e3eb2dc8b443469251760e29b68db
+      internalID: 1696742263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_75
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 2818
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3f83ab0c3500345985d35411c1b1ba
+      internalID: 1046171267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_76
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2818
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c52a967ac8c684185dad5fda65e8cf
+      internalID: -1818669008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_77
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 2818
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b55be57aee3358488d0b3a34c7169f3
+      internalID: -917713681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_78
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2754
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0979d875bb59fcc41bd3b833d8e0ea51
+      internalID: -1375126325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_79
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2754
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0390e0b3b164b304eb3d9be6bb5b7bea
+      internalID: -1589872858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_80
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2753
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5afeb6a25d5f94191294cc361e1859
+      internalID: 545669868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_81
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2753
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e27c17eed0f314c97191ea56963622
+      internalID: 755760381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_82
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2753
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb225216198b7dc4cb3a81fe56dae35a
+      internalID: -1831424924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2754
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc95a79e3982dd4c8d45be2d6f4c49d
+      internalID: 701792024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_84
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2753
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c588000546386004cac7ae4dee02af54
+      internalID: -1097086118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_85
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2753
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbf64a59b8f3e545b9fd403f64c639b
+      internalID: -195012458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_86
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2753
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e453c4d850b3a4ebe7f5ff7747c147
+      internalID: -1207515759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_87
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2690
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d8ae3648383da45bfe06b1bfe5c0b0
+      internalID: 1843458480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2690
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92bb05cb402812499530c0e7b1c47d7
+      internalID: 542045402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_89
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2691
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a142fd53c5e84b8c657307337fd86
+      internalID: -578342011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_90
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2691
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb29bbfe7dca5459369a5805fb7851
+      internalID: 1846049743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_91
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2690
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503100e7139f85245804bb32b5f49702
+      internalID: 778015978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_92
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2690
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2070442ff2d7efb4a9e3fa3443f39c2d
+      internalID: 1664006939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_93
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2690
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bc2428d5f45164da64fe6d0f080a4a
+      internalID: 371200425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_94
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2690
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8a110b8b604f54ebaa1cdb4c53d24e
+      internalID: -273780529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_95
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2690
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a644fc866228e4ab5a6c6f24dda840
+      internalID: -537141837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_96
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2626
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98612e424bc47ba48af3809feff5907c
+      internalID: 1420895967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_97
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2625
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cfa6eac33dba04d827192e30eab3e0
+      internalID: 35986285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_98
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2625
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e802fc164224f5e4281363c74f52d058
+      internalID: 371160252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_99
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2625
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f487bd49a124e4c9f83b4a0c9da17c
+      internalID: -1846202917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_100
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2625
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3ecd2fa1b2cb74eb9cd5839f036593
+      internalID: 1158391030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_101
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2625
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15eb88aa6f1435741a4f8147249dfd0e
+      internalID: -947011916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_102
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2562
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100f694cdc39bd419b21fcf4f81cd83
+      internalID: 1464607152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_103
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2562
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8767cfe6e503b8478ae0abacb3ce8e7
+      internalID: -641327342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_104
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2562
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf745b481bd4624293c88528b97f476
+      internalID: -648511994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2562
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3599e4fa113c708498667d2189f8f313
+      internalID: 1296725155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_106
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2562
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1fefea459f79648802f2eda907300e
+      internalID: -1094980355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2562
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf1000da23376f4195ef2e33df6380b
+      internalID: 1835277702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_108
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2498
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4524a7b69e88e4191f0d0b270fe439
+      internalID: 1170031852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_109
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2498
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bea6bcad0d938844a35a186802b0401
+      internalID: -1337695830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_110
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2498
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d41a7a46f3d754396ee46c9fd732aa
+      internalID: -720109917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_111
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2498
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb4096fcded6e4eb0fa084a6e5b09e
+      internalID: 1229188173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_112
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 2498
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1f07452d45f5a44b3cf0ed90035e0c
+      internalID: 2120203751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_113
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2498
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27f0d89076681741b776ab4dcc8fd73
+      internalID: 1898251831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_114
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2434
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f40037c3f508c4e8f5b2927d0a2c58
+      internalID: 770829397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2434
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed4a924285d37e42a08269d64b146c8
+      internalID: 1707278057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_116
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2434
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba7909be71916e4daa8400ab8c3cd03
+      internalID: -1045427756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_117
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2434
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b284a4c609c04054096483de5ba7d10d
+      internalID: -1772482062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2434
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251281d70829da8439c47bc19cd2573f
+      internalID: -1409575628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_119
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2434
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc601c87b32fa44898e6eb69af39b2
+      internalID: 564660807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_120
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2370
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98d32c6a8be465499d25163a154d096
+      internalID: -1874391828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_121
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2368
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26740fae78a8331429331e37c8042603
+      internalID: 1773622979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_122
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2368
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765ae19601ca77941b79af8aabca07ed
+      internalID: -760335428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_123
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2368
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52286d00118c7aa46842a7409a94a0ca
+      internalID: -1826713065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_124
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2368
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20979ecaea45d0428314840a10b999e
+      internalID: -878234725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_125
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2368
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc2b0d882ff6b48a938823aea83e2f
+      internalID: 1784674797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_126
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 2368
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194f72806e93af845adb9d409625d014
+      internalID: -885156485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_127
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 2368
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404872073e4b624cb15d8a112bc6242
+      internalID: -1323355373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_128
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2368
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aa6419149e6174c97d9a61749eb8ed
+      internalID: 1413032585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_129
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2368
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1116d8dd0c677df4dbc8b2d9a3d3e6c4
+      internalID: 2105607886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_130
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2368
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7307520266f820046947ea72477b9649
+      internalID: 1585782055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_131
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2368
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433b65241a7ba454f9b6a380e13e153a
+      internalID: -233947432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_132
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2368
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c897474600faf74eb0b85e1ec7b8af5
+      internalID: 24728490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_133
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2306
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd2d0fa34bcbe4d95d8c39d50b2fb0
+      internalID: 859937339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_134
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2306
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d011a070c83ca24e9dfad555a34740f
+      internalID: 985751874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_135
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2306
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a46b50a5abe1046bb8eab508efca2d
+      internalID: -768974746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_136
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0d018ff91b0104bb322e86ff5e9efa
+      internalID: 210876725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6037ea98e1a5a58478ae3279687aabcd
+      internalID: 200423853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_138
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2306
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdaa8d647d488f4694bd5081be92b9e
+      internalID: -1947258179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2306
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a31e79b80892b4382d5e97ebf8459d
+      internalID: 2114284674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_140
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5f668d35d2381439ddc0fb366b36b2
+      internalID: -2124247081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_141
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612d272499636841a1b85f7a2cacf48
+      internalID: -104516609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_142
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069f712e899767643b681ee7437499d0
+      internalID: 43422235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_143
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f71267031fd9646abb12484286dcb0
+      internalID: -567753593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_144
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fd652c8d7cee9489facc892be5461d
+      internalID: 1887014613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_145
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2306
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403f5b42d1582614a9f8512d11bde9b2
+      internalID: -978439086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_146
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2242
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91674fc3cc352d843811a343d97fe2a2
+      internalID: -521216925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_147
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2243
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ca3f814ee0794dab62ec597f9e683
+      internalID: -1595486450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_148
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2243
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2214345828f2c804c80df4b33452881c
+      internalID: 635497223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_149
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2242
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396d7f0d22c081b499d74f90e7a1608c
+      internalID: -2093074858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_150
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2242
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23874eba5ebcada42b42b0a646003e01
+      internalID: -2119938375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_151
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2242
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e18ed02c8d6ad246994d786ddb5b495
+      internalID: 849089803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_152
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2242
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67678dc9e8e39fe4dbb144e69cdb72cb
+      internalID: 1340114400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_153
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2242
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb854763b1e99444b39b37e8974a26a
+      internalID: 2074466304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_154
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2242
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69494a613ae2b439fe0d53c5d50634
+      internalID: 1839218504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_155
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 2242
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2aca5dcb6e0d44982d5f0e9beb40e9
+      internalID: -1590896791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_156
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2242
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ddf2e96b713514b84dafa964169c29
+      internalID: -660252782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_157
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 2242
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f93ede6dafea4bba9b57038b0fa78
+      internalID: 941892852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_158
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2242
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d36363a3092fde47a54a3adb92f74ac
+      internalID: 1831491384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_159
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2178
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7fc6b42ce388a4fbcd312522bd4972
+      internalID: -519538811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_160
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2178
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a020d83989ba1de45b4a08f4a7df5f9f
+      internalID: 2125228353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_161
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2178
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba014858699294c8d83250d77fb70e
+      internalID: -1235966267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_162
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaa448b8466f0d43afa64471aca7bf7
+      internalID: 626470397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_163
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b2d15178117a4d925b4860c0163f6
+      internalID: -808448918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_164
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2178
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702afcf5dfa81394b8ec48f6045a441d
+      internalID: 1721149409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_165
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2178
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990bac8c96ad684d875f8e1d6fc75d7
+      internalID: -1165600541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_166
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b98487c69e4147469e10cd72797999f
+      internalID: 1284066391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65eac216a5ed8604db0183aa55663e08
+      internalID: -493561568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_168
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8ee63843b20b94a9b948288fd35366
+      internalID: 356425255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_169
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba795011bf9a1b44e832708c8ecba06d
+      internalID: 4870186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_170
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a61e722a36118c40b5168f795ac8625
+      internalID: -745034740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_171
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2178
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1880d676145d1d749a3f27be27a4bb11
+      internalID: 352459779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_172
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2114
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff70ed93ba2294f96ae1a530d6e220
+      internalID: 2026027610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_173
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2114
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3047ee535f0134087070f8f3480158
+      internalID: -539239424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_174
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2114
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84410073a32c44d46a961ccfd0ed2f09
+      internalID: -1982258095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_175
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2115
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a384110f2d32144ab26d96aaf331fee
+      internalID: 1300806566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_176
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2115
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94cd85954cf6284b8e1c8615e08afdc
+      internalID: 422721120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_177
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2113
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3459cd7de3e5844b4524126537e74d
+      internalID: -1340921271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_178
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2051
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a710cd5ddfdcf1a429c0037fa9faefab
+      internalID: 95264583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_179
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2050
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc0781e133d31946b44dbfba9cde00a
+      internalID: -1587420754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_180
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2054
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96549317420c8694bb46ab1572f06679
+      internalID: 1073073769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_181
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2051
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760b70f817ac81248888f509c68a09ac
+      internalID: -431428818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_182
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2050
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c448bf816bdf0b24d9dfed5330bdc32a
+      internalID: 818628464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_183
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 2054
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54b8a158a961614d8c33cba2d276ab8
+      internalID: 1726639576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_184
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1986
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6314ed9bec0cde4e933c80b49cdcca0
+      internalID: 1358533883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_185
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1986
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6760153b78da4ba318d7d76cb3125
+      internalID: 1554119331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_186
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1922
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd60bdc33122044b710c36e28fa9e6
+      internalID: 97822214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_187
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1922
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8a6d37bdd5cab4a83dbf77c016de6c
+      internalID: 244591319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_188
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1858
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5017f295e7a11e468ba9a1cb242d80e
+      internalID: 1026085634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_189
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1858
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc191706b26d4d4792c3fe7e3e3ba7b
+      internalID: -1003063317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_190
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1794
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6141a6755ee45a04ea2b9f0b2979beab
+      internalID: -681360305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_191
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1794
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed1eb141fbb19e4aa9113160b680c66
+      internalID: 667084735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_192
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1730
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafde7c3c490ecb4ba326a65a6487597
+      internalID: -1459146637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_193
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1730
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2164efbffc06c47ae469a12623b274
+      internalID: -1521657487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_194
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1731
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f15c794652ac34b9d282bc7989a572
+      internalID: 284282885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_195
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1738
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2ccb865c8d1c148b408d9104e6d023
+      internalID: -1513038810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_196
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1734
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b8c7b3032fcc84c8a4399a32b0e4b2
+      internalID: 1140767519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_197
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1666
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469cccff97d22fe4f9c008ec6ce12e43
+      internalID: 1148125272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_198
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1666
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22257c0ecf23b5642bf7c44ddb3f4677
+      internalID: -2002355279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_199
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1668
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a640d57f4a214aa409a425bf37fea7c3
+      internalID: 273368949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_200
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1669
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6317ccbdc544b014fbcdacdb72be605b
+      internalID: -703726426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_201
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1666
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50d019afbce4fa43976801f2491a3f5
+      internalID: 437364437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_202
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1602
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683015951ea0bde4e85956483b1a1368
+      internalID: 1781766074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_203
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1602
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e767eb96d3bb1414c94b5bc8adf4f091
+      internalID: -1074620931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_204
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1604
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9192a6f4d13e14db53e67b64318cfb
+      internalID: 156251572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_205
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1608
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077efeeafa9bed48a2a9305a7a87f89
+      internalID: -1728303087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_206
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1605
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123b5e3d48cd7bb41a843ed5ae6a8628
+      internalID: -1967704626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_207
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1538
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ab0fea2f39834380eb20a6f62b268
+      internalID: -1309246377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_208
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1538
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479ba4e435b3ac44683352ab853a8401
+      internalID: 66139953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_209
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1540
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fae813cdd54804797d40dcb45667d3
+      internalID: -1736498271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_210
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1541
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca66b30210c324ea9d8d4f262c3b29
+      internalID: 2029684450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_211
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1538
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29adb858532646348b2be709cae3357e
+      internalID: -1488736829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_212
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1473
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f907c53fd1602d64483dd5084ab4f517
+      internalID: -1925333842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_213
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1473
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1179e5a5c46e553449cfb0ad12a67493
+      internalID: -1710531948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_214
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1481
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a708a1f72e6dc3943ab2dc2a26485150
+      internalID: 528721269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_215
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1410
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69bc5cd5f95462428a4c37f10e99f21
+      internalID: -1343341558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_216
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1410
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416256e68d6324947884cb9f90f53593
+      internalID: -76830170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_217
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1412
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea141236786ba4ab6ec8a1606d1f1b
+      internalID: 2042826436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_218
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1346
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a88427f0431134ca879a04c190759b
+      internalID: 1213360327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_219
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1346
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a934b13dc396d458915d3273a48cb7
+      internalID: -1257883351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_220
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1346
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437eaa7e2d421e64dba9336819fe222b
+      internalID: 302735734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_221
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1281
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec67843435913594690206358eb385ed
+      internalID: -915246109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_222
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1282
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c644b76dc1f373f459395a32045951ee
+      internalID: -2072944335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_223
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1284
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f924c94ec3ad8c94c870697e19abc103
+      internalID: 1600072242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_224
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1218
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e87881e6e17849a81c7769b441b6d
+      internalID: -548477483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_225
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1218
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5e72e488429814bbad1271e4364877
+      internalID: 54877580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_226
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1218
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bebc057eea809498a00cac5b280aac
+      internalID: -480472988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_227
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1154
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe39cfdcf09dd4bad6a21c3e51dffb
+      internalID: 2011292514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_228
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1154
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098bc66f2b40334898695a6a3268093
+      internalID: -4529533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_229
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1154
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ac3136eee0ae446bec21a4e3e89f81
+      internalID: -1955725888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_230
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1090
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ae67e01ad45d848969fdb60585d066
+      internalID: -288200386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_231
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1090
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e575b47e71250e499f85a9ad90db243
+      internalID: -1099504606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_232
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1090
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6009bbf86fccb684faf5cbfab018ab4b
+      internalID: -1750385408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_233
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1026
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae198ed7ba5ca3547a90c1233f44acc9
+      internalID: 1805367449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_234
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1026
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4807acee287de41a8f0f02a09a7096
+      internalID: -1205249877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_235
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1026
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb622675b9e8cd4d8eb2923b2d323ff
+      internalID: 2126809341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_236
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 963
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d9cae10bcad84a87dbe52b5ba26a1
+      internalID: 739656916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_237
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 960
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d0a2deafc450b489620669ed525156
+      internalID: 1602835271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_238
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 960
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2a2e2c7a1520c40be4d093aabdd782
+      internalID: -448298738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_239
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 960
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61f258027dafe04294b02bdc3195f9b
+      internalID: 1692207487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_240
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 963
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5d7298e22af1a4caf732417ff1732f
+      internalID: -1494618460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_241
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 960
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dadfa6462e0994fb696ebcf1eea509
+      internalID: -202739561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_242
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 960
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6159b786ad824224f9a9732f31fa02c5
+      internalID: 202409724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_243
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 960
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb91c75f6e4dfdb4bb8de9521aa363ab
+      internalID: -973684322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_244
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 898
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0e67e6f6edb0044be7c77314c07219
+      internalID: 1298576015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_245
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 897
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39486bf5e65eab94b850e9f05fd6c8a7
+      internalID: 1703486595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_246
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 897
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f286c6b87c76d46b7172f095874108
+      internalID: -488126270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_247
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 901
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9c7eae2a31ebf4885d8209921122a4
+      internalID: 1627055646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_248
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 898
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e1b22c74ce9b41bef6a6564a3908f
+      internalID: 609932401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_249
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 897
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136aedd0974ffbf4fa561caa08ed5e17
+      internalID: 1971119967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_250
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 897
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a112a171061baa449e40e0f050c6bc2
+      internalID: 1998500440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_251
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 899
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f601c1253c20443a46c28801f825a1
+      internalID: -230621054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_252
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 832
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0956fcaff205aa74db3a88af82476e17
+      internalID: -1626408994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_253
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 832
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf57b97a35a0b4c4d958a4cb537e00b5
+      internalID: 341392856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_254
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 833
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b6f94024c60b844a7d6ac5209b02e5
+      internalID: -1775155609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_255
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 836
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1758f58f2dba5ff48a30ef41f73a173e
+      internalID: 485480560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_256
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 832
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70348a2a4886aed4ba9b56fc65586f71
+      internalID: -1668257586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_257
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 832
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb1961f18f2a8149b12fd5454b092d6
+      internalID: 613102803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_258
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 833
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0cba6b613c21b4aaf8820b4833b45b
+      internalID: 1161702426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_259
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 836
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f6161ca999cd4ba62e56e24b170db
+      internalID: -1878499083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_260
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 770
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7720906e791b47d46864241c41f9d1e5
+      internalID: 1083920886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_261
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 769
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0cbcf967f19694bb4fbcd0d86ad309
+      internalID: -433231254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_262
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 769
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6231136e300b54b93eaeb3e87c04dd
+      internalID: 2024307605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_263
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 773
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3e63d49678436408270a11a2de28e8
+      internalID: 869854411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_264
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 770
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc456787895e0884c888d9c487e1092f
+      internalID: 1268364995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_265
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 769
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d767c3d4754388846a9849b546fe47a9
+      internalID: -595413452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_266
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 769
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c532b03e0e29eb429759ea2f595de99
+      internalID: 583539915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_267
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 771
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc88a003bdf3734aab210ea3ffc60ad
+      internalID: 1687240653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_268
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 706
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b52dbeb66ff9c4797649cdb34e39d3
+      internalID: -1374927451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_269
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 706
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c875b45b0e5494db249cd039727876
+      internalID: 161443645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_270
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 642
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a3b30e1cc6bc4ab8bac271b81cff6
+      internalID: -832206340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_271
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 642
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a0413ebdfa5049bf7a85781042a32
+      internalID: -121678834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_272
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 577
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef3ec99dc474f4e870ba7f79746a4e
+      internalID: -1824696937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_273
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 577
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5eaf073eab0294fb99fe5834349c49
+      internalID: -1494296432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_274
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 514
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d2f09dd7951149abb44c35ce5e997
+      internalID: 677207028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_275
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 514
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2bef37448be4409e8fce7fc10b196
+      internalID: -946190785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_276
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 449
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780685043268ae4c8c1fecccf682e99
+      internalID: -1319154164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_277
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 450
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f273111f94a0424cb407abfb539178b
+      internalID: -2017328686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_278
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 450
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfd0018bc744c546bddcf790f79e3ef
+      internalID: -1028672305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_279
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 450
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224b48243e34b944e83a28b47c5cefb4
+      internalID: -1922245560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_280
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 450
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100e4c9422f049344bf0cb73fe7c203e
+      internalID: -75224956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_281
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 450
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d7de341a728a74eb8a60b5bcdd20aa
+      internalID: 608145077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_282
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 450
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3364889fa904e2a4da88e482b8655452
+      internalID: 668922815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_283
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 450
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d6a4b68b0fedf45a1e3c198005988e
+      internalID: 1823464356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_284
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 450
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e376214109b42d40ae2504c50f9fb9d
+      internalID: 1333548012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_285
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 450
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9574a9f5b2848224c9efe7289687ee69
+      internalID: 1091827499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_286
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 450
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a805f58f468b53b43a7edc9e78e1cf28
+      internalID: -54714578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_287
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 450
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9658f39f8837f4c941803dfdfd758b
+      internalID: -338249696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_288
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 450
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2f00b7611f24544a19e0418ebc23b4
+      internalID: 1713195475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_289
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 386
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055b328996ec81c4181d2c1af60298be
+      internalID: -1945727301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_290
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 386
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0cbd65305d46848b61ee52949211cc
+      internalID: -19403481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_291
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 386
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d21a4a58e564e443b6ecacff38e7eb9
+      internalID: -648102634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_292
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 386
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c9aeff66e52a44ca293435a633bd26
+      internalID: 1258917143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_293
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 386
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33463f9bb2aef2e4db561460fa223cd2
+      internalID: 473694162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_294
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 386
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6efaad2a317b6a4b87828378c054b2b
+      internalID: 859548452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_295
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 386
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a42f37e7a5f416468b4c68d6634119a
+      internalID: -27748613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_296
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 386
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5fd5659f6b2fb4cbc2641c2184bb00
+      internalID: -87102009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_297
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 386
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd90a42cc108824fb69ecb5fd378d45
+      internalID: -1320160756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_298
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 386
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104cb4d464bc4794490e02180dd2d655
+      internalID: 2067996879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_299
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 386
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec38d98b94840a24f84dbd7692f29b29
+      internalID: -292959451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_300
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 386
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8115bb3be4ffe41ab5aaafacb9025a
+      internalID: -673507067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_301
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 386
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0179a084c6d0b4d8a0439d6374a6ff
+      internalID: -1016252398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_302
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 321
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd4e0503ed3ef246833f5ae839a0df7
+      internalID: -2051678623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_303
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 321
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a2a5414831b74cb8b0fc7bb83ebca
+      internalID: -495859338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_304
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 321
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84022394aa911554cab10a029612c4c3
+      internalID: 254160215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_305
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 321
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184f56dbaef90894f97da089ea804ebc
+      internalID: 307112186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_306
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 321
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1b0f28d2e235e40a860d4b5a1d3cf3
+      internalID: 1897834403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_307
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 321
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2652789aaa8f24dab91a39d2997c36
+      internalID: 1505142277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_308
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 321
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f80af67190f040a97b8520a87b10a
+      internalID: 1452039142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_309
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 321
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d160e53b375886442b798efa5c7b4aea
+      internalID: 1054400821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_310
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 321
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc8575d32d34dd499e3a680b4909302
+      internalID: 1543152511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_311
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 321
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27280b95919e5d140af34838bd3cde3a
+      internalID: 2092967152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_312
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 321
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78744dc25abeca8458baee4c56f1efc7
+      internalID: -1493990430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_313
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 321
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd06dfd0beb7d42a82341a7b431938
+      internalID: 1433886789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_314
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 321
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b957d6372fe475744ba5b97654fa3f0a
+      internalID: -873490916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_315
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 258
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fdafc2be0e2764abea4b6c21ab9c33
+      internalID: -2014736734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_316
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 258
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2118d9fe011feb345ae3281d3e6c56ce
+      internalID: -1760876728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_317
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 258
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582afc87ac545e9499971366caacfc12
+      internalID: -1437053518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_318
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 258
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5c2bda7c94906458865a0645537f5f
+      internalID: -1887631833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_319
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 258
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f0d1fc70ff7994795d69199338895b
+      internalID: -1464590929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_320
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 258
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45b46c2829b00d46bb6445c280b6d59
+      internalID: 1662567595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_321
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 258
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d47724ebb7b9540a7a3920194b8630
+      internalID: 1400432661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_322
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 258
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f9de59eb4f288478b546c98b457c6e
+      internalID: 1419354213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_323
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 258
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cc49827374e9f4ea99c8497e118be2
+      internalID: 229926732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_324
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 258
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700ead1541f31d94cb28c9c8abcbf5d6
+      internalID: 1909900425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_325
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 258
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73186b05cd1111946921e698d7f2e30c
+      internalID: -1244662940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_326
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 258
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c061150a74cab1249965f3e1ff1be338
+      internalID: -1786482767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_327
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 258
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da749756c1cef04e8e3ed81e6c06d9c
+      internalID: 1222080486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_328
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 193
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c23fb9c0c47dd64f9d58ea1ed64df70
+      internalID: -1378306360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_329
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e1869e4252e3d4b8385b9364c98c3a
+      internalID: -170839812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_330
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 195
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89a3b1d252e2ae41bf3fcbc0e76cd04
+      internalID: -1947960581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_331
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 196
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f809f3491f4fbf5499ccf97227910fef
+      internalID: -411131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_332
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 196
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4c2b52d3be8741ad5f0fe68cacf1e
+      internalID: -793808286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_333
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f63692c71941dd4c9c30340e21920f6
+      internalID: 916000795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_334
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cc6d97464d86e4098e8e0f3befc775
+      internalID: 1071560936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_335
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 130
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb3a3e010ba1ed42b528bd4e4047cb8
+      internalID: -2147399556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_336
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 130
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45cf66e139800f40a0f513921b225ac
+      internalID: 653948592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_337
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 130
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddb41a857d4b484bafde995faae25bc
+      internalID: 925791003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_338
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 130
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4056cfe9ec96f4293a32413defa96f
+      internalID: -1211129756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_339
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 130
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e0cf5af9db5a74ab2ea0c6aae11f68
+      internalID: 418239891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_340
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 65
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8ad6ddd4854e342b09247815f7906f
+      internalID: 32485100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_341
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 65
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4f14d9010751441864f5dbc630ff8d
+      internalID: 144906341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_342
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 65
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a50280a96ec5f47a23c130db255a1e
+      internalID: 873278402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_343
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 65
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab9c39de6eab984186904d511693e93
+      internalID: -183217333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_344
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c461b073d2d0bc349a709f32fe5df0e2
+      internalID: -1940734229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_345
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 65
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d6bd11b860ad546ba3b440ae3c84ff
+      internalID: -924686427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_346
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0def533a6fac741b0201a220e500b8
+      internalID: -1998206264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_347
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ae1441c316ca4e98225efdb38b4f3
+      internalID: -2018066462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_348
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab889f86c11016a48ad95fae56f72482
+      internalID: 1951925571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_349
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601a65d11e615a249b0812766e39512a
+      internalID: 891234036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_350
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a941c5ab8d8975458aa9a32b1c65a74
+      internalID: -187837154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ryujin_351
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cec4c10ac60b44fa236223c3251af5
+      internalID: 1207455980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ryujin_0: 1622860117
+      Ryujin_1: -1077294164
+      Ryujin_10: -561839466
+      Ryujin_100: 1158391030
+      Ryujin_101: -947011916
+      Ryujin_102: 1464607152
+      Ryujin_103: -641327342
+      Ryujin_104: -648511994
+      Ryujin_105: 1296725155
+      Ryujin_106: -1094980355
+      Ryujin_107: 1835277702
+      Ryujin_108: 1170031852
+      Ryujin_109: -1337695830
+      Ryujin_11: -828822254
+      Ryujin_110: -720109917
+      Ryujin_111: 1229188173
+      Ryujin_112: 2120203751
+      Ryujin_113: 1898251831
+      Ryujin_114: 770829397
+      Ryujin_115: 1707278057
+      Ryujin_116: -1045427756
+      Ryujin_117: -1772482062
+      Ryujin_118: -1409575628
+      Ryujin_119: 564660807
+      Ryujin_12: -323932670
+      Ryujin_120: -1874391828
+      Ryujin_121: 1773622979
+      Ryujin_122: -760335428
+      Ryujin_123: -1826713065
+      Ryujin_124: -878234725
+      Ryujin_125: 1784674797
+      Ryujin_126: -885156485
+      Ryujin_127: -1323355373
+      Ryujin_128: 1413032585
+      Ryujin_129: 2105607886
+      Ryujin_13: -656110824
+      Ryujin_130: 1585782055
+      Ryujin_131: -233947432
+      Ryujin_132: 24728490
+      Ryujin_133: 859937339
+      Ryujin_134: 985751874
+      Ryujin_135: -768974746
+      Ryujin_136: 210876725
+      Ryujin_137: 200423853
+      Ryujin_138: -1947258179
+      Ryujin_139: 2114284674
+      Ryujin_14: -1251690374
+      Ryujin_140: -2124247081
+      Ryujin_141: -104516609
+      Ryujin_142: 43422235
+      Ryujin_143: -567753593
+      Ryujin_144: 1887014613
+      Ryujin_145: -978439086
+      Ryujin_146: -521216925
+      Ryujin_147: -1595486450
+      Ryujin_148: 635497223
+      Ryujin_149: -2093074858
+      Ryujin_15: -1137956014
+      Ryujin_150: -2119938375
+      Ryujin_151: 849089803
+      Ryujin_152: 1340114400
+      Ryujin_153: 2074466304
+      Ryujin_154: 1839218504
+      Ryujin_155: -1590896791
+      Ryujin_156: -660252782
+      Ryujin_157: 941892852
+      Ryujin_158: 1831491384
+      Ryujin_159: -519538811
+      Ryujin_16: -241322324
+      Ryujin_160: 2125228353
+      Ryujin_161: -1235966267
+      Ryujin_162: 626470397
+      Ryujin_163: -808448918
+      Ryujin_164: 1721149409
+      Ryujin_165: -1165600541
+      Ryujin_166: 1284066391
+      Ryujin_167: -493561568
+      Ryujin_168: 356425255
+      Ryujin_169: 4870186
+      Ryujin_17: 987327749
+      Ryujin_170: -745034740
+      Ryujin_171: 352459779
+      Ryujin_172: 2026027610
+      Ryujin_173: -539239424
+      Ryujin_174: -1982258095
+      Ryujin_175: 1300806566
+      Ryujin_176: 422721120
+      Ryujin_177: -1340921271
+      Ryujin_178: 95264583
+      Ryujin_179: -1587420754
+      Ryujin_18: -1506952808
+      Ryujin_180: 1073073769
+      Ryujin_181: -431428818
+      Ryujin_182: 818628464
+      Ryujin_183: 1726639576
+      Ryujin_184: 1358533883
+      Ryujin_185: 1554119331
+      Ryujin_186: 97822214
+      Ryujin_187: 244591319
+      Ryujin_188: 1026085634
+      Ryujin_189: -1003063317
+      Ryujin_19: -1484270647
+      Ryujin_190: -681360305
+      Ryujin_191: 667084735
+      Ryujin_192: -1459146637
+      Ryujin_193: -1521657487
+      Ryujin_194: 284282885
+      Ryujin_195: -1513038810
+      Ryujin_196: 1140767519
+      Ryujin_197: 1148125272
+      Ryujin_198: -2002355279
+      Ryujin_199: 273368949
+      Ryujin_2: 1342669520
+      Ryujin_20: -1765449375
+      Ryujin_200: -703726426
+      Ryujin_201: 437364437
+      Ryujin_202: 1781766074
+      Ryujin_203: -1074620931
+      Ryujin_204: 156251572
+      Ryujin_205: -1728303087
+      Ryujin_206: -1967704626
+      Ryujin_207: -1309246377
+      Ryujin_208: 66139953
+      Ryujin_209: -1736498271
+      Ryujin_21: -1029256434
+      Ryujin_210: 2029684450
+      Ryujin_211: -1488736829
+      Ryujin_212: -1925333842
+      Ryujin_213: -1710531948
+      Ryujin_214: 528721269
+      Ryujin_215: -1343341558
+      Ryujin_216: -76830170
+      Ryujin_217: 2042826436
+      Ryujin_218: 1213360327
+      Ryujin_219: -1257883351
+      Ryujin_22: 445583621
+      Ryujin_220: 302735734
+      Ryujin_221: -915246109
+      Ryujin_222: -2072944335
+      Ryujin_223: 1600072242
+      Ryujin_224: -548477483
+      Ryujin_225: 54877580
+      Ryujin_226: -480472988
+      Ryujin_227: 2011292514
+      Ryujin_228: -4529533
+      Ryujin_229: -1955725888
+      Ryujin_23: 2117287765
+      Ryujin_230: -288200386
+      Ryujin_231: -1099504606
+      Ryujin_232: -1750385408
+      Ryujin_233: 1805367449
+      Ryujin_234: -1205249877
+      Ryujin_235: 2126809341
+      Ryujin_236: 739656916
+      Ryujin_237: 1602835271
+      Ryujin_238: -448298738
+      Ryujin_239: 1692207487
+      Ryujin_24: -32960860
+      Ryujin_240: -1494618460
+      Ryujin_241: -202739561
+      Ryujin_242: 202409724
+      Ryujin_243: -973684322
+      Ryujin_244: 1298576015
+      Ryujin_245: 1703486595
+      Ryujin_246: -488126270
+      Ryujin_247: 1627055646
+      Ryujin_248: 609932401
+      Ryujin_249: 1971119967
+      Ryujin_25: -43616190
+      Ryujin_250: 1998500440
+      Ryujin_251: -230621054
+      Ryujin_252: -1626408994
+      Ryujin_253: 341392856
+      Ryujin_254: -1775155609
+      Ryujin_255: 485480560
+      Ryujin_256: -1668257586
+      Ryujin_257: 613102803
+      Ryujin_258: 1161702426
+      Ryujin_259: -1878499083
+      Ryujin_26: 732081564
+      Ryujin_260: 1083920886
+      Ryujin_261: -433231254
+      Ryujin_262: 2024307605
+      Ryujin_263: 869854411
+      Ryujin_264: 1268364995
+      Ryujin_265: -595413452
+      Ryujin_266: 583539915
+      Ryujin_267: 1687240653
+      Ryujin_268: -1374927451
+      Ryujin_269: 161443645
+      Ryujin_27: -1986051041
+      Ryujin_270: -832206340
+      Ryujin_271: -121678834
+      Ryujin_272: -1824696937
+      Ryujin_273: -1494296432
+      Ryujin_274: 677207028
+      Ryujin_275: -946190785
+      Ryujin_276: -1319154164
+      Ryujin_277: -2017328686
+      Ryujin_278: -1028672305
+      Ryujin_279: -1922245560
+      Ryujin_28: 1496892477
+      Ryujin_280: -75224956
+      Ryujin_281: 608145077
+      Ryujin_282: 668922815
+      Ryujin_283: 1823464356
+      Ryujin_284: 1333548012
+      Ryujin_285: 1091827499
+      Ryujin_286: -54714578
+      Ryujin_287: -338249696
+      Ryujin_288: 1713195475
+      Ryujin_289: -1945727301
+      Ryujin_29: 1290668985
+      Ryujin_290: -19403481
+      Ryujin_291: -648102634
+      Ryujin_292: 1258917143
+      Ryujin_293: 473694162
+      Ryujin_294: 859548452
+      Ryujin_295: -27748613
+      Ryujin_296: -87102009
+      Ryujin_297: -1320160756
+      Ryujin_298: 2067996879
+      Ryujin_299: -292959451
+      Ryujin_3: 1108907920
+      Ryujin_30: -1162179484
+      Ryujin_300: -673507067
+      Ryujin_301: -1016252398
+      Ryujin_302: -2051678623
+      Ryujin_303: -495859338
+      Ryujin_304: 254160215
+      Ryujin_305: 307112186
+      Ryujin_306: 1897834403
+      Ryujin_307: 1505142277
+      Ryujin_308: 1452039142
+      Ryujin_309: 1054400821
+      Ryujin_31: -1370914941
+      Ryujin_310: 1543152511
+      Ryujin_311: 2092967152
+      Ryujin_312: -1493990430
+      Ryujin_313: 1433886789
+      Ryujin_314: -873490916
+      Ryujin_315: -2014736734
+      Ryujin_316: -1760876728
+      Ryujin_317: -1437053518
+      Ryujin_318: -1887631833
+      Ryujin_319: -1464590929
+      Ryujin_32: 1418531356
+      Ryujin_320: 1662567595
+      Ryujin_321: 1400432661
+      Ryujin_322: 1419354213
+      Ryujin_323: 229926732
+      Ryujin_324: 1909900425
+      Ryujin_325: -1244662940
+      Ryujin_326: -1786482767
+      Ryujin_327: 1222080486
+      Ryujin_328: -1378306360
+      Ryujin_329: -170839812
+      Ryujin_33: -629585225
+      Ryujin_330: -1947960581
+      Ryujin_331: -411131
+      Ryujin_332: -793808286
+      Ryujin_333: 916000795
+      Ryujin_334: 1071560936
+      Ryujin_335: -2147399556
+      Ryujin_336: 653948592
+      Ryujin_337: 925791003
+      Ryujin_338: -1211129756
+      Ryujin_339: 418239891
+      Ryujin_34: -1431414495
+      Ryujin_340: 32485100
+      Ryujin_341: 144906341
+      Ryujin_342: 873278402
+      Ryujin_343: -183217333
+      Ryujin_344: -1940734229
+      Ryujin_345: -924686427
+      Ryujin_346: -1998206264
+      Ryujin_347: -2018066462
+      Ryujin_348: 1951925571
+      Ryujin_349: 891234036
+      Ryujin_35: -154109464
+      Ryujin_350: -187837154
+      Ryujin_351: 1207455980
+      Ryujin_36: -1577515316
+      Ryujin_37: -714485767
+      Ryujin_38: 149924259
+      Ryujin_39: -1943974773
+      Ryujin_4: -631551121
+      Ryujin_40: -1073993336
+      Ryujin_41: -1279660832
+      Ryujin_42: -1054153834
+      Ryujin_43: 111639818
+      Ryujin_44: 1124138980
+      Ryujin_45: -1385913625
+      Ryujin_46: -1504136451
+      Ryujin_47: 1264600977
+      Ryujin_48: 1964690357
+      Ryujin_49: -1380588701
+      Ryujin_5: -1246099694
+      Ryujin_50: 2046874989
+      Ryujin_51: -1508162317
+      Ryujin_52: -953089405
+      Ryujin_53: 1050882568
+      Ryujin_54: -1213900216
+      Ryujin_55: -1610726814
+      Ryujin_56: -299369561
+      Ryujin_57: 16571662
+      Ryujin_58: 1604412366
+      Ryujin_59: 1354070272
+      Ryujin_6: 1994465874
+      Ryujin_60: 1370080249
+      Ryujin_61: 512634163
+      Ryujin_62: -1568943047
+      Ryujin_63: -1418180655
+      Ryujin_64: 1648008567
+      Ryujin_65: -1668915965
+      Ryujin_66: -860350109
+      Ryujin_67: -1683872367
+      Ryujin_68: 8739767
+      Ryujin_69: 26862531
+      Ryujin_7: 1555819205
+      Ryujin_70: -499909224
+      Ryujin_71: 2020428195
+      Ryujin_72: 2048000098
+      Ryujin_73: 428506771
+      Ryujin_74: 1696742263
+      Ryujin_75: 1046171267
+      Ryujin_76: -1818669008
+      Ryujin_77: -917713681
+      Ryujin_78: -1375126325
+      Ryujin_79: -1589872858
+      Ryujin_8: -839958733
+      Ryujin_80: 545669868
+      Ryujin_81: 755760381
+      Ryujin_82: -1831424924
+      Ryujin_83: 701792024
+      Ryujin_84: -1097086118
+      Ryujin_85: -195012458
+      Ryujin_86: -1207515759
+      Ryujin_87: 1843458480
+      Ryujin_88: 542045402
+      Ryujin_89: -578342011
+      Ryujin_9: 1211309939
+      Ryujin_90: 1846049743
+      Ryujin_91: 778015978
+      Ryujin_92: 1664006939
+      Ryujin_93: 371200425
+      Ryujin_94: -273780529
+      Ryujin_95: -537141837
+      Ryujin_96: 1420895967
+      Ryujin_97: 35986285
+      Ryujin_98: 371160252
+      Ryujin_99: -1846202917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
