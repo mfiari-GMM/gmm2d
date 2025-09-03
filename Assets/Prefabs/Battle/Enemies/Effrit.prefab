@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4837038083411678}
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
+  - component: {fileID: 1791752615221883547}
   m_Layer: 0
   m_Name: Effrit
   m_TagString: Untagged
@@ -124,3 +125,19 @@ MonoBehaviour:
   resistances: 00000000
   transformation: {fileID: 0}
   maxTransformationTurn: 3
+--- !u!114 &1791752615221883547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962906933442992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects: []
+  references:
+    version: 2
+    RefIds: []

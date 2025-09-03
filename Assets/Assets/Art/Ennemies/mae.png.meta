@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 45
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -147,7 +147,7903 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mae_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4161
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d76e7cfc963524a96b56d5fb391064
+      internalID: 473511764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4161
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c9419b25533f449a457684301ca0b9
+      internalID: -1614635389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4161
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738df6ffaf283bd43b369d6e85a63c03
+      internalID: -1915398354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 4161
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf6fb1c20b2f7341b0f3198446cbfe2
+      internalID: -255451618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4161
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcc57bcc8be484478fee080caf3618a
+      internalID: 556958105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 4161
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d3ccfba57f15646a9b069eeacba7e0
+      internalID: -980082275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 4161
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f9b0c60fe1b5c4294e0a799c9d9d48
+      internalID: 1144029832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4097
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12170530e7574904380fb40501d58c15
+      internalID: -1659465548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4097
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64ff4cc8c22db34ba418367207b4900
+      internalID: -417587466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 4097
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b1ccc7b53ffef44b953e3909473695
+      internalID: -1120304137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 4097
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb8932d58b64614b83fe994db0e8c01
+      internalID: 360053882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4097
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252e1e7db099cc742abacae405233508
+      internalID: 1150879635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4097
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963efae9f340b144b98febb672714f4
+      internalID: -1111276673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 4097
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8fe51eda47a9143b0ad558957e547c
+      internalID: -529580510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4033
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23d697702ac2e543aa0d2972732a98f
+      internalID: 1984603014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4033
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9494fac3fa562854b94e2a7a785b5c6f
+      internalID: 1311792050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 4033
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7737af6182499c40825a7494667fd66
+      internalID: -1620831537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4033
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc4b442e4d128940bb609b53498ef90
+      internalID: -317364069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_18
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 4033
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb946226f58d95649b50675279b5375e
+      internalID: -2070624302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 4033
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37170ad4fe53d7845892b789b8eb31e9
+      internalID: 1525357106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 4033
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b6ff2456140ae439fe35d377ca2bd3
+      internalID: 61652084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3969
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf57c00f1365e648b588b069a344061
+      internalID: -1083701773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3969
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9f51a3317e8f246ad6b2832bef0b6b
+      internalID: 1527926880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3969
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7c9f731c8a5a4882bd0f6ce037d3c
+      internalID: 603691268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3969
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5821470be529ac746afa407097540733
+      internalID: -560712504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3969
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7438cb3f04ad78a4c820b0cc02fce777
+      internalID: -345898281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3969
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6191a4b739772734a83c000ec2a28827
+      internalID: 1761321323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_27
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3969
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a500e6acad1e9604598fdd28ef13ca4a
+      internalID: -550649241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3904
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91434b26902008d46a09edd7f9180dd9
+      internalID: 1672242733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3904
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e3b635b4f141e4da4ec56a291c9e37
+      internalID: 329723947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_30
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3903
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249f4dfb134e06643b16bc99aa1e2e07
+      internalID: -1254014458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3903
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171a60acb95a04a4580c9f75a7488b55
+      internalID: -320299499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_32
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3903
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91450e5c099a0c842a383c74a93596aa
+      internalID: -2093230899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_33
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3903
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0586b860bd866424eacf62161278e5b3
+      internalID: -1431462068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3903
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16830d586d524c4488db7dda91476b63
+      internalID: -979642990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3903
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a761f4f0035463469379344c11ef73e
+      internalID: 1689547016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3841
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b206cc1dc247e6842aa026863f324bc3
+      internalID: -163432782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3841
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a28bb9ec24f3734d85018b86d8149e5
+      internalID: -2090488712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3841
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44deef9d622cf446a865dea627d366a
+      internalID: -1342138806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3841
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd4edcd47936754ba5ca8217d691658
+      internalID: -2021143889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_40
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3841
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9047d66cc27a584baaba4e95088649d
+      internalID: -455478441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3841
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf011f9852eb2d744aadcd76ea55d567
+      internalID: -642338541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 3841
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbf343949890904e911d3d2acba8678
+      internalID: -1005332987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3841
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623bd5fff256f564a9762021ddab8fd4
+      internalID: 1043525558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_44
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3777
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73035005354c3a94aa6635f4fb65ab0e
+      internalID: -1981681451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3777
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d96989610b22045bfb46ba10d8d53a
+      internalID: 1791329943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3778
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f4bfb6f5967043a8002e8a2fbc798
+      internalID: -1154187340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_47
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3778
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85082f300bacb144bed8fcf975b5ef0
+      internalID: 1273800699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3778
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519c679b63c791d46a3b08e2ec1f07e0
+      internalID: 1611994615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3778
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8468f1055eef345939eea6b33cc9bc
+      internalID: -964354600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_50
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3778
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bb4b94765fe644f83889c7c47e0505
+      internalID: -742006391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_51
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3778
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c8aaeea003a6d49af961f13481175f
+      internalID: 758232390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_52
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3713
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e1fb179f1ba74e9d4055655678519
+      internalID: 1902683905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_53
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3713
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e774e5974366df4aa7be3b872e5d2bd
+      internalID: -771273900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3713
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d0658450af721479fa37766fdb67ed
+      internalID: 195182771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3713
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2798a0708ab8f7e429f911b2346878c4
+      internalID: 1473604875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_56
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 3713
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3ffca519f08be4fa7752d50cda41c6
+      internalID: -111338921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_57
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3713
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594daf6a10e96d449862ad3f1899c740
+      internalID: -1299893116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 3713
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dcb7361a2536944b390f4502845e04
+      internalID: -191952857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 3713
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f59d7d01b80424fbb3a9af5223fbf0
+      internalID: 467683006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_60
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3650
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c73f0cc6decbd741b8d0738363c9a15
+      internalID: -1593885121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_61
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3649
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac7e96956aa9fc44835c318dc09a6a9
+      internalID: 1089780925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_62
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3648
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c201b790d07d5c84eac812de9f01f1a9
+      internalID: 330413646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_63
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3647
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3d78850aa0a6e4cb53608dc9dc5e91
+      internalID: 415864206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3648
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f67dc2773d380544a5062a6168949cd
+      internalID: -1590891113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_65
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3649
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11533231faea13469561dffdbad2339
+      internalID: 765149214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_66
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3648
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4264242b84d234e98c24cc329c5a0d
+      internalID: -1043956740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_67
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3647
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf678b08f7a507e40b0f2625f37609cb
+      internalID: -541013233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_68
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3648
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf640971638fae43a6142a7f52e625c
+      internalID: 711524682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_69
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3585
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4601fd52c35d3c4eb4bd3251b0e8ba9
+      internalID: -867882470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 3585
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea19f5bb1d660864485a0a39878b052f
+      internalID: 575930923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_71
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3586
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c08da50bee66c45876f7a116189f05
+      internalID: -1926622648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_72
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3586
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e9cdcdd8b62e34496646ab6a4fe748
+      internalID: 1261221104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_73
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3585
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c30dfc3f7211349b5defd769eff772
+      internalID: -2081243826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_74
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3585
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9772f2d1585225468a9c049bf199bad
+      internalID: -1263817486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_75
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 3585
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931b9eb2ab59f88478b84451c192a49b
+      internalID: -936491688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_76
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 3585
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efa7ef81884b742bfef5c6cab93e00
+      internalID: 1449820652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_77
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 3585
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bde058f35cb47418fadf40d4eb7e63
+      internalID: -1351308812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3521
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa082c0cf6824b468a6170a4b432240
+      internalID: -665324655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3521
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a360232a209dd840915263777c37447
+      internalID: -1504612642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3520
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fddefaac7a26541b4c6edc711fed82
+      internalID: 339262028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3520
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf70a2e88bfefd4eb5501ee5939166d
+      internalID: -74100313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3520
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26c992a2fe45a2459c2a24840f6c8b1
+      internalID: 1385950694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3521
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7896985fe0a7e5e41924740e52c642ed
+      internalID: 1860665445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3520
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1913b4af4e29bc843a442d4f67fd8c0d
+      internalID: -408479368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_85
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 3520
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5528d7b9f5553a841a55993834996ace
+      internalID: 607952488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 3520
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab82e7ed5ca6e64d952428192cbc7b2
+      internalID: -920318348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_87
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3457
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd63983e6187184cb66ebdc7e9816c9
+      internalID: -1606271608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_88
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3457
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c25aa24bc2cf9488acc2309c103387
+      internalID: 1620825145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_89
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3458
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85000c628c04b114395be7fab1e7bf48
+      internalID: 2056797340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_90
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 3458
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ffe0bb087de174cac455008794b3a3
+      internalID: -1413454400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_91
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 3457
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ceeb2f34722c54f8c88f4bbf89822e
+      internalID: 1871024142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_92
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3457
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ffbf6bceb8b264594f62d0cb9735f9
+      internalID: -584075804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_93
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3457
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be46f0f751acfec4e986dfe008fd232d
+      internalID: -560436676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_94
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3457
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc750fe9630b67f458781046acb04484
+      internalID: 1815541738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_95
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 3457
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdda875f9788a8a489f702ed2f1127e2
+      internalID: -1382486196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3393
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf62abc39d2a7e49a81b2435048da51
+      internalID: 1757315578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3392
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b0a06f80867604bbc1259548b6ae72
+      internalID: 1761500230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3392
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991cda7cf8ade1343bc8f93f352f05f5
+      internalID: 917959918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_99
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3392
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd4a65897c43be4f8f817b4df0fa567
+      internalID: 389966359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_100
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3392
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa97168be09326943a16a6cb9a21038b
+      internalID: 1539731642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3392
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51372f0c6f7e424696c4549a3d2f36c
+      internalID: 470370206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_102
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3328
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a4d55f54edff84c90e2b1c421c1feb
+      internalID: 1795058215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3328
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31fcd90f528e9341b356c333e003ba0
+      internalID: -730269523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_104
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3328
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe1249ea153904439707d8a2d324868
+      internalID: -1515551946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3328
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aef05e0b58eb74c99f95d2bb817759
+      internalID: 331420912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_106
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3328
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e02bd05d6f3d3b4caaff71a74de4c99
+      internalID: -358800221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_107
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3328
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145d8548e4d6ea94a8a63d0b3d07a7cd
+      internalID: -297447014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3264
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a045deeab10f45851c3f3017cda42
+      internalID: -1590585117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_109
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3264
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514d6d33081d16443a25f18401bae052
+      internalID: 469558774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3264
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4774a74ab11284cbfa1b9ea2b8c8ca
+      internalID: -399262196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_111
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3264
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d31e9e2ba8a4e40827517a5f52bf1e
+      internalID: 492310781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3264
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c92b08ff49b94e8cb0ce0d4608c03
+      internalID: -1560286551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_113
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3264
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc4eed33069f4c49bb8089e8fdfa9e4
+      internalID: 1573427236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_114
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3201
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020dfb809bb02344cbe2764440023c08
+      internalID: -2092471903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 3201
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2bec41a4b89fb4393491f2d91f5073
+      internalID: 715447546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3201
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb15f0c210aec47a97979a8029a11d
+      internalID: 1176665282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_117
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3201
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af0d6acc3cef3d4b9b9471951d55fe4
+      internalID: -228973503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_118
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3201
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f221bc2691a3b448a802a27440b40e9
+      internalID: 129137715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_119
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3201
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58be945eb86404a4daf2413d755ad3d2
+      internalID: -1087735564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3137
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631eacf7aed7e00408ecc152a4bf6157
+      internalID: 1090354110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3136
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe51e9faceb78d845938d37ddb40dfe1
+      internalID: 1517845411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_122
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3135
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b666de9c50c0fab4bad9909ff14fc40b
+      internalID: -621386454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_123
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3135
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be18dc156ec95b459a172af7e8da883
+      internalID: 500174714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_124
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3135
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b0fdef03f8b7f42acc52cf9489f58b
+      internalID: -1438609136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_125
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3135
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c810404ab0c2f742a62841a9160a7ac
+      internalID: 313384972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_126
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3135
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79de0faf28428345ab0e1cf6d926c65
+      internalID: 747025703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_127
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3135
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c8564edd06a2744a1d0d7d10fb81a7
+      internalID: 1113287549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_128
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 3135
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082b549689cc06488a07d7035282a06
+      internalID: -582080590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_129
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 3135
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059f373f88fd1d34c8df646393d7237f
+      internalID: -27299427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_130
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 3135
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ec252788491a243abccc3b405821c7
+      internalID: -1463207251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_131
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 3135
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960ecca9f213464187179fe8c1833d5
+      internalID: -1091431061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_132
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3135
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d11d640bf395149b7f1c9e6e938d6a
+      internalID: 151347377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_133
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3073
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347a486449a65b4458b0f786b1cce8f9
+      internalID: 1897754289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3073
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e860c78e3d4645e4a95eae3045e46571
+      internalID: -1176706133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_135
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3073
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc688d6fed874b4e9da0f5dfd0fb2c9
+      internalID: -1807205807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_136
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3073
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d263bfad841b4b4d9d8933788151d39
+      internalID: 1761119221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_137
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 3073
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908c53843a500a24289b782cb23220d0
+      internalID: 980619783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_138
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3073
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea75a4a0aaa4962498939875d4520529
+      internalID: -1874645556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_139
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3073
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a63408073c338d4483dfe06d7bd56df
+      internalID: 222375769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_140
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3073
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a1e106d465b14882bcd70f479614a
+      internalID: 2008020596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_141
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3073
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8edf37668d85154481564bfe25920c7
+      internalID: 165836638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_142
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 3073
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769233037d6860c4ba709eb38868f9ef
+      internalID: -519303709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_143
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3073
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc1605115d4f7b4c9ff1efc70d31a03
+      internalID: -1750595713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_144
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 3073
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3acfcccc5296c47b8417158be20f00
+      internalID: 1957897484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_145
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 3073
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d73bcedd7d8b04793e208028ae09da
+      internalID: -96937954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 3009
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8231e3021701b0f4aac852130792448a
+      internalID: 478531123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_147
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3008
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a88533cecd5b41a2ed544b917382e
+      internalID: -1793183891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_148
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3010
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180903ed9cdd5b24993bf2c368134761
+      internalID: -1390059121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_149
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3009
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa154a6c17d1544c974696be37806e2
+      internalID: -705720348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_150
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f1c1a71039c1644a789fb2ae4054ca
+      internalID: 656656483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7cf7479b5bb1249a9b58d645ec4425
+      internalID: 353580468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3009
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd3694ec33b7514cbc067edd2fbfeee
+      internalID: -2041058505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_153
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1f7a3fbe850649bee04cf102a1138
+      internalID: -444580515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_154
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3bf4b68b5f1e74c9a06e9c2dd486e3
+      internalID: 2114724321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_155
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 3009
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc1082437d2d824f85aa43e4351f0fb
+      internalID: -317781457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_156
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3009
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f58a6ae26b514ca0361ba711d7a01
+      internalID: -1152827600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c439cc222c10d56498a3e0b454c74c49
+      internalID: 1662270470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_158
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 3009
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70cb2365e6046a459a0483ed0d79483
+      internalID: 231677703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_159
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2945
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff924f3ad3adc43afac247ce66b700
+      internalID: -1880737778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_160
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2945
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf4fa5b2a0cf84796d6015e4220223
+      internalID: 1980390624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_161
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2945
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fefe73c4d14f664c8b4a2e0971135b6
+      internalID: 543184943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_162
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2945
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a732a2f8237f2b49ac5f29b9b973f98
+      internalID: 1809593804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_163
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2945
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc156b0f41fb2e42827ca6054ecef16
+      internalID: 1695932705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_164
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2945
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741b5a46f0910c34c9d416a2f11beb8a
+      internalID: 1734676135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2945
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f69dee035d3bce4092e4c620c18fa16
+      internalID: 113860113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2945
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8454b84e49c731b40abd37eb8fde6651
+      internalID: -10540732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_167
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2945
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a757f40998f7f39429a26851cee62502
+      internalID: -1845869595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_168
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2945
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fa9f495e5c84e4f8246790aed9ae3d
+      internalID: -966060646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_169
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2945
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a377e183fbb88e242ab26b30ce3dd052
+      internalID: 1897030691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_170
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 2945
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832e209beb41eec4a922fe68dc941917
+      internalID: 1638813417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_171
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2945
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113e6ca8afd20354e80b52b6d4bc20be
+      internalID: 1159118908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_172
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2881
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2714a0fee516a4459e5b35ad43f1913
+      internalID: 183827649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2881
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2076509a3f274ab6bc004135cf9c7
+      internalID: 1985113615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_174
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2881
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b529a548b5907a468be037a52e4dabc
+      internalID: -496746125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2880
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d2887556e93fb4a9f3b0d64e495341
+      internalID: 330828173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2879
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6154a2e7269a31147bbc3b2c8dec2aaf
+      internalID: -477055769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2879
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b447f5d53dfe1be4a95213969bc9dc4a
+      internalID: -250517689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_178
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2818
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eac1dbf2c0446458d13db0c3b78570
+      internalID: -1206017273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_179
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2817
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e4f876bb598a14d8cc48e71818c4e9
+      internalID: -1044113023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_180
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2821
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba579df3156445d47a373d35c45777ce
+      internalID: 1739375105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_181
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2818
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e71b3fd2d00d94419313235655ec1ad
+      internalID: -2093768172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_182
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2817
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6921b776997f3174b90e97f82ecbfd86
+      internalID: 902844066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_183
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2821
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1787978e43f46b34b89fa459266457bc
+      internalID: 845748484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_184
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2753
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3a6a533b6761d4193138e8c2d4abe1
+      internalID: -1057464318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_185
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2753
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a51594b3932d1429a4455bda6e65e6
+      internalID: -342318574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_186
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2689
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd2fec0b9a2cce43a770972917a9a80
+      internalID: -610934494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_187
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2689
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4e4e85aea7e7d4a9d7ad682356e6b4
+      internalID: -1223842722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_188
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2625
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370bff0df5100ae4f911ce4542b7f738
+      internalID: -1622859217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_189
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2625
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d254745c16cbe42a9117fbc5a51f32
+      internalID: 1704926569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_190
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2561
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e015a2ed54af04f89aab683cd66725
+      internalID: -522478555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_191
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2561
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb09206ce474fd44987782f81a19274
+      internalID: -1525271433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_192
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2497
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f270078a06402409bd5d1d43dc5b9f
+      internalID: -1807866610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2497
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71b77b2473b4c24ca31de44e7c2887a
+      internalID: 1925237621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_194
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2498
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66348200fe8ffa84794c008d3bde425d
+      internalID: -1125253215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_195
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2504
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4e0079384364246948bd39b1c40fdf
+      internalID: -1006572487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_196
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2501
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755fd29dee945134fb866f1c0bec996c
+      internalID: 1889536726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_197
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2433
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815d4d851c5a19345acb12b2a148464c
+      internalID: -1562508390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_198
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2433
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1e9e9899e54454b88dbd1897f5d9fa
+      internalID: -1245962335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_199
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2435
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765ebae75a8808b41bbcbb7e63bef49c
+      internalID: 1676191101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_200
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2436
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ff50e4976913a46b5068afac67d16c
+      internalID: 1490705316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_201
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2433
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435ba2ba75c77e144bae2255ccd02320
+      internalID: -1925606069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_202
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2369
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7783cd34dc9ab994c8167c6cf014fa11
+      internalID: -2041269739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_203
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2369
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6bb4e0d66e5bb4aa773e7749cb8a1e
+      internalID: 2027203168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_204
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2371
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64af9599dcebca34b9cf54948a562825
+      internalID: 380181220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_205
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2374
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6d02472faf566458fa0db13d1fa678
+      internalID: 1592400324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_206
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 2371
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462ef5c329340e479cb89a28a10a73e
+      internalID: -1998515824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_207
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2305
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef66ddaf273afda40bc5d3712de05fdd
+      internalID: 264310646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_208
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2305
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c17945fda67984f911b2b8501e91b2
+      internalID: -1243838660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_209
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2306
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4c0dc3ac1f604b9e5c6ae853d69d4
+      internalID: -1448870089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_210
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2307
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594c4b6f7b91d834bb2ca3b3ed988d12
+      internalID: 969442959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_211
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2305
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8071343983a124b877b9c3e90b8168
+      internalID: 1000778913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_212
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2240
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae663aa8d45d30f4ea92db4eb764175b
+      internalID: 1721998482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_213
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2240
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9f4349d9296e446aa8287ad8c73349
+      internalID: -1847354352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_214
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2251
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25679a0b19e87a04a9a888fbba503b5a
+      internalID: 1268933386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_215
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2178
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfa6a3b5001d934ca9b96a5d4694f96
+      internalID: 1379729852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_216
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2176
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a10d00ffa14576499c5ea7908632402
+      internalID: 545609454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_217
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2179
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d458d0d3b112045448d95fbd55f838e1
+      internalID: 898191267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_218
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2113
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a8483b1c36f8e4c997daf4e211d440
+      internalID: 402545888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_219
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2113
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1b17ec56e7e643beca76e311819b9
+      internalID: 774570916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_220
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2113
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260f9705a7f5c8c47befc97f37bddbcf
+      internalID: -1030877640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_221
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2050
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c725151f07b4b744aa6e049c29803063
+      internalID: 962393596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_222
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 2049
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5721b24e67cd44d43a2f105d96dffbd3
+      internalID: 923507825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_223
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2051
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7507e730fa75eaf4bb6fd1800860a9a4
+      internalID: 861529987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_224
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1985
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79e143cf21da944fb632b6fc70c7162
+      internalID: 815173106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_225
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1985
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e17f457238b0f44835b09c52a1f515
+      internalID: -2051438912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_226
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1985
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166f0f389edc9141b1338e45637b5bc
+      internalID: -1569700936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_227
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1921
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6cfa6af053424d91eca5ab6732203
+      internalID: 1263581480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_228
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1921
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6feff77cf8088408035f67d8fd1275
+      internalID: 251510786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_229
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1921
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f68b9aa0d31014699105c0a30fdaf5
+      internalID: 869552556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_230
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1857
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fa8abd93a52d54f8c3c8e242b2e8f8
+      internalID: -1783370210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_231
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1857
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12129b14bf9b7ae43a92d70f1fc5d832
+      internalID: 1495972392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_232
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1857
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b8e9e9561cda248985cf86530660b5
+      internalID: -1612713822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_233
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1793
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525175a60ff68f944a5eb440c8cbf33c
+      internalID: -1474612439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_234
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1793
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260139afc1172e14c807219033a38a06
+      internalID: 1438794889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_235
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1793
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c818771f39703b41b17b5dfc2ce14a3
+      internalID: -20646503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_236
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1730
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd792fb7c64884f921a4e0c3f3a76f
+      internalID: 512164808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_237
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1727
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005a3be6291edfd4494c6c3649ec08b6
+      internalID: -1756251790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_238
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1727
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04bedabcbd5e614fa87ee8c4b1186aa
+      internalID: 2119267709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_239
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1727
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db9a76206914bc44b015dc258dd0d19
+      internalID: 809548143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_240
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1730
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b924d24fb5c7664d8b2e3dfc0e9920e
+      internalID: 1119161933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_241
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1727
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913f858334cc4d54cab675914055336e
+      internalID: -1396848642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_242
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1727
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7590201ae0e00784193434c955149592
+      internalID: -340952411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_243
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1727
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9da4b4f962c844aba3f25992cf4e82
+      internalID: 1016325552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_244
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1665
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d02e5197ad1724a83d8e0c300e5f58
+      internalID: 1147548167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_245
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1665
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a9970f6f4bb14b9adbcbbed173dcb
+      internalID: 1828454170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_246
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1665
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538b6793fa86fa1458c1864090b18ba8
+      internalID: -1827333842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_247
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1668
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0efa5ecf98a5a34093cd421c509de3d
+      internalID: -483622775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_248
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1665
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1214bd1214b7c1f4584e3cca5f571c9d
+      internalID: 1169058256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_249
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1665
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356cc7e033b114548befc12174e0f5b8
+      internalID: -1261676581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_250
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1664
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ed414e22465e4f9137b152308a999
+      internalID: 344657271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_251
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1667
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0c39cf52551ab498e4d46487898b47
+      internalID: -1929855816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_252
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1599
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bd0db8c85622a469753771833ffb9e
+      internalID: -2024902948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_253
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1599
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714e6722751bafe43af33198df53dfda
+      internalID: -1309135138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_254
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1600
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f7d9d539f8ad4e9d60e592ae47de2
+      internalID: -1620822406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_255
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1603
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb44c5ab79c1df84981445aa012a97c2
+      internalID: -1390300067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_256
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1599
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ac1dfd6741860439f905b5ec08a79f
+      internalID: 1445422066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_257
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1599
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9cd1695561ccf40b3b65ef150bdc28
+      internalID: 2039098514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_258
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1600
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaac1fa74d3c5a4f9f9aa42d7bc6335
+      internalID: -522321114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_259
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1603
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55a7eead3b1664a9ff43148f008409
+      internalID: 1131583717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_260
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1537
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3630ddbbf11fa6f44a12fd8f5d2708cd
+      internalID: 1331237561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_261
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1537
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a90052913cd8a34790760e41d2bb383
+      internalID: 1177040489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_262
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1537
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb1f9c9a8ac5aa4c8f34093fc9f1c98
+      internalID: 599755528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_263
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1540
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c8c1feacc4abb47a0e1b9957e45ba9
+      internalID: 1059927193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_264
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1537
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d30a09e669bfac4189aa88e80e1e290
+      internalID: -729329673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_265
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1537
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4602182ad3fe0174da273c0c9ea04bb9
+      internalID: -1712940751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_266
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1536
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908a2b05069da1148964785ad51a8bc9
+      internalID: -1148144600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_267
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1539
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423e3c444b5da364281ec23904c07599
+      internalID: 1209408954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_268
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1473
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0794b3f8487c244468d82401da9911c9
+      internalID: -1543775977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_269
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1473
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f192c91f8efcccb4694ee7237e4af865
+      internalID: 543468018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_270
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1409
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91ba7f4597f4741968dfdc273340a4
+      internalID: -212484245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_271
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1409
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44759da18f04584ea70f028be263f09
+      internalID: -1379015798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_272
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1344
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38969f607452fd446acb74e81944cb25
+      internalID: 477431071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_273
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1344
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4802086f744fc44b65aa0b54e183c9
+      internalID: 2065465292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_274
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1281
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a52abefedf85824a91c7bd6757f0f78
+      internalID: -1500235838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_275
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1281
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f1a9feddb7cf1478250e1952d6296a
+      internalID: -466863420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_276
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1216
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cea7fc0ba5adcc42814f196df50988e
+      internalID: 26834615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_277
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1216
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14efa5c68da02b740a3e0962f4f67252
+      internalID: -439935566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_278
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1216
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5450ec191258ac4f93ea4c12ef0f359
+      internalID: 1303490523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_279
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1216
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b1ceda4cdf31f4c933342caf5fbd6c
+      internalID: -1307089587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_280
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1216
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c832d4595530e4c90b898baf21eda8
+      internalID: -1762565986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_281
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1216
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e462ab1e1165fd44b51d70822aa9003
+      internalID: -809969293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_282
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1216
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b888f98cd9def14caa36117132b2afb
+      internalID: 1730106607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_283
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1216
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce377e2755e62a844aa4e849183620fe
+      internalID: 415494140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_284
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1216
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d9a89d01deff443b3588e1c3551db3
+      internalID: 2003053606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_285
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1216
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeec5923c858f7b47a4b3d1b0ec5055a
+      internalID: -42451567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_286
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1216
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c9ec452d8c50241ab39cb6b70f4981
+      internalID: -1299859237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_287
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1216
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b440996dc98bbde4c85e6d3af3aef837
+      internalID: 1066107328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_288
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1216
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb8211cc3bd76b4f84ae6beab5fd4ac
+      internalID: 329603185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_289
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1152
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a254a722927b4b8aea4444ba4241f
+      internalID: -685988952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_290
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef61a2a83aee5744be92f71e0c67d92
+      internalID: 576194604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_291
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1152
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad95a3c7f13a94b8e9c5b593c6ef0a
+      internalID: 1315949104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_292
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1152
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55099b58cd108db48aa0478dada2b5f9
+      internalID: 1187235543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_293
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1152
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadd28aef190bd24c8972930f425bc8c
+      internalID: -1138073713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_294
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1152
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d991cd4357b4404c864e5b8ba863967
+      internalID: -351532747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_295
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1152
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25860df235daa3149bc956289cf67248
+      internalID: -1094559835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_296
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1152
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5ed041dc4f6240a1ba99a9996813f
+      internalID: 491714571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_297
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1152
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12df10a2735216140b3cd8fdd99f75e9
+      internalID: -770589209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_298
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1152
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b24dc4ae695a14383eeb682a163c33
+      internalID: -1877307093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_299
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1152
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c8e0036d6dea4409fb997a56f0cbc5
+      internalID: 2117639272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_300
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1152
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea273821dca4874788dc4993cc1b2dc
+      internalID: 76756627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_301
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1152
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed38bef4c45d1254a8c30dd8fd9b2164
+      internalID: -2040722249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_302
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1087
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657f617185ec0334c8ce61e8650274fb
+      internalID: 81023884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_303
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1087
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6343062d201dffd44adb1de1a7382a28
+      internalID: -2122155662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_304
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1087
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38adf04936af07f4abd8d430cff27588
+      internalID: -702334070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_305
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1087
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d0ce858dd414848b217aca7fbee06a
+      internalID: -1223129835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_306
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1087
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511a8d28c8d7433418ab5f4d24f12394
+      internalID: -376490150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_307
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1087
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fd7646c081bdc4fadd1a3be2709f37
+      internalID: -1998930702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_308
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1087
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db3065cf31b22b4f9edebb5e897bbaa
+      internalID: 1957316782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_309
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1087
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd88c58c70a66a04e99513611f207e37
+      internalID: 1659462499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_310
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1087
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60741ce795b48d42b27929ff3be649f
+      internalID: 868996379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_311
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1087
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5203ff40b769ad14aad5f49c6d841f10
+      internalID: 91817550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_312
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1087
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6422caa58df84bbd289919ac3302d
+      internalID: 1068467156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_313
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1087
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3130f9b60472f1545b12b4d33767a567
+      internalID: -869264235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_314
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1087
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4589a8e3e1bcb64ca3a51bea220432f
+      internalID: -156084228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_315
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1025
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c91c1f71a38c64ebaa2aa2502b3948
+      internalID: 1810077207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_316
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1025
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7733b8d3be6f74cb18d1d062da42f1
+      internalID: 260595843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_317
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1025
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae42f7adf11a804c966259d21b2a595
+      internalID: -855714940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_318
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1025
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a4c6a2f5691c54ab7cca8ef9e436b2
+      internalID: 2131168683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_319
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1025
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b64cc406babaaf41b8b81db6dccfc8a
+      internalID: 2145298767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_320
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1025
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a463cdc330ac94b8ade2c32fd22779
+      internalID: -1437743982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_321
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1025
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41de4d8450c6fae49bb423b189690af9
+      internalID: -887398340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_322
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1025
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4245ee396fe761344993449c247fa402
+      internalID: 917197844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_323
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1025
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de375fd8999c8c44b9188f0cebae9ccd
+      internalID: -1215795983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_324
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1025
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390abc9754526e14f8e068e246c83fa7
+      internalID: 1273292325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_325
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1025
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928b3dc8dfe09244ba5c0653f6cd17b
+      internalID: 1739654485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_326
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1025
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b1ce943a6f5f843a161736784a2e52
+      internalID: -1799423058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_327
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1025
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92287dce380b46b428382ad1009f086d
+      internalID: -888918804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_328
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 960
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b76c74fcda40e841a560611df1189df
+      internalID: -249723260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_329
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a197b334b546ff428f88ed91ad7cdda
+      internalID: 20272261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_330
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 962
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475bd68dadbfccd4a86dbb695caac8da
+      internalID: -292961927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_331
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 963
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042de1ce85d28524b8172b69dec36440
+      internalID: 1135936890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_332
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 963
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4505f08125ac7642a369d07ffd4bf16
+      internalID: 1240368202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_333
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 961
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8c1ed909761484fba5dad572156373
+      internalID: -1298376097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_334
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 897
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a147ce95df92fa49a106c33af29ee1c
+      internalID: -1264667006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_335
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 897
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375b308754bdd7468279f69ce3ba0d1
+      internalID: 982176351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_336
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 897
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601557d4dbcf2e341a5f5bfa0c192f10
+      internalID: -74794946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_337
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 897
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca647aca89d88a64f9d7ee3b94433898
+      internalID: -431222522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_338
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 897
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688f5764dfa49a4086292dd2085b710
+      internalID: 147593636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_339
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 897
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c070945444b71459e521836bf12e24
+      internalID: -824518520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_340
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 832
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a69eecefdb3f724988fd3e67d6fe30e
+      internalID: -1943351058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_341
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 832
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3a266e194ca854385908d5479494fa
+      internalID: -1074651567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_342
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 832
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f527bbb7711a60f42b69c4927263aeea
+      internalID: 1670958121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_343
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 832
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798cecd06c07f5f40bf8d3a0bc87b0ab
+      internalID: -962560338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_344
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 832
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d28c536b27114ba00b7c882522e2e
+      internalID: 1984306898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_345
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 832
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5710a3784bb4948bcee39a941aa70d
+      internalID: 1289922567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_346
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 769
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9086f54bf7f15d44c84e43da71bb6657
+      internalID: -1809607903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_347
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 769
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9303be81824e6544e9dd6d4efbf2e1cd
+      internalID: -692634956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_348
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 769
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe72e32f0178c2249ba88a9a0134ca0e
+      internalID: 1252320070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_349
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 769
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6c285da14f99745895e3a046a25c89
+      internalID: -807316280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_350
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 769
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de13a0def45926143abcf321598b83d3
+      internalID: -997934116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_351
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 769
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c9050c4ea2e4d488d53d5bfb5f389d
+      internalID: -399333895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_352
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 641
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b08d2feae17d904eb6bc65984fb806f
+      internalID: 1821579763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_353
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 640
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d49a21b2a063f4186805e4292eebde
+      internalID: -1286679153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_354
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 640
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5525e5fb955f664784b5ec925437766
+      internalID: -1633660853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_355
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 640
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a5458376d4af949a8ba4f7a6a7cd61
+      internalID: 1897607753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_356
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 640
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dd5070440752443acb5bcaa5dfa26b
+      internalID: 796371467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_357
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 640
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74379844cc5d6c4492be2ce271547bd
+      internalID: -620170787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_358
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 449
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec61e8ddf9bcc14db6894892449a967
+      internalID: 596173106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_359
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 449
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4e0b4efcd35d344bc7fd5e8cd36bcd
+      internalID: -1606721720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_360
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 449
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a1f614f83de14b918bfabf6d18d84
+      internalID: -1849143904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_361
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 449
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71a9b13918d990479a210265e01b350
+      internalID: -978853269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_362
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 449
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38218389fb3158a49981c37d3a325750
+      internalID: -646372466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_363
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 449
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775167024d2d51a46bd8b4fe8c2739e5
+      internalID: 1505240297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_364
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 257
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1497911fdc8e54d4f90072621a46823a
+      internalID: 986913586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_365
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 257
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6642603333ba62640b569d2a942cd52c
+      internalID: -1979451524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_366
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fced420bfd3c541a6817f29b829823
+      internalID: -2049125214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_367
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 257
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4149e7277c730d499d84e750c2f7334
+      internalID: -1778889261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_368
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 248
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685c16cde58b7fa4eaab27b6b0c404bc
+      internalID: -1303851283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_369
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 252
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359cd9a73b9135e46969f03f297087c9
+      internalID: 2025765032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_370
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b18c4254a5d204bbb8d60e33b2f2aa
+      internalID: 2076932580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_371
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5d7f4468863ee4dbc5a656a214a6e1
+      internalID: -592938141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_372
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 64
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa3905bd01b04048b310d3722a820a1
+      internalID: 718380176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_373
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 64
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1438384cab14b4ea9aa6d147cf6069
+      internalID: 1392069036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_374
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 64
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000db910927df8146964aedf36ab7dc1
+      internalID: 1045875396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mae_375
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 64
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d295a2cbd76374780f261ed32958ea
+      internalID: 2111821609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -158,7 +8054,383 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mae_0: 473511764
+      mae_1: -1614635389
+      mae_10: 360053882
+      mae_100: 1539731642
+      mae_101: 470370206
+      mae_102: 1795058215
+      mae_103: -730269523
+      mae_104: -1515551946
+      mae_105: 331420912
+      mae_106: -358800221
+      mae_107: -297447014
+      mae_108: -1590585117
+      mae_109: 469558774
+      mae_11: 1150879635
+      mae_110: -399262196
+      mae_111: 492310781
+      mae_112: -1560286551
+      mae_113: 1573427236
+      mae_114: -2092471903
+      mae_115: 715447546
+      mae_116: 1176665282
+      mae_117: -228973503
+      mae_118: 129137715
+      mae_119: -1087735564
+      mae_12: -1111276673
+      mae_120: 1090354110
+      mae_121: 1517845411
+      mae_122: -621386454
+      mae_123: 500174714
+      mae_124: -1438609136
+      mae_125: 313384972
+      mae_126: 747025703
+      mae_127: 1113287549
+      mae_128: -582080590
+      mae_129: -27299427
+      mae_13: -529580510
+      mae_130: -1463207251
+      mae_131: -1091431061
+      mae_132: 151347377
+      mae_133: 1897754289
+      mae_134: -1176706133
+      mae_135: -1807205807
+      mae_136: 1761119221
+      mae_137: 980619783
+      mae_138: -1874645556
+      mae_139: 222375769
+      mae_14: 1984603014
+      mae_140: 2008020596
+      mae_141: 165836638
+      mae_142: -519303709
+      mae_143: -1750595713
+      mae_144: 1957897484
+      mae_145: -96937954
+      mae_146: 478531123
+      mae_147: -1793183891
+      mae_148: -1390059121
+      mae_149: -705720348
+      mae_15: 1311792050
+      mae_150: 656656483
+      mae_151: 353580468
+      mae_152: -2041058505
+      mae_153: -444580515
+      mae_154: 2114724321
+      mae_155: -317781457
+      mae_156: -1152827600
+      mae_157: 1662270470
+      mae_158: 231677703
+      mae_159: -1880737778
+      mae_16: -1620831537
+      mae_160: 1980390624
+      mae_161: 543184943
+      mae_162: 1809593804
+      mae_163: 1695932705
+      mae_164: 1734676135
+      mae_165: 113860113
+      mae_166: -10540732
+      mae_167: -1845869595
+      mae_168: -966060646
+      mae_169: 1897030691
+      mae_17: -317364069
+      mae_170: 1638813417
+      mae_171: 1159118908
+      mae_172: 183827649
+      mae_173: 1985113615
+      mae_174: -496746125
+      mae_175: 330828173
+      mae_176: -477055769
+      mae_177: -250517689
+      mae_178: -1206017273
+      mae_179: -1044113023
+      mae_18: -2070624302
+      mae_180: 1739375105
+      mae_181: -2093768172
+      mae_182: 902844066
+      mae_183: 845748484
+      mae_184: -1057464318
+      mae_185: -342318574
+      mae_186: -610934494
+      mae_187: -1223842722
+      mae_188: -1622859217
+      mae_189: 1704926569
+      mae_19: 1525357106
+      mae_190: -522478555
+      mae_191: -1525271433
+      mae_192: -1807866610
+      mae_193: 1925237621
+      mae_194: -1125253215
+      mae_195: -1006572487
+      mae_196: 1889536726
+      mae_197: -1562508390
+      mae_198: -1245962335
+      mae_199: 1676191101
+      mae_2: -1915398354
+      mae_20: 61652084
+      mae_200: 1490705316
+      mae_201: -1925606069
+      mae_202: -2041269739
+      mae_203: 2027203168
+      mae_204: 380181220
+      mae_205: 1592400324
+      mae_206: -1998515824
+      mae_207: 264310646
+      mae_208: -1243838660
+      mae_209: -1448870089
+      mae_21: -1083701773
+      mae_210: 969442959
+      mae_211: 1000778913
+      mae_212: 1721998482
+      mae_213: -1847354352
+      mae_214: 1268933386
+      mae_215: 1379729852
+      mae_216: 545609454
+      mae_217: 898191267
+      mae_218: 402545888
+      mae_219: 774570916
+      mae_22: 1527926880
+      mae_220: -1030877640
+      mae_221: 962393596
+      mae_222: 923507825
+      mae_223: 861529987
+      mae_224: 815173106
+      mae_225: -2051438912
+      mae_226: -1569700936
+      mae_227: 1263581480
+      mae_228: 251510786
+      mae_229: 869552556
+      mae_23: 603691268
+      mae_230: -1783370210
+      mae_231: 1495972392
+      mae_232: -1612713822
+      mae_233: -1474612439
+      mae_234: 1438794889
+      mae_235: -20646503
+      mae_236: 512164808
+      mae_237: -1756251790
+      mae_238: 2119267709
+      mae_239: 809548143
+      mae_24: -560712504
+      mae_240: 1119161933
+      mae_241: -1396848642
+      mae_242: -340952411
+      mae_243: 1016325552
+      mae_244: 1147548167
+      mae_245: 1828454170
+      mae_246: -1827333842
+      mae_247: -483622775
+      mae_248: 1169058256
+      mae_249: -1261676581
+      mae_25: -345898281
+      mae_250: 344657271
+      mae_251: -1929855816
+      mae_252: -2024902948
+      mae_253: -1309135138
+      mae_254: -1620822406
+      mae_255: -1390300067
+      mae_256: 1445422066
+      mae_257: 2039098514
+      mae_258: -522321114
+      mae_259: 1131583717
+      mae_26: 1761321323
+      mae_260: 1331237561
+      mae_261: 1177040489
+      mae_262: 599755528
+      mae_263: 1059927193
+      mae_264: -729329673
+      mae_265: -1712940751
+      mae_266: -1148144600
+      mae_267: 1209408954
+      mae_268: -1543775977
+      mae_269: 543468018
+      mae_27: -550649241
+      mae_270: -212484245
+      mae_271: -1379015798
+      mae_272: 477431071
+      mae_273: 2065465292
+      mae_274: -1500235838
+      mae_275: -466863420
+      mae_276: 26834615
+      mae_277: -439935566
+      mae_278: 1303490523
+      mae_279: -1307089587
+      mae_28: 1672242733
+      mae_280: -1762565986
+      mae_281: -809969293
+      mae_282: 1730106607
+      mae_283: 415494140
+      mae_284: 2003053606
+      mae_285: -42451567
+      mae_286: -1299859237
+      mae_287: 1066107328
+      mae_288: 329603185
+      mae_289: -685988952
+      mae_29: 329723947
+      mae_290: 576194604
+      mae_291: 1315949104
+      mae_292: 1187235543
+      mae_293: -1138073713
+      mae_294: -351532747
+      mae_295: -1094559835
+      mae_296: 491714571
+      mae_297: -770589209
+      mae_298: -1877307093
+      mae_299: 2117639272
+      mae_3: -255451618
+      mae_30: -1254014458
+      mae_300: 76756627
+      mae_301: -2040722249
+      mae_302: 81023884
+      mae_303: -2122155662
+      mae_304: -702334070
+      mae_305: -1223129835
+      mae_306: -376490150
+      mae_307: -1998930702
+      mae_308: 1957316782
+      mae_309: 1659462499
+      mae_31: -320299499
+      mae_310: 868996379
+      mae_311: 91817550
+      mae_312: 1068467156
+      mae_313: -869264235
+      mae_314: -156084228
+      mae_315: 1810077207
+      mae_316: 260595843
+      mae_317: -855714940
+      mae_318: 2131168683
+      mae_319: 2145298767
+      mae_32: -2093230899
+      mae_320: -1437743982
+      mae_321: -887398340
+      mae_322: 917197844
+      mae_323: -1215795983
+      mae_324: 1273292325
+      mae_325: 1739654485
+      mae_326: -1799423058
+      mae_327: -888918804
+      mae_328: -249723260
+      mae_329: 20272261
+      mae_33: -1431462068
+      mae_330: -292961927
+      mae_331: 1135936890
+      mae_332: 1240368202
+      mae_333: -1298376097
+      mae_334: -1264667006
+      mae_335: 982176351
+      mae_336: -74794946
+      mae_337: -431222522
+      mae_338: 147593636
+      mae_339: -824518520
+      mae_34: -979642990
+      mae_340: -1943351058
+      mae_341: -1074651567
+      mae_342: 1670958121
+      mae_343: -962560338
+      mae_344: 1984306898
+      mae_345: 1289922567
+      mae_346: -1809607903
+      mae_347: -692634956
+      mae_348: 1252320070
+      mae_349: -807316280
+      mae_35: 1689547016
+      mae_350: -997934116
+      mae_351: -399333895
+      mae_352: 1821579763
+      mae_353: -1286679153
+      mae_354: -1633660853
+      mae_355: 1897607753
+      mae_356: 796371467
+      mae_357: -620170787
+      mae_358: 596173106
+      mae_359: -1606721720
+      mae_36: -163432782
+      mae_360: -1849143904
+      mae_361: -978853269
+      mae_362: -646372466
+      mae_363: 1505240297
+      mae_364: 986913586
+      mae_365: -1979451524
+      mae_366: -2049125214
+      mae_367: -1778889261
+      mae_368: -1303851283
+      mae_369: 2025765032
+      mae_37: -2090488712
+      mae_370: 2076932580
+      mae_371: -592938141
+      mae_372: 718380176
+      mae_373: 1392069036
+      mae_374: 1045875396
+      mae_375: 2111821609
+      mae_38: -1342138806
+      mae_39: -2021143889
+      mae_4: 556958105
+      mae_40: -455478441
+      mae_41: -642338541
+      mae_42: -1005332987
+      mae_43: 1043525558
+      mae_44: -1981681451
+      mae_45: 1791329943
+      mae_46: -1154187340
+      mae_47: 1273800699
+      mae_48: 1611994615
+      mae_49: -964354600
+      mae_5: -980082275
+      mae_50: -742006391
+      mae_51: 758232390
+      mae_52: 1902683905
+      mae_53: -771273900
+      mae_54: 195182771
+      mae_55: 1473604875
+      mae_56: -111338921
+      mae_57: -1299893116
+      mae_58: -191952857
+      mae_59: 467683006
+      mae_6: 1144029832
+      mae_60: -1593885121
+      mae_61: 1089780925
+      mae_62: 330413646
+      mae_63: 415864206
+      mae_64: -1590891113
+      mae_65: 765149214
+      mae_66: -1043956740
+      mae_67: -541013233
+      mae_68: 711524682
+      mae_69: -867882470
+      mae_7: -1659465548
+      mae_70: 575930923
+      mae_71: -1926622648
+      mae_72: 1261221104
+      mae_73: -2081243826
+      mae_74: -1263817486
+      mae_75: -936491688
+      mae_76: 1449820652
+      mae_77: -1351308812
+      mae_78: -665324655
+      mae_79: -1504612642
+      mae_8: -417587466
+      mae_80: 339262028
+      mae_81: -74100313
+      mae_82: 1385950694
+      mae_83: 1860665445
+      mae_84: -408479368
+      mae_85: 607952488
+      mae_86: -920318348
+      mae_87: -1606271608
+      mae_88: 1620825145
+      mae_89: 2056797340
+      mae_9: -1120304137
+      mae_90: -1413454400
+      mae_91: 1871024142
+      mae_92: -584075804
+      mae_93: -560436676
+      mae_94: 1815541738
+      mae_95: -1382486196
+      mae_96: 1757315578
+      mae_97: 1761500230
+      mae_98: 917959918
+      mae_99: 389966359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
