@@ -119,7 +119,7 @@ MonoBehaviour:
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: -521412202, guid: 91ca7d2730c635b4eabd5ce2b30e461c, type: 3}
+  aliveSprite: {fileID: 1202885192, guid: 516a65c4e23690e4e83e247d0d58cd32, type: 3}
   fadeSpeed: 1
   weaknesses: 02000000
   resistances: 0000000001000000
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962906933442992}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
   m_Name: 
@@ -148,26 +148,8 @@ MonoBehaviour:
       data:
         m_Target: {fileID: 114895784032005762}
         m_TrackedProperties:
-          items:
-          - rid: 7012525773100941316
+          items: []
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 7012525773100941316
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 7012525773100941317
-        m_PropertyPath: aliveSprite
-    - rid: 7012525773100941317
-      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
-        m_TableEntryReference:
-          m_KeyId: 64428694195343360
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
