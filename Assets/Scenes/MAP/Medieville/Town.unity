@@ -1827,6 +1827,8 @@ GameObject:
   - component: {fileID: 219162631}
   - component: {fileID: 219162640}
   - component: {fileID: 219162639}
+  - component: {fileID: 219162646}
+  - component: {fileID: 219162647}
   - component: {fileID: 219162636}
   - component: {fileID: 219162638}
   - component: {fileID: 219162641}
@@ -1855,6 +1857,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 755399934}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training battle 1
   activeIfComplete: 1
 --- !u!114 &219162614
@@ -1871,6 +1876,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1199242418}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training battle 1
   activeIfComplete: 0
 --- !u!4 &219162615
@@ -1903,6 +1911,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 865508442}
   - {fileID: 2084546145}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training battle 2
   activeIfComplete: 1
 --- !u!114 &219162617
@@ -1919,6 +1930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 755399934}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training battle 2
   activeIfComplete: 0
 --- !u!114 &219162618
@@ -1935,6 +1949,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1539787120}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training battle 2
   activeIfComplete: 0
 --- !u!114 &219162620
@@ -1952,6 +1969,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 425444074}
   - {fileID: 2084546145}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: training forest
   activeIfComplete: 0
 --- !u!114 &219162621
@@ -1968,6 +1988,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 273079926}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: fin training battle 1
   activeIfComplete: 0
 --- !u!114 &219162622
@@ -1984,6 +2007,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1157115249}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: fin training battle 2
   activeIfComplete: 0
 --- !u!114 &219162624
@@ -2002,6 +2028,9 @@ MonoBehaviour:
   - {fileID: 303383788}
   - {fileID: 257808743}
   - {fileID: 1330139529}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: after training forest
   activeIfComplete: 1
 --- !u!114 &219162625
@@ -2020,6 +2049,9 @@ MonoBehaviour:
   - {fileID: 303383788}
   - {fileID: 257808743}
   - {fileID: 1330139529}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: after training forest 2
   activeIfComplete: 0
 --- !u!114 &219162627
@@ -2039,6 +2071,9 @@ MonoBehaviour:
   - {fileID: 1324285521}
   - {fileID: 1950570689}
   - {fileID: 1774551073}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: sleep
   activeIfComplete: 1
 --- !u!114 &219162628
@@ -2056,6 +2091,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 865508442}
   - {fileID: 1797671867}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: sleep
   activeIfComplete: 0
 --- !u!114 &219162630
@@ -2073,6 +2111,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 20513038}
   - {fileID: 173625853}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: after examen
   activeIfComplete: 1
 --- !u!114 &219162631
@@ -2095,6 +2136,9 @@ MonoBehaviour:
   - {fileID: 1774551073}
   - {fileID: 1950570689}
   - {fileID: 943776497}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: end examen
   activeIfComplete: 0
 --- !u!114 &219162635
@@ -2111,6 +2155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1927675286}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: after examen
   activeIfComplete: 0
 --- !u!114 &219162636
@@ -2140,6 +2187,9 @@ MonoBehaviour:
   - {fileID: 21258997}
   - {fileID: 1309124909}
   - {fileID: 1853405259}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph6
   activeIfComplete: 1
 --- !u!114 &219162638
@@ -2160,6 +2210,9 @@ MonoBehaviour:
   - {fileID: 1561429851}
   - {fileID: 943776497}
   - {fileID: 1199242418}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph6
   activeIfComplete: 0
 --- !u!114 &219162639
@@ -2176,6 +2229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1494406014}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: end mission apple
   activeIfComplete: 1
 --- !u!114 &219162640
@@ -2192,6 +2248,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 173625853}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: end mission apple
   activeIfComplete: 0
 --- !u!114 &219162641
@@ -2208,6 +2267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1523665261}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: soldat moonshine
   activeIfComplete: 0
 --- !u!114 &219162642
@@ -2227,6 +2289,9 @@ MonoBehaviour:
   - {fileID: 4772847}
   - {fileID: 1768630795}
   - {fileID: 784305362}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: escape village
   activeIfComplete: 0
 --- !u!114 &219162643
@@ -2246,6 +2311,9 @@ MonoBehaviour:
   - {fileID: 2075906537}
   - {fileID: 131930738}
   - {fileID: 441148441}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: escape village
   activeIfComplete: 1
 --- !u!114 &219162644
@@ -2263,6 +2331,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 1391791039}
   - {fileID: 2075906537}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: battle soldat village
   activeIfComplete: 0
 --- !u!114 &219162645
@@ -2277,53 +2348,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 8700492740924801029
+  m_TrackedObjects: []
   references:
     version: 2
-    RefIds:
-    - rid: 8700492740924801029
-      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
-        asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 219162636}
-        m_TrackedProperties:
-          items:
-          - rid: 8700492740924801030
-          - rid: 8700492740924801031
-        m_UpdateType: 1
-        m_Changed:
-          m_PersistentCalls:
-            m_Calls: []
-    - rid: 8700492740924801030
-      type: {class: ArraySizeTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_PropertyPath: objectsToActivate.Array.size
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: fr
-          value: 14
-        - localeIdentifier:
-            m_Code: en
-          value: 14
-    - rid: 8700492740924801031
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 8700492740924801032
-        m_PropertyPath: objectsToActivate.Array.data[13]
-    - rid: 8700492740924801032
-      type: {class: LocalizedGameObject, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
-        m_TableEntryReference:
-          m_KeyId: 20105466656526336
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0
+    RefIds: []
+--- !u!114 &219162646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1939516788}
+  objectsToGain: []
+  moneyToGain: 500
+  expToGain: 0
+  questToCheck: Item mission apple
+  activeIfComplete: 1
+--- !u!114 &219162647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1494406014}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: Item mission apple
+  activeIfComplete: 0
 --- !u!1 &257808743
 GameObject:
   m_ObjectHideFlags: 0
@@ -10049,6 +10115,7 @@ Transform:
   - {fileID: 943776498}
   - {fileID: 173625854}
   - {fileID: 1494406015}
+  - {fileID: 1939516789}
   - {fileID: 1539787121}
   - {fileID: 1950570690}
   - {fileID: 257808744}
@@ -37863,8 +37930,8 @@ MonoBehaviour:
   - "Merci pour les pommes, gr\xE2ce \xE0 vous je vais pouvoir faire ma tarte."
   isPerson: 1
   shouldActivateQuest: 0
-  questToMark: 
-  markComplete: 0
+  questToMark: Item mission apple
+  markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 0
   playersToAdd: []
@@ -40300,6 +40367,250 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7421557491262375505}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1939516788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939516789}
+  - component: {fileID: 1939516794}
+  - component: {fileID: 1939516793}
+  - component: {fileID: 1939516792}
+  - component: {fileID: 1939516791}
+  - component: {fileID: 1939516790}
+  m_Layer: 0
+  m_Name: NPC_Man (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1939516789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 47.2, y: -20.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 823580520}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939516790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 8232520309824815119
+  references:
+    version: 2
+    RefIds:
+    - rid: 8232520309824815119
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1939516793}
+        m_TrackedProperties:
+          items:
+          - rid: 8232520309824815120
+        m_UpdateType: 1
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 8232520309824815120
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+          m_TableEntryReference:
+            m_KeyId: 7733643239428096
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: lines.Array.data[1]
+--- !u!61 &1939516791
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01350522, y: 0.10804224}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6666667, y: 1.2}
+    newSize: {x: 0.9375, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5863633, y: 0.7839155}
+  m_EdgeRadius: 0
+--- !u!61 &1939516792
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013505101, y: -0.36464208}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.6666667, y: 1.2}
+    newSize: {x: 0.9375, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.6391623, y: 1.7292842}
+  m_EdgeRadius: 0
+--- !u!114 &1939516793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - n-Homme
+  - "Merci pour les pommes, gr\xE2ce \xE0 vous je vais pouvoir faire ma tarte."
+  isPerson: 1
+  shouldActivateQuest: 0
+  questToMark: 
+  markComplete: 0
+  shouldHealPlayer: 0
+  shouldAutoLaunch: 0
+  playersToAdd: []
+  playersToRemove: []
+--- !u!212 &1939516794
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939516788}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -76193021
+  m_SortingLayer: 2
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 1672677334, guid: 1681347853316db41af8f071be3eca7c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.9375, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1950570689
 GameObject:
   m_ObjectHideFlags: 0
@@ -77786,6 +78097,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 823580520}
     m_Modifications:
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64444447
+      objectReference: {fileID: 0}
+    - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1111112
+      objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -77861,6 +78182,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC_Girl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64444447
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.1111112
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

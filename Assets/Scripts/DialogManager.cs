@@ -111,8 +111,6 @@ public class DialogManager : MonoBehaviour {
                 {
                     justStarted = false;
                 }
-
-                
             }
         }
 

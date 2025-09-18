@@ -4,6 +4,12 @@ public class QuestObjectActivator : MonoBehaviour {
 
     public GameObject[] objectsToActivate;
 
+    public Item[] objectsToGain;
+
+    public int moneyToGain;
+
+    public int expToGain;
+
     public string questToCheck;
 
     public bool activeIfComplete;

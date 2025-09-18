@@ -46,9 +46,24 @@ public class BattleReward : MonoBehaviour {
             }
         }
 
-        xpText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "EXP_WIN") + xpEarned + " exp!";
+        if (xpEarned > 0)
+        {
+            xpText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "EXP_WIN") + xpEarned + " exp!";
+        }
+        else
+        {
+            xpText.text = "";
+        }
 
-        moneyText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "GOLD_WIN") + moneyWin + " gold!";
+        if (moneyWin > 0)
+        {
+            moneyText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "GOLD_WIN") + moneyWin + " gold!";
+        }
+        else
+        {
+            moneyText.text = "";
+        }
+
 
         itemText.text = "";
 
@@ -65,9 +80,17 @@ public class BattleReward : MonoBehaviour {
 
     public void ContinueRewardScreen ()
     {
-        rewardScreen.SetActive(false);
-        rewardExpScreen.SetActive(true);
-        StartCoroutine(DisplayRewardExp());
+        if (xpEarned > 0)
+        {
+            rewardScreen.SetActive(false);
+            rewardExpScreen.SetActive(true);
+            StartCoroutine(DisplayRewardExp());
+        } else
+        {
+            rewardScreen.SetActive(false);
+            CloseRewardScreen();
+        }
+        
     }
 
     private IEnumerator DisplayRewardExp()
