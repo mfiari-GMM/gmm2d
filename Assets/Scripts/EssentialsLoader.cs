@@ -36,9 +36,4 @@ public class EssentialsLoader : MonoBehaviour {
             BattleManager.instance = Instantiate(battleMan).GetComponent<BattleManager>();
         }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

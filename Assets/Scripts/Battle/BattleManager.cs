@@ -214,6 +214,19 @@ public class BattleManager : MonoBehaviour
             currentTurn = 0;
         }
 
+        if (activeBattlers[currentTurn].battleStatus == BattleMove.BattleStatus.Poison)
+        {
+            int damageToTake = activeBattlers[currentTurn].maxHP / 10;
+            activeBattlers[currentTurn].currentHp -= damageToTake;
+            Instantiate(theDamageNumber, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation).SetDamage(damageToTake, 0);
+        }
+        if (activeBattlers[currentTurn].currentHp <= 0)
+        {
+            activeBattlers[currentTurn].currentHp = 0;
+            activeBattlers[currentTurn].theSprite.sprite = activeBattlers[currentTurn].deadSprite;
+            UpdateUIStats();
+        }
+
         turnWaiting = true;
 
         UpdateBattle();
@@ -391,6 +404,11 @@ public class BattleManager : MonoBehaviour
         } else
         {
             DealDamage(selectedTarget, movePower, magic, battleType);
+        }
+
+        if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
+        {
+            activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
         }
         
         if (activeBattlers[currentTurn].ShoudlDeTransform())

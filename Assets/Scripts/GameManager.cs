@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -22,6 +23,8 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
 
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
         SortItems();
 	}
 	
@@ -34,6 +37,23 @@ public class GameManager : MonoBehaviour {
         {
             PlayerController.instance.canMove = true;
         }
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("Scene loaded: " + scene.name);
+
+        // At this point, Awake() and OnEnable() have run,
+        // but Start() may not have yet.
+        StartCoroutine(WaitForSceneInit());
+    }
+
+    private IEnumerator WaitForSceneInit()
+    {
+        yield return null; // wait 1 frame so Start() can run
+
+        Debug.Log("All objects in the scene should now be initialized (Awake/Start).");
+        QuestManager.instance.LoadQuestData();
     }
 
     public Item GetItemDetails(string itemToGrab)

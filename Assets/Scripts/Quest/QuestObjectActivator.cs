@@ -32,6 +32,7 @@ public class QuestObjectActivator : MonoBehaviour {
         {
             for (int i = 0; i < objectsToActivate.Length; i++)
             {
+                Debug.Log(objectsToActivate[i].name + (activeIfComplete ? "active" : "unactive"));
                 objectsToActivate[i].SetActive(activeIfComplete);
             }
             

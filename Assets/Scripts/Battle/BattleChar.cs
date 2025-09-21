@@ -19,6 +19,8 @@ public class BattleChar : MonoBehaviour {
     public BattleMove.BattleMoveType[] weaknesses;
     public BattleMove.BattleMoveType[] resistances;
 
+    public BattleMove.BattleStatus battleStatus;
+
     public BattleChar transformation;
     public int maxTransformationTurn = 3;
 

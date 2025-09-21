@@ -100,12 +100,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
+  - SLASH
+  - STING
   charName: Red Wasp
   currentHp: 180
   maxHP: 180
-  currentMP: 0
-  maxMP: 0
+  currentMP: 200
+  maxMP: 200
   strength: 60
   defence: 7
   magie: 0
@@ -121,6 +122,7 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
 --- !u!114 &5296007311006786302

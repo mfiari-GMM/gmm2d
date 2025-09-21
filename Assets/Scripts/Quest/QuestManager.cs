@@ -83,13 +83,22 @@ public class QuestManager : MonoBehaviour {
     public void UpdateLocalQuestObjects()
     {
         QuestObjectActivator[] questObjects = FindObjectsOfType<QuestObjectActivator>();
+        Debug.Log("UpdateLocalQuestObjects : " + questObjects.Length);
 
-        if(questObjects.Length > 0)
+        if (questObjects.Length > 0)
         {
-            for(int i = 0; i < questObjects.Length; i++)
+            for (int i = 0; i < questMarkerNames.Length; i++)
             {
-                questObjects[i].CheckCompletion();
+                for (int j = 0; j < questObjects.Length; j++)
+                {
+                    if (questObjects[j].questToCheck == questMarkerNames[i])
+                    {
+                        Debug.Log("CheckCompletion for " + questObjects[j].questToCheck);
+                        questObjects[j].CheckCompletion();
+                    }
+                }
             }
+            
         }
     }
 
