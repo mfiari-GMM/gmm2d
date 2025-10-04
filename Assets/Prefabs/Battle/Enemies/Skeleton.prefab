@@ -108,7 +108,7 @@ MonoBehaviour:
   strength: 400
   defence: 35
   magie: 0
-  resistance: 20
+  resistance: 15
   wpnPower: 10
   armrPower: 0
   criticalRate: 5
@@ -120,5 +120,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 07000000
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

@@ -364,6 +364,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1862176701}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Zugarramurdi part2
   activeIfComplete: 0
 --- !u!114 &219162617
@@ -380,6 +383,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1731172133}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Zugarramurdi part2
   activeIfComplete: 1
 --- !u!114 &219162618
@@ -396,6 +402,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1731172133}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Myrkvior
   activeIfComplete: 0
 --- !u!1 &292103326
@@ -1433,32 +1442,32 @@ PrefabInstance:
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.2791378
+      value: 2.4663618
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.9245071
+      value: 2.158535
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.19351733
+      value: -0.17791545
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.07965851
+      value: 0.19667244
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.8666667
+      value: 0.75555557
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.1336794
+      value: 1.4222223
       objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -1554,7 +1563,7 @@ PrefabInstance:
     - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.102211
+      value: 1.8043022
       objectReference: {fileID: 0}
     - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -1564,17 +1573,17 @@ PrefabInstance:
     - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.66628647
+      value: -0.31524086
       objectReference: {fileID: 0}
     - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.8666667
+      value: 0.75555557
       objectReference: {fileID: 0}
     - target: {fileID: 8423902859190488733, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.1336794
+      value: 1.4222223
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

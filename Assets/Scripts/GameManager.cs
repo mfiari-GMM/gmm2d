@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour {
         yield return null; // wait 1 frame so Start() can run
 
         Debug.Log("All objects in the scene should now be initialized (Awake/Start).");
-        QuestManager.instance.LoadQuestData();
+        QuestManager.instance.UpdateLocalQuestObjects();
     }
 
     public Item GetItemDetails(string itemToGrab)
