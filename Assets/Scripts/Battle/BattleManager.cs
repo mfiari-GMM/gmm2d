@@ -90,7 +90,7 @@ public class BattleManager : MonoBehaviour
                     //MoveActivePlayerPosition();
                     uiButtonsHolder.SetActive(true);
 
-                    if (Input.GetKeyDown(KeyCode.Z))
+                    if (Input.GetButtonDown("Fire3"))
                     {
                         CloseCurrentMenu();
                     }

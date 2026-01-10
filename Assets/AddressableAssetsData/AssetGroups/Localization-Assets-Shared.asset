@@ -17,15 +17,24 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: f47bface994ace542bacb7142a652a69
   m_SerializeEntries:
-  - m_GUID: d84bae2988264cc41810a48417b05d65
-    m_Address: Assets/locales/MyStringTableCollection Shared Data.asset
+  - m_GUID: 1a1d7201b189a37409129dfd32d453e0
+    m_Address: mae
     m_ReadOnly: 1
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-fr
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2430dbb7a799f3a45a879f73cda0f92c
     m_Address: Assets/locales/MyAssetTableCollection Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 697acd1dc55eaf944885d97106c65b68
+    m_Address: pomme
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-fr
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: a04ddd72e75c3484c9f89149d464ca4e
     m_Address: Guepe
@@ -41,8 +50,13 @@ MonoBehaviour:
     - Locale-en
     - Locale-fr
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 697acd1dc55eaf944885d97106c65b68
-    m_Address: pomme
+  - m_GUID: d84bae2988264cc41810a48417b05d65
+    m_Address: Assets/locales/MyStringTableCollection Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc3408df2e0a65d49a7f96dc3a466dac
+    m_Address: Eyeball
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
@@ -50,13 +64,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eaaff820e9a6af44c8bb3aa7b8c712cf
     m_Address: fraise
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-    - Locale-fr
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: dc3408df2e0a65d49a7f96dc3a466dac
-    m_Address: Eyeball
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 114998656194533452}
   - component: {fileID: 114542217806163870}
   - component: {fileID: 114790232318046426}
+  - component: {fileID: 1708205705767154568}
   m_Layer: 0
   m_Name: Target Button (1)
   m_TagString: Untagged
@@ -732,6 +733,34 @@ MonoBehaviour:
   targetName: {fileID: 114324007513725800}
   isItem: 0
   itemName: 
+--- !u!114 &1708205705767154568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099465823146798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114790232318046426}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1100190688898036
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,6 +774,7 @@ GameObject:
   - component: {fileID: 114666063515984236}
   - component: {fileID: 114086647784321056}
   - component: {fileID: 5295758756128385842}
+  - component: {fileID: 1054822996279351857}
   m_Layer: 0
   m_Name: Item Button
   m_TagString: Untagged
@@ -968,6 +998,34 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 100
+--- !u!114 &1054822996279351857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100190688898036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114767406652574682}
+        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
+        m_MethodName: OpenObjectMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1101213730398156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,7 +1337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -33.45}
+  m_AnchoredPosition: {x: 112.65, y: -33.45}
   m_SizeDelta: {x: 185.3, y: 46.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222610242772166162
@@ -1505,6 +1563,7 @@ GameObject:
   - component: {fileID: 114985643638980850}
   - component: {fileID: 114792423791595132}
   - component: {fileID: 1695490029281972432}
+  - component: {fileID: 8754384244410706351}
   m_Layer: 0
   m_Name: Flee Button
   m_TagString: Untagged
@@ -1728,6 +1787,34 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 100
+--- !u!114 &8754384244410706351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212730202597918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114767406652574682}
+        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
+        m_MethodName: Flee
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1229693188471346
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,6 +3263,7 @@ GameObject:
   - component: {fileID: 114148786222574062}
   - component: {fileID: 114313499010549780}
   - component: {fileID: 3786999459350380485}
+  - component: {fileID: 4652220386026535444}
   m_Layer: 0
   m_Name: Magic Button
   m_TagString: Untagged
@@ -3399,6 +3487,34 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 100
+--- !u!114 &4652220386026535444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312058871969948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114767406652574682}
+        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
+        m_MethodName: OpenMagicMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1312584852006118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4036,6 +4152,7 @@ GameObject:
   - component: {fileID: 114276981963595792}
   - component: {fileID: 114469206699173176}
   - component: {fileID: 114933861184385014}
+  - component: {fileID: 291150154204622042}
   m_Layer: 0
   m_Name: Spell Button
   m_TagString: Untagged
@@ -4174,6 +4291,34 @@ MonoBehaviour:
   spellCost: 0
   nameText: {fileID: 114521708416971966}
   costText: {fileID: 114213928025724216}
+--- !u!114 &291150154204622042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354537982258648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114933861184385014}
+        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1361351912948836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4606,6 +4751,7 @@ GameObject:
   - component: {fileID: 114172474244591734}
   - component: {fileID: 114795459188297050}
   - component: {fileID: 114366498943944780}
+  - component: {fileID: 8791731608501931003}
   m_Layer: 0
   m_Name: Spell Button (2)
   m_TagString: Untagged
@@ -4744,6 +4890,34 @@ MonoBehaviour:
   spellCost: 0
   nameText: {fileID: 114400169108694766}
   costText: {fileID: 114542453547196506}
+--- !u!114 &8791731608501931003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372648772235464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114366498943944780}
+        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1381208197351136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5692,6 +5866,7 @@ GameObject:
   - component: {fileID: 114069690216462426}
   - component: {fileID: 114662112409804594}
   - component: {fileID: 114274983567160388}
+  - component: {fileID: 2408997993945100076}
   m_Layer: 0
   m_Name: Spell Button (1)
   m_TagString: Untagged
@@ -5830,6 +6005,34 @@ MonoBehaviour:
   spellCost: 0
   nameText: {fileID: 114560618483430788}
   costText: {fileID: 114565239554265124}
+--- !u!114 &2408997993945100076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483654478359848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114274983567160388}
+        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1485908532246092
 GameObject:
   m_ObjectHideFlags: 0
@@ -6223,6 +6426,7 @@ GameObject:
   - component: {fileID: 222165286708019062}
   - component: {fileID: 114727312912722300}
   - component: {fileID: 114806832505617350}
+  - component: {fileID: 3913173436362596037}
   m_Layer: 0
   m_Name: Target Menu
   m_TagString: Untagged
@@ -6317,6 +6521,25 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &3913173436362596037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520597121201010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2972a25db3e0a4e4281b8584b53cf764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiItems:
+  - {fileID: 9192651524413273758}
+  - {fileID: 1708205705767154568}
+  - {fileID: 6514923876284343121}
+  - {fileID: 9151143008213837212}
+  - {fileID: 5979623659823574465}
+  - {fileID: 7405534687249060168}
 --- !u!1 &1535207208617266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6961,6 +7184,7 @@ GameObject:
   - component: {fileID: 114919768589714486}
   - component: {fileID: 114762830137563936}
   - component: {fileID: 114793131284947698}
+  - component: {fileID: 5979623659823574465}
   m_Layer: 0
   m_Name: Target Button (4)
   m_TagString: Untagged
@@ -7099,6 +7323,34 @@ MonoBehaviour:
   targetName: {fileID: 114274751335041244}
   isItem: 0
   itemName: 
+--- !u!114 &5979623659823574465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563357184598746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114793131284947698}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1571096523146450
 GameObject:
   m_ObjectHideFlags: 0
@@ -7270,6 +7522,7 @@ GameObject:
   - component: {fileID: 114250892713291042}
   - component: {fileID: 114885594205504376}
   - component: {fileID: 114367999964819614}
+  - component: {fileID: 6514923876284343121}
   m_Layer: 0
   m_Name: Target Button (2)
   m_TagString: Untagged
@@ -7408,6 +7661,34 @@ MonoBehaviour:
   targetName: {fileID: 114935390955250222}
   isItem: 0
   itemName: 
+--- !u!114 &6514923876284343121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584471379818942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114367999964819614}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1595396702520892
 GameObject:
   m_ObjectHideFlags: 0
@@ -8098,6 +8379,7 @@ GameObject:
   - component: {fileID: 114806089232587248}
   - component: {fileID: 114809004660264960}
   - component: {fileID: 5126683678058022126}
+  - component: {fileID: 4895972376240372725}
   m_Layer: 0
   m_Name: Attack Button
   m_TagString: Untagged
@@ -8321,6 +8603,34 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en
           value: 100
+--- !u!114 &4895972376240372725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645158547414498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114767406652574682}
+        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
+        m_MethodName: OpenTargetMenu
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SLASH
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1665756253652374
 GameObject:
   m_ObjectHideFlags: 0
@@ -8644,6 +8954,7 @@ GameObject:
   - component: {fileID: 222064755158019352}
   - component: {fileID: 114090078588176150}
   - component: {fileID: 114121910567847420}
+  - component: {fileID: 4812581739966357472}
   m_Layer: 0
   m_Name: Magic Menu
   m_TagString: Untagged
@@ -8747,6 +9058,22 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &4812581739966357472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683641334450374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2972a25db3e0a4e4281b8584b53cf764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiItems:
+  - {fileID: 291150154204622042}
+  - {fileID: 2408997993945100076}
+  - {fileID: 8791731608501931003}
 --- !u!1 &1694383079872242
 GameObject:
   m_ObjectHideFlags: 0
@@ -8791,6 +9118,7 @@ GameObject:
   - component: {fileID: 222244660570051010}
   - component: {fileID: 114350688187834526}
   - component: {fileID: 114719832430237294}
+  - component: {fileID: 968360344607815874}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -8883,6 +9211,23 @@ MonoBehaviour:
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &968360344607815874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695574381629516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2972a25db3e0a4e4281b8584b53cf764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiItems:
+  - {fileID: 4895972376240372725}
+  - {fileID: 4652220386026535444}
+  - {fileID: 1054822996279351857}
+  - {fileID: 8754384244410706351}
 --- !u!1 &1701142698898898
 GameObject:
   m_ObjectHideFlags: 0
@@ -9402,6 +9747,7 @@ GameObject:
   - component: {fileID: 114598875317593212}
   - component: {fileID: 114272195935276982}
   - component: {fileID: 114358598621182318}
+  - component: {fileID: 9192651524413273758}
   m_Layer: 0
   m_Name: Target Button
   m_TagString: Untagged
@@ -9540,6 +9886,34 @@ MonoBehaviour:
   targetName: {fileID: 114444067161019596}
   isItem: 0
   itemName: 
+--- !u!114 &9192651524413273758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764413838000412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114358598621182318}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1769953219547854
 GameObject:
   m_ObjectHideFlags: 0
@@ -9916,6 +10290,7 @@ GameObject:
   - component: {fileID: 114402039621404796}
   - component: {fileID: 114692541692723648}
   - component: {fileID: 114376309336668926}
+  - component: {fileID: 9151143008213837212}
   m_Layer: 0
   m_Name: Target Button (3)
   m_TagString: Untagged
@@ -10054,6 +10429,34 @@ MonoBehaviour:
   targetName: {fileID: 114431351206739344}
   isItem: 0
   itemName: 
+--- !u!114 &9151143008213837212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815342865153684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114376309336668926}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1816862234595526
 GameObject:
   m_ObjectHideFlags: 0
@@ -11033,6 +11436,7 @@ GameObject:
   - component: {fileID: 114460753968150296}
   - component: {fileID: 114976078002215180}
   - component: {fileID: 114994308743217658}
+  - component: {fileID: 7405534687249060168}
   m_Layer: 0
   m_Name: Target Button (5)
   m_TagString: Untagged
@@ -11171,6 +11575,34 @@ MonoBehaviour:
   targetName: {fileID: 114408048641654842}
   isItem: 0
   itemName: 
+--- !u!114 &7405534687249060168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946293881923704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114994308743217658}
+        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1953708712436902
 GameObject:
   m_ObjectHideFlags: 0

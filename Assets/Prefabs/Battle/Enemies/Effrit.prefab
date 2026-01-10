@@ -109,12 +109,12 @@ MonoBehaviour:
   currentMP: 2000
   maxMP: 2000
   strength: 700
-  defence: 50
+  defence: 30
   magie: 700
-  resistance: 50
+  resistance: 40
   wpnPower: 0
   armrPower: 0
-  criticalRate: 20
+  criticalRate: 10
   dodgeRate: 10
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
@@ -123,6 +123,7 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 0100000002000000
   resistances: 00000000
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
 --- !u!114 &1791752615221883547

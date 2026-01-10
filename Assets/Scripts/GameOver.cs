@@ -29,6 +29,7 @@ public class GameOver : MonoBehaviour {
         Destroy(GameMenu.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);
         Destroy(BattleManager.instance.gameObject);
+        Destroy(SteamGameManager.instance.gameObject);
 
         SceneManager.LoadScene(mainMenuScene);
     }

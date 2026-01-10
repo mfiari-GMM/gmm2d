@@ -41,13 +41,14 @@ public class MainMenu : MonoBehaviour {
         {
             SwitchToEn();
         }
+        if (PlayerPrefs.HasKey("volume"))
+        {
+            float volume = PlayerPrefs.GetFloat("volume");
+            AudioManager.instance.ChangeVolume(volume);
+            soundSlider.value = volume;
+        }
         AudioManager.instance.PlayBGM(4);
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void Continue()
     {
@@ -72,6 +73,7 @@ public class MainMenu : MonoBehaviour {
     public void ChangeVolume()
     {
         AudioManager.instance.ChangeVolume(soundSlider.value);
+        PlayerPrefs.SetFloat("volume", soundSlider.value);
     }
 
     public void Exit()

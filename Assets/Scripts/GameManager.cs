@@ -268,7 +268,7 @@ public class GameManager : MonoBehaviour {
 
         for (int i = 0; i < playerStats.Length; i++)
         {
-            if (PlayerPrefs.HasKey("Player_" + playerStats[i].charName + "_Level") && playerStats[i].charName != "Alexis")
+            if (PlayerPrefs.HasKey("Player_" + playerStats[i].charName + "_Level"))
             {
                 if (PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_active") == 0)
                 {

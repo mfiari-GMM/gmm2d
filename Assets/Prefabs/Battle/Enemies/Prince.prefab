@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4837038083411678}
   - component: {fileID: 212612185695992934}
   - component: {fileID: 114895784032005762}
-  - component: {fileID: -763023934063768799}
   m_Layer: 0
   m_Name: Prince
   m_TagString: Untagged
@@ -103,19 +102,19 @@ MonoBehaviour:
   - Slash
   - epee enflamme
   - tornade de feu
-  charName: Lukas
-  currentHp: 3000
-  maxHP: 3000
+  charName: Prince
+  currentHp: 2500
+  maxHP: 2500
   currentMP: 1000
   maxMP: 1000
-  strength: 600
-  defence: 30
-  magie: 600
-  resistance: 30
+  strength: 400
+  defence: 15
+  magie: 100
+  resistance: 5
   wpnPower: 50
   armrPower: 10
-  criticalRate: 10
-  dodgeRate: 10
+  criticalRate: 5
+  dodgeRate: 5
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
@@ -123,51 +122,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 02000000
   resistances: 0000000001000000
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
---- !u!114 &-763023934063768799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962906933442992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 7012525773100941321
-  references:
-    version: 2
-    RefIds:
-    - rid: 7012525773100941321
-      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
-        asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 114895784032005762}
-        m_TrackedProperties:
-          items:
-          - rid: 7012525773100941322
-        m_UpdateType: 0
-        m_Changed:
-          m_PersistentCalls:
-            m_Calls: []
-    - rid: 7012525773100941322
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 7012525773100941323
-        m_PropertyPath: aliveSprite
-    - rid: 7012525773100941323
-      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
-        m_TableEntryReference:
-          m_KeyId: 64429754347622400
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0

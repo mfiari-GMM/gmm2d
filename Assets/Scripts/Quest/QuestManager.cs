@@ -62,7 +62,7 @@ public class QuestManager : MonoBehaviour {
                 if (questObjects[i].questToCheck == questToMark
                     && (questObjects[i].expToGain > 0 
                     || questObjects[i].moneyToGain > 0
-                    || questObjects[i].objectsToGain.Length > 0
+                    || (questObjects[i].objectsToGain != null && questObjects[i].objectsToGain.Length > 0)
                     ))
                 {
                     BattleReward.instance.OpenRewardScreen(questObjects[i].expToGain, questObjects[i].moneyToGain, questObjects[i].objectsToGain);

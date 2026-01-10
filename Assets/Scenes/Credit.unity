@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 68381489}
-  - component: {fileID: 68381488}
+  - component: {fileID: 68381490}
   m_Layer: 0
   m_Name: IntroSceneManager
   m_TagString: Untagged
@@ -140,21 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &68381488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68381487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c66887f33d30403c940fc55a0caf8de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newGameScene: MainMenu
-  introText: {fileID: 1917388322}
-  scrollbar: {fileID: 543992618}
 --- !u!4 &68381489
 Transform:
   m_ObjectHideFlags: 0
@@ -170,6 +154,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &68381490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68381487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c835effdfea95264f9e6c5871d290c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameScene: MainMenu
+  introText: {fileID: 1917388322}
+  scrollbar: {fileID: 543992618}
 --- !u!1 &173463050
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,7 +378,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1971437543}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.24458447
+  m_Size: 0.24472211
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

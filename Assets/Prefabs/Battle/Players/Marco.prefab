@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -36627340, guid: bf50395a79d26c740be987e19e5b09f8, type: 3}
+  m_Sprite: {fileID: -1551515930, guid: 9d5e1d6ba27d8e34f8d7e0d18d1a91b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,5 +119,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

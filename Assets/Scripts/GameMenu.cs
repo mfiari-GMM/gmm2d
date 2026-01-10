@@ -269,12 +269,16 @@ public class GameMenu : MonoBehaviour {
 
     public void QuitGame()
     {
-        SceneManager.LoadScene(mainMenuName);
 
         Destroy(GameManager.instance.gameObject);
         Destroy(PlayerController.instance.gameObject);
+        Destroy(GameMenu.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);
-        Destroy(gameObject);
+        Destroy(BattleManager.instance.gameObject);
+        Destroy(SteamGameManager.instance.gameObject);
+
+        SceneManager.LoadScene(mainMenuName);
+
     }
 
     public void ShowMapInfo (string title, string description)
