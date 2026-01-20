@@ -43,6 +43,8 @@ public class GameMenu : MonoBehaviour {
 
     public int playerToChange = -1;
 
+    public GameObject buttonPanel;
+
     // Use this for initialization
     void Start () {
         instance = this;
@@ -104,6 +106,7 @@ public class GameMenu : MonoBehaviour {
             if(i == windowNumber)
             {
                 windows[i].SetActive(!windows[i].activeInHierarchy);
+                buttonPanel.SetActive(false);
             } else
             {
                 windows[i].SetActive(false);
@@ -192,6 +195,29 @@ public class GameMenu : MonoBehaviour {
                 itemButtons[i].amountText.text = "";
             }
         }
+    }
+
+    public void HoverItem(Item newItem)
+    {
+        activeItem = newItem;
+
+        if (activeItem.isItem)
+        {
+            useButtonText.GetComponentInParent<Button>(true).gameObject.SetActive(true);
+            useButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_USE_BUTTON");
+        }
+        else if (activeItem.isWeapon || activeItem.isArmour)
+        {
+            useButtonText.GetComponentInParent<Button>(true).gameObject.SetActive(true);
+            useButtonText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_EQUIP_BUTTON");
+        }
+        else
+        {
+            useButtonText.GetComponentInParent<Button>(true).gameObject.SetActive(false);
+        }
+
+        itemName.text = activeItem.itemName;
+        itemDescription.text = activeItem.description;
     }
 
     public void SelectItem(Item newItem)

@@ -30,4 +30,15 @@ public class ItemButton : MonoBehaviour {
             }
         }
     }
+
+    public void Hover()
+    {
+        if (GameMenu.instance.theMenu.activeInHierarchy)
+        {
+            if (GameManager.instance.itemsHeld[buttonValue] != "")
+            {
+                GameMenu.instance.HoverItem(GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[buttonValue]));
+            }
+        }
+    }
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class UiSelector : MonoBehaviour
@@ -12,6 +10,8 @@ public class UiSelector : MonoBehaviour
     private bool isStickPress = false;
     private bool isStickReleased = true;
 
+    private bool isDisable = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +22,11 @@ public class UiSelector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDisable)
+        {
+            return;
+        }
+
         if ((Input.GetButtonDown("Vertical") || (isStickPress && !isStickReleased)) && Input.GetAxisRaw("Vertical") < 0)
         {
             uiItems[currentIndex].UnselectItem();
@@ -55,5 +60,15 @@ public class UiSelector : MonoBehaviour
             isStickReleased = true;
         }
 
+    }
+
+    public void DisableSelector()
+    {
+        isDisable = true;
+    }
+
+    public void EnableSelector()
+    {
+        isDisable = false;
     }
 }

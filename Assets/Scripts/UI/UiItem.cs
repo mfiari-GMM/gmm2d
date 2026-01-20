@@ -6,7 +6,9 @@ public class UiItem : MonoBehaviour
 {
 
     [SerializeField]
-    private UnityEvent myEvent;
+    private UnityEvent selectedEvent;
+    [SerializeField]
+    private UnityEvent applyEvent;
     [SerializeField]
     public Sprite selectedImage;
 
@@ -20,7 +22,7 @@ public class UiItem : MonoBehaviour
     {
         if (isSelected && Input.GetButtonDown("Fire1"))
         {
-            myEvent.Invoke();
+            applyEvent.Invoke();
         }
     }
 
@@ -51,5 +53,9 @@ public class UiItem : MonoBehaviour
         initialSprite = myImage.sprite;
 
         myImage.sprite = selectedImage;
+
+        if (selectedEvent != null) {
+            selectedEvent.Invoke();
+        }
     }
 }
