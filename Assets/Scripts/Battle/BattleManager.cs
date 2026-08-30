@@ -34,7 +34,7 @@ public class BattleManager : MonoBehaviour
 
     public GameObject uiButtonsHolder;
 
-    public Text magicButtonText;
+    public Button magicButton;
 
     public BattleMove[] movesList;
     public GameObject enemyAttackEffect;
@@ -163,7 +163,11 @@ public class BattleManager : MonoBehaviour
                                 activeBattlers[i].magie = thePlayer.magie;
                                 activeBattlers[i].resistance = thePlayer.resistance;
                                 activeBattlers[i].wpnPower = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponStrength : 0;
+                                activeBattlers[i].wpnMagie = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.weaponMagie : 0;
                                 activeBattlers[i].armrPower = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorStrength : 0;
+                                activeBattlers[i].armrRes = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorResistance : 0;
+                                activeBattlers[i].isWeaponMagic = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.isMagic : false;
+                                activeBattlers[i].wpnBattleType = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.battleType : BattleMove.BattleMoveType.Normal;
 
                                 for (int playerLevel = 1; playerLevel <= thePlayer.playerLevel; playerLevel++)
                                 {
@@ -388,12 +392,20 @@ public class BattleManager : MonoBehaviour
         movePower = theMove.movePower;
         magic = theMove.isMagic;
         battleType = theMove.battleType;
+        if (battleType == BattleMove.BattleMoveType.Normal)
+        {
+            battleType = activeBattlers[currentTurn].wpnBattleType;
+        }
         heal = theMove.heal;
 
         if ("SLASH" != theMove.moveCode)
         {
             battleText.theText.text = theMove.moveName;
             battleText.Activate();
+        } else
+        {
+            magic = activeBattlers[currentTurn].isWeaponMagic;
+            battleType = activeBattlers[currentTurn].wpnBattleType;
         }
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
@@ -442,8 +454,8 @@ public class BattleManager : MonoBehaviour
         float strength = magic ? activeBattlers[currentTurn].GetMagie() : activeBattlers[currentTurn].GetStrength();
         float defence = magic ? activeBattlers[target].GetResistance() : activeBattlers[target].GetDefence();
 
-        float atkPwr = strength + activeBattlers[currentTurn].GetWpnPower();
-        float defPwr = defence + activeBattlers[target].GetArmrPower();
+        float atkPwr = strength + (magic ? activeBattlers[currentTurn].GetWpnMagie() : activeBattlers[currentTurn].GetWpnPower());
+        float defPwr = defence + (magic ? activeBattlers[currentTurn].GetArmrRes() : activeBattlers[currentTurn].GetArmrPower());
 
         float damageMutiplicator = 1f;
         float criticalMutiplicator = 1f;
@@ -510,10 +522,17 @@ public class BattleManager : MonoBehaviour
                         playerName[i].color = Color.yellow;
                         if (playerData.charName == "Vard" || playerData.charName == "Rose")
                         {
-                            magicButtonText.text = "Magie";
+                            magicButton.GetComponentInChildren<Text>().text = "Magie";
                         } else
                         {
-                            magicButtonText.text = "Tech.";
+                            magicButton.GetComponentInChildren<Text>().text = "Tech.";
+                        }
+                        if (playerData.GetMovesAvailable().Length < 1)
+                        {
+                            magicButton.interactable = false;
+                        } else
+                        {
+                            magicButton.interactable = true;
                         }
                     } else
                     {
@@ -563,17 +582,25 @@ public class BattleManager : MonoBehaviour
         {
             if (movesList[i].moveCode == moveName)
             {
+                battleMove = movesList[i];
+                movePower = battleMove.movePower;
+                battleType = battleMove.battleType;
+                if (battleType == BattleMove.BattleMoveType.Normal)
+                {
+                    battleType = activeBattlers[currentTurn].wpnBattleType;
+                }
+                magic = battleMove.isMagic;
+                heal = battleMove.heal;
+                boostDef = battleMove.boostDef;
                 if ("SLASH" != moveName)
                 {
                     battleText.theText.text = movesList[i].moveName;
                     battleText.Activate();
+                } else
+                {
+                    magic = activeBattlers[currentTurn].isWeaponMagic;
+                    battleType = activeBattlers[currentTurn].wpnBattleType;
                 }
-                battleMove = movesList[i];
-                movePower = battleMove.movePower;
-                battleType = battleMove.battleType;
-                magic = battleMove.isMagic;
-                heal = battleMove.heal;
-                boostDef = battleMove.boostDef;
                 break;
             }
         }

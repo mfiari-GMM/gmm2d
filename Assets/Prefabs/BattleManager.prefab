@@ -745,21 +745,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114790232318046426}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1100190688898036
 GameObject:
@@ -1010,21 +1001,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114767406652574682}
-        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
-        m_MethodName: OpenObjectMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1101213730398156
 GameObject:
@@ -1799,21 +1781,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114767406652574682}
-        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
-        m_MethodName: Flee
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1229693188471346
 GameObject:
@@ -2338,7 +2311,7 @@ MonoBehaviour:
   currentTurn: 0
   turnWaiting: 0
   uiButtonsHolder: {fileID: 1695574381629516}
-  magicButtonText: {fileID: 114025162781393818}
+  magicButton: {fileID: 114313499010549780}
   movesList:
   - moveCode: SLASH
     moveName: Slash
@@ -3499,21 +3472,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114767406652574682}
-        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
-        m_MethodName: OpenMagicMenu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1312584852006118
 GameObject:
@@ -4303,21 +4267,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114933861184385014}
-        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1361351912948836
 GameObject:
@@ -4902,21 +4857,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114366498943944780}
-        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1381208197351136
 GameObject:
@@ -6017,21 +5963,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114274983567160388}
-        m_TargetAssemblyTypeName: BattleMagicSelect, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1485908532246092
 GameObject:
@@ -7335,21 +7272,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114793131284947698}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1571096523146450
 GameObject:
@@ -7673,21 +7601,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114367999964819614}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1595396702520892
 GameObject:
@@ -8615,21 +8534,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114767406652574682}
-        m_TargetAssemblyTypeName: BattleManager, Assembly-CSharp
-        m_MethodName: OpenTargetMenu
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: SLASH
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1665756253652374
 GameObject:
@@ -9218,7 +9128,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695574381629516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2972a25db3e0a4e4281b8584b53cf764, type: 3}
   m_Name: 
@@ -9898,21 +9808,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114358598621182318}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1769953219547854
 GameObject:
@@ -10441,21 +10342,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114376309336668926}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1816862234595526
 GameObject:
@@ -11587,21 +11479,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7431ff60c9e6d04588176e11a05d674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myEvent:
+  selectedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114994308743217658}
-        m_TargetAssemblyTypeName: BattleTargetButton, Assembly-CSharp
-        m_MethodName: Press
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  applyEvent:
+    m_PersistentCalls:
+      m_Calls: []
   selectedImage: {fileID: 21300000, guid: 2d776cefcd22660438dc0f2900de1674, type: 3}
 --- !u!1 &1953708712436902
 GameObject:

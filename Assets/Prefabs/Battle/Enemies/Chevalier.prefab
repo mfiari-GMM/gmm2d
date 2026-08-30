@@ -102,18 +102,18 @@ MonoBehaviour:
   movesAvailable:
   - SLASH
   charName: Knight
-  currentHp: 400
-  maxHP: 400
+  currentHp: 350
+  maxHP: 350
   currentMP: 0
   maxMP: 0
   strength: 50
-  defence: 12
+  defence: 11
   magie: 0
-  resistance: 13
+  resistance: 12
   wpnPower: 5
   armrPower: 5
   criticalRate: 5
-  dodgeRate: 5
+  dodgeRate: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
@@ -121,6 +121,7 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
 --- !u!114 &8894828691235342236

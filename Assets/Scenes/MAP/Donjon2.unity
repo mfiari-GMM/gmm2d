@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -26700,7 +26699,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -42915,12 +42914,12 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 42
     m_Data: {fileID: 21300196, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300082, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
-  - m_RefCount: 195
-    m_Data: {fileID: 21300024, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 195
+    m_Data: {fileID: 21300024, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300082, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
   - m_RefCount: 2052
     m_Data: {fileID: 21300000, guid: 3f51af3ade8505048a57a9928a2d2971, type: 3}
   - m_RefCount: 1

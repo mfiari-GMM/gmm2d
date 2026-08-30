@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &114158117718962746
@@ -110,7 +110,9 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 0
   armorStrength: 2
   weaponMagie: 0
   armorResistance: 0
+  battleType: 5

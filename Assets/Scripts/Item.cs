@@ -23,6 +23,7 @@ public class Item : MonoBehaviour {
     public int armorStrength;
     public int weaponMagie;
     public int armorResistance;
+    public BattleMove.BattleMoveType battleType;
 
 
     public void Use(int charToUseOn)

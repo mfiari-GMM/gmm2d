@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1569,7 +1568,12 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.size
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: shouldHealPlayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -1589,7 +1593,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[3]
-      value: "Bienvenue \xE0 Zugarramurdi."
+      value: Laissez-moi vous soignez avant.
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}

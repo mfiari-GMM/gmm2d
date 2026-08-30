@@ -62,6 +62,7 @@ public class GameMenu : MonoBehaviour {
                 theMenu.SetActive(true);
                 UpdateMainStats();
                 GameManager.instance.gameMenuOpen = true;
+                buttonPanel.SetActive(true);
             }
 
             AudioManager.instance.PlaySFX(5);

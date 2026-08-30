@@ -108,7 +108,7 @@ MonoBehaviour:
   currentMP: 500
   maxMP: 500
   strength: 10
-  defence: 20
+  defence: 15
   magie: 150
   resistance: 30
   wpnPower: 5
@@ -122,5 +122,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 07000000
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
