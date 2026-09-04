@@ -100,29 +100,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - epee enflamme
-  - tornade de feu
+  - SLASH
+  - THRUST
+  - SONIC_THRUST
+  - SUPERSONIC_THRUST
+  - FIRE
+  - FIRE+
+  - FIRE_SWORD
+  - FIRE_TORNADO
   charName: Lukas
   currentHp: 3000
   maxHP: 3000
   currentMP: 1000
   maxMP: 1000
-  strength: 500
-  defence: 30
-  magie: 600
-  resistance: 40
+  strength: 700
+  defence: 20
+  magie: 1000
+  resistance: 30
   wpnPower: 50
+  wpnMagie: 0
   armrPower: 10
+  armrRes: 0
   criticalRate: 10
-  dodgeRate: 10
+  dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 1202885192, guid: 516a65c4e23690e4e83e247d0d58cd32, type: 3}
   fadeSpeed: 1
-  weaknesses: 02000000
-  resistances: 0000000001000000
+  weaknesses: 0200000001000000
+  resistances: 00000000
   battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

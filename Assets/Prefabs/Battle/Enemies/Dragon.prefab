@@ -99,25 +99,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - Fire
+  - FIRE+
+  - FIRE_X
+  - CYCLONE
+  - TAIL_ATTACK
+  - SLASH
   charName: Dragon
-  currentHp: 250
-  maxHP: 250
-  currentMP: 0
-  maxMP: 0
-  strength: 5
-  defence: 5
-  magie: 0
-  resistance: 0
-  wpnPower: 5
-  armrPower: 5
+  currentHp: 4000
+  maxHP: 4000
+  currentMP: 2000
+  maxMP: 2000
+  strength: 1200
+  defence: 40
+  magie: 1200
+  resistance: 40
+  wpnPower: 0
+  wpnMagie: 0
+  armrPower: 0
+  armrRes: 0
+  criticalRate: 10
+  dodgeRate: 0
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212087347446075270}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 21300012, guid: dd61146dbe36aa6449131fb544979165, type: 3}
   fadeSpeed: 1
-  weaknesses: 
-  resistances: 
+  weaknesses: 0200000001000000
+  resistances: 00000000
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

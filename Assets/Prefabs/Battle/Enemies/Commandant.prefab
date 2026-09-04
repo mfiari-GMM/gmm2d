@@ -100,29 +100,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - Coup d'estoc
-  - Estocade sonique
+  - SLASH
+  - THRUST
+  - SONIC_THRUST
   charName: Commandant
-  currentHp: 2000
-  maxHP: 2000
+  currentHp: 1500
+  maxHP: 1500
   currentMP: 100
   maxMP: 100
   strength: 800
-  defence: 30
+  defence: 20
   magie: 0
-  resistance: 30
+  resistance: 20
   wpnPower: 10
+  wpnMagie: 0
   armrPower: 10
-  criticalRate: 10
-  dodgeRate: 10
+  armrRes: 0
+  criticalRate: 5
+  dodgeRate: 5
+  wpnBattleType: 5
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: -521412202, guid: 91ca7d2730c635b4eabd5ce2b30e461c, type: 3}
+  aliveSprite: {fileID: -1046206960, guid: b2b59b27eaa061846b3e2268814edf35, type: 3}
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
 --- !u!114 &8174663630905818348

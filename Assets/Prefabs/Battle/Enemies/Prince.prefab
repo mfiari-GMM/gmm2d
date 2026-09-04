@@ -99,29 +99,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - epee enflamme
-  - tornade de feu
+  - SLASH
+  - FIRE
+  - POWER_ATTACK
   charName: Prince
   currentHp: 2500
   maxHP: 2500
   currentMP: 1000
   maxMP: 1000
-  strength: 400
+  strength: 500
   defence: 15
   magie: 100
   resistance: 5
   wpnPower: 50
+  wpnMagie: 0
   armrPower: 10
+  armrRes: 0
   criticalRate: 5
   dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: -1434206839, guid: a358b31fef1c6da4c8f4232521e0f05a, type: 3}
   fadeSpeed: 1
-  weaknesses: 02000000
-  resistances: 0000000001000000
+  weaknesses: 0200000001000000
+  resistances: 00000000
   battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

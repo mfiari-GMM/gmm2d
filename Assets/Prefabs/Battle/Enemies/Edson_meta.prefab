@@ -99,9 +99,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - Coup de queue
-  - Crochet venin
+  - SLASH
+  - TAIL_ATTACK
+  - POISON_FANG
   charName: Edson
   currentHp: 1000
   maxHP: 1000
@@ -112,9 +112,13 @@ MonoBehaviour:
   magie: 30
   resistance: 20
   wpnPower: 20
+  wpnMagie: 0
   armrPower: 10
+  armrRes: 0
   criticalRate: 10
   dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}

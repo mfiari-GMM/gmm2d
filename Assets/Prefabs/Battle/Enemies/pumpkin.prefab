@@ -99,9 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - Racine
-  - Poison
+  - SLASH
   charName: Citrouille
   currentHp: 600
   maxHP: 600
@@ -112,9 +110,13 @@ MonoBehaviour:
   magie: 30
   resistance: 25
   wpnPower: 0
+  wpnMagie: 0
   armrPower: 0
+  armrRes: 0
   criticalRate: 5
   dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}

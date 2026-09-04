@@ -99,27 +99,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - griffe
-  - croc
+  - SLASH
   charName: Loup
-  currentHp: 1500
-  maxHP: 1500
+  currentHp: 1200
+  maxHP: 1200
   currentMP: 100
   maxMP: 100
-  strength: 1000
-  defence: 40
+  strength: 800
+  defence: 30
   magie: 30
-  resistance: 15
+  resistance: 10
   wpnPower: 10
-  armrPower: 10
+  wpnMagie: 0
+  armrPower: 0
+  armrRes: 0
   criticalRate: 5
   dodgeRate: 0
+  wpnBattleType: 5
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: -1323957944, guid: dd61146dbe36aa6449131fb544979165, type: 3}
+  aliveSprite: {fileID: 2043749006, guid: 78cb29dbef95e824d918e373315420aa, type: 3}
   fadeSpeed: 1
   weaknesses: 00000000
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

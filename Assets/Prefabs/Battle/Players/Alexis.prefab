@@ -101,7 +101,7 @@ MonoBehaviour:
   movesAvailable:
   - griffe
   - bete
-  - transformation
+  - TRANSFORM
   charName: Alexis
   currentHp: 0
   maxHP: 0
@@ -112,9 +112,13 @@ MonoBehaviour:
   magie: 0
   resistance: 0
   wpnPower: 0
+  wpnMagie: 0
   armrPower: 0
+  armrRes: 0
   criticalRate: 7
   dodgeRate: 7
+  wpnBattleType: 5
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212531649469236500}
   deadSprite: {fileID: -1741494669, guid: 58cb094be75e9af4f86a207822d38a42, type: 3}
@@ -122,5 +126,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

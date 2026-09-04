@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114774137024542062}
   - component: {fileID: 4601168894025974109}
   m_Layer: 0
-  m_Name: Health Potion
+  m_Name: HealthPotion+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: 999554722, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  m_Sprite: {fileID: -1443908395, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,20 +101,22 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
-  itemCode: HEALTH_POTION
-  itemName: Potion
-  description: Soigne 100 PV
-  value: 30
-  itemSprite: {fileID: 999554722, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
-  amountToChange: 100
+  itemCode: HEALTH_POTION+
+  itemName: Potion +
+  description: Soigne 500 PV
+  value: 300
+  itemSprite: {fileID: -1443908395, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  amountToChange: 500
   affectHP: 1
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 0
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+  battleType: 5
 --- !u!114 &4601168894025974109
 MonoBehaviour:
   m_ObjectHideFlags: 0

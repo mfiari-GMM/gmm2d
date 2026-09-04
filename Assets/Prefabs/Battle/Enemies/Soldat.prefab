@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
+  - SLASH
   charName: Soldat
   currentHp: 200
   maxHP: 200
@@ -110,9 +110,13 @@ MonoBehaviour:
   magie: 0
   resistance: 8
   wpnPower: 5
+  wpnMagie: 0
   armrPower: 5
+  armrRes: 0
   criticalRate: 5
   dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
@@ -120,5 +124,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

@@ -731,8 +731,8 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < targetButtons.Length; i++)
         {
             if (players.Count > i && (
-                (itemName == "Elixir" && activeBattlers[players[i]].currentHp <= 0)
-                || (itemName != "Elixir" && activeBattlers[players[i]].currentHp > 0)))
+                (itemName == "ELIXIR" && activeBattlers[players[i]].currentHp <= 0)
+                || (itemName != "ELIXIR" && activeBattlers[players[i]].currentHp > 0)))
             {
                 targetButtons[i].gameObject.SetActive(true);
 

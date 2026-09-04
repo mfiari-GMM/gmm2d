@@ -116,6 +116,7 @@ MonoBehaviour:
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+  battleType: 0
 --- !u!114 &5166481231496148323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,26 +141,11 @@ MonoBehaviour:
         m_Target: {fileID: 114774137024542062}
         m_TrackedProperties:
           items:
-          - rid: 8232520309824815174
           - rid: 8232520309824815175
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 8232520309824815174
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7768701312634880
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: itemCode
     - rid: 8232520309824815175
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}

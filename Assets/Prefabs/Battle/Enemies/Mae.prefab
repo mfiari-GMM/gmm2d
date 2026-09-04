@@ -100,29 +100,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   movesAvailable:
-  - Slash
-  - epee enflamme
-  - tornade de feu
+  - SLASH
+  - FIRE_TORNADO
+  - POWER_ATTACK
+  - EARTH_IMPACT
   charName: Mae
   currentHp: 3500
   maxHP: 3500
   currentMP: 1000
   maxMP: 1000
-  strength: 600
+  strength: 1000
   defence: 40
-  magie: 400
+  magie: 700
   resistance: 10
   wpnPower: 10
+  wpnMagie: 0
   armrPower: 10
+  armrRes: 0
   criticalRate: 10
   dodgeRate: 5
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
   aliveSprite: {fileID: 2076932580, guid: 1a1d7201b189a37409129dfd32d453e0, type: 3}
   fadeSpeed: 1
-  weaknesses: 02000000
-  resistances: 0000000001000000
+  weaknesses: 0200000001000000
+  resistances: 00000000
   battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

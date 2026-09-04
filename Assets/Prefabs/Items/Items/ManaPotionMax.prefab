@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114378626586349076}
   - component: {fileID: 3179228280565525380}
   m_Layer: 0
-  m_Name: Mana Potion
+  m_Name: ManaPotionMax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: 1966414479, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  m_Sprite: {fileID: -1826397678, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,20 +101,22 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
-  itemCode: MANA_POTION
-  itemName: Potion de mana
-  description: Restore 50 PM
-  value: 40
-  itemSprite: {fileID: 1966414479, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
-  amountToChange: 50
+  itemCode: MANA_POTION_MAX
+  itemName: Potion de mana Max
+  description: Restore tous les PM
+  value: 2000
+  itemSprite: {fileID: -1826397678, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  amountToChange: 10000
   affectHP: 0
   affectMP: 1
   affectStr: 0
   resurrect: 0
+  isMagic: 0
   weaponStrength: 0
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+  battleType: 5
 --- !u!114 &3179228280565525380
 MonoBehaviour:
   m_ObjectHideFlags: 0

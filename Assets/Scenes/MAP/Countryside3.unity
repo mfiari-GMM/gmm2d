@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -239,36 +238,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 271023492}
-  - component: {fileID: 271023491}
+  - component: {fileID: 271023493}
+  - component: {fileID: 271023494}
   m_Layer: 0
-  m_Name: Quest
+  m_Name: QuestDialogBeforeBattleEdson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &271023491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271023490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2400e6e949a74f20ac6e56e6bf09e0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  battleType:
-    enemyPrefabs:
-    - {fileID: 114895784032005762, guid: f1dc165437f5ba14395fa581f62bb245, type: 3}
-    rewardXP: 0
-    rewardMoney: 0
-    rewardItemsPrefabs: []
-  battleField: 
-  questToCheck: 
-  shouldCompleteQuest: 0
-  QuestToComplete: 
 --- !u!4 &271023492
 Transform:
   m_ObjectHideFlags: 0
@@ -277,13 +255,140 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271023490}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.08, y: -6.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1213503626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &271023493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271023490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - n-Edson
+  - Combattons
+  isPerson: 1
+  shouldActivateQuest: 1
+  questToMark: 
+  markComplete: 1
+  shouldHealPlayer: 0
+  shouldAutoLaunch: 1
+  playersToAdd: []
+  playersToRemove:
+  - Marco
+  - Vard
+  - Mok
+  - Rose
+  - Cynthia
+--- !u!61 &271023494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271023490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.014521599, y: 0.043564796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.9914455, y: 3.2363224}
+  m_EdgeRadius: 0
+--- !u!1 &381551946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381551947}
+  - component: {fileID: 381551948}
+  m_Layer: 0
+  m_Name: QuestBattleEdson
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &381551947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381551946}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1213503626}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381551948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381551946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2400e6e949a74f20ac6e56e6bf09e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleType:
+    enemyPrefabs:
+    - {fileID: 114895784032005762, guid: f1dc165437f5ba14395fa581f62bb245, type: 3}
+    rewardXP: 600
+    rewardMoney: 1000
+    rewardItemsPrefabs: []
+  battleField: Country
+  questToCheck: 
+  shouldCompleteQuest: 0
+  QuestToComplete: 
 --- !u!1001 &411177254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -334,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4469010750423286, guid: 64d2c8884948e1d4d82cda544b880100, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4469010750423286, guid: 64d2c8884948e1d4d82cda544b880100, type: 3}
       propertyPath: m_LocalPosition.z
@@ -343,27 +448,27 @@ PrefabInstance:
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Size.x
-      value: 4.0242176
+      value: 4.136326
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Size.y
-      value: 1.9833558
+      value: 1.1861355
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.9575739
+      value: 1.013628
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0.9744185
+      value: 1.3730286
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: areaToLoad
-      value: Zugarramurdi
+      value: Temple
       objectReference: {fileID: 0}
     - target: {fileID: 114882825115530484, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
@@ -463,6 +568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Battle Zone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
+        type: 3}
+      propertyPath: battleField
+      value: country
       objectReference: {fileID: 0}
     - target: {fileID: 8151984861097738997, guid: b4c55a11d883666448dcb4f938bdda24,
         type: 3}
@@ -928,6 +1038,146 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 835026804}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1106040814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106040815}
+  - component: {fileID: 1106040817}
+  - component: {fileID: 1106040816}
+  m_Layer: 0
+  m_Name: QuestDialogAfterBattleEdson
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1106040815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106040814}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -19.08, y: -6.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1213503626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1106040816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106040814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.014521599, y: 0.043564796}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.9914455, y: 3.2363224}
+  m_EdgeRadius: 0
+--- !u!114 &1106040817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106040814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e6a8b9af8285d42a07c9396cc0a2ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lines:
+  - n-Edson
+  - C'est fini
+  isPerson: 1
+  shouldActivateQuest: 1
+  questToMark: 
+  markComplete: 1
+  shouldHealPlayer: 0
+  shouldAutoLaunch: 1
+  playersToAdd:
+  - Marco
+  - Vard
+  - Mok
+  - Rose
+  - Cynthia
+  playersToRemove: []
+--- !u!1 &1213503625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213503626}
+  m_Layer: 0
+  m_Name: Quests
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213503626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213503625}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 271023492}
+  - {fileID: 381551947}
+  - {fileID: 1106040815}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1397434787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10020,8 +10270,8 @@ Tilemap:
   - first: {x: -20, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
+      m_TileIndex: 31
+      m_TileSpriteIndex: 31
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10030,8 +10280,8 @@ Tilemap:
   - first: {x: -19, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
+      m_TileIndex: 32
+      m_TileSpriteIndex: 32
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10490,8 +10740,8 @@ Tilemap:
   - first: {x: -20, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
+      m_TileIndex: 33
+      m_TileSpriteIndex: 33
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10500,8 +10750,8 @@ Tilemap:
   - first: {x: -19, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
+      m_TileIndex: 34
+      m_TileSpriteIndex: 34
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10960,8 +11210,8 @@ Tilemap:
   - first: {x: -20, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
+      m_TileIndex: 35
+      m_TileSpriteIndex: 35
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10970,8 +11220,8 @@ Tilemap:
   - first: {x: -19, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
+      m_TileIndex: 36
+      m_TileSpriteIndex: 36
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -12669,11 +12919,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 2a53b51193c5c2846884a37c8ed6d759, type: 2}
   - m_RefCount: 33
     m_Data: {fileID: 11400000, guid: 6f94ea93f4a63794baa8f1f68cb170d4, type: 2}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: dc0e3ef3d63046c47b2b2886846697c3, type: 2}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: 6d105bfacbd4c494eab0d5ed02bc5d75, type: 2}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 11400000, guid: 1ce1c437aaf17ce4f95b389c3bec3eb0, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 7c24d92263cf03c449a0048c51d32681, type: 2}
@@ -12701,6 +12951,18 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: fcf8c658f3e10da409c91a57c78a3527, type: 2}
   - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: 6ef426ce5f67dd7409a8b5c26fed9443, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: a5483531ee7a5314f96c8487bd20fa5c, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: fa8796efdf32ce54a80cbe28f7627e60, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 78afde8abadbfb645a9098ce9aa4cd51, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c5098bd6be1229e4dac8c191844f3c39, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4ad101dabf39f0942b7c6aa7b6e4656a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: c84668b41a0f497419f4dc8bbb11826e, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 21301252, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
@@ -12732,11 +12994,11 @@ Tilemap:
     m_Data: {fileID: 21300768, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 33
     m_Data: {fileID: 21300838, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 21300908, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 21300970, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 33
+  - m_RefCount: 31
     m_Data: {fileID: 21301036, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300700, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
@@ -12764,6 +13026,18 @@ Tilemap:
     m_Data: {fileID: 21300620, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 21300622, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301418, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301420, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301344, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301346, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301268, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21301270, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1156
     m_Data:
@@ -63346,4 +63620,4 @@ SceneRoots:
   - {fileID: 154242618}
   - {fileID: 258089533}
   - {fileID: 2111701241}
-  - {fileID: 271023492}
+  - {fileID: 1213503626}

@@ -70,21 +70,21 @@ MonoBehaviour:
   winMagie: 4
   winResistance: 3
   winMoves:
-  - level: 15
-    moveName: FIRE+
-  - level: 30
-    moveName: FIRE_X
   - level: 5
     moveName: ICE
-  - level: 17
-    moveName: ICE+
-  - level: 32
-    moveName: ICE_X
   - level: 9
     moveName: LIGHTING
+  - level: 15
+    moveName: FIRE+
+  - level: 17
+    moveName: ICE+
   - level: 20
     moveName: LIGHTING+
-  - level: 35
+  - level: 25
+    moveName: FIRE_X
+  - level: 27
+    moveName: ICE_X
+  - level: 30
     moveName: LIGHTING_X
 --- !u!1 &1190594902282344
 GameObject:
@@ -1020,11 +1020,15 @@ MonoBehaviour:
   winMagie: 2
   winResistance: 2
   winMoves:
-  - level: 6
+  - level: 5
     moveName: THRUST
-  - level: 15
+  - level: 10
     moveName: SONIC_THRUST
-  - level: 30
+  - level: 15
+    moveName: LIGHTING_BLADE
+  - level: 20
+    moveName: FIRE_SWORD
+  - level: 25
     moveName: SUPERSONIC_THRUST
 --- !u!1 &914761772766140176
 GameObject:
@@ -1110,13 +1114,11 @@ MonoBehaviour:
   - level: 20
     moveName: SEISME
   - level: 25
-    moveName: quart
+    moveName: NOSFERATU
   - level: 30
-    moveName: Nosferatu
+    moveName: CYCLONE
   - level: 35
-    moveName: affaiblissement
-  - level: 40
-    moveName: cyclone
+    moveName: QUART
 --- !u!1 &4154041414927079086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,21 +1262,21 @@ MonoBehaviour:
   winMoves:
   - level: 8
     moveName: HEAL_STATE
-  - level: 13
+  - level: 10
     moveName: PROTECT
-  - level: 17
+  - level: 13
     moveName: LIGHT
-  - level: 22
+  - level: 17
     moveName: HEAL+
-  - level: 26
+  - level: 20
     moveName: BOOST
-  - level: 30
+  - level: 22
     moveName: RESURECTION
-  - level: 34
+  - level: 24
     moveName: FLASH
-  - level: 40
+  - level: 27
     moveName: HEAL_X
-  - level: 48
-    moveName: RESURECTION_MAX
-  - level: 55
+  - level: 30
     moveName: HOLY_LANCE
+  - level: 35
+    moveName: RESURECTION_MAX
