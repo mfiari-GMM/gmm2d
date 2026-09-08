@@ -11,9 +11,7 @@ public class GameMenu : MonoBehaviour {
 
     private CharStats[] playerStats;
 
-    public Text[] nameText, hpText, mpText, lvlText, expText;
-    public Slider[] expSlider;
-    public Image[] charImage;
+    public CharInfo[] charInfos;
     public GameObject[] charStatHolder;
 
     public GameObject[] statusButtons;
@@ -81,14 +79,7 @@ public class GameMenu : MonoBehaviour {
                 charStatHolder[i].GetComponent<CharInfoChange>().SetPlayerIndex(i);
                 charStatHolder[i].GetComponent<CharInfoChange>().ResetDisplay();
 
-                nameText[i].text = playerStats[i].charName;
-                hpText[i].text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_HP") + " : " + playerStats[i].currentHP + "/" + playerStats[i].maxHP;
-                mpText[i].text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_MP") + " : " + playerStats[i].currentMP + "/" + playerStats[i].maxMP;
-                lvlText[i].text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "MENU_LVL") + " : " + playerStats[i].playerLevel;
-                expText[i].text = "" + playerStats[i].currentEXP + "/" + playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                expSlider[i].maxValue = playerStats[i].expToNextLevel[playerStats[i].playerLevel];
-                expSlider[i].value = playerStats[i].currentEXP;
-                charImage[i].sprite = playerStats[i].charIamge;
+                charInfos[i].ShowCharInfo(playerStats[i]);
             } else
             {
                 charStatHolder[i].SetActive(false);

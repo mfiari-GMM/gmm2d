@@ -30,7 +30,7 @@ public class MainMenu : MonoBehaviour {
         if (PlayerPrefs.HasKey("language"))
         {
             string language = PlayerPrefs.GetString("language");
-            if (language != "fr")
+            if (language.Contains("French"))
             {
                 SwitchToFr();
             } else
