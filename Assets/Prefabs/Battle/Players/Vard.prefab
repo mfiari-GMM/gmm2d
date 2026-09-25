@@ -100,7 +100,7 @@ MonoBehaviour:
   isPlayer: 1
   movesAvailable:
   - FIRE
-  charName: Vard
+  charName: Axel
   currentHp: 0
   maxHP: 0
   currentMP: 0
@@ -110,9 +110,13 @@ MonoBehaviour:
   magie: 0
   resistance: 0
   wpnPower: 0
+  wpnMagie: 0
   armrPower: 0
+  armrRes: 0
   criticalRate: 7
   dodgeRate: 12
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212531649469236500}
   deadSprite: {fileID: 1657028286, guid: bbfe4df357cd8d443bb9fbdcc5b9a8fb, type: 3}
@@ -120,5 +124,6 @@ MonoBehaviour:
   fadeSpeed: 1
   weaknesses: 
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

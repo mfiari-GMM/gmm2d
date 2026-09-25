@@ -272,6 +272,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &4772852
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -461,6 +463,8 @@ MonoBehaviour:
   playersToAdd:
   - Mok
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &20513041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1133,6 +1137,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &21259002
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1573,6 +1579,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &173625858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2823,8 +2831,10 @@ MonoBehaviour:
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove:
-  - Vard
+  - Axel
   - Mok
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!114 &303383792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3140,6 +3150,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &414884690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3354,6 +3366,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &425444079
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3562,7 +3576,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.491394, y: 0.39780235}
+  m_Offset: {x: 1.9629183, y: 1.0617852}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3573,7 +3587,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.9389305, y: 6.487201}
+  m_Size: {x: 6.876478, y: 5.159236}
   m_EdgeRadius: 0
 --- !u!61 &441148444
 BoxCollider2D:
@@ -3948,6 +3962,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &508732353
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9321,7 +9337,7 @@ MonoBehaviour:
   - n-Knight
   - Don(t worry. For the next fight, you will be join by Vard who can use magic.
   - Are you ready Vard ?
-  - n-Vard
+  - n-Axel
   - Yes, I will fight with Marco !
   - n-Marco
   - Great !!
@@ -9332,7 +9348,7 @@ MonoBehaviour:
   - Unlike normal attack, magic or thechnique use your magic point or MP.
   - The MP are limited, so remember to check your MP before a fight.
   - Are you ready ?
-  - n-Vard
+  - n-Axel
   - Yes !
   - n-Marco
   - I am ready !
@@ -9345,8 +9361,10 @@ MonoBehaviour:
   shouldHealPlayer: 1
   shouldAutoLaunch: 1
   playersToAdd:
-  - Vard
+  - Axel
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &755399939
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10014,6 +10032,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &784305367
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10426,6 +10446,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &865508447
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10838,6 +10860,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &915823754
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11082,6 +11106,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &943776502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11341,6 +11367,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1010651103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11714,6 +11742,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1163945974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12017,6 +12047,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1199242423
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12378,6 +12410,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1204819432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12630,6 +12664,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1212501914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13130,8 +13166,10 @@ MonoBehaviour:
   shouldHealPlayer: 1
   shouldAutoLaunch: 0
   playersToAdd:
-  - Vard
+  - Axel
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1324285526
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24454,8 +24492,8 @@ Tilemap:
   - first: {x: 2, y: -1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 36
-      m_TileSpriteIndex: 36
+      m_TileIndex: 121
+      m_TileSpriteIndex: 121
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -24664,8 +24702,8 @@ Tilemap:
   - first: {x: 2, y: 0, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 41
-      m_TileSpriteIndex: 41
+      m_TileIndex: 122
+      m_TileSpriteIndex: 122
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27515,7 +27553,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f1425fdfe120a3044b3a5c03dfe110ab, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 0c3a4191120225f4f8b67fcc031de4ba, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: c8e04357b93da2248bdcd6df3cbd782d, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: afda457b46d67484b924d256a584da9a, type: 2}
@@ -27525,7 +27563,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0b9dd212f72920d448165a5bbe7160b2, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 78fd757e90345604e83e6d8d9edd4090, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: c1886abca67595f41a69a00a0273d751, type: 2}
   - m_RefCount: 7
     m_Data: {fileID: 11400000, guid: 2e1c8e5785ec171478f25ea3bbab65e2, type: 2}
@@ -27685,9 +27723,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: c4b7678cf6078094e8da07ea949bad94, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 83065b1ba15541e4682c4a3023933d43, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 2
@@ -27762,7 +27800,7 @@ Tilemap:
     m_Data: {fileID: 21300322, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 21300324, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 21300326, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 21300328, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
@@ -27772,7 +27810,7 @@ Tilemap:
     m_Data: {fileID: 21300244, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 21300246, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 21300248, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 21300250, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
@@ -27932,9 +27970,9 @@ Tilemap:
     m_Data: {fileID: 21301174, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21301172, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: 21300418, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 4
     m_Data: {fileID: 21300342, guid: af6bc9dfbb9b08e4890cf8e4b8dd00c3, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 1343
@@ -37731,6 +37769,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1409182679
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37975,6 +38015,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1494406019
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38138,6 +38180,8 @@ MonoBehaviour:
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1523665264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -38510,6 +38554,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1539787125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38755,6 +38801,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1561429856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39029,6 +39077,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1591602569
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39273,6 +39323,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1628235561
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39532,6 +39584,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1768630800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39776,6 +39830,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1774551078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40161,6 +40217,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1853405265
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40608,6 +40666,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1939516794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40809,6 +40869,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &1950570694
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -41236,6 +41298,8 @@ MonoBehaviour:
   playersToAdd:
   - Mok
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!212 &2084546150
 SpriteRenderer:
   m_ObjectHideFlags: 0

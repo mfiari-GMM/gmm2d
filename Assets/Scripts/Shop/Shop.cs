@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 public class Shop : MonoBehaviour {
@@ -103,9 +104,9 @@ public class Shop : MonoBehaviour {
         if (buyItem != null)
         {
             selectedItem = buyItem;
-            buyItemName.text = selectedItem.itemName;
-            buyItemDescription.text = selectedItem.description;
-            buyItemValue.text = "Price : " + selectedItem.value + "g";
+            buyItemName.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", selectedItem.itemCode + "_NAME");
+            buyItemDescription.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", selectedItem.itemCode + "_DESC");
+            buyItemValue.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "UICANVAS_SHOP_INFO_PRICE") + selectedItem.value + "g";
 
             bool isWeaponItem = buyItem.isWeapon || buyItem.isArmour;
 
@@ -116,10 +117,10 @@ public class Shop : MonoBehaviour {
 
             if (isWeaponItem)
             {
-                buyItemStrength.text = "frc : +" + selectedItem.weaponStrength.ToString();
-                buyItemMagie.text = "mag : +" + selectedItem.weaponMagie.ToString();
-                buyItemDefence.text = "def : +" + selectedItem.armorStrength.ToString();
-                buyItemResistance.text = "res : +" + selectedItem.armorResistance.ToString();
+                buyItemStrength.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "LUICANVAS_SHOP_INFO_STR") + selectedItem.weaponStrength.ToString();
+                buyItemMagie.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "LUICANVAS_SHOP_INFO_MAGIE") + selectedItem.weaponMagie.ToString();
+                buyItemDefence.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "LUICANVAS_SHOP_INFO_DEF") + selectedItem.armorStrength.ToString();
+                buyItemResistance.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "LUICANVAS_SHOP_INFO_RES") + selectedItem.armorResistance.ToString();
 
             }
 
@@ -135,7 +136,7 @@ public class Shop : MonoBehaviour {
             selectedItem = sellItem;
             sellItemName.text = selectedItem.itemName;
             sellItemDescription.text = selectedItem.description;
-            sellItemValue.text = "Price : " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+            sellItemValue.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "UICANVAS_SHOP_INFO_PRICE") + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
         }
     }
 
@@ -190,7 +191,7 @@ public class Shop : MonoBehaviour {
                 }
             }
         }
-        buyItemQuantity.text = "Quantity : " + quantity;
+        buyItemQuantity.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "LUICANVAS_SHOP_INFO_QUANTITY") + quantity;
     }
 
     public void SellItem()

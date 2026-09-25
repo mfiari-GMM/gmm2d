@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: 1775858971, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  m_Sprite: {fileID: 1102548733, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &114043814178531382
@@ -102,20 +102,20 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 1
   itemCode: MAGIC_ARMOR
-  itemName: Steel armor
-  description: Steel armor
-  value: 430
-  itemSprite: {fileID: 1775858971, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemName: armure magique
+  description: "prot\xE8ge des sorts"
+  value: 980
+  itemSprite: {fileID: 1102548733, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
   resurrect: 0
-  isMagic: 0
+  isMagic: 1
   weaponStrength: 0
-  armorStrength: 12
+  armorStrength: 5
   weaponMagie: 0
-  armorResistance: 0
+  armorResistance: 10
   battleType: 5
 --- !u!114 &6401032310674596094
 MonoBehaviour:

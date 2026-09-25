@@ -31,7 +31,7 @@ public class BattleChar : MonoBehaviour {
     private float boostAtk = 1f, boostDef = 1f, boostMagie = 1f, boostRes = 1f, boostCritic = 1f, boostDodge = 1f;
 
     // Update is called once per frame
-    void Update () {
+    void FixedUpdate () {
 		if(shouldFade)
         {
             theSprite.color = new Color(Mathf.MoveTowards(theSprite.color.r, 1f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.g, 0f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.b, 0f, fadeSpeed * Time.deltaTime), Mathf.MoveTowards(theSprite.color.a, 0f, fadeSpeed * Time.deltaTime));

@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -324,7 +323,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.8666667, y: 1.1781373}
+    oldSize: {x: 0.8666667, y: 1.1777778}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -12297,6 +12296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1843510922813765525}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Battle sorcerer
   activeIfComplete: 1
 --- !u!114 &1511560414
@@ -12313,6 +12315,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1696414253}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Before battle sorcerer
   activeIfComplete: 0
 --- !u!114 &1511560415
@@ -12333,6 +12338,9 @@ MonoBehaviour:
   - {fileID: 1961943794}
   - {fileID: 514213495}
   - {fileID: 318561700}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Defeat The sorcerer
   activeIfComplete: 0
 --- !u!114 &1511560416
@@ -12353,6 +12361,9 @@ MonoBehaviour:
   - {fileID: 514213495}
   - {fileID: 318561700}
   - {fileID: 1854024267}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Before battle sorcerer
   activeIfComplete: 1
 --- !u!114 &1511560426
@@ -12369,6 +12380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1854024267}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Battle sorcerer
   activeIfComplete: 0
 --- !u!1 &1696414253
@@ -12445,7 +12459,7 @@ SpriteRenderer:
   m_SortingLayerID: 2087213285
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: -264592423, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  m_Sprite: {fileID: 1253767253, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12620,6 +12634,8 @@ MonoBehaviour:
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!114 &1854024271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12994,7 +13010,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0666667, y: 1.2000978}
+    oldSize: {x: 1.0666667, y: 1.2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -22118,6 +22134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
+      propertyPath: potentialBattles.Array.data[0].rewardXP
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItems.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -22155,7 +22176,7 @@ PrefabInstance:
     - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
       propertyPath: potentialBattles.Array.data[0].rewardItemsPrefabs.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 714079608131097179, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
@@ -22191,6 +22212,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3526316208505327656, guid: 8908d41dfe53e4d6582524b2b606acd3,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28086ab3441c7cc479e13660d154fd59,
+        type: 3}
     - target: {fileID: 4622381273276924288, guid: 8908d41dfe53e4d6582524b2b606acd3,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -22373,7 +22400,7 @@ MonoBehaviour:
           value: 0
         - localeIdentifier:
             m_Code: en
-          value: 4
+          value: 3
     - rid: 8232520309824815307
       type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}

@@ -58,7 +58,7 @@ public class GameMenu : MonoBehaviour {
             } else
             {
                 theMenu.SetActive(true);
-                UpdateMainStats();
+                ToggleWindow(0);
                 GameManager.instance.gameMenuOpen = true;
                 buttonPanel.SetActive(true);
             }
@@ -97,8 +97,7 @@ public class GameMenu : MonoBehaviour {
         {
             if(i == windowNumber)
             {
-                windows[i].SetActive(!windows[i].activeInHierarchy);
-                buttonPanel.SetActive(false);
+                windows[i].SetActive(true);
             } else
             {
                 windows[i].SetActive(false);
@@ -237,7 +236,7 @@ public class GameMenu : MonoBehaviour {
     {
         if(activeItem != null)
         {
-            GameManager.instance.RemoveItem(activeItem.itemName);
+            GameManager.instance.RemoveItem(activeItem.itemCode);
         }
     }
 

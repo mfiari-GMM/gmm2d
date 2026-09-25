@@ -23,6 +23,8 @@ public class DialogManager : MonoBehaviour {
 
     public string[] playersToAdd;
     public string[] playersToRemove;
+    public string[] itemsToAdd;
+    public int[] itemsQuantityToAdd;
 
     // Use this for initialization
     void Start () {
@@ -76,7 +78,22 @@ public class DialogManager : MonoBehaviour {
                             isTextDisplayed = true;
                         }
 
-                        if(!isTextDisplayed)
+                        if (itemsToAdd != null && itemsToAdd.Length > 0)
+                        {
+                            dialogBox.SetActive(true);
+                            nameBox.SetActive(false);
+                            for (int i = 0; i < itemsToAdd.Length; i++)
+                            {
+                                GameManager.instance.AddItem(itemsToAdd[i]);
+
+                                playerText += "Vous recevez " + itemsQuantityToAdd[i] + " " + LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", itemsToAdd[i] + "_NAME") + " \n";
+                            }
+                            dialogText.text = playerText;
+                            itemsToAdd = new string[0];
+                            isTextDisplayed = true;
+                        }
+
+                        if (!isTextDisplayed)
                         {
                             dialogBox.SetActive(false);
 
@@ -156,6 +173,12 @@ public class DialogManager : MonoBehaviour {
     public void ShouldAddPlayerAtEnd(string[] playersToAdd)
     {
         this.playersToAdd = playersToAdd;
+    }
+
+    public void ShouldAddItemsAtEnd(string[] itemsToAdd, int[] itemsQuantityToAdd)
+    {
+        this.itemsToAdd = itemsToAdd;
+        this.itemsQuantityToAdd = itemsQuantityToAdd;
     }
 
     public void ShouldRemovePlayerAtEnd(string[] playersToRemove)

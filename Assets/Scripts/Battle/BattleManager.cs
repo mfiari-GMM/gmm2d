@@ -72,6 +72,8 @@ public class BattleManager : MonoBehaviour
 
     public bool isBoss;
 
+    public GameObject backIcon;
+
     // Use this for initialization
     void Start () {
         instance = this;
@@ -235,6 +237,7 @@ public class BattleManager : MonoBehaviour
 
         UpdateBattle();
         UpdateUIStats();
+        backIcon.SetActive(false);
     }
 
     public void UpdateBattle()
@@ -520,7 +523,7 @@ public class BattleManager : MonoBehaviour
                     if (currentTurn == i)
                     {
                         playerName[i].color = Color.yellow;
-                        if (playerData.charName == "Vard" || playerData.charName == "Rose")
+                        if (playerData.charName == "Axel" || playerData.charName == "Rose")
                         {
                             magicButton.GetComponentInChildren<Text>().text = "Magie";
                         } else
@@ -645,6 +648,11 @@ public class BattleManager : MonoBehaviour
         {
             magicMenu.SetActive(false);
         }
+        if (objectMenu.activeInHierarchy)
+        {
+            objectMenu.SetActive(false);
+        }
+        backIcon.SetActive(false);
     }
 
     public void SelectMove (string moveName)
@@ -713,6 +721,7 @@ public class BattleManager : MonoBehaviour
                 targetButtons[i].gameObject.SetActive(false);
             }
         }
+        backIcon.SetActive(true);
     }
 
     public void OpenPlayersMenu(string itemName)
@@ -746,6 +755,7 @@ public class BattleManager : MonoBehaviour
                 targetButtons[i].gameObject.SetActive(false);
             }
         }
+        backIcon.SetActive(true);
     }
 
     public void OpenMagicMenu()
@@ -773,6 +783,7 @@ public class BattleManager : MonoBehaviour
                 magicButtons[i].gameObject.SetActive(false);
             }
         }
+        backIcon.SetActive(true);
     }
 
     public void OpenObjectMenu()
@@ -803,6 +814,7 @@ public class BattleManager : MonoBehaviour
                 }
             }
         }
+        backIcon.SetActive(true);
     }
 
     public void Flee()

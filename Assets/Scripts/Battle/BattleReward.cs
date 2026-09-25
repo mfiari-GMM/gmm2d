@@ -9,8 +9,8 @@ public class BattleReward : MonoBehaviour {
 
     public static BattleReward instance;
 
-    public Text xpText, moneyText, itemText;
-    public GameObject rewardScreen, rewardExpScreen;
+    public Text xpText, moneyText, itemText, newTechText;
+    public GameObject rewardScreen, rewardExpScreen, closeBattleExpButton, newMoveScreen;
     public MenuCharInfo[] menuCharInfos;
 
     public Item[] rewardItems;
@@ -83,6 +83,8 @@ public class BattleReward : MonoBehaviour {
         if (xpEarned > 0)
         {
             rewardScreen.SetActive(false);
+            closeBattleExpButton.SetActive(false);
+            newMoveScreen.SetActive(false);
             rewardExpScreen.SetActive(true);
             StartCoroutine(DisplayRewardExp());
         } else
@@ -99,8 +101,10 @@ public class BattleReward : MonoBehaviour {
         {
             menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
         }
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         int nbPlayerHasWinExp = 0;
+        bool winMoves = false;
+        newTechText.text = "";
         for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
             CharStats charStats = GameManager.instance.playerStats[i];
@@ -114,7 +118,8 @@ public class BattleReward : MonoBehaviour {
                     {
                         if (charStats.winMoves[j].level == charStats.playerLevel)
                         {
-                            Debug.Log(charStats.winMoves[j].moveName);
+                            newTechText.text += charStats.charName + " a appris " + charStats.winMoves[j].moveName + "\n";
+                            winMoves = true;
                         }
                     }
                 }
@@ -124,6 +129,11 @@ public class BattleReward : MonoBehaviour {
         {
             menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
         }
+        if (winMoves)
+        {
+            newMoveScreen.SetActive(true);
+        }
+        closeBattleExpButton.SetActive(true);
     }
 
     public void CloseRewardScreen()

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1509501079894724
+--- !u!1 &1776286149934772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,39 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4040958231194332}
-  - component: {fileID: 212836658781236804}
-  - component: {fileID: 114378626586349076}
-  - component: {fileID: 6880993534784429183}
+  - component: {fileID: 4493909492483938}
+  - component: {fileID: 212640747491253864}
+  - component: {fileID: 114774137024542062}
+  - component: {fileID: 5166481231496148323}
   m_Layer: 0
-  m_Name: plante
+  m_Name: ElixirMax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4040958231194332
+--- !u!4 &4493909492483938
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509501079894724}
+  m_GameObject: {fileID: 1776286149934772}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.11, y: -3.62, z: 0}
+  m_LocalPosition: {x: -1.08, y: -1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212836658781236804
+--- !u!212 &212640747491253864
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509501079894724}
+  m_GameObject: {fileID: 1776286149934772}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: -1045163114, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  m_Sprite: {fileID: 1501729247, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -86,13 +86,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114378626586349076
+--- !u!114 &114774137024542062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509501079894724}
+  m_GameObject: {fileID: 1776286149934772}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ddf7c1ada77bbe419831ca4fc18005b, type: 3}
@@ -101,52 +101,52 @@ MonoBehaviour:
   isItem: 1
   isWeapon: 0
   isArmour: 0
-  itemCode: PLANT
-  itemName: plant
-  description: Plants
-  value: 10
-  itemSprite: {fileID: -1045163114, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
+  itemCode: ELIXIR_MAX
+  itemName: Elixir Max
+  description: Soigne K.O
+  value: 5000
+  itemSprite: {fileID: 1501729247, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
   affectStr: 0
-  resurrect: 0
+  resurrect: 1
+  isMagic: 0
   weaponStrength: 0
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
---- !u!114 &6880993534784429183
+  battleType: 5
+--- !u!114 &5166481231496148323
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509501079894724}
+  m_GameObject: {fileID: 1776286149934772}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedObjects:
-  - rid: 8232520309824815157
+  - rid: 8232520309824815173
   references:
     version: 2
     RefIds:
-    - rid: 8232520309824815157
+    - rid: 8232520309824815173
       type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
         asm: Unity.Localization}
       data:
-        m_Target: {fileID: 114378626586349076}
+        m_Target: {fileID: 114774137024542062}
         m_TrackedProperties:
           items:
-          - rid: 8232520309824815158
-          - rid: 8232520309824815159
-          - rid: 8232520309824815160
+          - rid: 8232520309824815175
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 8232520309824815158
+    - rid: 8232520309824815175
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
       data:
@@ -154,35 +154,7 @@ MonoBehaviour:
           m_TableReference:
             m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
           m_TableEntryReference:
-            m_KeyId: 7767409299230720
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: itemName
-    - rid: 8232520309824815159
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7767422154772480
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: itemCode
-    - rid: 8232520309824815160
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7767440165113856
+            m_KeyId: 7768767775576064
             m_Key: 
           m_FallbackState: 0
           m_WaitForCompletion: 0

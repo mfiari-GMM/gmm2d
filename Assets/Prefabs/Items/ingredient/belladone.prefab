@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: -76193021
   m_SortingLayer: 2
   m_SortingOrder: -5
-  m_Sprite: {fileID: 1569742414, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  m_Sprite: {fileID: -297611144, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
   itemName: Belladone
   description: sert a la fabrication de potion
   value: 10
-  itemSprite: {fileID: 1569742414, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
+  itemSprite: {fileID: -297611144, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   amountToChange: 0
   affectHP: 0
   affectMP: 0
@@ -116,6 +116,7 @@ MonoBehaviour:
   armorStrength: 0
   weaponMagie: 0
   armorResistance: 0
+  battleType: 0
 --- !u!114 &6880993534784429183
 MonoBehaviour:
   m_ObjectHideFlags: 0

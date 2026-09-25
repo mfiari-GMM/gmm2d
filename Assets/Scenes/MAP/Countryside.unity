@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2262,6 +2261,8 @@ MonoBehaviour:
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &860670128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2652,6 +2653,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1020052533}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: enter the cave
   activeIfComplete: 0
 --- !u!114 &1018573036
@@ -2668,6 +2672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 220175613}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: escape village
   activeIfComplete: 1
 --- !u!114 &1018573037
@@ -2684,6 +2691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1788914441}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Bandit
   activeIfComplete: 1
 --- !u!114 &1018573038
@@ -2700,6 +2710,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1788914441}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: Battle bandit
   activeIfComplete: 0
 --- !u!114 &1018573040
@@ -2717,6 +2730,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 498494723}
   - {fileID: 1397020475}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: end enter the cave
   activeIfComplete: 1
 --- !u!114 &1018573041
@@ -2733,6 +2749,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 34364506}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: end enter the cave
   activeIfComplete: 0
 --- !u!114 &1018573044
@@ -2749,6 +2768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 471711489}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph1
   activeIfComplete: 1
 --- !u!114 &1018573045
@@ -2765,6 +2787,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 220175613}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: escape village
   activeIfComplete: 1
 --- !u!114 &1018573046
@@ -2782,6 +2807,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 1020052533}
   - {fileID: 34364506}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: escape village
   activeIfComplete: 0
 --- !u!114 &1018573047
@@ -2801,6 +2829,9 @@ MonoBehaviour:
   - {fileID: 429689251}
   - {fileID: 1112358955}
   - {fileID: 297978265}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph2
   activeIfComplete: 1
 --- !u!114 &1018573048
@@ -2817,6 +2848,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1610504301}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph3
   activeIfComplete: 0
 --- !u!114 &1018573049
@@ -2833,6 +2867,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 860670125}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph4
   activeIfComplete: 1
 --- !u!114 &1018573050
@@ -2853,6 +2890,9 @@ MonoBehaviour:
   - {fileID: 1397020475}
   - {fileID: 1112358955}
   - {fileID: 297978265}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph5
   activeIfComplete: 0
 --- !u!114 &1018573051
@@ -2869,6 +2909,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 1114636023}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph3
   activeIfComplete: 1
 --- !u!114 &1018573052
@@ -2885,6 +2928,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 34364506}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph5
   activeIfComplete: 1
 --- !u!114 &1018573053
@@ -2902,6 +2948,9 @@ MonoBehaviour:
   objectsToActivate:
   - {fileID: 429689251}
   - {fileID: 1114636023}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph4
   activeIfComplete: 0
 --- !u!114 &1018573054
@@ -2918,6 +2967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToActivate:
   - {fileID: 471711489}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
   questToCheck: metamorph2
   activeIfComplete: 0
 --- !u!1001 &1020052531
@@ -12891,6 +12943,8 @@ MonoBehaviour:
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1610504304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13409,7 +13463,7 @@ MonoBehaviour:
   potentialBattles:
   - enemyPrefabs:
     - {fileID: 114895784032005762, guid: 9bda92601e273654986d69d0c9405f45, type: 3}
-    rewardXP: 400
+    rewardXP: 300
     rewardMoney: 500
     rewardItemsPrefabs:
     - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}

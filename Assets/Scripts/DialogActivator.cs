@@ -13,6 +13,8 @@ public class DialogActivator : MonoBehaviour {
     public bool shouldAutoLaunch;
     public string[] playersToAdd;
     public string[] playersToRemove;
+    public string[] itemsToAdd;
+    public int[] itemsQuantityToAdd;
 
     private bool canActivate;
     private bool hasBeenActivated = false;
@@ -25,6 +27,7 @@ public class DialogActivator : MonoBehaviour {
             DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);
             DialogManager.instance.ShouldAddPlayerAtEnd(playersToAdd);
             DialogManager.instance.ShouldRemovePlayerAtEnd(playersToRemove);
+            DialogManager.instance.ShouldAddItemsAtEnd(itemsToAdd, itemsQuantityToAdd);
             hasBeenActivated = true;
         }
 	}
