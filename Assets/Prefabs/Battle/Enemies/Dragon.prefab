@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4449155801539570}
   - component: {fileID: 212087347446075270}
   - component: {fileID: 114816084446038158}
+  - component: {fileID: -1068340024088289395}
   m_Layer: 0
   m_Name: Dragon
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: dd61146dbe36aa6449131fb544979165, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b7be9e5ee187db488f52288a66fac58, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,3 +132,49 @@ MonoBehaviour:
   battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3
+--- !u!114 &-1068340024088289395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281549455846878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2723080770344189967
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080770344189967
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114816084446038158}
+        m_TrackedProperties:
+          items:
+          - rid: 2723080770344189968
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 2723080770344189968
+      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          rid: 2723080770344189969
+        m_PropertyPath: aliveSprite
+    - rid: 2723080770344189969
+      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
+        m_TableEntryReference:
+          m_KeyId: 206069403745980416
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0

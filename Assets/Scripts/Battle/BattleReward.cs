@@ -118,7 +118,7 @@ public class BattleReward : MonoBehaviour {
                     {
                         if (charStats.winMoves[j].level == charStats.playerLevel)
                         {
-                            newTechText.text += charStats.charName + " a appris " + charStats.winMoves[j].moveName + "\n";
+                            newTechText.text += charStats.charName + " a appris " + LocalizationSettings.StringDatabase.GetLocalizedString("MovesTableCollection", charStats.winMoves[j].moveName) + "\n";
                             winMoves = true;
                         }
                     }

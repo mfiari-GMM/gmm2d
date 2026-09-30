@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4344253628854906}
   - component: {fileID: 212607448354221090}
   - component: {fileID: 114158117718962746}
+  - component: {fileID: 8467477226283265562}
   m_Layer: 0
   m_Name: Cape
   m_TagString: Untagged
@@ -116,3 +117,61 @@ MonoBehaviour:
   weaponMagie: 0
   armorResistance: 3
   battleType: 5
+--- !u!114 &8467477226283265562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821430405299384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2723080770344189970
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080770344189970
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114158117718962746}
+        m_TrackedProperties:
+          items:
+          - rid: 2723080770344189971
+          - rid: 2723080770344189972
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 2723080770344189971
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7385924718551040
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 2723080770344189972
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7386004607459328
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

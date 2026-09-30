@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4363732894974646}
   - component: {fileID: 212028268323552340}
   - component: {fileID: 114043814178531382}
+  - component: {fileID: 1634907107934871866}
   m_Layer: 0
   m_Name: Witch hat
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MonoBehaviour:
   isArmour: 1
   itemCode: WITCH_HAT
   itemName: chapeau de sorciere
-  description: "simple chapeau de sorci\xE8re"
+  description: "simple chapeau de sorci\xE8r"
   value: 500
   itemSprite: {fileID: -568293734, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
@@ -116,3 +117,61 @@ MonoBehaviour:
   weaponMagie: 0
   armorResistance: 4
   battleType: 5
+--- !u!114 &1634907107934871866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629119755753012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2723080833097531400
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080833097531400
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114043814178531382}
+        m_TrackedProperties:
+          items:
+          - rid: 2723080833097531401
+          - rid: 2723080833097531402
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 2723080833097531401
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7391609061629952
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 2723080833097531402
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7391651939999744
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

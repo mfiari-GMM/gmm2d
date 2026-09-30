@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4155484428091270}
   - component: {fileID: 212249034564438036}
   - component: {fileID: 114143543785605942}
+  - component: {fileID: -4285041006636797289}
   m_Layer: 0
   m_Name: balai
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MonoBehaviour:
   isArmour: 0
   itemCode: BROOM
   itemName: balai
-  description: balai
+  description: bala
   value: 800
   itemSprite: {fileID: 628823707, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
@@ -116,3 +117,61 @@ MonoBehaviour:
   weaponMagie: 10
   armorResistance: 0
   battleType: 5
+--- !u!114 &-4285041006636797289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231586786634542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2723080833097531454
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080833097531454
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114143543785605942}
+        m_TrackedProperties:
+          items:
+          - rid: 2723080833097531455
+          - rid: 2723080833097531456
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 2723080833097531455
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7410030797119488
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 2723080833097531456
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7410056675975168
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

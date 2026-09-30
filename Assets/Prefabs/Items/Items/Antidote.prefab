@@ -102,7 +102,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemCode: ANTIDOTE
-  itemName: Antidote
+  itemName: Antidot
   description: Soigne du poison
   value: 200
   itemSprite: {fileID: -1854194940, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
@@ -134,6 +134,20 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 2723080833097531420
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7401134116298752
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
     - rid: 8232520309824815168
       type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
         asm: Unity.Localization}
@@ -141,35 +155,21 @@ MonoBehaviour:
         m_Target: {fileID: 114774137024542062}
         m_TrackedProperties:
           items:
-          - rid: 8232520309824815169
           - rid: 8232520309824815170
+          - rid: 2723080833097531420
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 8232520309824815169
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7768450799439872
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: itemCode
     - rid: 8232520309824815170
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
       data:
         m_Localized:
           m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
           m_TableEntryReference:
-            m_KeyId: 7768504616554496
+            m_KeyId: 7401164541779968
             m_Key: 
           m_FallbackState: 0
           m_WaitForCompletion: 0

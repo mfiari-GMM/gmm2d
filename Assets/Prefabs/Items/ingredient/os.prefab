@@ -141,37 +141,21 @@ MonoBehaviour:
         m_Target: {fileID: 114378626586349076}
         m_TrackedProperties:
           items:
-          - rid: 8232520309824815154
           - rid: 8232520309824815155
           - rid: 8232520309824815156
-          - rid: 8700492819418054656
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 8232520309824815154
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
-          m_TableEntryReference:
-            m_KeyId: 7767161143234560
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: itemCode
     - rid: 8232520309824815155
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
       data:
         m_Localized:
           m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
           m_TableEntryReference:
-            m_KeyId: 7767185956737024
+            m_KeyId: 7425374404206592
             m_Key: 
           m_FallbackState: 0
           m_WaitForCompletion: 0
@@ -183,28 +167,11 @@ MonoBehaviour:
       data:
         m_Localized:
           m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
           m_TableEntryReference:
-            m_KeyId: 7767207024726016
+            m_KeyId: 7425400639578112
             m_Key: 
           m_FallbackState: 0
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: description
-    - rid: 8700492819418054656
-      type: {class: LocalizedAssetProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
-        asm: Unity.Localization}
-      data:
-        m_Localized:
-          rid: 8700492819418054657
-        m_PropertyPath: itemSprite
-    - rid: 8700492819418054657
-      type: {class: LocalizedSprite, ns: UnityEngine.Localization, asm: Unity.Localization}
-      data:
-        m_TableReference:
-          m_TableCollectionName: GUID:2430dbb7a799f3a45a879f73cda0f92c
-        m_TableEntryReference:
-          m_KeyId: 21356084054396928
-          m_Key: 
-        m_FallbackState: 0
-        m_WaitForCompletion: 0

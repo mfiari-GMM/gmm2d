@@ -102,7 +102,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemCode: ELIXIR
-  itemName: Elixir
+  itemName: Elixi
   description: Soigne K.O
   value: 500
   itemSprite: {fileID: -1918980227, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
@@ -134,6 +134,20 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 2723080833097531423
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7401775807062016
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
     - rid: 8232520309824815173
       type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
         asm: Unity.Localization}
@@ -142,6 +156,7 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 8232520309824815175
+          - rid: 2723080833097531423
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
@@ -152,9 +167,9 @@ MonoBehaviour:
       data:
         m_Localized:
           m_TableReference:
-            m_TableCollectionName: GUID:d84bae2988264cc41810a48417b05d65
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
           m_TableEntryReference:
-            m_KeyId: 7768767775576064
+            m_KeyId: 7401797525168128
             m_Key: 
           m_FallbackState: 0
           m_WaitForCompletion: 0

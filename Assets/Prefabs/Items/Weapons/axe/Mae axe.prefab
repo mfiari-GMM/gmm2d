@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4314730573232546}
   - component: {fileID: 212797731134643688}
   - component: {fileID: 114126653972101484}
+  - component: {fileID: 4350595113763033704}
   m_Layer: 0
   m_Name: Mae axe
   m_TagString: Untagged
@@ -101,8 +102,8 @@ MonoBehaviour:
   isWeapon: 1
   isArmour: 0
   itemCode: MAE_AXE
-  itemName: Hache de Mae
-  description: "Hache de Mae, poss\xE8de des pouvoirs"
+  itemName: Hache de Ma
+  description: "Hache de Mae, poss\xE8de des pouvoirs de feu"
   value: 2500
   itemSprite: {fileID: 525681521, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
@@ -116,3 +117,61 @@ MonoBehaviour:
   weaponMagie: 30
   armorResistance: 0
   battleType: 0
+--- !u!114 &4350595113763033704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618387829924926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 2723080833097531432
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080833097531432
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 114126653972101484}
+        m_TrackedProperties:
+          items:
+          - rid: 2723080833097531433
+          - rid: 2723080833097531436
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 2723080833097531433
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7406421141348352
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description
+    - rid: 2723080833097531436
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7406399989473280
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName

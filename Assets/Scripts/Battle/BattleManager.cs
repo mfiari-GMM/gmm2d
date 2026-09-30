@@ -902,6 +902,17 @@ public class BattleManager : MonoBehaviour
     public IEnumerator GameOverCo()
     {
         battleActive = false;
+        uiButtonsHolder.SetActive(false);
+        targetMenu.SetActive(false);
+        magicMenu.SetActive(false);
+
+        for (int i = 0; i < activeBattlers.Count; i++)
+        {
+            Destroy(activeBattlers[i].gameObject);
+        }
+        activeBattlers.Clear();
+        currentTurn = 0;
+
         UIFade.instance.FadeToBlack();
         yield return new WaitForSeconds(1.5f);
         battleScene.SetActive(false);

@@ -21,6 +21,10 @@ public class BattleStarter : MonoBehaviour {
 
     public bool isBoss;
 
+    public string[] lines;
+
+    public bool shouldAutoLaunchBattle = false;
+
     // Use this for initialization
     void Start () {
         betweenBattleCounter = Random.Range(timeBetweenBattles * .5f, timeBetweenBattles * 1.5f);
@@ -41,6 +45,13 @@ public class BattleStarter : MonoBehaviour {
 
                 StartCoroutine(StartBattleCo());
             }
+
+            if (shouldAutoLaunchBattle && !GameManager.instance.dialogActive)
+            {
+                shouldAutoLaunchBattle = false;
+                inArea = false;
+                StartCoroutine(StartBattleCo());
+            }
         }
 	}
 
@@ -50,7 +61,15 @@ public class BattleStarter : MonoBehaviour {
         {
             if (activateOnEnter)
             {
-                StartCoroutine(StartBattleCo());
+                if (lines != null && lines.Length > 0)
+                {
+                    DialogManager.instance.ShowDialog(lines, true, true, false);
+                    shouldAutoLaunchBattle = true;
+                    inArea = true;
+                } else
+                {
+                    StartCoroutine(StartBattleCo());
+                }
             }
             else
             {

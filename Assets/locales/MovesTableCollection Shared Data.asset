@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: MovesTableCollection Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: MovesTableCollection
+  m_TableCollectionNameGuidString: 39366d6f184db504192a7b4703333ec6
+  m_Entries:
+  - m_Id: 36603466289152
+    m_Key: THRUST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36751537803264
+    m_Key: SONIC_THRUST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36838561222656
+    m_Key: SUPERSONIC_THRUST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36994979401728
+    m_Key: LIGHTING_BLADE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37158439817216
+    m_Key: POWER_ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37277667102720
+    m_Key: EARTH_IMPACT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37468436631552
+    m_Key: FIRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37548380065792
+    m_Key: FIRE+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37609986002944
+    m_Key: FIRE_X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37678688702464
+    m_Key: ICE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37732786835456
+    m_Key: ICE+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37885887320064
+    m_Key: ICE_X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37950852894720
+    m_Key: LIGHTING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38141051998208
+    m_Key: LIGHTING+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38214171299840
+    m_Key: LIGHTING_X
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38277048111104
+    m_Key: PLASMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38343074844672
+    m_Key: WIND
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38397940535296
+    m_Key: TORNADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38474549497856
+    m_Key: CYCLONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38585065213952
+    m_Key: SEISME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38637192024064
+    m_Key: HEAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38691172716544
+    m_Key: HEAL+
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38758973640704
+    m_Key: FIRE_SWORD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38994156654592
+    m_Key: FIRE_TORNADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39068995620864
+    m_Key: LIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39125908131840
+    m_Key: TRANSFORM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39230178529280
+    m_Key: TAIL_ATTACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39375473414144
+    m_Key: POISON_FANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39565974507520
+    m_Key: PROTECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39691275145216
+    m_Key: SHIELD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39747164246016
+    m_Key: HEAL_STATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39825400598528
+    m_Key: POISON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39892454936576
+    m_Key: DEFENSE-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39958758494208
+    m_Key: MAGIE-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40024101556224
+    m_Key: FORCE -
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40084319178752
+    m_Key: RESISTANCE -
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40269472534528
+    m_Key: STING
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2723080833097531536
+  references:
+    version: 2
+    RefIds:
+    - rid: 2723080833097531536
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1790705461984

@@ -102,8 +102,8 @@ MonoBehaviour:
   isWeapon: 1
   isArmour: 0
   itemCode: SPELL_BOOK
-  itemName: Livre de magie
-  description: Livre de magie
+  itemName: Livre de magi
+  description: Livre de magi
   value: 200
   itemSprite: {fileID: -1200500073, guid: c5245cb4f45be8f41b9f8f5f5c711045, type: 3}
   amountToChange: 0
@@ -141,33 +141,37 @@ MonoBehaviour:
         m_Target: {fileID: 114143543785605942}
         m_TrackedProperties:
           items:
-          - rid: 721278704506109957
-          - rid: 721278704506109958
+          - rid: 2723080833097531477
+          - rid: 2723080833097531480
         m_UpdateType: 0
         m_Changed:
           m_PersistentCalls:
             m_Calls: []
-    - rid: 721278704506109957
-      type: {class: IntTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+    - rid: 2723080833097531477
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
       data:
-        m_PropertyPath: weaponStrength
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: fr
-          value: 3
-        - localeIdentifier:
-            m_Code: en
-          value: 3
-    - rid: 721278704506109958
-      type: {class: IntTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7414841026273280
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: itemName
+    - rid: 2723080833097531480
+      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
       data:
-        m_PropertyPath: weaponMagie
-        m_VariantData:
-        - localeIdentifier:
-            m_Code: fr
-          value: 8
-        - localeIdentifier:
-            m_Code: en
-          value: 8
+        m_Localized:
+          m_TableReference:
+            m_TableCollectionName: GUID:27efb94a137bbe140ac383c415763f09
+          m_TableEntryReference:
+            m_KeyId: 7414865806221312
+            m_Key: 
+          m_FallbackState: 0
+          m_WaitForCompletion: 0
+          m_LocalVariables: []
+        m_PropertyPath: description

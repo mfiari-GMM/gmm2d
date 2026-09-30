@@ -203,16 +203,35 @@ MonoBehaviour:
     m_Key: Town/NPC Control 3
     m_Metadata:
       m_Items: []
+  - m_Id: 205433694643228672
+    m_Key: GameOver/Canvas/Button (1)/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206069403745980416
+    m_Key: Dragon
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 3013575060975517825
     - rid: 8232520309824815214
     - rid: 8700492819418054658
+    - rid: 2723080770344189957
   m_KeyGenerator:
     rid: 3013574630929596441
   references:
     version: 2
     RefIds:
+    - rid: 2723080770344189957
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 205433694643228672
+          m_TableCodes:
+          - fr
+          - en
+        m_TypeString: UnityEngine.Font, UnityEngine.TextRenderingModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
     - rid: 3013574630929596441
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
         asm: Unity.Localization}
@@ -378,6 +397,10 @@ MonoBehaviour:
           - fr
           - en
         - m_KeyId: 64429754347622400
+          m_TableCodes:
+          - fr
+          - en
+        - m_KeyId: 206069403745980416
           m_TableCodes:
           - fr
           - en
