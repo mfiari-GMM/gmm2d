@@ -103,8 +103,8 @@ MonoBehaviour:
   - SLASH
   - STING
   charName: Red Wasp
-  currentHp: 180
-  maxHP: 180
+  currentHp: 350
+  maxHP: 350
   currentMP: 200
   maxMP: 200
   strength: 60
@@ -112,9 +112,13 @@ MonoBehaviour:
   magie: 0
   resistance: 8
   wpnPower: 0
+  wpnMagie: 0
   armrPower: 0
+  armrRes: 0
   criticalRate: 5
   dodgeRate: 0
+  wpnBattleType: 0
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212849580792183462}
   deadSprite: {fileID: 0}

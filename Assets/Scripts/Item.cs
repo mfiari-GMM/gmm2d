@@ -15,7 +15,7 @@ public class Item : MonoBehaviour {
 
     [Header("Item Details")]
     public int amountToChange;
-    public bool affectHP, affectMP, affectStr, resurrect;
+    public bool affectHP, affectMP, affectStr, resurrect, affectState;
 
     [Header("Weapon/Armor Details")]
     public bool isMagic;
@@ -159,6 +159,11 @@ public class Item : MonoBehaviour {
                 {
                     selectedChar.currentHp = selectedChar.maxHP / 2;
                 }
+            }
+
+            if (affectState)
+            {
+                selectedChar.battleStatus = BattleMove.BattleStatus.None;
             }
         }
 

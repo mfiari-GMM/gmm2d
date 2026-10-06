@@ -104,13 +104,14 @@ MonoBehaviour:
   itemCode: MANA_POTION
   itemName: Potion de mana
   description: Restore 50 PM
-  value: 40
+  value: 50
   itemSprite: {fileID: -899511087, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   amountToChange: 50
   affectHP: 0
   affectMP: 1
   affectStr: 0
   resurrect: 0
+  affectState: 0
   isMagic: 0
   weaponStrength: 0
   armorStrength: 0

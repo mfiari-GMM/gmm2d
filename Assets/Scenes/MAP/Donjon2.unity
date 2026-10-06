@@ -19448,10 +19448,9 @@ MonoBehaviour:
   potentialBattles:
   - enemyPrefabs:
     - {fileID: 114895784032005762, guid: f24adb2fc37e44233a144a711d0039b7, type: 3}
-    rewardXP: 1000
-    rewardMoney: 1000
+    rewardXP: 500
+    rewardMoney: 500
     rewardItemsPrefabs:
-    - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}
     - {fileID: 114774137024542062, guid: 4ee345d152dd448a19fd7cf2e92f49f2, type: 3}
     - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
     - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
@@ -19465,6 +19464,8 @@ MonoBehaviour:
   shouldCompleteQuest: 1
   QuestToComplete: Defeat Aqua
   isBoss: 1
+  lines: []
+  shouldAutoLaunchBattle: 0
 --- !u!61 &1491018617
 BoxCollider2D:
   m_ObjectHideFlags: 0

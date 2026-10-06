@@ -9,7 +9,7 @@ public class CharInfo : MonoBehaviour
 
     public Text nameText, hpText, mpText, lvlText, expText;
     public Slider expSlider;
-    public Image charImage;
+    public Image charImage, statusImage;
    
 
     public void ShowCharInfo (CharStats playerStats)
@@ -22,5 +22,12 @@ public class CharInfo : MonoBehaviour
         expSlider.maxValue = playerStats.expToNextLevel[playerStats.playerLevel];
         expSlider.value = playerStats.currentEXP;
         charImage.sprite = playerStats.charIamge;
+        if (playerStats.battleStatus == BattleMove.BattleStatus.Poison)
+        {
+            statusImage.gameObject.SetActive(true);
+        } else
+        {
+            statusImage.gameObject.SetActive(false);
+        }
     }
 }

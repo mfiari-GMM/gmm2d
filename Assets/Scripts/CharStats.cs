@@ -32,6 +32,8 @@ public class CharStats : MonoBehaviour {
 
     public WinMove[] winMoves;
 
+    public BattleMove.BattleStatus battleStatus = BattleMove.BattleStatus.None;
+
     // Use this for initialization
     void Start () {
         expToNextLevel = new int[maxLevel];

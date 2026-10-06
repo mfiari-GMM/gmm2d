@@ -179,6 +179,7 @@ public class GameManager : MonoBehaviour {
         {
             playerStats[i].currentHP = playerStats[i].maxHP;
             playerStats[i].currentMP = playerStats[i].maxMP;
+            playerStats[i].battleStatus = BattleMove.BattleStatus.None;
         }
     }
 
@@ -239,6 +240,7 @@ public class GameManager : MonoBehaviour {
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Defence", playerStats[i].defence);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Magie", playerStats[i].magie);
             PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_Resistance", playerStats[i].resistance);
+            PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_status", (int)playerStats[i].battleStatus);
             if (playerStats[i].equippedWpn != null)
             {
                 PlayerPrefs.SetInt("Player_" + playerStats[i].charName + "_WpnPwr", playerStats[i].equippedWpn.weaponStrength);
@@ -289,6 +291,7 @@ public class GameManager : MonoBehaviour {
                 playerStats[i].defence = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Defence");
                 playerStats[i].magie = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Magie");
                 playerStats[i].resistance = PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_Resistance");
+                playerStats[i].battleStatus = (BattleMove.BattleStatus)PlayerPrefs.GetInt("Player_" + playerStats[i].charName + "_status");
 
                 Item weapon = GetItemDetails(PlayerPrefs.GetString("Player_" + playerStats[i].charName + "_EquippedWpn"));
                 if (weapon != null)

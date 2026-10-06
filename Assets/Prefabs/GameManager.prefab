@@ -64,7 +64,7 @@ MonoBehaviour:
   equippedArmr: {fileID: 0}
   charIamge: {fileID: 2060371385, guid: bbfe4df357cd8d443bb9fbdcc5b9a8fb, type: 3}
   winHP: 20
-  winMP: 15
+  winMP: 12
   winStrength: 1
   winDefence: 2
   winMagie: 4
@@ -86,6 +86,7 @@ MonoBehaviour:
     moveName: ICE_X
   - level: 30
     moveName: LIGHTING_X
+  battleStatus: 0
 --- !u!1 &1190594902282344
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +970,7 @@ MonoBehaviour:
     moveName: POWER_ATTACK
   - level: 20
     moveName: EARTH_IMPACT
+  battleStatus: 0
 --- !u!1 &1674758041330280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,9 +1048,10 @@ MonoBehaviour:
   - level: 15
     moveName: LIGHTING_BLADE
   - level: 20
-    moveName: FIRE_SWORD
-  - level: 25
     moveName: SUPERSONIC_THRUST
+  - level: 25
+    moveName: FIRE_SWORD
+  battleStatus: 0
 --- !u!1 &914761772766140176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,6 +1141,7 @@ MonoBehaviour:
     moveName: CYCLONE
   - level: 35
     moveName: QUART
+  battleStatus: 0
 --- !u!1 &4154041414927079086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1212,7 @@ MonoBehaviour:
   winMagie: 2
   winResistance: 2
   winMoves: []
+  battleStatus: 0
 --- !u!1 &8856893764327555147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1278,7 @@ MonoBehaviour:
     type: 3}
   charIamge: {fileID: -1421362600, guid: 7363ad4d1195b0e49beb236c508ae06e, type: 3}
   winHP: 15
-  winMP: 12
+  winMP: 15
   winStrength: 1
   winDefence: 2
   winMagie: 5
@@ -1299,3 +1304,4 @@ MonoBehaviour:
     moveName: HOLY_LANCE
   - level: 35
     moveName: RESURECTION_MAX
+  battleStatus: 0

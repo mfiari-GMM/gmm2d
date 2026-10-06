@@ -102,15 +102,16 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemCode: ANTIDOTE
-  itemName: Antidot
+  itemName: Antidote
   description: Soigne du poison
   value: 200
   itemSprite: {fileID: -1854194940, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
   amountToChange: 100
-  affectHP: 1
+  affectHP: 0
   affectMP: 0
   affectStr: 0
   resurrect: 0
+  affectState: 1
   isMagic: 0
   weaponStrength: 0
   armorStrength: 0

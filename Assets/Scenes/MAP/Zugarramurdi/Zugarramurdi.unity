@@ -1391,7 +1391,7 @@ PrefabInstance:
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.9911232
+      value: 1.0765228
       objectReference: {fileID: 0}
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
@@ -1401,7 +1401,7 @@ PrefabInstance:
     - target: {fileID: 61028343127646202, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
       propertyPath: m_Offset.y
-      value: -2.2800999
+      value: -1.529808
       objectReference: {fileID: 0}
     - target: {fileID: 114295336372111500, guid: 64d2c8884948e1d4d82cda544b880100,
         type: 3}
@@ -1795,6 +1795,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1204819432
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27606,6 +27608,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1454515565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28123,6 +28127,8 @@ MonoBehaviour:
   shouldAutoLaunch: 0
   playersToAdd: []
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &1823036914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28748,11 +28754,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemsForSale:
   - HEALTH_POTION
+  - HEALTH_POTION+
+  - HEALTH_POTION_MAX
   - MANA_POTION
+  - MANA_POTION+
+  - MANA_POTION_MAX
   - ANTIDOTE
   - ELIXIR
+  - ELIXIR_MAX
   - MAGIC_ARMOR
   - SORCERER_CAPE
+  - BATTLE_CAPE
+  - WITCH_HAT
+  - MAGIC_VEST
   - MAGIC_AXE
   - BROOM
   - FIREBOLT
@@ -28760,14 +28774,6 @@ MonoBehaviour:
   - BATTLE_STAFF
   - SORCERER_STAFF
   - MAGIC_SWORD
-  - CYNTHIA_BROOM
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

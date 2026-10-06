@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -432,12 +431,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToActivate: []
+  objectsToActivate:
+  - {fileID: 902759719}
   objectsToGain: []
   moneyToGain: 0
   expToGain: 0
-  questToCheck: escape village
-  activeIfComplete: 1
+  questToCheck: end save boy
+  activeIfComplete: 0
 --- !u!114 &219162614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,10 +832,9 @@ MonoBehaviour:
   battleType:
     enemyPrefabs:
     - {fileID: 114895784032005762, guid: f1dc165437f5ba14395fa581f62bb245, type: 3}
-    rewardXP: 600
-    rewardMoney: 1000
+    rewardXP: 350
+    rewardMoney: 400
     rewardItemsPrefabs:
-    - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
     - {fileID: 114774137024542062, guid: a7b4b1d88b65cf34baa3634512ccd0bb, type: 3}
     - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
     - {fileID: 114774137024542062, guid: 6f80b0c1aaf34a64c83e5027d4562af0, type: 3}
@@ -1838,9 +1837,9 @@ MonoBehaviour:
     rewardXP: 300
     rewardMoney: 240
     rewardItemsPrefabs:
-    - {fileID: 114378626586349076, guid: eaaff820e9a6af44c8bb3aa7b8c712cf, type: 3}
-    - {fileID: 114378626586349076, guid: 53cfd4b74035ae54889cc40419ffc329, type: 3}
-    - {fileID: 114378626586349076, guid: 53cfd4b74035ae54889cc40419ffc329, type: 3}
+    - {fileID: 114774137024542062, guid: 6f80b0c1aaf34a64c83e5027d4562af0, type: 3}
+    - {fileID: 114774137024542062, guid: 64aae6609a117744cb8ca07685eaa19e, type: 3}
+    - {fileID: 114378626586349076, guid: 0df884b41edfca14db010142ab6221c0, type: 3}
   battleField: forest
   questToCheck: Save boy
   shouldCompleteQuest: 1
@@ -2389,9 +2388,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 988d560df8d322a468c97243cbfd76e8,
+      objectReference: {fileID: 21300000, guid: 35999d09a94bf8246a0ecfae1247fe14,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -3030,9 +3034,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 988d560df8d322a468c97243cbfd76e8,
+      objectReference: {fileID: 21300000, guid: 35999d09a94bf8246a0ecfae1247fe14,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -42256,9 +42270,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039938974407891914, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 988d560df8d322a468c97243cbfd76e8,
+      objectReference: {fileID: 21300000, guid: 35999d09a94bf8246a0ecfae1247fe14,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -42400,32 +42419,32 @@ PrefabInstance:
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Size.x
-      value: 5.971052
+      value: 5.5431767
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Size.y
-      value: 5.540785
+      value: 4.9454803
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Offset.x
-      value: 1.7233896
+      value: 1.5094519
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.4209318
+      value: 1.1232796
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.51111114
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 161876325717902063, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.8888889
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -42481,7 +42500,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -903495506, guid: 6e574d67f48870d439eb51145daa81bf,
+      objectReference: {fileID: 74351194, guid: fb8cc55af4b7a034584793949fd90500,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -43150,6 +43169,8 @@ MonoBehaviour:
   shouldCompleteQuest: 1
   QuestToComplete: Defeat Mae
   isBoss: 1
+  lines: []
+  shouldAutoLaunchBattle: 0
 --- !u!1 &2041253564
 GameObject:
   m_ObjectHideFlags: 0

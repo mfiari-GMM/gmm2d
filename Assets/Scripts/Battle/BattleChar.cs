@@ -206,11 +206,19 @@ public class BattleChar : MonoBehaviour {
     public void IncreaseAtk ()
     {
         boostAtk = 1.5f;
+        boostMagie = 1.5f;
+    }
+
+    public void resetAtk()
+    {
+        boostAtk = 1f;
+        boostMagie = 1f;
     }
 
     public void IncreaseDef()
     {
         boostDef = 2f;
+        boostRes = 2f;
     }
 
     public void resetDef()

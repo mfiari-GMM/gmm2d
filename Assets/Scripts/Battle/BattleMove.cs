@@ -14,12 +14,11 @@ public class BattleMove {
     public BattleStatus battleStatus;
     public bool isMagic;
     public bool heal;
+    public bool resurect;
     public bool isPlayer;
     public bool allChar;
     public bool boostAtk;
     public bool boostDef;
     public bool boostMagie;
     public bool boostRes;
-    public bool boostCritic;
-    public bool boosteDodge;
 }

@@ -42,6 +42,7 @@ public class BattleManager : MonoBehaviour
     public DamageNumber theDamageNumber;
 
     public Text[] playerName, playerHP, playerMP;
+    public Image[] playerPoison, playerBoostAtk, playerBoostDef;
 
     public GameObject targetMenu;
     public BattleTargetButton[] targetButtons;
@@ -170,6 +171,7 @@ public class BattleManager : MonoBehaviour
                                 activeBattlers[i].armrRes = thePlayer.equippedArmr != null ? thePlayer.equippedArmr.armorResistance : 0;
                                 activeBattlers[i].isWeaponMagic = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.isMagic : false;
                                 activeBattlers[i].wpnBattleType = thePlayer.equippedWpn != null ? thePlayer.equippedWpn.battleType : BattleMove.BattleMoveType.Normal;
+                                activeBattlers[i].battleStatus = thePlayer.battleStatus;
 
                                 for (int playerLevel = 1; playerLevel <= thePlayer.playerLevel; playerLevel++)
                                 {
@@ -220,6 +222,10 @@ public class BattleManager : MonoBehaviour
             currentTurn = 0;
         }
 
+        turnWaiting = true;
+
+        UpdateBattle();
+
         if (activeBattlers[currentTurn].battleStatus == BattleMove.BattleStatus.Poison)
         {
             int damageToTake = activeBattlers[currentTurn].maxHP / 10;
@@ -230,12 +236,10 @@ public class BattleManager : MonoBehaviour
         {
             activeBattlers[currentTurn].currentHp = 0;
             activeBattlers[currentTurn].theSprite.sprite = activeBattlers[currentTurn].deadSprite;
-            UpdateUIStats();
+            activeBattlers[currentTurn].battleStatus = BattleMove.BattleStatus.None;
+            UpdateBattle();
         }
 
-        turnWaiting = true;
-
-        UpdateBattle();
         UpdateUIStats();
         backIcon.SetActive(false);
     }
@@ -424,6 +428,7 @@ public class BattleManager : MonoBehaviour
         if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
         {
             activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
+            playerPoison[selectedTarget].gameObject.SetActive(true);
         }
         
         if (activeBattlers[currentTurn].ShoudlDeTransform())
@@ -544,6 +549,14 @@ public class BattleManager : MonoBehaviour
                     playerHP[i].text = Mathf.Clamp(playerData.currentHp, 0, int.MaxValue) + "/" + playerData.maxHP;
                     playerMP[i].text = Mathf.Clamp(playerData.currentMP, 0, int.MaxValue) + "/" + playerData.maxMP;
 
+                    if (playerData.battleStatus == BattleMove.BattleStatus.Poison)
+                    {
+                        playerPoison[i].gameObject.SetActive(true);
+                    } else
+                    {
+                        playerPoison[i].gameObject.SetActive(false);
+                    }
+
                 } else
                 {
                     playerName[i].gameObject.SetActive(false);
@@ -576,6 +589,7 @@ public class BattleManager : MonoBehaviour
         bool magic = true;
         bool heal = false;
         bool boostDef = false;
+        bool boostAtk = false;
 
         BattleMove.BattleMoveType battleType = BattleMove.BattleMoveType.Normal;
 
@@ -595,6 +609,7 @@ public class BattleManager : MonoBehaviour
                 magic = battleMove.isMagic;
                 heal = battleMove.heal;
                 boostDef = battleMove.boostDef;
+                boostAtk = battleMove.boostAtk;
                 if ("SLASH" != moveName)
                 {
                     battleText.theText.text = movesList[i].moveName;
@@ -618,11 +633,25 @@ public class BattleManager : MonoBehaviour
             if (heal)
             {
                 AudioManager.instance.PlaySFX(6);
-                Heal(selectedTarget[i], movePower);
+                if (moveName == "HEAL_STATE")
+                {
+                    activeBattlers[selectedTarget[i]].battleStatus = BattleMove.BattleStatus.None;
+                } else
+                {
+                    Heal(selectedTarget[i], movePower);
+                }
+                
             } else if (boostDef)
             {
                 AudioManager.instance.PlaySFX(6);
                 activeBattlers[selectedTarget[i]].IncreaseDef();
+                playerBoostDef[selectedTarget[i]].gameObject.SetActive(true);
+            }
+            else if (boostAtk)
+            {
+                AudioManager.instance.PlaySFX(6);
+                activeBattlers[selectedTarget[i]].IncreaseAtk();
+                playerBoostAtk[selectedTarget[i]].gameObject.SetActive(true);
             }
             else
             {
@@ -865,8 +894,14 @@ public class BattleManager : MonoBehaviour
                     {
                         GameManager.instance.playerStats[j].currentHP = activeBattlers[i].currentHp;
                         GameManager.instance.playerStats[j].currentMP = activeBattlers[i].currentMP;
+                        GameManager.instance.playerStats[j].battleStatus = activeBattlers[i].battleStatus;
                     }
                 }
+                activeBattlers[i].resetDef();
+                activeBattlers[i].resetAtk();
+                playerPoison[i].gameObject.SetActive(false);
+                playerBoostAtk[i].gameObject.SetActive(false);
+                playerBoostDef[i].gameObject.SetActive(false);
             }
 
             Destroy(activeBattlers[i].gameObject);

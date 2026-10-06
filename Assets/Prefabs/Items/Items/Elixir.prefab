@@ -102,7 +102,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemCode: ELIXIR
-  itemName: Elixi
+  itemName: Elixir
   description: Soigne K.O
   value: 500
   itemSprite: {fileID: -1918980227, guid: e2867437389e5944a806e10e7e0fe84b, type: 3}
@@ -111,6 +111,7 @@ MonoBehaviour:
   affectMP: 0
   affectStr: 0
   resurrect: 1
+  affectState: 0
   isMagic: 0
   weaponStrength: 0
   armorStrength: 0

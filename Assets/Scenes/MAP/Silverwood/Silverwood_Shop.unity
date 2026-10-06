@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -213,19 +212,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemsForSale:
-  - Epee de fer
-  - Epee acier
-  - Hache de fer
-  - Hache acier
-  - gant de fer
-  - gant acier
-  - Armure de fer
-  - Armure acier
-  - bouclier de fer
-  - bouclier acier
-  - Cape
-  - Livre de magie
-  - grand baton
+  - IRON_ARMOR
+  - CAPE
+  - STEEL_VEST
+  - IRON_AXE
+  - STEEL_AXE
+  - SPELL_BOOK
+  - STAFF
+  - IRON_SWORD
+  - STEEL_SWORD
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -2942,7 +2941,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1672677334, guid: 1681347853316db41af8f071be3eca7c,
+      objectReference: {fileID: 922211597, guid: fb8cc55af4b7a034584793949fd90500,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -4877,12 +4876,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 472784153, guid: 56125aa2b6a629d44b94ac711fb7f92f,
+      objectReference: {fileID: 1022213151, guid: fb8cc55af4b7a034584793949fd90500,
         type: 3}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -4897,7 +4896,7 @@ PrefabInstance:
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: lines.Array.data[1]
-      value: c'est 100g pour se reposer
+      value: "D\xE9sol\xE9, l'auberge est compl\xE8te pour le moment."
       objectReference: {fileID: 0}
     - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
