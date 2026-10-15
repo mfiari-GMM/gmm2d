@@ -102,21 +102,21 @@ MonoBehaviour:
   - TAIL_ATTACK
   - POISON_FANG
   charName: Edson
-  currentHp: 1000
-  maxHP: 1000
-  currentMP: 400
-  maxMP: 400
-  strength: 500
-  defence: 30
-  magie: 30
-  resistance: 20
+  currentHp: 2000
+  maxHP: 2000
+  currentMP: 300
+  maxMP: 300
+  strength: 100
+  defence: 10
+  magie: 10
+  resistance: 5
   wpnPower: 20
   wpnMagie: 0
   armrPower: 10
   armrRes: 0
   criticalRate: 10
   dodgeRate: 5
-  wpnBattleType: 0
+  wpnBattleType: 5
   isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212612185695992934}

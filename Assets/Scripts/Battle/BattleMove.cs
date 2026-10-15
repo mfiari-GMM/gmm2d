@@ -21,4 +21,5 @@ public class BattleMove {
     public bool boostDef;
     public bool boostMagie;
     public bool boostRes;
+    public bool fixedDamage;
 }

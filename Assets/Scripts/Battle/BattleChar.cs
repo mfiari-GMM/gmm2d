@@ -64,7 +64,7 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return (int)Math.Round(transformation.strength * boostAtk);
+            return (int)Math.Round((strength + transformation.strength) * boostAtk);
         }
         return (int)Math.Round(strength * boostAtk);
     }
@@ -73,7 +73,7 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return (int)Math.Round(transformation.defence * boostDef);
+            return (int)Math.Round((transformation.defence + defence) * boostDef);
         }
         return (int)Math.Round(defence * boostDef);
     }
@@ -82,7 +82,7 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return (int)Math.Round(transformation.magie * boostMagie);
+            return (int)Math.Round((magie + transformation.magie) * boostMagie);
         }
         return (int)Math.Round(magie * boostMagie);
     }
@@ -91,7 +91,7 @@ public class BattleChar : MonoBehaviour {
     {
         if (isTransformed)
         {
-            return (int)Math.Round(transformation.resistance * boostRes);
+            return (int)Math.Round((resistance + transformation.resistance) * boostRes);
         }
         return (int)Math.Round(resistance * boostRes);
     }

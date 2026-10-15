@@ -220,6 +220,7 @@ MonoBehaviour:
   - {fileID: 114378626586349076, guid: 26e1e121bffd9124991f910e445b649e, type: 3}
   - {fileID: 114378626586349076, guid: 0df884b41edfca14db010142ab6221c0, type: 3}
   - {fileID: 114378626586349076, guid: ff60786846c951346ab7c1a7d5e7159f, type: 3}
+  - {fileID: 114774137024542062, guid: 70bbcad5d2f628e4eb550ac567bc84e8, type: 3}
   - {fileID: 114158117718962746, guid: 1143cd5968336d04ebe73124913ccd85, type: 3}
   - {fileID: 114043814178531382, guid: 8767ec0556333f549998000557dcbc31, type: 3}
   - {fileID: 114043814178531382, guid: e02277e7c8b9fea41b56f2ed4d36bc09, type: 3}
@@ -317,6 +318,9 @@ MonoBehaviour:
   - remede Alexis
   - Save boy
   - end save boy
+  - Battle edson2
+  - Defeat edson2
+  - end edson
   questMarkersComplete: 
 --- !u!114 &6761693661197367381
 MonoBehaviour:
@@ -393,7 +397,7 @@ MonoBehaviour:
           value: 48
         - localeIdentifier:
             m_Code: en
-          value: 51
+          value: 54
     - rid: 7012525773100941328
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -968,7 +972,9 @@ MonoBehaviour:
   winMoves:
   - level: 10
     moveName: POWER_ATTACK
-  - level: 20
+  - level: 17
+    moveName: TORNADO_ATTACK
+  - level: 22
     moveName: EARTH_IMPACT
   battleStatus: 0
 --- !u!1 &1674758041330280
@@ -1111,9 +1117,9 @@ MonoBehaviour:
   defence: 72
   magie: 112
   resistance: 98
-  equippedWpn: {fileID: 114143543785605942, guid: dd45714d212c2b04abd328e83cb1c453,
+  equippedWpn: {fileID: 114143543785605942, guid: cb116a3778d879444a34c49c189d7206,
     type: 3}
-  equippedArmr: {fileID: 114158117718962746, guid: 682aa24c4782f45d1b47a7fa66a30170,
+  equippedArmr: {fileID: 114043814178531382, guid: 215422463d342f1409f8303f401d1ad5,
     type: 3}
   charIamge: {fileID: -1279744134, guid: e708e76c2435ffc46a7a900ba57f4c3d, type: 3}
   winHP: 20
@@ -1125,21 +1131,11 @@ MonoBehaviour:
   winMoves:
   - level: 12
     moveName: TORNADO
-  - level: 16
-    moveName: DEFENSE-
-  - level: 16
-    moveName: FORCE-
-  - level: 16
-    moveName: MAGIE-
-  - level: 16
-    moveName: RESISTANCE-
-  - level: 20
-    moveName: SEISME
+  - level: 18
+    moveName: PLASMA
   - level: 25
-    moveName: NOSFERATU
-  - level: 30
     moveName: CYCLONE
-  - level: 35
+  - level: 32
     moveName: QUART
   battleStatus: 0
 --- !u!1 &4154041414927079086
@@ -1201,7 +1197,7 @@ MonoBehaviour:
   defence: 60
   magie: 40
   resistance: 30
-  equippedWpn: {fileID: 114143543785605942, guid: 154da8d5ccf7011438ff6289a377335e,
+  equippedWpn: {fileID: 114126653972101484, guid: 3169ec39d025a6a418e7555e609edf87,
     type: 3}
   equippedArmr: {fileID: 0}
   charIamge: {fileID: 623568975, guid: 58cb094be75e9af4f86a207822d38a42, type: 3}

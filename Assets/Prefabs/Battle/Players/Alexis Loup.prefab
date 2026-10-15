@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 623568975, guid: 58cb094be75e9af4f86a207822d38a42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 480c70e3576e9954aae4bd9c09077aee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,28 +99,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 1
   movesAvailable:
-  - griffe
-  - bete
-  - croc
+  - TAIL_ATTACK
+  - CLAW
+  - BITE
   charName: Alexis
   currentHp: 0
   maxHP: 0
   currentMP: 0
   maxMP: 0
-  strength: 50
+  strength: 30
   defence: 20
-  magie: 10
+  magie: 5
   resistance: 5
-  wpnPower: 0
+  wpnPower: 50
+  wpnMagie: 0
   armrPower: 0
+  armrRes: 0
   criticalRate: 7
   dodgeRate: 7
+  wpnBattleType: 5
+  isWeaponMagic: 0
   hasDied: 0
   theSprite: {fileID: 212531649469236500}
   deadSprite: {fileID: -1741494669, guid: 58cb094be75e9af4f86a207822d38a42, type: 3}
-  aliveSprite: {fileID: 623568975, guid: 58cb094be75e9af4f86a207822d38a42, type: 3}
+  aliveSprite: {fileID: 21300000, guid: 480c70e3576e9954aae4bd9c09077aee, type: 3}
   fadeSpeed: 1
-  weaknesses: 
+  weaknesses: 00000000
   resistances: 
+  battleStatus: 0
   transformation: {fileID: 0}
   maxTransformationTurn: 3

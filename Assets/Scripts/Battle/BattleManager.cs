@@ -228,7 +228,7 @@ public class BattleManager : MonoBehaviour
 
         if (activeBattlers[currentTurn].battleStatus == BattleMove.BattleStatus.Poison)
         {
-            int damageToTake = activeBattlers[currentTurn].maxHP / 10;
+            int damageToTake = activeBattlers[currentTurn].maxHP / 12;
             activeBattlers[currentTurn].currentHp -= damageToTake;
             Instantiate(theDamageNumber, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation).SetDamage(damageToTake, 0);
         }
@@ -365,7 +365,6 @@ public class BattleManager : MonoBehaviour
                 players.Add(i);
             }
         }
-        int selectedTarget = players[Random.Range(0, players.Count)];
 
         if (activeBattlers[currentTurn].IsTransformed())
         {
@@ -395,7 +394,6 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
-        Instantiate(theMove.theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
         movePower = theMove.movePower;
         magic = theMove.isMagic;
         battleType = theMove.battleType;
@@ -409,7 +407,8 @@ public class BattleManager : MonoBehaviour
         {
             battleText.theText.text = theMove.moveName;
             battleText.Activate();
-        } else
+        }
+        else
         {
             magic = activeBattlers[currentTurn].isWeaponMagic;
             battleType = activeBattlers[currentTurn].wpnBattleType;
@@ -417,18 +416,49 @@ public class BattleManager : MonoBehaviour
 
         Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
 
-        if (heal)
+        if (theMove.allChar)
         {
-            Heal(selectedTarget, movePower);
+            for (int i = 0; i < players.Count; i++)
+            {
+                int selectedTarget = players[i];
+
+                Instantiate(theMove.theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+
+                if (heal)
+                {
+                    Heal(selectedTarget, movePower, theMove.fixedDamage);
+                }
+                else
+                {
+                    DealDamage(selectedTarget, movePower, magic, battleType, theMove.fixedDamage);
+                }
+
+                if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
+                {
+                    activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
+                    playerPoison[selectedTarget].gameObject.SetActive(true);
+                }
+            }
         } else
         {
-            DealDamage(selectedTarget, movePower, magic, battleType);
-        }
+            int selectedTarget = players[Random.Range(0, players.Count)];
 
-        if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
-        {
-            activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
-            playerPoison[selectedTarget].gameObject.SetActive(true);
+            Instantiate(theMove.theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+
+            if (heal)
+            {
+                Heal(selectedTarget, movePower, theMove.fixedDamage);
+            }
+            else
+            {
+                DealDamage(selectedTarget, movePower, magic, battleType, theMove.fixedDamage);
+            }
+
+            if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
+            {
+                activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
+                playerPoison[selectedTarget].gameObject.SetActive(true);
+            }
         }
         
         if (activeBattlers[currentTurn].ShoudlDeTransform())
@@ -440,14 +470,22 @@ public class BattleManager : MonoBehaviour
 
     }
 
-    public void Heal(int target, int movePower)
+    public void Heal(int target, int movePower, bool fixedDamage)
     {
-        float strength = activeBattlers[currentTurn].GetMagie();
+        int damageToGive;
 
-        float atkPwr = strength + activeBattlers[currentTurn].GetWpnPower();
+        if (fixedDamage)
+        {
+            damageToGive = movePower;
+        } else
+        {
+            float strength = activeBattlers[currentTurn].GetMagie();
 
-        float damageCalc = (atkPwr / 10) * movePower * Random.Range(.9f, 1.1f);
-        int damageToGive = Mathf.RoundToInt(damageCalc);
+            float atkPwr = strength + activeBattlers[currentTurn].GetWpnPower();
+
+            float damageCalc = (atkPwr / 10) * movePower * Random.Range(.9f, 1.1f);
+            damageToGive = Mathf.RoundToInt(damageCalc);
+        }
 
         activeBattlers[target].currentHp += damageToGive;
 
@@ -456,7 +494,7 @@ public class BattleManager : MonoBehaviour
         UpdateUIStats();
     }
 
-    public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType)
+    public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType, bool fixedDamage)
     {
 
         float strength = magic ? activeBattlers[currentTurn].GetMagie() : activeBattlers[currentTurn].GetStrength();
@@ -478,27 +516,38 @@ public class BattleManager : MonoBehaviour
             Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).DisplayText("Rate !");
         } else
         {
-            int criticalNumber = Random.Range(0, 100);
 
-            if (criticalNumber <= activeBattlers[target].GetCriticalRate())
-            {
-                criticalMutiplicator = 2f;
-                critical = true;
-            }
+            int damageToGive;
 
-            if (Array.IndexOf(activeBattlers[target].GetWeaknesses(), battleType) != -1)
+            if (fixedDamage)
             {
-                damageMutiplicator = 1.5f;
-                damageWeakness = 1;
+                damageToGive = movePower;
             }
-            else if (Array.IndexOf(activeBattlers[target].GetResistances(), battleType) != -1)
+            else
             {
-                damageMutiplicator = 0.5f;
-                damageWeakness = -1;
-            }
 
-            float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f) * damageMutiplicator * criticalMutiplicator;
-            int damageToGive = Mathf.RoundToInt(damageCalc);
+                int criticalNumber = Random.Range(0, 100);
+
+                if (criticalNumber <= activeBattlers[target].GetCriticalRate())
+                {
+                    criticalMutiplicator = 2f;
+                    critical = true;
+                }
+
+                if (Array.IndexOf(activeBattlers[target].GetWeaknesses(), battleType) != -1)
+                {
+                    damageMutiplicator = 1.5f;
+                    damageWeakness = 1;
+                }
+                else if (Array.IndexOf(activeBattlers[target].GetResistances(), battleType) != -1)
+                {
+                    damageMutiplicator = 0.5f;
+                    damageWeakness = -1;
+                }
+
+                float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f) * damageMutiplicator * criticalMutiplicator;
+                damageToGive = Mathf.RoundToInt(damageCalc);
+            }
 
             activeBattlers[target].currentHp -= damageToGive;
 
@@ -595,6 +644,11 @@ public class BattleManager : MonoBehaviour
 
         BattleMove battleMove = movesList[0];
 
+        if (activeBattlers[currentTurn].IsTransformed())
+        {
+            activeBattlers[currentTurn].NextTransformationTurn();
+        }
+
         for (int i = 0; i < movesList.Length; i++)
         {
             if (movesList[i].moveCode == moveName)
@@ -614,7 +668,8 @@ public class BattleManager : MonoBehaviour
                 {
                     battleText.theText.text = movesList[i].moveName;
                     battleText.Activate();
-                } else
+                }
+                else
                 {
                     magic = activeBattlers[currentTurn].isWeaponMagic;
                     battleType = activeBattlers[currentTurn].wpnBattleType;
@@ -628,7 +683,15 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0 ; i < selectedTarget.Length; i++)
         {
-            Instantiate(battleMove.theEffect, activeBattlers[selectedTarget[i]].transform.position, activeBattlers[selectedTarget[i]].transform.rotation);
+            if (moveName != "TRIPLE_POTION")
+            {
+                Instantiate(battleMove.theEffect, activeBattlers[selectedTarget[i]].transform.position, activeBattlers[selectedTarget[i]].transform.rotation);
+            }
+
+            if ("QUART" == moveName)
+            {
+                movePower = activeBattlers[selectedTarget[i]].currentHp / 4;
+            }
 
             if (heal)
             {
@@ -636,9 +699,16 @@ public class BattleManager : MonoBehaviour
                 if (moveName == "HEAL_STATE")
                 {
                     activeBattlers[selectedTarget[i]].battleStatus = BattleMove.BattleStatus.None;
-                } else
+                } else if ("TRIPLE_POTION" == moveName)
                 {
-                    Heal(selectedTarget[i], movePower);
+                    Item selectItem = GameManager.instance.GetItemDetails("HEALTH_POTION");
+                    selectItem.UseBattle(selectedTarget[i]);
+
+                    Instantiate(theDamageNumber, activeBattlers[selectedTarget[i]].transform.position, activeBattlers[selectedTarget[i]].transform.rotation).SetDamage(selectItem.amountToChange, 2);
+                }
+                else
+                {
+                    Heal(selectedTarget[i], movePower, battleMove.fixedDamage);
                 }
                 
             } else if (boostDef)
@@ -655,10 +725,16 @@ public class BattleManager : MonoBehaviour
             }
             else
             {
-                DealDamage(selectedTarget[i], movePower, magic, battleType);
+                DealDamage(selectedTarget[i], movePower, magic, battleType, battleMove.fixedDamage);
             }
         }
-        
+
+        if (activeBattlers[currentTurn].ShoudlDeTransform())
+        {
+            activeBattlers[currentTurn].Detransformation();
+            battleText.theText.text = "Detransformation";
+            battleText.Activate();
+        }
 
         uiButtonsHolder.SetActive(false);
         targetMenu.SetActive(false);
@@ -690,7 +766,17 @@ public class BattleManager : MonoBehaviour
         {
             if (movesList[i].moveCode == moveName)
             {
-                if (movesList[i].allChar)
+                if ("TRANSFORM" == moveName)
+                {
+                    activeBattlers[currentTurn].Transformation();
+                    battleText.theText.text = movesList[i].moveName;
+                    battleText.Activate();
+                    activeBattlers[currentTurn].currentMP -= movesList[i].moveCost;
+                    uiButtonsHolder.SetActive(false);
+                    targetMenu.SetActive(false);
+
+                    NextTurn();
+                } else if (movesList[i].allChar)
                 {
                     List<int> Enemies = new List<int>();
                     for (int j = 0; j < activeBattlers.Count; j++)
@@ -702,9 +788,9 @@ public class BattleManager : MonoBehaviour
                             Enemies.Add(j);
                         }
                     }
-                    activeBattlers[currentTurn].currentMP -= movesList[i].moveCost;
                     PlayerAttack(moveName, Enemies.ToArray());
-                } else
+                }
+                else
                 {
                     OpenTargetMenu(moveName);
                 }

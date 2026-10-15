@@ -69,6 +69,19 @@ public class GameManager : MonoBehaviour {
         return null;
     }
 
+    public int GetItemQuantity(string itemToGrab)
+    {
+        for (int i = 0; i < itemsHeld.Length; i++)
+        {
+            if (itemsHeld[i].Equals(itemToGrab))
+            {
+                return numberOfItems[i];
+            }
+        }
+
+        return 0;
+    }
+
     public void SortItems()
     {
         bool itemAFterSpace = true;

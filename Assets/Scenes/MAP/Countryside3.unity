@@ -171,7 +171,7 @@ PrefabInstance:
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.7
+      value: -9.62
       objectReference: {fileID: 0}
     - target: {fileID: 560714857660229207, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
@@ -219,6 +219,51 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1236965769, guid: 941e0a526f1dc844ba707990214da835,
         type: 3}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[0]
+      value: n-Edson
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "Pr\xE9pare toi Alexis"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.data[0]
+      value: Marco
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.data[1]
+      value: Axel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.data[2]
+      value: Mok
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.data[3]
+      value: Rose
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096401618692413003, guid: 1c0570faa84b24e4ba49d4d899d04927,
+        type: 3}
+      propertyPath: playersToRemove.Array.data[4]
+      value: Cynthia
+      objectReference: {fileID: 0}
     - target: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
         type: 3}
       propertyPath: m_Name
@@ -229,6 +274,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c0570faa84b24e4ba49d4d899d04927, type: 3}
+--- !u!1 &258089534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6066342711227365786, guid: 1c0570faa84b24e4ba49d4d899d04927,
+    type: 3}
+  m_PrefabInstance: {fileID: 258089533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271023490
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,7 +297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &271023492
 Transform:
   m_ObjectHideFlags: 0
@@ -256,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 271023490}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.08, y: -6.58, z: 0}
+  m_LocalPosition: {x: -19.08, y: -10.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -279,17 +330,19 @@ MonoBehaviour:
   - Combattons
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: 
+  questToMark: Battle edson2
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1
   playersToAdd: []
   playersToRemove:
   - Marco
-  - Vard
+  - Axel
   - Mok
   - Rose
   - Cynthia
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!61 &271023494
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -319,10 +372,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014521599, y: 0.043564796}
+  m_Offset: {x: 0.014521599, y: 0.6520343}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -333,7 +386,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.9914455, y: 3.2363224}
+  m_Size: {x: 3.9914455, y: 3.1862593}
   m_EdgeRadius: 0
 --- !u!1 &381551946
 GameObject:
@@ -351,7 +404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &381551947
 Transform:
   m_ObjectHideFlags: 0
@@ -386,9 +439,9 @@ MonoBehaviour:
     rewardMoney: 1000
     rewardItemsPrefabs: []
   battleField: Country
-  questToCheck: 
-  shouldCompleteQuest: 0
-  QuestToComplete: 
+  questToCheck: Battle edson2
+  shouldCompleteQuest: 1
+  QuestToComplete: Defeat edson2
 --- !u!1001 &411177254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1065,7 +1118,7 @@ Transform:
   m_GameObject: {fileID: 1106040814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.08, y: -6.58, z: 0}
+  m_LocalPosition: {x: -19.08, y: -9.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1100,10 +1153,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014521599, y: 0.043564796}
+  m_Offset: {x: 0.036366463, y: 0.021719694}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1114,7 +1167,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.9914455, y: 3.2363224}
+  m_Size: {x: 5.039999, y: 4.153806}
   m_EdgeRadius: 0
 --- !u!114 &1106040817
 MonoBehaviour:
@@ -1133,17 +1186,19 @@ MonoBehaviour:
   - C'est fini
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: 
+  questToMark: end edson
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1
   playersToAdd:
   - Marco
-  - Vard
+  - Axel
   - Mok
   - Rose
   - Cynthia
   playersToRemove: []
+  itemsToAdd: []
+  itemsQuantityToAdd: 
 --- !u!1 &1213503625
 GameObject:
   m_ObjectHideFlags: 0
@@ -20518,6 +20573,99 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41d568113c653714782a64bfeeedbf6b, type: 3}
+--- !u!1 &1965727668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965727669}
+  - component: {fileID: 1965727670}
+  - component: {fileID: 1965727671}
+  - component: {fileID: 1965727672}
+  m_Layer: 0
+  m_Name: NPC Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965727669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965727668}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1965727670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965727668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1106040814}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: Defeat edson2
+  activeIfComplete: 1
+--- !u!114 &1965727671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965727668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 271023490}
+  - {fileID: 381551946}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: Defeat edson2
+  activeIfComplete: 0
+--- !u!114 &1965727672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965727668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1106040814}
+  - {fileID: 258089534}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: end edson
+  activeIfComplete: 0
 --- !u!1 &2100020448
 GameObject:
   m_ObjectHideFlags: 0
@@ -63609,6 +63757,8 @@ MonoBehaviour:
   shouldCompleteQuest: 1
   QuestToComplete: Battle Lukas
   isBoss: 1
+  lines: []
+  shouldAutoLaunchBattle: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -63621,3 +63771,4 @@ SceneRoots:
   - {fileID: 258089533}
   - {fileID: 2111701241}
   - {fileID: 1213503626}
+  - {fileID: 1965727669}

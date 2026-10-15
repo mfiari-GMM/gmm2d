@@ -2334,6 +2334,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: THRUST
     moveName: Thrust
     movePower: 15
@@ -2351,6 +2352,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: SONIC_THRUST
     moveName: Sonic thrust
     movePower: 20
@@ -2368,6 +2370,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: SUPERSONIC_THRUST
     moveName: Supersonic thrust
     movePower: 30
@@ -2385,6 +2388,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: LIGHTING_BLADE
     moveName: Lame foudroyante
     movePower: 20
@@ -2402,6 +2406,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: POWER_ATTACK
     moveName: Coup puissant
     movePower: 20
@@ -2419,6 +2424,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: EARTH_IMPACT
     moveName: Impact terrestre
     movePower: 30
@@ -2436,6 +2442,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FIRE
     moveName: Feu
     movePower: 10
@@ -2453,6 +2460,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FIRE+
     moveName: Feu +
     movePower: 20
@@ -2470,6 +2478,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FIRE_X
     moveName: Feu X
     movePower: 30
@@ -2487,6 +2496,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: ICE
     moveName: Glace
     movePower: 10
@@ -2504,6 +2514,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: ICE+
     moveName: Glace +
     movePower: 20
@@ -2521,6 +2532,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: ICE_X
     moveName: Glace X
     movePower: 30
@@ -2538,6 +2550,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: LIGHTING
     moveName: Foudre
     movePower: 10
@@ -2555,6 +2568,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: LIGHTING+
     moveName: Foudre +
     movePower: 20
@@ -2572,6 +2586,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: LIGHTING_X
     moveName: Foudre X
     movePower: 30
@@ -2589,6 +2604,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: PLASMA
     moveName: Plasma
     movePower: 15
@@ -2606,11 +2622,12 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: WIND
     moveName: Vent
-    movePower: 15
+    movePower: 10
     moveCost: 7
-    theEffect: {fileID: 114252193273743618, guid: c2a603d123bd1414d95f3e52ab15b6bf,
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
     battleType: 3
     battleStatus: 0
@@ -2623,11 +2640,12 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: TORNADO
     moveName: Tornade
-    movePower: 15
+    movePower: 10
     moveCost: 15
-    theEffect: {fileID: 114252193273743618, guid: 16189694985fa4bf69ff1eaed4c66157,
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
     battleType: 3
     battleStatus: 0
@@ -2640,11 +2658,12 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: CYCLONE
     moveName: Cyclone
-    movePower: 25
+    movePower: 20
     moveCost: 30
-    theEffect: {fileID: 114252193273743618, guid: 8ab7cec45bbed420abba73ded1255fb3,
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
     battleType: 3
     battleStatus: 0
@@ -2657,6 +2676,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: SEISME
     moveName: Seisme
     movePower: 20
@@ -2674,6 +2694,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: HEAL
     moveName: Soin
     movePower: 10
@@ -2691,6 +2712,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: HEAL+
     moveName: soin +
     movePower: 20
@@ -2708,6 +2730,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FIRE_SWORD
     moveName: epee enflamme
     movePower: 30
@@ -2725,6 +2748,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FIRE_TORNADO
     moveName: tornade de feu
     movePower: 30
@@ -2737,11 +2761,12 @@ MonoBehaviour:
     heal: 0
     resurect: 0
     isPlayer: 0
-    allChar: 0
+    allChar: 1
     boostAtk: 0
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: LIGHT
     moveName: lumiere
     movePower: 15
@@ -2759,10 +2784,11 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: TRANSFORM
     moveName: Metamorphose
     movePower: 0
-    moveCost: 100
+    moveCost: 50
     theEffect: {fileID: 0}
     battleType: 5
     battleStatus: 0
@@ -2775,10 +2801,11 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: TAIL_ATTACK
     moveName: Coup de queue
     movePower: 20
-    moveCost: 0
+    moveCost: 10
     theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
       type: 3}
     battleType: 5
@@ -2792,6 +2819,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: POISON_FANG
     moveName: Crochet venin
     movePower: 15
@@ -2809,6 +2837,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: PROTECT
     moveName: Protection
     movePower: 0
@@ -2826,6 +2855,7 @@ MonoBehaviour:
     boostDef: 1
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: SHIELD
     moveName: Bouclier
     movePower: 0
@@ -2843,6 +2873,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 1
+    fixedDamage: 0
   - moveCode: HEAL_STATE
     moveName: Soin etat
     movePower: 0
@@ -2860,6 +2891,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: POISON
     moveName: Poison
     movePower: 0
@@ -2877,6 +2909,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: DEFENSE-
     moveName: Defense -
     movePower: 0
@@ -2894,6 +2927,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: MAGIE-
     moveName: Magie -
     movePower: 0
@@ -2911,6 +2945,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: FORCE -
     moveName: Force -
     movePower: 0
@@ -2928,6 +2963,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: RESISTANCE -
     moveName: Resistance -
     movePower: 0
@@ -2945,6 +2981,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: STING
     moveName: Piqure
     movePower: 15
@@ -2962,6 +2999,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: BOOST
     moveName: Boost
     movePower: 0
@@ -2979,6 +3017,7 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
   - moveCode: RESURECTION
     moveName: Resurection
     movePower: 0
@@ -2996,6 +3035,169 @@ MonoBehaviour:
     boostDef: 0
     boostMagie: 0
     boostRes: 0
+    fixedDamage: 0
+  - moveCode: TORNADO_ATTACK
+    moveName: Attaque tournante
+    movePower: 20
+    moveCost: 25
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
+      type: 3}
+    battleType: 5
+    battleStatus: 0
+    isMagic: 0
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 1
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: FLASH
+    moveName: Flash
+    movePower: 25
+    moveCost: 35
+    theEffect: {fileID: 114608741124403118, guid: 84489c0ab4ca8fa4a95571a3a0c9d533,
+      type: 3}
+    battleType: 7
+    battleStatus: 0
+    isMagic: 1
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: HOLY_LANCE
+    moveName: "Lance sacr\xE9"
+    movePower: 40
+    moveCost: 50
+    theEffect: {fileID: 114608741124403118, guid: 84489c0ab4ca8fa4a95571a3a0c9d533,
+      type: 3}
+    battleType: 7
+    battleStatus: 0
+    isMagic: 1
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: HEAL_X
+    moveName: Soin X
+    movePower: 30
+    moveCost: 30
+    theEffect: {fileID: 114608741124403118, guid: 84489c0ab4ca8fa4a95571a3a0c9d533,
+      type: 3}
+    battleType: 7
+    battleStatus: 0
+    isMagic: 1
+    heal: 1
+    resurect: 0
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: RESURECTION_MAX
+    moveName: Resurection Max
+    movePower: 0
+    moveCost: 60
+    theEffect: {fileID: 114608741124403118, guid: 84489c0ab4ca8fa4a95571a3a0c9d533,
+      type: 3}
+    battleType: 7
+    battleStatus: 0
+    isMagic: 1
+    heal: 1
+    resurect: 1
+    isPlayer: 1
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: CLAW
+    moveName: Griffe
+    movePower: 25
+    moveCost: 15
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
+      type: 3}
+    battleType: 5
+    battleStatus: 0
+    isMagic: 0
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: BITE
+    moveName: Croc
+    movePower: 30
+    moveCost: 20
+    theEffect: {fileID: 114961059728432790, guid: 4c6daec28cffe264bb2df42cb07bd293,
+      type: 3}
+    battleType: 5
+    battleStatus: 0
+    isMagic: 0
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 0
+  - moveCode: TRIPLE_POTION
+    moveName: Triple potion
+    movePower: 100
+    moveCost: 10
+    theEffect: {fileID: 114608741124403118, guid: f1b1b6c9ccf3a5d4da800b59627a8e0b,
+      type: 3}
+    battleType: 5
+    battleStatus: 0
+    isMagic: 0
+    heal: 1
+    resurect: 0
+    isPlayer: 1
+    allChar: 1
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 1
+  - moveCode: QUART
+    moveName: Quart
+    movePower: 0
+    moveCost: 50
+    theEffect: {fileID: 114011823187449262, guid: e4267b748e9498a4e96e8ccf7ac9f3ff,
+      type: 3}
+    battleType: 5
+    battleStatus: 0
+    isMagic: 1
+    heal: 0
+    resurect: 0
+    isPlayer: 0
+    allChar: 0
+    boostAtk: 0
+    boostDef: 0
+    boostMagie: 0
+    boostRes: 0
+    fixedDamage: 1
   enemyAttackEffect: {fileID: 1261278678591276, guid: 67aaab33d8f46774fb89c9aebaaa1801,
     type: 3}
   theDamageNumber: {fileID: 114429894980074712, guid: add1341ff4b53074794f5f54ef4f216d,

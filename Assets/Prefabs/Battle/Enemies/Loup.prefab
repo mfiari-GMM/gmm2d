@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 971942665
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2043749006, guid: 78cb29dbef95e824d918e373315420aa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff3d3ec100d6f3d4a88fd0ebb8dbc400, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,6 +100,8 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - SLASH
+  - CLAW
+  - BITE
   charName: Loup
   currentHp: 1200
   maxHP: 1200
@@ -120,7 +122,7 @@ MonoBehaviour:
   hasDied: 0
   theSprite: {fileID: 212612185695992934}
   deadSprite: {fileID: 0}
-  aliveSprite: {fileID: 2043749006, guid: 78cb29dbef95e824d918e373315420aa, type: 3}
+  aliveSprite: {fileID: 21300000, guid: ff3d3ec100d6f3d4a88fd0ebb8dbc400, type: 3}
   fadeSpeed: 1
   weaknesses: 00000000
   resistances: 
