@@ -430,14 +430,9 @@ public class BattleManager : MonoBehaviour
                 }
                 else
                 {
-                    DealDamage(selectedTarget, movePower, magic, battleType, theMove.fixedDamage);
+                    DealDamage(selectedTarget, movePower, magic, battleType, theMove.battleStatus, theMove.fixedDamage);
                 }
 
-                if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
-                {
-                    activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
-                    playerPoison[selectedTarget].gameObject.SetActive(true);
-                }
             }
         } else
         {
@@ -451,14 +446,10 @@ public class BattleManager : MonoBehaviour
             }
             else
             {
-                DealDamage(selectedTarget, movePower, magic, battleType, theMove.fixedDamage);
+                DealDamage(selectedTarget, movePower, magic, battleType, theMove.battleStatus, theMove.fixedDamage);
             }
 
-            if (theMove.battleStatus == BattleMove.BattleStatus.Poison)
-            {
-                activeBattlers[selectedTarget].battleStatus = BattleMove.BattleStatus.Poison;
-                playerPoison[selectedTarget].gameObject.SetActive(true);
-            }
+            
         }
         
         if (activeBattlers[currentTurn].ShoudlDeTransform())
@@ -494,7 +485,7 @@ public class BattleManager : MonoBehaviour
         UpdateUIStats();
     }
 
-    public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType, bool fixedDamage)
+    public void DealDamage(int target, int movePower, bool magic, BattleMove.BattleMoveType battleType, BattleMove.BattleStatus battleStatus, bool fixedDamage)
     {
 
         float strength = magic ? activeBattlers[currentTurn].GetMagie() : activeBattlers[currentTurn].GetStrength();
@@ -556,6 +547,12 @@ public class BattleManager : MonoBehaviour
             if (critical)
             {
                 Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).DisplayText("Critique !");
+            }
+
+            if (battleStatus == BattleMove.BattleStatus.Poison)
+            {
+                activeBattlers[target].battleStatus = BattleMove.BattleStatus.Poison;
+                playerPoison[target].gameObject.SetActive(true);
             }
         }
 
@@ -725,7 +722,7 @@ public class BattleManager : MonoBehaviour
             }
             else
             {
-                DealDamage(selectedTarget[i], movePower, magic, battleType, battleMove.fixedDamage);
+                DealDamage(selectedTarget[i], movePower, magic, battleType, battleMove.battleStatus, battleMove.fixedDamage);
             }
         }
 
