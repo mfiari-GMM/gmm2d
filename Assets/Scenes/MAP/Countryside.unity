@@ -13478,6 +13478,16 @@ MonoBehaviour:
   shouldCompleteQuest: 1
   QuestToComplete: Battle bandit
   isBoss: 0
+  lines:
+  - n-Marco
+  - "Vous l\xE0 ! Arretez-vous !"
+  - n-Bandit
+  - Qu'est-ce que vous me voulez ?
+  - n-Marco
+  - Vous avez volez les affaires de cette dame. Rendez-lui !
+  - n-Bandit
+  - "Venez les r\xE9cup\xE9rer si vous y tenez tant !"
+  shouldAutoLaunchBattle: 0
 --- !u!114 &1788914443
 MonoBehaviour:
   m_ObjectHideFlags: 0

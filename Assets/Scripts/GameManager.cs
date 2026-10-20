@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour {
 
     public int currentGold;
 
+    public bool isStarted = false;
+
 	// Use this for initialization
 	void Start () {
         instance = this;

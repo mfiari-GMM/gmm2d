@@ -42,6 +42,10 @@ public class PlayerController : MonoBehaviour {
         {
             theRB.velocity = Vector2.zero;
         }
+        if (theRB.velocity.x != 0f || theRB.velocity.y != 0f)
+        {
+            GameManager.instance.isStarted = true;
+        }
 
 
         myAnim.SetFloat("moveX", theRB.velocity.x);

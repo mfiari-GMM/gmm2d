@@ -25,11 +25,15 @@ public class Item : MonoBehaviour {
     public int armorResistance;
     public BattleMove.BattleMoveType battleType;
 
-
     public void Use(int charToUseOn)
     {
         CharStats selectedChar = GameManager.instance.playerStats[charToUseOn];
+        Use(selectedChar);
+    }
 
+    public void Use(CharStats selectedChar)
+    {
+        
         if(isItem)
         {
             if(affectHP)

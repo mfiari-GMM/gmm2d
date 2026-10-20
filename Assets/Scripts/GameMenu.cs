@@ -12,6 +12,7 @@ public class GameMenu : MonoBehaviour {
     private CharStats[] playerStats;
 
     public CharInfo[] charInfos;
+    public CharItemInfo[] charItemInfos;
     public GameObject[] charStatHolder;
 
     public GameObject[] statusButtons;
@@ -42,6 +43,8 @@ public class GameMenu : MonoBehaviour {
     public int playerToChange = -1;
 
     public GameObject buttonPanel;
+
+    public GameObject charItemInfoPanel;
 
     // Use this for initialization
     void Start () {
@@ -151,7 +154,7 @@ public class GameMenu : MonoBehaviour {
 
         if (playerStats[selected].equippedWpn != null)
         {
-            statusWpnEqpd.text = playerStats[selected].equippedWpn.itemName;
+            statusWpnEqpd.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", playerStats[selected].equippedWpn.itemCode + "_NAME");
         } else
         {
             statusWpnEqpd.text = "";
@@ -159,7 +162,7 @@ public class GameMenu : MonoBehaviour {
 
         if (playerStats[selected].equippedArmr != null)
         {
-            statusArmrEqpd.text = playerStats[selected].equippedArmr.itemName;
+            statusArmrEqpd.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", playerStats[selected].equippedArmr.itemCode + "_NAME");
         }
         else
         {
@@ -211,8 +214,8 @@ public class GameMenu : MonoBehaviour {
             useButtonText.GetComponentInParent<Button>(true).gameObject.SetActive(false);
         }
 
-        itemName.text = activeItem.itemName;
-        itemDescription.text = activeItem.description;
+        itemName.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", activeItem.itemCode + "_NAME");
+        itemDescription.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", activeItem.itemCode + "_DESC");
     }
 
     public void SelectItem(Item newItem)
@@ -232,8 +235,8 @@ public class GameMenu : MonoBehaviour {
             useButtonText.GetComponentInParent<Button>(true).gameObject.SetActive(false);
         }
 
-        itemName.text = activeItem.itemName;
-        itemDescription.text = activeItem.description;
+        itemName.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", activeItem.itemCode + "_NAME");
+        itemDescription.text = LocalizationSettings.StringDatabase.GetLocalizedString("ItemTableCollection", activeItem.itemCode + "_DESC");
     }
 
     public void DiscardItem()
@@ -246,24 +249,46 @@ public class GameMenu : MonoBehaviour {
 
     public void OpenItemCharChoice()
     {
-        itemCharChoiceMenu.SetActive(true);
+        charItemInfoPanel.SetActive(true);
 
-        for(int i = 0; i < itemCharChoiceNames.Length; i++)
+        for(int i = 0; i < charItemInfos.Length; i++)
         {
-            itemCharChoiceNames[i].text = GameManager.instance.playerStats[i].charName;
-            itemCharChoiceNames[i].transform.parent.gameObject.SetActive(GameManager.instance.playerStats[i].gameObject.activeInHierarchy);
+            charItemInfos[i].ShowCharItemInfo(GameManager.instance.playerStats[i], activeItem);
+            charItemInfos[i].gameObject.SetActive(GameManager.instance.playerStats[i].gameObject.activeInHierarchy);
         }
     }
 
     public void CloseItemCharChoice()
     {
-        itemCharChoiceMenu.SetActive(false);
+        charItemInfoPanel.SetActive(false);
     }
 
     public void UseItem(int selectChar)
     {
         activeItem.Use(selectChar);
         CloseItemCharChoice();
+    }
+
+    public void UseItem(CharStats selectedChar)
+    {
+        activeItem.Use(selectedChar);
+        if (activeItem.isWeapon || activeItem.isArmour)
+        {
+            CloseItemCharChoice();
+        } else
+        {
+            if (GameManager.instance.GetItemQuantity(activeItem.itemCode) <= 0)
+            {
+                CloseItemCharChoice();
+            } else
+            {
+                for (int i = 0; i < charItemInfos.Length; i++)
+                {
+                    charItemInfos[i].ShowCharItemInfo(GameManager.instance.playerStats[i], activeItem);
+                }
+            }
+        }
+        
     }
 
     public void SaveGame()

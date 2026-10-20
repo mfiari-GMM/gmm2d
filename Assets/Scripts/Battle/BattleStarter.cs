@@ -32,7 +32,7 @@ public class BattleStarter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(inArea && PlayerController.instance.canMove)
+		if(inArea && PlayerController.instance.canMove && GameManager.instance.isStarted)
         {
             if(Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
@@ -59,7 +59,7 @@ public class BattleStarter : MonoBehaviour {
     {
         if(other.tag == "Player")
         {
-            if (activateOnEnter)
+            if (activateOnEnter && GameManager.instance.isStarted)
             {
                 if (lines != null && lines.Length > 0)
                 {
