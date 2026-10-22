@@ -6,6 +6,7 @@ public class SteamGameManager : MonoBehaviour
 
     private string TRAINING_STEAM_ID = "TRAINING";
     private string FIRST_BOSS_STEAM_ID = "FIRST_BOSS";
+    private string REAL_KNIGHT_STEAM_ID = "REAL_KNIGHT";
 
     public static SteamGameManager instance;
     private void Awake()
@@ -55,6 +56,8 @@ public class SteamGameManager : MonoBehaviour
                     return TRAINING_STEAM_ID;
                 case "Defeat The sorcerer":
                     return FIRST_BOSS_STEAM_ID;
+                case "real knight":
+                    return REAL_KNIGHT_STEAM_ID;
                 default:
                     return null;
             }

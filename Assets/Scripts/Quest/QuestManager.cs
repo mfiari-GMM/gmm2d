@@ -70,6 +70,15 @@ public class QuestManager : MonoBehaviour {
             }
         }
 
+        if (("Item mission apple" == questToMark || "fin battle bandit" == questToMark || "end enter the cave" == questToMark)
+            && CheckIfComplete("Item mission apple")
+            && CheckIfComplete("fin battle bandit")
+            && CheckIfComplete("end enter the cave")
+            )
+        {
+            questToMark = "real knight";
+        }
+
         SteamGameManager.instance.UnlockAchievement(questToMark);
     }
 
