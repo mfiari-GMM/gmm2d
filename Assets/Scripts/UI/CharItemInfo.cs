@@ -27,10 +27,25 @@ public class CharItemInfo : MonoBehaviour
         strText.text = LocalizationSettings.StringDatabase.GetLocalizedString("UITableCollection", "MENU_STR") + playerStats.strength;
         if (item.isWeapon || item.isArmour)
         {
-            int diffStrength = item.weaponStrength - playerStats.equippedWpn.weaponStrength;
-            int diffDefence = item.armorStrength - playerStats.equippedWpn.armorStrength;
-            int diffMagie = item.weaponMagie - playerStats.equippedWpn.weaponMagie;
-            int diffResistance = item.armorResistance - playerStats.equippedWpn.armorResistance;
+            int diffStrength = item.weaponStrength;
+            int diffDefence = item.armorStrength;
+            int diffMagie = item.weaponMagie;
+            int diffResistance = item.armorResistance;
+
+            if (item.isWeapon && playerStats.equippedWpn != null)
+            {
+                diffStrength = diffStrength - playerStats.equippedWpn.weaponStrength;
+                diffDefence = diffDefence - playerStats.equippedWpn.armorStrength;
+                diffMagie = diffMagie - playerStats.equippedWpn.weaponMagie;
+                diffResistance = diffResistance - playerStats.equippedWpn.armorResistance;
+            } else if (item.isArmour && playerStats.equippedArmr != null)
+            {
+                diffStrength = diffStrength - playerStats.equippedArmr.weaponStrength;
+                diffDefence = diffDefence - playerStats.equippedArmr.armorStrength;
+                diffMagie = diffMagie - playerStats.equippedArmr.weaponMagie;
+                diffResistance = diffResistance - playerStats.equippedArmr.armorResistance;
+            }
+
             ApplyDiff(strBonusText, diffStrength);
             ApplyDiff(defBonusText, diffDefence);
             ApplyDiff(magBonusText, diffMagie);

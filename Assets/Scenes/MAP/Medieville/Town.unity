@@ -1843,6 +1843,8 @@ GameObject:
   - component: {fileID: 219162643}
   - component: {fileID: 219162644}
   - component: {fileID: 219162645}
+  - component: {fileID: 219162648}
+  - component: {fileID: 219162649}
   m_Layer: 0
   m_Name: NPC Control
   m_TagString: Untagged
@@ -2397,6 +2399,58 @@ MonoBehaviour:
   expToGain: 0
   questToCheck: Item mission apple
   activeIfComplete: 0
+--- !u!114 &219162648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 1391791039}
+  - {fileID: 2075906537}
+  - {fileID: 131930738}
+  - {fileID: 441148441}
+  - {fileID: 1591602564}
+  - {fileID: 1628235556}
+  - {fileID: 1010651098}
+  - {fileID: 21258997}
+  - {fileID: 1309124909}
+  - {fileID: 1163945969}
+  - {fileID: 1409182674}
+  - {fileID: 1212501909}
+  - {fileID: 1853405259}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: cynthia
+  activeIfComplete: 0
+--- !u!114 &219162649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219162612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8266f983900a58445b273089c1e15b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToActivate:
+  - {fileID: 7421557491262375506}
+  - {fileID: 414884685}
+  - {fileID: 1561429851}
+  objectsToGain: []
+  moneyToGain: 0
+  expToGain: 0
+  questToCheck: cynthia
+  activeIfComplete: 1
 --- !u!1 &257808743
 GameObject:
   m_ObjectHideFlags: 0
@@ -38120,7 +38174,7 @@ MonoBehaviour:
   - I need to inform the other.
   isPerson: 1
   shouldActivateQuest: 1
-  questToMark: end demo
+  questToMark: soldat moonshine
   markComplete: 1
   shouldHealPlayer: 0
   shouldAutoLaunch: 1

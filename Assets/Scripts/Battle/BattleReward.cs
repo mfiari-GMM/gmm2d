@@ -97,9 +97,18 @@ public class BattleReward : MonoBehaviour {
 
     private IEnumerator DisplayRewardExp()
     {
+        for (int i = 0; i < menuCharInfos.Length; i++)
+        {
+            menuCharInfos[i].gameObject.SetActive(false);
+        }
+        int index = 0;
         for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
-            menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
+            if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+            {
+                menuCharInfos[index].DipslayInfo(GameManager.instance.playerStats[i]);
+                index++;
+            }
         }
         yield return new WaitForSeconds(1f);
         int nbPlayerHasWinExp = 0;
@@ -125,9 +134,14 @@ public class BattleReward : MonoBehaviour {
                 }
             }
         }
+        index = 0;
         for (int i = 0; i < GameManager.instance.playerStats.Length; i++)
         {
-            menuCharInfos[i].DipslayInfo(GameManager.instance.playerStats[i]);
+            if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+            {
+                menuCharInfos[index].DipslayInfo(GameManager.instance.playerStats[i]);
+                index++;
+            }
         }
         if (winMoves)
         {

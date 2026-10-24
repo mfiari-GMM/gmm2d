@@ -100,12 +100,13 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - SLASH
+  - THRUST
   charName: Soldat
   currentHp: 300
   maxHP: 300
-  currentMP: 0
-  maxMP: 0
-  strength: 90
+  currentMP: 50
+  maxMP: 50
+  strength: 120
   defence: 12
   magie: 0
   resistance: 8

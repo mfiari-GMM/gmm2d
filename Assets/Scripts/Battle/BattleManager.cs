@@ -226,18 +226,31 @@ public class BattleManager : MonoBehaviour
 
         UpdateBattle();
 
-        if (activeBattlers[currentTurn].battleStatus == BattleMove.BattleStatus.Poison)
+        bool allEnemiesDead = true;
+
+        for (int i = 0; i < activeBattlers.Count; i++)
         {
-            int damageToTake = activeBattlers[currentTurn].maxHP / 12;
-            activeBattlers[currentTurn].currentHp -= damageToTake;
-            Instantiate(theDamageNumber, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation).SetDamage(damageToTake, 0);
+            if (activeBattlers[i].currentHp > 0 && !activeBattlers[i].isPlayer)
+            {
+                allEnemiesDead = false;
+            }
         }
-        if (activeBattlers[currentTurn].currentHp <= 0)
+
+        if (!allEnemiesDead)
         {
-            activeBattlers[currentTurn].currentHp = 0;
-            activeBattlers[currentTurn].theSprite.sprite = activeBattlers[currentTurn].deadSprite;
-            activeBattlers[currentTurn].battleStatus = BattleMove.BattleStatus.None;
-            UpdateBattle();
+            if (activeBattlers[currentTurn].battleStatus == BattleMove.BattleStatus.Poison)
+            {
+                int damageToTake = activeBattlers[currentTurn].maxHP / 12;
+                activeBattlers[currentTurn].currentHp -= damageToTake;
+                Instantiate(theDamageNumber, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation).SetDamage(damageToTake, 0);
+            }
+            if (activeBattlers[currentTurn].currentHp <= 0)
+            {
+                activeBattlers[currentTurn].currentHp = 0;
+                activeBattlers[currentTurn].theSprite.sprite = activeBattlers[currentTurn].deadSprite;
+                activeBattlers[currentTurn].battleStatus = BattleMove.BattleStatus.None;
+                UpdateBattle();
+            }
         }
 
         UpdateUIStats();
@@ -620,7 +633,17 @@ public class BattleManager : MonoBehaviour
         selectItem.UseBattle(selectedTarget);
         AudioManager.instance.PlaySFX(6);
 
-        Instantiate(theDamageNumber, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation).SetDamage(selectItem.amountToChange, 2);
+        int amount = selectItem.amountToChange;
+
+        if (selectItem.itemCode == "ELIXIR")
+        {
+            amount = activeBattlers[selectedTarget].maxHP / 2;
+        }
+
+        if (selectItem.itemCode != "ANTIDOTE")
+        {
+            Instantiate(theDamageNumber, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation).SetDamage(amount, 2);
+        }
 
         UpdateUIStats();
         uiButtonsHolder.SetActive(false);
@@ -946,6 +969,7 @@ public class BattleManager : MonoBehaviour
             }
             else
             {
+                backIcon.SetActive(false);
                 NextTurn();
                 battleNotice.theText.text = LocalizationSettings.StringDatabase.GetLocalizedString("MyStringTableCollection", "ESCAPE_FAIL");
                 battleNotice.Activate();
@@ -1026,6 +1050,15 @@ public class BattleManager : MonoBehaviour
 
         for (int i = 0; i < activeBattlers.Count; i++)
         {
+            if (activeBattlers[i].isPlayer)
+            {
+                activeBattlers[i].resetDef();
+                activeBattlers[i].resetAtk();
+                playerPoison[i].gameObject.SetActive(false);
+                playerBoostAtk[i].gameObject.SetActive(false);
+                playerBoostDef[i].gameObject.SetActive(false);
+            }
+
             Destroy(activeBattlers[i].gameObject);
         }
         activeBattlers.Clear();

@@ -254,6 +254,7 @@ MonoBehaviour:
   - {fileID: 114126653972101484, guid: 5b9e7c5c60fa0de4784e44671df9ff9d, type: 3}
   - {fileID: 114126653972101484, guid: 5adcdfc8c3161594180d0eadee49b312, type: 3}
   currentGold: 100
+  isStarted: 0
 --- !u!114 &114145718813029494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -321,6 +322,7 @@ MonoBehaviour:
   - Battle edson2
   - Defeat edson2
   - end edson
+  - pepe arme
   questMarkersComplete: 
 --- !u!114 &6761693661197367381
 MonoBehaviour:
@@ -397,7 +399,7 @@ MonoBehaviour:
           value: 48
         - localeIdentifier:
             m_Code: en
-          value: 54
+          value: 55
     - rid: 7012525773100941328
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -1270,8 +1272,7 @@ MonoBehaviour:
   resistance: 56
   equippedWpn: {fileID: 114143543785605942, guid: f4ee96fd453d78042bb3cf50a56dbfec,
     type: 3}
-  equippedArmr: {fileID: 114043814178531382, guid: f2f8206562a9b46eca1543bdf370ce67,
-    type: 3}
+  equippedArmr: {fileID: 0}
   charIamge: {fileID: -1421362600, guid: 7363ad4d1195b0e49beb236c508ae06e, type: 3}
   winHP: 15
   winMP: 15

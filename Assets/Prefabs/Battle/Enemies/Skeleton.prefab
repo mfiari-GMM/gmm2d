@@ -100,11 +100,12 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - SLASH
+  - THRUST
   charName: Skeleton
   currentHp: 700
   maxHP: 700
-  currentMP: 0
-  maxMP: 0
+  currentMP: 50
+  maxMP: 50
   strength: 400
   defence: 35
   magie: 0

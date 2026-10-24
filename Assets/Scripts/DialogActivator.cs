@@ -21,7 +21,7 @@ public class DialogActivator : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-		if(canActivate && ((shouldAutoLaunch && !hasBeenActivated) || Input.GetButtonDown("Fire1")) && !DialogManager.instance.dialogBox.activeInHierarchy && !GameManager.instance.battleActive)
+		if(canActivate && GameManager.instance.isStarted && ((shouldAutoLaunch && !hasBeenActivated) || Input.GetButtonDown("Fire1")) && !DialogManager.instance.dialogBox.activeInHierarchy && !GameManager.instance.battleActive)
         {
             DialogManager.instance.ShowDialog(lines, isPerson, shouldAutoLaunch, shouldHealPlayer);
             DialogManager.instance.ShouldActivateQuestAtEnd(questToMark, markComplete);

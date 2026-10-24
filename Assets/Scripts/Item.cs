@@ -84,6 +84,11 @@ public class Item : MonoBehaviour {
                     selectedChar.currentHP = selectedChar.maxHP / 2;
                 }
             }
+
+            if (affectState)
+            {
+                selectedChar.battleStatus = BattleMove.BattleStatus.None;
+            }
         }
 
         if(isWeapon)
